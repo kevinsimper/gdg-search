@@ -149,11 +149,3 @@ class SearchMeetups extends LitElement {
 }
 
 customElements.define("simple-greeting", SearchMeetups);
-
-let gdgs = [];
-async function main() {
-  const listRequest = await fetch("./src/list.json");
-  const json = await listRequest.json();
-  gdgs = json;
-}
-main();
