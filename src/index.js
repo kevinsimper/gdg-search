@@ -37,7 +37,12 @@ class SearchMeetups extends LitElement {
 
   render() {
     return html`
-      <h1>Search all GDG's in the world</h1>
+      <h4 style="float:right;">
+        <a href="https://github.com/kevinsimper/gdg-search"
+          >Get the source code</a
+        >
+      </h4>
+      <h1>🌍 Search all GDG's in the world</h1>
       <input
         class="search"
         type="text"
