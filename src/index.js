@@ -64,7 +64,7 @@ class SearchMeetups extends LitElement {
     return html`
       <h4 style="float:right;">
         <a href="https://github.com/kevinsimper/gdg-search"
-          >Get the source code</a
+          >Made with Lit-Element and Firebase ❤️</a
         >
       </h4>
       <h1>🌍 Search all GDG's in the world</h1>
