@@ -148,4 +148,4 @@ class SearchMeetups extends LitElement {
   }
 }
 
-customElements.define("simple-greeting", SearchMeetups);
+customElements.define("search-gdg", SearchMeetups);
