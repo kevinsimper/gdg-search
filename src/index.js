@@ -37,6 +37,12 @@ class SearchMeetups extends LitElement {
     const listRequest = await fetch("./src/list.json");
     const json = await listRequest.json();
     this.communities = json;
+    this.countries = this.communities.map(i => {
+      if (i.country === "USA") {
+        i.country = "United States";
+      }
+      return i;
+    });
   }
   async fetchCountries() {
     const listRequest = await fetch("./src/countries-unescaped.json");
