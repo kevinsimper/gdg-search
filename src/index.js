@@ -11,9 +11,6 @@ class SearchMeetups extends LitElement {
   }
   static get styles() {
     return css`
-      :host-context(body) {
-        font-family: "Roboto", sans-serif;
-      }
       .group {
         margin: 10px 0;
       }
@@ -26,6 +23,10 @@ class SearchMeetups extends LitElement {
       .app {
         max-width: 1000px;
         margin: 0 auto;
+      }
+      header {
+        border-bottom: 3px solid black;
+        margin-bottom: 30px;
       }
     `;
   }
@@ -73,70 +74,72 @@ class SearchMeetups extends LitElement {
     });
     return html`
       <div class="app">
-        <h4 style="float:right;">
-          <a href="https://github.com/kevinsimper/gdg-search"
-            >Made with Lit-Element and Firebase ❤️</a
-          >
-        </h4>
-        <h1>🌍 Search all GDG's in the world</h1>
-        <h3>
-          There is
-          ${
-            until(
-              this.fetching.then(() => {
-                return this.communities.length;
-              }),
-              html`
-                loading..
-              `
-            )
-          }
-          communties
-        </h3>
-        <p>
-          Select a region:
-          ${
-            until(
-              this.fetching.then(() => {
-                return [...new Set(this.countries.map(c => c.region))].map(
+        <header>
+          <h4 style="float:right; text-align: right;">
+            <a href="https://github.com/kevinsimper/gdg-search"
+              >Made with Lit-Element and Firebase ❤️</a
+            ><br />
+            <a href="https://goo.gl/forms/mIqfksuzY9wigutt1">Feedback?</a>
+          </h4>
+          <h1>🌍 Search all GDG's in the world</h1>
+          <h3>
+            There is
+            ${
+              until(
+                this.fetching.then(() => {
+                  return this.communities.length;
+                }),
+                html`
+                  loading..
+                `
+              )
+            }
+            communties
+          </h3>
+          <p>
+            Select a region:
+            ${
+              until(
+                this.fetching.then(() => {
+                  return [...new Set(this.countries.map(c => c.region))].map(
+                    c =>
+                      html`
+                        <a
+                          href="#"
+                          @click="${
+                            e => {
+                              e.preventDefault();
+                              this.name = c;
+                            }
+                          }"
+                          >${c}</a
+                        >
+                      `
+                  );
+                })
+              )
+            }
+          </p>
+          <input
+            class="search"
+            type="text"
+            .value="${this.name}"
+            @input="${e => (this.name = e.target.value)}"
+            placeholder="Type and search.."
+          />
+          <p>
+            ${
+              until(
+                communitiesResult.then(
                   c =>
                     html`
-                      <a
-                        href="#"
-                        @click="${
-                          e => {
-                            e.preventDefault();
-                            this.name = c;
-                          }
-                        }"
-                        >${c}</a
-                      >
+                      Found <strong>${c.length}</strong> results
                     `
-                );
-              })
-            )
-          }
-        </p>
-        <input
-          class="search"
-          type="text"
-          .value="${this.name}"
-          @input="${e => (this.name = e.target.value)}"
-          placeholder="Type and search.."
-        />
-        <p>
-          ${
-            until(
-              communitiesResult.then(
-                c =>
-                  html`
-                    Found <strong>${c.length}</strong> results
-                  `
+                )
               )
-            )
-          }
-        </p>
-        <hr />
+            }
+          </p>
+        </header>
         <div>
           ${
             until(
