@@ -1,7 +1,8 @@
 import { LitElement, css, html } from "lit-element";
+import Navigo from "navigo";
 import "./Search.js";
 import "./header.js";
-import Navigo from "navigo";
+import "./most-active.js";
 
 class GDGMain extends LitElement {
   static get properties() {
@@ -17,7 +18,7 @@ class GDGMain extends LitElement {
       .on({
         "most-active": () => {
           this.route = html`
-            <h1>Most active</h1>
+            <x-most-active></x-most-active>
           `;
         },
         "*": () => {
