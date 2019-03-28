@@ -1,0 +1,3662 @@
+[
+  {
+    "name": "GDG-Cloud-Korea",
+    "count": 200
+  },
+  {
+    "name": "GDG-SP",
+    "count": 200
+  },
+  {
+    "name": "berlindroid",
+    "count": 200
+  },
+  {
+    "name": "cincy-android",
+    "count": 200
+  },
+  {
+    "name": "gdgcloud",
+    "count": 175
+  },
+  {
+    "name": "boston-android",
+    "count": 169
+  },
+  {
+    "name": "gdg-seattle",
+    "count": 160
+  },
+  {
+    "name": "GDG-RongoVarsity",
+    "count": 151
+  },
+  {
+    "name": "gdgdallas",
+    "count": 140
+  },
+  {
+    "name": "gdgsacramento",
+    "count": 138
+  },
+  {
+    "name": "gdg-tc",
+    "count": 135
+  },
+  {
+    "name": "gdg-silicon-valley",
+    "count": 133
+  },
+  {
+    "name": "gdgbogota",
+    "count": 127
+  },
+  {
+    "name": "gdgeastbay",
+    "count": 126
+  },
+  {
+    "name": "gdg-charlotte",
+    "count": 121
+  },
+  {
+    "name": "Women-Techmakers-Berlin",
+    "count": 117
+  },
+  {
+    "name": "gdg-dc",
+    "count": 117
+  },
+  {
+    "name": "gdg-a2",
+    "count": 114
+  },
+  {
+    "name": "gdg-berlin",
+    "count": 114
+  },
+  {
+    "name": "gdg-new-orleans",
+    "count": 114
+  },
+  {
+    "name": "GDG-BH",
+    "count": 107
+  },
+  {
+    "name": "googledevelopers",
+    "count": 105
+  },
+  {
+    "name": "GDG-Columbus",
+    "count": 103
+  },
+  {
+    "name": "gdg-melbourne",
+    "count": 102
+  },
+  {
+    "name": "gdg-atlanta",
+    "count": 99
+  },
+  {
+    "name": "GDGPhilly",
+    "count": 96
+  },
+  {
+    "name": "Android-Developers-Group",
+    "count": 90
+  },
+  {
+    "name": "Google-Developer-Group-Tucson",
+    "count": 90
+  },
+  {
+    "name": "GDG-Salt-Lake",
+    "count": 89
+  },
+  {
+    "name": "dutch-aug",
+    "count": 89
+  },
+  {
+    "name": "google-developer-group-san-francisco",
+    "count": 89
+  },
+  {
+    "name": "GDG-Krakow",
+    "count": 88
+  },
+  {
+    "name": "womentechmakershamburg",
+    "count": 88
+  },
+  {
+    "name": "GDG-La-Rioja",
+    "count": 87
+  },
+  {
+    "name": "GDG-Kansas-City",
+    "count": 86
+  },
+  {
+    "name": "Pune-GDG",
+    "count": 86
+  },
+  {
+    "name": "sfandroid",
+    "count": 86
+  },
+  {
+    "name": "Android-Paris",
+    "count": 85
+  },
+  {
+    "name": "golang-users-berlin",
+    "count": 82
+  },
+  {
+    "name": "NashvilleMDUG",
+    "count": 79
+  },
+  {
+    "name": "gdgcampinas",
+    "count": 78
+  },
+  {
+    "name": "GDG-SongDo",
+    "count": 77
+  },
+  {
+    "name": "gdgnyc",
+    "count": 77
+  },
+  {
+    "name": "gdg-paris",
+    "count": 76
+  },
+  {
+    "name": "GDG-Baltimore",
+    "count": 74
+  },
+  {
+    "name": "GDG-Barcelona",
+    "count": 72
+  },
+  {
+    "name": "GDG-Coast-Lebanon",
+    "count": 71
+  },
+  {
+    "name": "GDG-Reading-Thames-Valley",
+    "count": 71
+  },
+  {
+    "name": "gdg-brussels",
+    "count": 68
+  },
+  {
+    "name": "GDG-Denver",
+    "count": 67
+  },
+  {
+    "name": "GDG-Busitema",
+    "count": 66
+  },
+  {
+    "name": "GDG-Toronto",
+    "count": 66
+  },
+  {
+    "name": "GDGRzeszow",
+    "count": 65
+  },
+  {
+    "name": "gdgaustin",
+    "count": 65
+  },
+  {
+    "name": "GDG-Warszawa",
+    "count": 64
+  },
+  {
+    "name": "GDGPrague",
+    "count": 64
+  },
+  {
+    "name": "GDG-Busan",
+    "count": 63
+  },
+  {
+    "name": "GDG-Central-Florida",
+    "count": 63
+  },
+  {
+    "name": "GDG-Toulouse",
+    "count": 63
+  },
+  {
+    "name": "gdglisbon",
+    "count": 63
+  },
+  {
+    "name": "GDG-ABC",
+    "count": 62
+  },
+  {
+    "name": "gdgneuquen",
+    "count": 62
+  },
+  {
+    "name": "Google-Developer-Group-Boulder",
+    "count": 60
+  },
+  {
+    "name": "GDG-Montreal-Android",
+    "count": 59
+  },
+  {
+    "name": "GDG-North-Jersey",
+    "count": 59
+  },
+  {
+    "name": "GDG-Zurich",
+    "count": 59
+  },
+  {
+    "name": "DSCKabarak",
+    "count": 58
+  },
+  {
+    "name": "GDGBerkeley",
+    "count": 58
+  },
+  {
+    "name": "gdgsydney",
+    "count": 58
+  },
+  {
+    "name": "GDG-Bronx",
+    "count": 57
+  },
+  {
+    "name": "GDGAndroidBolivia",
+    "count": 57
+  },
+  {
+    "name": "womentechmakersfresno",
+    "count": 57
+  },
+  {
+    "name": "GDG-Maceio",
+    "count": 56
+  },
+  {
+    "name": "Google-Developer-Group-Lleida",
+    "count": 56
+  },
+  {
+    "name": "gdg-la",
+    "count": 56
+  },
+  {
+    "name": "PHX-Android",
+    "count": 55
+  },
+  {
+    "name": "GDG-Minsk",
+    "count": 54
+  },
+  {
+    "name": "GDGNoCo",
+    "count": 54
+  },
+  {
+    "name": "Detroit-Google-Developers-Group",
+    "count": 53
+  },
+  {
+    "name": "GDG-Sorocaba",
+    "count": 53
+  },
+  {
+    "name": "GDG-Visalia-Google-Developer-Group",
+    "count": 53
+  },
+  {
+    "name": "gdgrioverde",
+    "count": 53
+  },
+  {
+    "name": "Google-Developer-Group-Dusseldorf",
+    "count": 52
+  },
+  {
+    "name": "Wilmington-Google-Developer-Group",
+    "count": 52
+  },
+  {
+    "name": "GDG-Hampton-Roads",
+    "count": 51
+  },
+  {
+    "name": "GDG-Manama",
+    "count": 51
+  },
+  {
+    "name": "GDG-Modesto-Google-Developer-Group",
+    "count": 51
+  },
+  {
+    "name": "GDGAuckland",
+    "count": 51
+  },
+  {
+    "name": "GDGOmaha",
+    "count": 51
+  },
+  {
+    "name": "GDG-Recife",
+    "count": 50
+  },
+  {
+    "name": "gdgzamboanga",
+    "count": 50
+  },
+  {
+    "name": "GCDCSaudi",
+    "count": 49
+  },
+  {
+    "name": "GDG-Ahmedabad",
+    "count": 49
+  },
+  {
+    "name": "Google-Developers-Group-GDG-Chicago",
+    "count": 49
+  },
+  {
+    "name": "GDG-Beer-Sheva",
+    "count": 48
+  },
+  {
+    "name": "GDG-Bhubaneswar",
+    "count": 48
+  },
+  {
+    "name": "GDG-Cascavel",
+    "count": 48
+  },
+  {
+    "name": "GDG-Ostrava",
+    "count": 48
+  },
+  {
+    "name": "GDG-Nantes",
+    "count": 47
+  },
+  {
+    "name": "Lanzhou-GDG",
+    "count": 47
+  },
+  {
+    "name": "granadagdg",
+    "count": 47
+  },
+  {
+    "name": "indy-gdg",
+    "count": 47
+  },
+  {
+    "name": "GDG-Sudbury",
+    "count": 46
+  },
+  {
+    "name": "Google-Developer-Group-Triangle",
+    "count": 46
+  },
+  {
+    "name": "GDGOslo",
+    "count": 45
+  },
+  {
+    "name": "GDGVientiane",
+    "count": 45
+  },
+  {
+    "name": "GDGIstanbul",
+    "count": 44
+  },
+  {
+    "name": "GDGSpaceCoast",
+    "count": 44
+  },
+  {
+    "name": "Mobile-Stammtisch-GDG-Regensburg",
+    "count": 44
+  },
+  {
+    "name": "GDG-Delta-University",
+    "count": 43
+  },
+  {
+    "name": "GDG-Vienna",
+    "count": 43
+  },
+  {
+    "name": "GDGCali",
+    "count": 43
+  },
+  {
+    "name": "Google-Developer-Group-Cape-Town-Meetup",
+    "count": 43
+  },
+  {
+    "name": "gdg-salvador",
+    "count": 43
+  },
+  {
+    "name": "ǴDG-Monrovia",
+    "count": 43
+  },
+  {
+    "name": "GDG-La-Paz",
+    "count": 42
+  },
+  {
+    "name": "GDG-Lille",
+    "count": 42
+  },
+  {
+    "name": "Nanyang-GDG",
+    "count": 42
+  },
+  {
+    "name": "gdgribeirao",
+    "count": 42
+  },
+  {
+    "name": "GCDCEgypt",
+    "count": 41
+  },
+  {
+    "name": "GDG-Mwanza",
+    "count": 41
+  },
+  {
+    "name": "GDG-Wuhan",
+    "count": 41
+  },
+  {
+    "name": "Google-Developer-Group-Hamburg",
+    "count": 41
+  },
+  {
+    "name": "GDG-Algiers",
+    "count": 40
+  },
+  {
+    "name": "GDG-El-Alto",
+    "count": 40
+  },
+  {
+    "name": "GDGNsk",
+    "count": 40
+  },
+  {
+    "name": "GDG-Incheon",
+    "count": 39
+  },
+  {
+    "name": "GDG-Pardubice",
+    "count": 39
+  },
+  {
+    "name": "GDG-Riga",
+    "count": 39
+  },
+  {
+    "name": "GDG-Silicon-Slopes",
+    "count": 39
+  },
+  {
+    "name": "GDGAbidjan",
+    "count": 39
+  },
+  {
+    "name": "wtm-switzerland",
+    "count": 39
+  },
+  {
+    "name": "GDG-Dublin",
+    "count": 38
+  },
+  {
+    "name": "GDG-Hong-Kong",
+    "count": 38
+  },
+  {
+    "name": "GDG-Kampala",
+    "count": 38
+  },
+  {
+    "name": "GDG-MBARARA",
+    "count": 38
+  },
+  {
+    "name": "GDGBergen",
+    "count": 38
+  },
+  {
+    "name": "gdgtampabay",
+    "count": 38
+  },
+  {
+    "name": "GDGCairo",
+    "count": 37
+  },
+  {
+    "name": "gdglondon",
+    "count": 37
+  },
+  {
+    "name": "gdgtoledo_es",
+    "count": 37
+  },
+  {
+    "name": "GDG-Bodensee",
+    "count": 36
+  },
+  {
+    "name": "GDG-Medellin",
+    "count": 36
+  },
+  {
+    "name": "GDGLouisville",
+    "count": 36
+  },
+  {
+    "name": "GDGSevilla",
+    "count": 36
+  },
+  {
+    "name": "Google-Developer-Group-Albuquerque",
+    "count": 36
+  },
+  {
+    "name": "gdg-android-santiago",
+    "count": 36
+  },
+  {
+    "name": "gdgcloudcalgary",
+    "count": 36
+  },
+  {
+    "name": "GDG-Natal",
+    "count": 35
+  },
+  {
+    "name": "GDGCloudVancouver",
+    "count": 35
+  },
+  {
+    "name": "GDGMadrid",
+    "count": 35
+  },
+  {
+    "name": "GDGPolymerMexico",
+    "count": 35
+  },
+  {
+    "name": "gdg_kgd",
+    "count": 35
+  },
+  {
+    "name": "GDG-Budapest",
+    "count": 34
+  },
+  {
+    "name": "GDG-Krasnoyarsk",
+    "count": 34
+  },
+  {
+    "name": "GDG-Monastir",
+    "count": 34
+  },
+  {
+    "name": "GDG-Muncie",
+    "count": 34
+  },
+  {
+    "name": "GDG-Roma",
+    "count": 34
+  },
+  {
+    "name": "GDG-Sousse",
+    "count": 34
+  },
+  {
+    "name": "GDG_Muscat",
+    "count": 34
+  },
+  {
+    "name": "Zhangjiakou-GDG",
+    "count": 34
+  },
+  {
+    "name": "gdgtekirdag",
+    "count": 34
+  },
+  {
+    "name": "GDG-Cloud-RTP",
+    "count": 33
+  },
+  {
+    "name": "GDG-Dubai",
+    "count": 33
+  },
+  {
+    "name": "GDG-Moscow",
+    "count": 33
+  },
+  {
+    "name": "GDG-Yaounde",
+    "count": 33
+  },
+  {
+    "name": "GoogleDeveloperGroupIndore",
+    "count": 33
+  },
+  {
+    "name": "Women-Techmakers-Frankfurt_Rhein-Main",
+    "count": 33
+  },
+  {
+    "name": "gdgphilippines",
+    "count": 33
+  },
+  {
+    "name": "GDG-LK",
+    "count": 32
+  },
+  {
+    "name": "GDG-Pisa",
+    "count": 32
+  },
+  {
+    "name": "gdgspb",
+    "count": 32
+  },
+  {
+    "name": "GDG-IPN",
+    "count": 31
+  },
+  {
+    "name": "GDG-Kathmandu",
+    "count": 31
+  },
+  {
+    "name": "GDG-Waterloo",
+    "count": 31
+  },
+  {
+    "name": "GDGSTL",
+    "count": 31
+  },
+  {
+    "name": "Google-Developer-Group-Malaga",
+    "count": 31
+  },
+  {
+    "name": "Google-Developers-Thessaloniki",
+    "count": 31
+  },
+  {
+    "name": "gdgjoaopessoa",
+    "count": 31
+  },
+  {
+    "name": "GDG-Abomey-Calavi",
+    "count": 30
+  },
+  {
+    "name": "GDG-Alexandria",
+    "count": 30
+  },
+  {
+    "name": "GDG-Jalandhar",
+    "count": 30
+  },
+  {
+    "name": "GDG-Lviv",
+    "count": 30
+  },
+  {
+    "name": "GDG-Nuremberg-Android",
+    "count": 30
+  },
+  {
+    "name": "GDGVigo",
+    "count": 30
+  },
+  {
+    "name": "GDG_ELTARF",
+    "count": 30
+  },
+  {
+    "name": "Google-Developer-Group-Aarhus",
+    "count": 30
+  },
+  {
+    "name": "gdgbirgunj",
+    "count": 30
+  },
+  {
+    "name": "gdgcuiaba",
+    "count": 30
+  },
+  {
+    "name": "gdgjihlava",
+    "count": 30
+  },
+  {
+    "name": "gdgnebrodi",
+    "count": 30
+  },
+  {
+    "name": "wtm-gdg-kuwait",
+    "count": 30
+  },
+  {
+    "name": "GCPUGSG",
+    "count": 29
+  },
+  {
+    "name": "GDG-Addis",
+    "count": 29
+  },
+  {
+    "name": "GDG-Cloud-Austin",
+    "count": 29
+  },
+  {
+    "name": "GDG-Kyiv-Center",
+    "count": 29
+  },
+  {
+    "name": "GDG-Manchester-NH",
+    "count": 29
+  },
+  {
+    "name": "GDG-Sao-Joao-da-Boa-Vista",
+    "count": 29
+  },
+  {
+    "name": "GDG-Wellington",
+    "count": 29
+  },
+  {
+    "name": "GDGCochabamba",
+    "count": 29
+  },
+  {
+    "name": "Google-Developers-Group-Asheville",
+    "count": 29
+  },
+  {
+    "name": "ToAndroidDev",
+    "count": 29
+  },
+  {
+    "name": "gdgcloudnl",
+    "count": 29
+  },
+  {
+    "name": "GDG-Bari",
+    "count": 28
+  },
+  {
+    "name": "GDG-GDL-Android",
+    "count": 28
+  },
+  {
+    "name": "GDG-Maroua",
+    "count": 28
+  },
+  {
+    "name": "Mercer-University-Google-Developers-Group-Meetup",
+    "count": 28
+  },
+  {
+    "name": "STHLM-Android",
+    "count": 28
+  },
+  {
+    "name": "gdglasvegas",
+    "count": 28
+  },
+  {
+    "name": "pangyo-gdg",
+    "count": 28
+  },
+  {
+    "name": "GDG-Coimbra",
+    "count": 27
+  },
+  {
+    "name": "GDG-Helsinki",
+    "count": 27
+  },
+  {
+    "name": "GDG-Ismailia",
+    "count": 27
+  },
+  {
+    "name": "GDG-Jakarta",
+    "count": 27
+  },
+  {
+    "name": "GDG-New-Haven",
+    "count": 27
+  },
+  {
+    "name": "GDGOctober",
+    "count": 27
+  },
+  {
+    "name": "Google-Development-Group-GDG-PDX-Meetup",
+    "count": 27
+  },
+  {
+    "name": "Shanghai-GDG",
+    "count": 27
+  },
+  {
+    "name": "gdgbaroda",
+    "count": 27
+  },
+  {
+    "name": "gdgcuritiba",
+    "count": 27
+  },
+  {
+    "name": "gdgrheinmain",
+    "count": 27
+  },
+  {
+    "name": "GDG-Banjul",
+    "count": 26
+  },
+  {
+    "name": "GDG-Ishinomaki",
+    "count": 26
+  },
+  {
+    "name": "GDG-Munich-Android",
+    "count": 26
+  },
+  {
+    "name": "GDG-Santana-de-Parnaiba",
+    "count": 26
+  },
+  {
+    "name": "GDGToledo",
+    "count": 26
+  },
+  {
+    "name": "Google-Developer-Group-Bucharest",
+    "count": 26
+  },
+  {
+    "name": "gdg-wtm",
+    "count": 26
+  },
+  {
+    "name": "gdgcarthage",
+    "count": 26
+  },
+  {
+    "name": "GCDC-Kampala",
+    "count": 25
+  },
+  {
+    "name": "GDG-Sharjah",
+    "count": 25
+  },
+  {
+    "name": "GDG-Voronezh",
+    "count": 25
+  },
+  {
+    "name": "Gulu-Google-Developer-Group-Meetup",
+    "count": 25
+  },
+  {
+    "name": "gdg-grancanaria",
+    "count": 25
+  },
+  {
+    "name": "GDG-Brasilia",
+    "count": 24
+  },
+  {
+    "name": "GDG-Brazza",
+    "count": 24
+  },
+  {
+    "name": "GDG-Cloud-Johannesburg",
+    "count": 24
+  },
+  {
+    "name": "GDG-Hamburg-Android",
+    "count": 24
+  },
+  {
+    "name": "GDG-Liverpool",
+    "count": 24
+  },
+  {
+    "name": "GDG-Missoula",
+    "count": 24
+  },
+  {
+    "name": "GDG-Novi-Sad",
+    "count": 24
+  },
+  {
+    "name": "GDG-Ternopil",
+    "count": 24
+  },
+  {
+    "name": "GDGDhaka",
+    "count": 24
+  },
+  {
+    "name": "GDGJohannesburg",
+    "count": 24
+  },
+  {
+    "name": "GDGMontevideo",
+    "count": 24
+  },
+  {
+    "name": "GDGRioDeJaneiro",
+    "count": 24
+  },
+  {
+    "name": "Google-Developer-Group-Nizhny-Novgorod",
+    "count": 24
+  },
+  {
+    "name": "Google-Developers-Group-Columbia-GDG",
+    "count": 24
+  },
+  {
+    "name": "cloudnyc",
+    "count": 24
+  },
+  {
+    "name": "DSCMMUST",
+    "count": 23
+  },
+  {
+    "name": "GCDCEmirates",
+    "count": 23
+  },
+  {
+    "name": "GDG-Android-Columbus",
+    "count": 23
+  },
+  {
+    "name": "GDG-Beja",
+    "count": 23
+  },
+  {
+    "name": "GDG-Burgos",
+    "count": 23
+  },
+  {
+    "name": "GDG-Cloud-Istanbul",
+    "count": 23
+  },
+  {
+    "name": "GDG-Cloud-Tucson",
+    "count": 23
+  },
+  {
+    "name": "GDG-Code-dArmor",
+    "count": 23
+  },
+  {
+    "name": "GDG-ENUGU-MEETUP",
+    "count": 23
+  },
+  {
+    "name": "GDG-Manaus",
+    "count": 23
+  },
+  {
+    "name": "GDG-Nablus",
+    "count": 23
+  },
+  {
+    "name": "GDG-Porto-Alegre",
+    "count": 23
+  },
+  {
+    "name": "GDGShorouk",
+    "count": 23
+  },
+  {
+    "name": "Google-Developer-Group-Central-Virginia",
+    "count": 23
+  },
+  {
+    "name": "Google-Developer-Group-Erlangen-Nurnberg",
+    "count": 23
+  },
+  {
+    "name": "Google-Developer-Group-Gela-GDG-Gela",
+    "count": 23
+  },
+  {
+    "name": "Google-Developer-Group-Ha-Noi",
+    "count": 23
+  },
+  {
+    "name": "gdg-Ramallah",
+    "count": 23
+  },
+  {
+    "name": "gdg-costarica",
+    "count": 23
+  },
+  {
+    "name": "gdg-juiz-de-fora",
+    "count": 23
+  },
+  {
+    "name": "gdgmadison",
+    "count": 23
+  },
+  {
+    "name": "meetup-group-IfBrKrSH",
+    "count": 23
+  },
+  {
+    "name": "GDG-Chlef",
+    "count": 22
+  },
+  {
+    "name": "GDG-Cloud-Brisbane",
+    "count": 22
+  },
+  {
+    "name": "GDG-Jinja",
+    "count": 22
+  },
+  {
+    "name": "GDG-Korea-Android",
+    "count": 22
+  },
+  {
+    "name": "GDG-Kutahya",
+    "count": 22
+  },
+  {
+    "name": "GDG-Kyushu",
+    "count": 22
+  },
+  {
+    "name": "GDG-Milano",
+    "count": 22
+  },
+  {
+    "name": "GDG-Tiaret",
+    "count": 22
+  },
+  {
+    "name": "GDG-Xiamen",
+    "count": 22
+  },
+  {
+    "name": "Ganzhou-GDG",
+    "count": 22
+  },
+  {
+    "name": "Stockholm-Google-Developer-Group",
+    "count": 22
+  },
+  {
+    "name": "gdgeskisehir",
+    "count": 22
+  },
+  {
+    "name": "GDG-Antananarivo",
+    "count": 21
+  },
+  {
+    "name": "GDG-Beijing",
+    "count": 21
+  },
+  {
+    "name": "GDG-Helwan",
+    "count": 21
+  },
+  {
+    "name": "GDG-Kobe",
+    "count": 21
+  },
+  {
+    "name": "GDG-Kyoto",
+    "count": 21
+  },
+  {
+    "name": "GDG-Monterrey",
+    "count": 21
+  },
+  {
+    "name": "GDG-Nouakchott",
+    "count": 21
+  },
+  {
+    "name": "GDG-UNAM",
+    "count": 21
+  },
+  {
+    "name": "GDG-Vladivostok",
+    "count": 21
+  },
+  {
+    "name": "GDGAgadir",
+    "count": 21
+  },
+  {
+    "name": "GDGFribourg",
+    "count": 21
+  },
+  {
+    "name": "GDGNewDelhi",
+    "count": 21
+  },
+  {
+    "name": "GoogleGoa",
+    "count": 21
+  },
+  {
+    "name": "Munich-Gophers-Go-User-Group",
+    "count": 21
+  },
+  {
+    "name": "WTMNyeri",
+    "count": 21
+  },
+  {
+    "name": "gdgaracaju",
+    "count": 21
+  },
+  {
+    "name": "gdgourense",
+    "count": 21
+  },
+  {
+    "name": "gdgtangier",
+    "count": 21
+  },
+  {
+    "name": "GDG-Cloud-Belgium",
+    "count": 20
+  },
+  {
+    "name": "GDG-Constantine",
+    "count": 20
+  },
+  {
+    "name": "GDG-Seoul",
+    "count": 20
+  },
+  {
+    "name": "GDG-Shikoku",
+    "count": 20
+  },
+  {
+    "name": "GDG-Tlemcen",
+    "count": 20
+  },
+  {
+    "name": "GDG-Torino",
+    "count": 20
+  },
+  {
+    "name": "GDGAntalya",
+    "count": 20
+  },
+  {
+    "name": "GDGCebu",
+    "count": 20
+  },
+  {
+    "name": "GDGFoumban",
+    "count": 20
+  },
+  {
+    "name": "GDGSurabaya",
+    "count": 20
+  },
+  {
+    "name": "GDGTaipei",
+    "count": 20
+  },
+  {
+    "name": "Google-Developer-Group-Cosenza",
+    "count": 20
+  },
+  {
+    "name": "Google-Developer-Group-of-the-Capital-Region",
+    "count": 20
+  },
+  {
+    "name": "GDG-Aalborg",
+    "count": 19
+  },
+  {
+    "name": "GDG-Bassam",
+    "count": 19
+  },
+  {
+    "name": "GDG-Dnipro",
+    "count": 19
+  },
+  {
+    "name": "GDG-Izmir",
+    "count": 19
+  },
+  {
+    "name": "GDG-Kozhikode",
+    "count": 19
+  },
+  {
+    "name": "GDG-Open",
+    "count": 19
+  },
+  {
+    "name": "GDG-Oxford",
+    "count": 19
+  },
+  {
+    "name": "GDG-Tenerife",
+    "count": 19
+  },
+  {
+    "name": "GDGCampania",
+    "count": 19
+  },
+  {
+    "name": "GDGNice",
+    "count": 19
+  },
+  {
+    "name": "Google-Cloud-Platform-DFW",
+    "count": 19
+  },
+  {
+    "name": "cloudmx",
+    "count": 19
+  },
+  {
+    "name": "gdgcde",
+    "count": 19
+  },
+  {
+    "name": "gdgrnd",
+    "count": 19
+  },
+  {
+    "name": "gdgsjc",
+    "count": 19
+  },
+  {
+    "name": "Beira-GDG",
+    "count": 18
+  },
+  {
+    "name": "GDG-Accra",
+    "count": 18
+  },
+  {
+    "name": "GDG-Bizerte",
+    "count": 18
+  },
+  {
+    "name": "GDG-Blantyre",
+    "count": 18
+  },
+  {
+    "name": "GDG-Calabar",
+    "count": 18
+  },
+  {
+    "name": "GDG-Cloud-Manila",
+    "count": 18
+  },
+  {
+    "name": "GDG-Cloud-Melbourne",
+    "count": 18
+  },
+  {
+    "name": "GDG-Cloud-Paris",
+    "count": 18
+  },
+  {
+    "name": "GDG-Cocody",
+    "count": 18
+  },
+  {
+    "name": "GDG-Mekong",
+    "count": 18
+  },
+  {
+    "name": "GDG-Thailand",
+    "count": 18
+  },
+  {
+    "name": "GDG-Uyo",
+    "count": 18
+  },
+  {
+    "name": "GDG-Yamoussoukro",
+    "count": 18
+  },
+  {
+    "name": "GDG-Zagreb",
+    "count": 18
+  },
+  {
+    "name": "GDG-cloud-PHX",
+    "count": 18
+  },
+  {
+    "name": "GDGBangalore",
+    "count": 18
+  },
+  {
+    "name": "GDGCordoba",
+    "count": 18
+  },
+  {
+    "name": "GDGFloripa",
+    "count": 18
+  },
+  {
+    "name": "GDGMakhachkala",
+    "count": 18
+  },
+  {
+    "name": "JeddahGDG",
+    "count": 18
+  },
+  {
+    "name": "gdg-tokyo-jp",
+    "count": 18
+  },
+  {
+    "name": "GCDCKaduna",
+    "count": 17
+  },
+  {
+    "name": "GDG-Black-Forest",
+    "count": 17
+  },
+  {
+    "name": "GDG-Copenhagen",
+    "count": 17
+  },
+  {
+    "name": "GDG-Duzce-Meetup",
+    "count": 17
+  },
+  {
+    "name": "GDG-Freiburg",
+    "count": 17
+  },
+  {
+    "name": "GDG-Halsema",
+    "count": 17
+  },
+  {
+    "name": "GDG-Maputo",
+    "count": 17
+  },
+  {
+    "name": "GDG-Mbale",
+    "count": 17
+  },
+  {
+    "name": "GDG-Msila",
+    "count": 17
+  },
+  {
+    "name": "GDG-Njikoka",
+    "count": 17
+  },
+  {
+    "name": "GDG-Sfax",
+    "count": 17
+  },
+  {
+    "name": "GDG-Shenzhen",
+    "count": 17
+  },
+  {
+    "name": "GDG-Trondheim",
+    "count": 17
+  },
+  {
+    "name": "GDG-Wroclaw",
+    "count": 17
+  },
+  {
+    "name": "GDGCasablanca",
+    "count": 17
+  },
+  {
+    "name": "GDGCloudBoston",
+    "count": 17
+  },
+  {
+    "name": "GDGKualaLumpur",
+    "count": 17
+  },
+  {
+    "name": "GDGMalta",
+    "count": 17
+  },
+  {
+    "name": "Google-Developers-Group-in-Galway-Meetup",
+    "count": 17
+  },
+  {
+    "name": "Hangzhou-GDG",
+    "count": 17
+  },
+  {
+    "name": "Meetup-GDG-Ouaga",
+    "count": 17
+  },
+  {
+    "name": "decharlas",
+    "count": 17
+  },
+  {
+    "name": "gdg-munich",
+    "count": 17
+  },
+  {
+    "name": "gdgcloudoc",
+    "count": 17
+  },
+  {
+    "name": "gdgtvpm",
+    "count": 17
+  },
+  {
+    "name": "meetup-group-KQsayXeh",
+    "count": 17
+  },
+  {
+    "name": "meetupgdguberaba",
+    "count": 17
+  },
+  {
+    "name": "Changji-GDG",
+    "count": 16
+  },
+  {
+    "name": "Fuzhou-GDG",
+    "count": 16
+  },
+  {
+    "name": "GDG-Adana",
+    "count": 16
+  },
+  {
+    "name": "GDG-Android-Athens",
+    "count": 16
+  },
+  {
+    "name": "GDG-Antofagasta",
+    "count": 16
+  },
+  {
+    "name": "GDG-Bali",
+    "count": 16
+  },
+  {
+    "name": "GDG-Bangangte",
+    "count": 16
+  },
+  {
+    "name": "GDG-Cherkasy",
+    "count": 16
+  },
+  {
+    "name": "GDG-Cloud-Tel-Aviv",
+    "count": 16
+  },
+  {
+    "name": "GDG-Ebolowa",
+    "count": 16
+  },
+  {
+    "name": "GDG-Guatemala",
+    "count": 16
+  },
+  {
+    "name": "GDG-Kaduna-State-University",
+    "count": 16
+  },
+  {
+    "name": "GDG-Port-Harcourt",
+    "count": 16
+  },
+  {
+    "name": "GDG-Sofia",
+    "count": 16
+  },
+  {
+    "name": "GDG-Tarragona",
+    "count": 16
+  },
+  {
+    "name": "GDG-Toledo-PR",
+    "count": 16
+  },
+  {
+    "name": "GDGChetumal",
+    "count": 16
+  },
+  {
+    "name": "GDGHyderabad",
+    "count": 16
+  },
+  {
+    "name": "GDGMinia",
+    "count": 16
+  },
+  {
+    "name": "Google-Developer-Group-Iasi",
+    "count": 16
+  },
+  {
+    "name": "Houston-Google-Cloud-User-Group",
+    "count": 16
+  },
+  {
+    "name": "gdg-depok",
+    "count": 16
+  },
+  {
+    "name": "gdgbhu",
+    "count": 16
+  },
+  {
+    "name": "meetup-group-HktVJEAE",
+    "count": 16
+  },
+  {
+    "name": "FinistDevs",
+    "count": 15
+  },
+  {
+    "name": "GDG-Aba",
+    "count": 15
+  },
+  {
+    "name": "GDG-Asturias",
+    "count": 15
+  },
+  {
+    "name": "GDG-Ibadan",
+    "count": 15
+  },
+  {
+    "name": "GDG-InCode",
+    "count": 15
+  },
+  {
+    "name": "GDG-Kaduna",
+    "count": 15
+  },
+  {
+    "name": "GDG-Lavras",
+    "count": 15
+  },
+  {
+    "name": "GDG-Les-Rosiers",
+    "count": 15
+  },
+  {
+    "name": "GDG-Maringa",
+    "count": 15
+  },
+  {
+    "name": "GDG-Tartu",
+    "count": 15
+  },
+  {
+    "name": "GDG-Tipaza",
+    "count": 15
+  },
+  {
+    "name": "GDG-Valle-DAosta",
+    "count": 15
+  },
+  {
+    "name": "GDGCancun",
+    "count": 15
+  },
+  {
+    "name": "GDGCochin",
+    "count": 15
+  },
+  {
+    "name": "GDGMiageGi",
+    "count": 15
+  },
+  {
+    "name": "GDGSalamanca",
+    "count": 15
+  },
+  {
+    "name": "GDGSanaa",
+    "count": 15
+  },
+  {
+    "name": "GDG_Ulan-Ude",
+    "count": 15
+  },
+  {
+    "name": "gdg-nl",
+    "count": 15
+  },
+  {
+    "name": "gdgbuffalo",
+    "count": 15
+  },
+  {
+    "name": "Chengdu-GDG",
+    "count": 14
+  },
+  {
+    "name": "Cloud-Espanol",
+    "count": 14
+  },
+  {
+    "name": "GCDCLK",
+    "count": 14
+  },
+  {
+    "name": "GDG-Astrakhan",
+    "count": 14
+  },
+  {
+    "name": "GDG-Bamako",
+    "count": 14
+  },
+  {
+    "name": "GDG-Catania",
+    "count": 14
+  },
+  {
+    "name": "GDG-Daugavpils",
+    "count": 14
+  },
+  {
+    "name": "GDG-Douala",
+    "count": 14
+  },
+  {
+    "name": "GDG-Entebbe",
+    "count": 14
+  },
+  {
+    "name": "GDG-Gaborone",
+    "count": 14
+  },
+  {
+    "name": "GDG-Ghardaia",
+    "count": 14
+  },
+  {
+    "name": "GDG-Jenin",
+    "count": 14
+  },
+  {
+    "name": "GDG-Jogjakarta",
+    "count": 14
+  },
+  {
+    "name": "GDG-Katsina",
+    "count": 14
+  },
+  {
+    "name": "GDG-Kisii",
+    "count": 14
+  },
+  {
+    "name": "GDG-Madurai",
+    "count": 14
+  },
+  {
+    "name": "GDG-Makurdi",
+    "count": 14
+  },
+  {
+    "name": "GDG-Miami",
+    "count": 14
+  },
+  {
+    "name": "GDG-Milton-Keynes",
+    "count": 14
+  },
+  {
+    "name": "GDG-Mombasa",
+    "count": 14
+  },
+  {
+    "name": "GDG-Porto",
+    "count": 14
+  },
+  {
+    "name": "GDG-Santo-Domingo",
+    "count": 14
+  },
+  {
+    "name": "GDG-Trento",
+    "count": 14
+  },
+  {
+    "name": "GDG-Xian",
+    "count": 14
+  },
+  {
+    "name": "GDGAnkara",
+    "count": 14
+  },
+  {
+    "name": "GDGCoimbatore",
+    "count": 14
+  },
+  {
+    "name": "GDGPalermo",
+    "count": 14
+  },
+  {
+    "name": "GDGSerraGaucha",
+    "count": 14
+  },
+  {
+    "name": "gdgbenin",
+    "count": 14
+  },
+  {
+    "name": "gdgkaf",
+    "count": 14
+  },
+  {
+    "name": "gdgmogiguacu",
+    "count": 14
+  },
+  {
+    "name": "gdgpitesti",
+    "count": 14
+  },
+  {
+    "name": "DSC-Multimedia-University-of-Kenya",
+    "count": 13
+  },
+  {
+    "name": "GDG-Cloud-Norway",
+    "count": 13
+  },
+  {
+    "name": "GDG-DSC-JKUAT",
+    "count": 13
+  },
+  {
+    "name": "GDG-Dar-es-Salaam",
+    "count": 13
+  },
+  {
+    "name": "GDG-Harare-Institute-of-Technology",
+    "count": 13
+  },
+  {
+    "name": "GDG-Heraklion",
+    "count": 13
+  },
+  {
+    "name": "GDG-Innsbruck",
+    "count": 13
+  },
+  {
+    "name": "GDG-Kolkata",
+    "count": 13
+  },
+  {
+    "name": "GDG-Rabat",
+    "count": 13
+  },
+  {
+    "name": "GDG-Rajkot",
+    "count": 13
+  },
+  {
+    "name": "GDG-Sao-Luis",
+    "count": 13
+  },
+  {
+    "name": "GDG-Tres-Rios",
+    "count": 13
+  },
+  {
+    "name": "GDG-Zaria",
+    "count": 13
+  },
+  {
+    "name": "GDGChennai",
+    "count": 13
+  },
+  {
+    "name": "GDGKocaeli",
+    "count": 13
+  },
+  {
+    "name": "GDGSBA",
+    "count": 13
+  },
+  {
+    "name": "GDGValley",
+    "count": 13
+  },
+  {
+    "name": "Meetup-de-Desenvolvimento-de-Software-Rio-de-Janeiro",
+    "count": 13
+  },
+  {
+    "name": "Suzhou-GDG",
+    "count": 13
+  },
+  {
+    "name": "gdg-semarang",
+    "count": 13
+  },
+  {
+    "name": "gdg-vassouras",
+    "count": 13
+  },
+  {
+    "name": "gdg_nantes_android",
+    "count": 13
+  },
+  {
+    "name": "gdgbrisbane",
+    "count": 13
+  },
+  {
+    "name": "gdgbrno",
+    "count": 13
+  },
+  {
+    "name": "gdgcdo",
+    "count": 13
+  },
+  {
+    "name": "gdgeldoret",
+    "count": 13
+  },
+  {
+    "name": "gdgnewcairo",
+    "count": 13
+  },
+  {
+    "name": "GDG-Akoko",
+    "count": 12
+  },
+  {
+    "name": "GDG-Almaty",
+    "count": 12
+  },
+  {
+    "name": "GDG-Bishkek",
+    "count": 12
+  },
+  {
+    "name": "GDG-Cloud-Warszawa",
+    "count": 12
+  },
+  {
+    "name": "GDG-Gaza",
+    "count": 12
+  },
+  {
+    "name": "GDG-Islamabad",
+    "count": 12
+  },
+  {
+    "name": "GDG-Kazan",
+    "count": 12
+  },
+  {
+    "name": "GDG-Kropyvnytskyi",
+    "count": 12
+  },
+  {
+    "name": "GDG-Lauro-de-Freitas",
+    "count": 12
+  },
+  {
+    "name": "GDG-Mauritius",
+    "count": 12
+  },
+  {
+    "name": "GDG-NKONGSAMBA",
+    "count": 12
+  },
+  {
+    "name": "GDG-Nairobi",
+    "count": 12
+  },
+  {
+    "name": "GDG-Ndere",
+    "count": 12
+  },
+  {
+    "name": "GDG-Omsk",
+    "count": 12
+  },
+  {
+    "name": "GDG-Ostwestfalen-Lippe",
+    "count": 12
+  },
+  {
+    "name": "GDG-Santa-Cruz",
+    "count": 12
+  },
+  {
+    "name": "GDG-Sohag",
+    "count": 12
+  },
+  {
+    "name": "GDG-TETE",
+    "count": 12
+  },
+  {
+    "name": "GDG-Tianjin",
+    "count": 12
+  },
+  {
+    "name": "GDG-Tizi-Ouzou",
+    "count": 12
+  },
+  {
+    "name": "GDG-Uberlandia",
+    "count": 12
+  },
+  {
+    "name": "GDG-Udaipur",
+    "count": 12
+  },
+  {
+    "name": "GDG-Ufa",
+    "count": 12
+  },
+  {
+    "name": "GDG-Urumuqi",
+    "count": 12
+  },
+  {
+    "name": "GDGBaghdad",
+    "count": 12
+  },
+  {
+    "name": "GDGKisumu",
+    "count": 12
+  },
+  {
+    "name": "GDGValencia",
+    "count": 12
+  },
+  {
+    "name": "Google-Developer-Group-Cluj-Napoca",
+    "count": 12
+  },
+  {
+    "name": "Zhuhai-GDG",
+    "count": 12
+  },
+  {
+    "name": "dscbuk",
+    "count": 12
+  },
+  {
+    "name": "gdg-nb",
+    "count": 12
+  },
+  {
+    "name": "gdg-zhengzhou",
+    "count": 12
+  },
+  {
+    "name": "gdgbaguio",
+    "count": 12
+  },
+  {
+    "name": "gdgbauchi",
+    "count": 12
+  },
+  {
+    "name": "gdgbologna",
+    "count": 12
+  },
+  {
+    "name": "gdgbsas",
+    "count": 12
+  },
+  {
+    "name": "gdgfsa",
+    "count": 12
+  },
+  {
+    "name": "GDG-Braunschweig",
+    "count": 11
+  },
+  {
+    "name": "GDG-Buea",
+    "count": 11
+  },
+  {
+    "name": "GDG-Cambridge-MA",
+    "count": 11
+  },
+  {
+    "name": "GDG-Campobasso",
+    "count": 11
+  },
+  {
+    "name": "GDG-Campus",
+    "count": 11
+  },
+  {
+    "name": "GDG-Fremont",
+    "count": 11
+  },
+  {
+    "name": "GDG-Guangzhou",
+    "count": 11
+  },
+  {
+    "name": "GDG-Jeju",
+    "count": 11
+  },
+  {
+    "name": "GDG-Karlsruhe",
+    "count": 11
+  },
+  {
+    "name": "GDG-Konya",
+    "count": 11
+  },
+  {
+    "name": "GDG-Kremenchuk",
+    "count": 11
+  },
+  {
+    "name": "GDG-Oko",
+    "count": 11
+  },
+  {
+    "name": "GDG-Tainan",
+    "count": 11
+  },
+  {
+    "name": "GDG-Tarija",
+    "count": 11
+  },
+  {
+    "name": "GDG-Venezia",
+    "count": 11
+  },
+  {
+    "name": "GDG-Wiesbaden",
+    "count": 11
+  },
+  {
+    "name": "GDGCardiff",
+    "count": 11
+  },
+  {
+    "name": "GDGJalingo",
+    "count": 11
+  },
+  {
+    "name": "Google-Developer-Group-Belfast",
+    "count": 11
+  },
+  {
+    "name": "Google-Developer-Group-Tbilisi-GDG-Tbilisi",
+    "count": 11
+  },
+  {
+    "name": "gcdcmadrid",
+    "count": 11
+  },
+  {
+    "name": "gdg-Ajah",
+    "count": 11
+  },
+  {
+    "name": "gdg-freetown",
+    "count": 11
+  },
+  {
+    "name": "gdg-makkah",
+    "count": 11
+  },
+  {
+    "name": "gdg-nanning",
+    "count": 11
+  },
+  {
+    "name": "gdg-singapore",
+    "count": 11
+  },
+  {
+    "name": "gdgadoekiti",
+    "count": 11
+  },
+  {
+    "name": "gdgitajuba",
+    "count": 11
+  },
+  {
+    "name": "gdglafia",
+    "count": 11
+  },
+  {
+    "name": "gdglima",
+    "count": 11
+  },
+  {
+    "name": "gdgmanagua",
+    "count": 11
+  },
+  {
+    "name": "gdgmascara",
+    "count": 11
+  },
+  {
+    "name": "gdgsantiagoes",
+    "count": 11
+  },
+  {
+    "name": "gdgyola",
+    "count": 11
+  },
+  {
+    "name": "DSC_Gracepoly",
+    "count": 10
+  },
+  {
+    "name": "GCPUG-Taipei",
+    "count": 10
+  },
+  {
+    "name": "GDG-AbuDhabi",
+    "count": 10
+  },
+  {
+    "name": "GDG-Bacolod",
+    "count": 10
+  },
+  {
+    "name": "GDG-Bonny-island",
+    "count": 10
+  },
+  {
+    "name": "GDG-Bukavu",
+    "count": 10
+  },
+  {
+    "name": "GDG-Campo-Grande",
+    "count": 10
+  },
+  {
+    "name": "GDG-Cloud-Ado-Ekiti",
+    "count": 10
+  },
+  {
+    "name": "GDG-Cloud-Helsinki",
+    "count": 10
+  },
+  {
+    "name": "GDG-Cloud-Lyon",
+    "count": 10
+  },
+  {
+    "name": "GDG-Goiania",
+    "count": 10
+  },
+  {
+    "name": "GDG-JM",
+    "count": 10
+  },
+  {
+    "name": "GDG-Jaen",
+    "count": 10
+  },
+  {
+    "name": "GDG-Kamwokya",
+    "count": 10
+  },
+  {
+    "name": "GDG-Kano",
+    "count": 10
+  },
+  {
+    "name": "GDG-Kharkiv-Center-Google-I-O-Extended",
+    "count": 10
+  },
+  {
+    "name": "GDG-Kigali",
+    "count": 10
+  },
+  {
+    "name": "GDG-Kolachi",
+    "count": 10
+  },
+  {
+    "name": "GDG-Penza",
+    "count": 10
+  },
+  {
+    "name": "GDG-Pescara",
+    "count": 10
+  },
+  {
+    "name": "GDG-Sucre",
+    "count": 10
+  },
+  {
+    "name": "GDG-Unilag",
+    "count": 10
+  },
+  {
+    "name": "GDG-Warri",
+    "count": 10
+  },
+  {
+    "name": "GDG-WebTech",
+    "count": 10
+  },
+  {
+    "name": "GDG-munich-cloud",
+    "count": 10
+  },
+  {
+    "name": "GDGMinna",
+    "count": 10
+  },
+  {
+    "name": "GDGTrabzon",
+    "count": 10
+  },
+  {
+    "name": "GDG_Bandjoun",
+    "count": 10
+  },
+  {
+    "name": "Google-Cloud-Developer-Community-Copenhagen",
+    "count": 10
+  },
+  {
+    "name": "gdg-edinburgh",
+    "count": 10
+  },
+  {
+    "name": "gdgararaquara",
+    "count": 10
+  },
+  {
+    "name": "gdgfortaleza",
+    "count": 10
+  },
+  {
+    "name": "Chongqing-GDG",
+    "count": 9
+  },
+  {
+    "name": "GDG-BGL",
+    "count": 9
+  },
+  {
+    "name": "GDG-Beni-Suef",
+    "count": 9
+  },
+  {
+    "name": "GDG-Cloud-Berea",
+    "count": 9
+  },
+  {
+    "name": "GDG-Cotonou",
+    "count": 9
+  },
+  {
+    "name": "GDG-Edirne",
+    "count": 9
+  },
+  {
+    "name": "GDG-Foz-do-Iguacu",
+    "count": 9
+  },
+  {
+    "name": "GDG-Ica",
+    "count": 9
+  },
+  {
+    "name": "GDG-Itumbiara",
+    "count": 9
+  },
+  {
+    "name": "GDG-Olomouc",
+    "count": 9
+  },
+  {
+    "name": "GDG-Porto-Novo",
+    "count": 9
+  },
+  {
+    "name": "GDG-Setif",
+    "count": 9
+  },
+  {
+    "name": "GDG-Sokoto",
+    "count": 9
+  },
+  {
+    "name": "GDG-UoN",
+    "count": 9
+  },
+  {
+    "name": "GDG-Vilnius",
+    "count": 9
+  },
+  {
+    "name": "GDGLahore",
+    "count": 9
+  },
+  {
+    "name": "GDGOuargla",
+    "count": 9
+  },
+  {
+    "name": "GTUG-Girls",
+    "count": 9
+  },
+  {
+    "name": "Google-Cloud-Developer-Community-Indore",
+    "count": 9
+  },
+  {
+    "name": "Hannover-Mobile-Development-Meetup",
+    "count": 9
+  },
+  {
+    "name": "Hefei-GDG",
+    "count": 9
+  },
+  {
+    "name": "gdg-poltava",
+    "count": 9
+  },
+  {
+    "name": "gdgbelemio",
+    "count": 9
+  },
+  {
+    "name": "gdgcloudsydney",
+    "count": 9
+  },
+  {
+    "name": "Cloud-GDG-Berlin",
+    "count": 8
+  },
+  {
+    "name": "GDG-Bogor",
+    "count": 8
+  },
+  {
+    "name": "GDG-Cloud-Dusseldorf",
+    "count": 8
+  },
+  {
+    "name": "GDG-Cloud-Miami",
+    "count": 8
+  },
+  {
+    "name": "GDG-Divinopolis",
+    "count": 8
+  },
+  {
+    "name": "GDG-Doha",
+    "count": 8
+  },
+  {
+    "name": "GDG-Firenze",
+    "count": 8
+  },
+  {
+    "name": "GDG-Gandhinagar",
+    "count": 8
+  },
+  {
+    "name": "GDG-Girona",
+    "count": 8
+  },
+  {
+    "name": "GDG-Gwangju",
+    "count": 8
+  },
+  {
+    "name": "GDG-Kabul",
+    "count": 8
+  },
+  {
+    "name": "GDG-Limbe",
+    "count": 8
+  },
+  {
+    "name": "GDG-Parakou",
+    "count": 8
+  },
+  {
+    "name": "GDG-Radzymin",
+    "count": 8
+  },
+  {
+    "name": "GDG-Reggio-Calabria",
+    "count": 8
+  },
+  {
+    "name": "GDG-San-Pedro-Sula",
+    "count": 8
+  },
+  {
+    "name": "GDG-Umuahia",
+    "count": 8
+  },
+  {
+    "name": "GDG-Varginha",
+    "count": 8
+  },
+  {
+    "name": "GDG-Villahermosa",
+    "count": 8
+  },
+  {
+    "name": "GDGBolu",
+    "count": 8
+  },
+  {
+    "name": "GDGCloudSF",
+    "count": 8
+  },
+  {
+    "name": "GDGKaohsiung",
+    "count": 8
+  },
+  {
+    "name": "GDGMienTrungVietnam",
+    "count": 8
+  },
+  {
+    "name": "Google-Cloud-Developer-Community-Kolkata",
+    "count": 8
+  },
+  {
+    "name": "Google-Developer-Group-Athens-Meetup",
+    "count": 8
+  },
+  {
+    "name": "Meetup-GDG-Conakry",
+    "count": 8
+  },
+  {
+    "name": "Rhein-Neckar-Dev-Meetup",
+    "count": 8
+  },
+  {
+    "name": "gcdc-nd",
+    "count": 8
+  },
+  {
+    "name": "gdg-lagos",
+    "count": 8
+  },
+  {
+    "name": "gdgcadiz",
+    "count": 8
+  },
+  {
+    "name": "gdgcloud-philly",
+    "count": 8
+  },
+  {
+    "name": "gdggenova",
+    "count": 8
+  },
+  {
+    "name": "gdgjsiit",
+    "count": 8
+  },
+  {
+    "name": "google-cloud-developer-community-kuala-lumpur",
+    "count": 8
+  },
+  {
+    "name": "DSC-Covenant-University",
+    "count": 7
+  },
+  {
+    "name": "DSC-Strathmore",
+    "count": 7
+  },
+  {
+    "name": "GDG-Arapiraca",
+    "count": 7
+  },
+  {
+    "name": "GDG-Bamenda",
+    "count": 7
+  },
+  {
+    "name": "GDG-Bandung",
+    "count": 7
+  },
+  {
+    "name": "GDG-Bouake",
+    "count": 7
+  },
+  {
+    "name": "GDG-Cloud-DC",
+    "count": 7
+  },
+  {
+    "name": "GDG-Gomel",
+    "count": 7
+  },
+  {
+    "name": "GDG-Gusau",
+    "count": 7
+  },
+  {
+    "name": "GDG-Imperatriz",
+    "count": 7
+  },
+  {
+    "name": "GDG-Lome",
+    "count": 7
+  },
+  {
+    "name": "GDG-Londrina",
+    "count": 7
+  },
+  {
+    "name": "GDG-Manouba",
+    "count": 7
+  },
+  {
+    "name": "GDG-Niamey",
+    "count": 7
+  },
+  {
+    "name": "GDG-Portland-Maine",
+    "count": 7
+  },
+  {
+    "name": "GDG-Sardegna",
+    "count": 7
+  },
+  {
+    "name": "GDG-Sonargaon",
+    "count": 7
+  },
+  {
+    "name": "GDG-UWM",
+    "count": 7
+  },
+  {
+    "name": "GDGLeme",
+    "count": 7
+  },
+  {
+    "name": "GDGYangon",
+    "count": 7
+  },
+  {
+    "name": "GDG_Surat",
+    "count": 7
+  },
+  {
+    "name": "Google-Cloud-Developer-Community-Bhubaneswar",
+    "count": 7
+  },
+  {
+    "name": "Google-Cloud-Developer-Community-Guatemala",
+    "count": 7
+  },
+  {
+    "name": "Google-Cloud-Developer-Community-Mumbai",
+    "count": 7
+  },
+  {
+    "name": "Google-Cloud-Developer-Community-Zapopan",
+    "count": 7
+  },
+  {
+    "name": "Meetup-GDG-Kinshasa",
+    "count": 7
+  },
+  {
+    "name": "Nanjing-GDG",
+    "count": 7
+  },
+  {
+    "name": "gcdcblr",
+    "count": 7
+  },
+  {
+    "name": "gdg-burnaby",
+    "count": 7
+  },
+  {
+    "name": "gdg-c-durban",
+    "count": 7
+  },
+  {
+    "name": "gdg-cloud-maiduguri",
+    "count": 7
+  },
+  {
+    "name": "gdg-suwon",
+    "count": 7
+  },
+  {
+    "name": "GCPUG-Tokyo",
+    "count": 6
+  },
+  {
+    "name": "GDG-Abuja",
+    "count": 6
+  },
+  {
+    "name": "GDG-Bordeaux",
+    "count": 6
+  },
+  {
+    "name": "GDG-Cleveland",
+    "count": 6
+  },
+  {
+    "name": "GDG-Cloud-Bangkok",
+    "count": 6
+  },
+  {
+    "name": "GDG-Cloud-Columbia",
+    "count": 6
+  },
+  {
+    "name": "GDG-Daejeon",
+    "count": 6
+  },
+  {
+    "name": "GDG-Goma",
+    "count": 6
+  },
+  {
+    "name": "GDG-Harare",
+    "count": 6
+  },
+  {
+    "name": "GDG-Odessa",
+    "count": 6
+  },
+  {
+    "name": "GDG-Passau",
+    "count": 6
+  },
+  {
+    "name": "GDG-Ranchi",
+    "count": 6
+  },
+  {
+    "name": "GDG-Sanliurfa",
+    "count": 6
+  },
+  {
+    "name": "GDG-Sinop",
+    "count": 6
+  },
+  {
+    "name": "GDG-TAMU",
+    "count": 6
+  },
+  {
+    "name": "GDG-Tashkent",
+    "count": 6
+  },
+  {
+    "name": "GDG-Tyumen",
+    "count": 6
+  },
+  {
+    "name": "GDG-Valparaiso",
+    "count": 6
+  },
+  {
+    "name": "GDG-Vizag",
+    "count": 6
+  },
+  {
+    "name": "GDGKotaKinabalu",
+    "count": 6
+  },
+  {
+    "name": "GDGYerevan",
+    "count": 6
+  },
+  {
+    "name": "GcdcChennai",
+    "count": 6
+  },
+  {
+    "name": "Google-Cloud-Developer-Community-Belo-Horizonte",
+    "count": 6
+  },
+  {
+    "name": "Google-Cloud-Developer-Community-Pune",
+    "count": 6
+  },
+  {
+    "name": "Google-Developer-Group-Hants-Surrey",
+    "count": 6
+  },
+  {
+    "name": "Google-Developer-Group-Sorlandet-GDG",
+    "count": 6
+  },
+  {
+    "name": "GoogleCloudPDX",
+    "count": 6
+  },
+  {
+    "name": "NewcastleML",
+    "count": 6
+  },
+  {
+    "name": "WomenTechmakersGR",
+    "count": 6
+  },
+  {
+    "name": "gdg-cloud-denver",
+    "count": 6
+  },
+  {
+    "name": "gdg-hb",
+    "count": 6
+  },
+  {
+    "name": "DSC-OAU",
+    "count": 5
+  },
+  {
+    "name": "GDG-Amman",
+    "count": 5
+  },
+  {
+    "name": "GDG-BBA",
+    "count": 5
+  },
+  {
+    "name": "GDG-BURDUR",
+    "count": 5
+  },
+  {
+    "name": "GDG-CONAKRY",
+    "count": 5
+  },
+  {
+    "name": "GDG-Charlottetown",
+    "count": 5
+  },
+  {
+    "name": "GDG-Cloud-Baltimore",
+    "count": 5
+  },
+  {
+    "name": "GDG-Cloud-Hangzhou",
+    "count": 5
+  },
+  {
+    "name": "GDG-Cloud-Lviv",
+    "count": 5
+  },
+  {
+    "name": "GDG-Cloud-Stockholm",
+    "count": 5
+  },
+  {
+    "name": "GDG-Cloud-Tokyo",
+    "count": 5
+  },
+  {
+    "name": "GDG-Cyprus",
+    "count": 5
+  },
+  {
+    "name": "GDG-Erbil",
+    "count": 5
+  },
+  {
+    "name": "GDG-George-Town",
+    "count": 5
+  },
+  {
+    "name": "GDG-Grande-Vitoria",
+    "count": 5
+  },
+  {
+    "name": "GDG-Ibrahim-Badamasi-Babangida-University",
+    "count": 5
+  },
+  {
+    "name": "GDG-Kaunas",
+    "count": 5
+  },
+  {
+    "name": "GDG-Luanda",
+    "count": 5
+  },
+  {
+    "name": "GDG-Mobile-Alabama",
+    "count": 5
+  },
+  {
+    "name": "GDG-Navarra",
+    "count": 5
+  },
+  {
+    "name": "GDG-Orizaba",
+    "count": 5
+  },
+  {
+    "name": "GDG-Ourinhos",
+    "count": 5
+  },
+  {
+    "name": "GDG-Salalah",
+    "count": 5
+  },
+  {
+    "name": "GDG-Springfield",
+    "count": 5
+  },
+  {
+    "name": "GDG-Surrey",
+    "count": 5
+  },
+  {
+    "name": "GDG-Tulkram",
+    "count": 5
+  },
+  {
+    "name": "GDG-Veranopolis",
+    "count": 5
+  },
+  {
+    "name": "GDG-Winnipeg",
+    "count": 5
+  },
+  {
+    "name": "GDG-latam",
+    "count": 5
+  },
+  {
+    "name": "GDGGuanajuato",
+    "count": 5
+  },
+  {
+    "name": "GDGKeffi",
+    "count": 5
+  },
+  {
+    "name": "GDGPetropolis",
+    "count": 5
+  },
+  {
+    "name": "GDGSriracha",
+    "count": 5
+  },
+  {
+    "name": "GdgIsparta",
+    "count": 5
+  },
+  {
+    "name": "Glasgow-New-Technology-Meetup",
+    "count": 5
+  },
+  {
+    "name": "GolangKazan",
+    "count": 5
+  },
+  {
+    "name": "Google-Cloud-Developer-Community-Hyderabad",
+    "count": 5
+  },
+  {
+    "name": "Google-Cloud-Platform-Users-North-West",
+    "count": 5
+  },
+  {
+    "name": "Meetup-GDG-Brescia",
+    "count": 5
+  },
+  {
+    "name": "Old-Bridge-Web-Design-Meetup",
+    "count": 5
+  },
+  {
+    "name": "Women-Techmakers-Lima",
+    "count": 5
+  },
+  {
+    "name": "gdg-mad",
+    "count": 5
+  },
+  {
+    "name": "AthloneDevelopersGroup",
+    "count": 4
+  },
+  {
+    "name": "GDG-Bern",
+    "count": 4
+  },
+  {
+    "name": "GDG-Cloud-Bauchi",
+    "count": 4
+  },
+  {
+    "name": "GDG-Cloud-Brno",
+    "count": 4
+  },
+  {
+    "name": "GDG-Cloud-Bucharest",
+    "count": 4
+  },
+  {
+    "name": "GDG-Cloud-Dublin",
+    "count": 4
+  },
+  {
+    "name": "GDG-Cloud-Louisville",
+    "count": 4
+  },
+  {
+    "name": "GDG-Cloud-Toronto",
+    "count": 4
+  },
+  {
+    "name": "GDG-Ekaterinburg",
+    "count": 4
+  },
+  {
+    "name": "GDG-Jaipur",
+    "count": 4
+  },
+  {
+    "name": "GDG-Khabarovsk",
+    "count": 4
+  },
+  {
+    "name": "GDG-Rezekne",
+    "count": 4
+  },
+  {
+    "name": "GDG-Silicon-Beach",
+    "count": 4
+  },
+  {
+    "name": "GDG-Sonoma",
+    "count": 4
+  },
+  {
+    "name": "GDG-Strasbourg",
+    "count": 4
+  },
+  {
+    "name": "GDG-Tallinn",
+    "count": 4
+  },
+  {
+    "name": "GDG-Ulaanbaatar",
+    "count": 4
+  },
+  {
+    "name": "GDG-Vaal",
+    "count": 4
+  },
+  {
+    "name": "GDGHubli",
+    "count": 4
+  },
+  {
+    "name": "Google-Cloud-Developer-Community-Buenos-Aires",
+    "count": 4
+  },
+  {
+    "name": "Google-Cloud-Developer-Community-Milano",
+    "count": 4
+  },
+  {
+    "name": "Google-Cloud-Developer-Community-Tallinn",
+    "count": 4
+  },
+  {
+    "name": "Google-Cloud-Platform-Meetup-Montreal",
+    "count": 4
+  },
+  {
+    "name": "Google-Developer-Group-Alps",
+    "count": 4
+  },
+  {
+    "name": "gcpughk",
+    "count": 4
+  },
+  {
+    "name": "gdg-craiova",
+    "count": 4
+  },
+  {
+    "name": "gdg-pitt",
+    "count": 4
+  },
+  {
+    "name": "gdg_cloud_ellicottcity",
+    "count": 4
+  },
+  {
+    "name": "gdgvietnam",
+    "count": 4
+  },
+  {
+    "name": "GCDC-Coimbatore",
+    "count": 3
+  },
+  {
+    "name": "GDG-Alicante",
+    "count": 3
+  },
+  {
+    "name": "GDG-Astana",
+    "count": 3
+  },
+  {
+    "name": "GDG-Bratislava",
+    "count": 3
+  },
+  {
+    "name": "GDG-Bristol",
+    "count": 3
+  },
+  {
+    "name": "GDG-Chandigarh",
+    "count": 3
+  },
+  {
+    "name": "GDG-Cloud-Auckland",
+    "count": 3
+  },
+  {
+    "name": "GDG-Cloud-La-Paz",
+    "count": 3
+  },
+  {
+    "name": "GDG-Cloud-Ottawa",
+    "count": 3
+  },
+  {
+    "name": "GDG-Cloud-Tampere",
+    "count": 3
+  },
+  {
+    "name": "GDG-Hermosillo",
+    "count": 3
+  },
+  {
+    "name": "GDG-Lorena",
+    "count": 3
+  },
+  {
+    "name": "GDG-Lubango",
+    "count": 3
+  },
+  {
+    "name": "GDG-Magas",
+    "count": 3
+  },
+  {
+    "name": "GDG-Marbella",
+    "count": 3
+  },
+  {
+    "name": "GDG-Najaf",
+    "count": 3
+  },
+  {
+    "name": "GDG-Osijek",
+    "count": 3
+  },
+  {
+    "name": "GDG-Pelotas",
+    "count": 3
+  },
+  {
+    "name": "GDG-Port-of-Spain",
+    "count": 3
+  },
+  {
+    "name": "GDG-Poznań",
+    "count": 3
+  },
+  {
+    "name": "GDG-Presidente-Prudente",
+    "count": 3
+  },
+  {
+    "name": "GDG-Sao-Jose-Rio-Preto",
+    "count": 3
+  },
+  {
+    "name": "GDG-Spokane",
+    "count": 3
+  },
+  {
+    "name": "GDG-St-Albert",
+    "count": 3
+  },
+  {
+    "name": "GDG-Uzhhorod",
+    "count": 3
+  },
+  {
+    "name": "GDG-Windhoek",
+    "count": 3
+  },
+  {
+    "name": "GDG-Windsor",
+    "count": 3
+  },
+  {
+    "name": "GDGLeon",
+    "count": 3
+  },
+  {
+    "name": "GDGStuttgart",
+    "count": 3
+  },
+  {
+    "name": "GDGSzczecin",
+    "count": 3
+  },
+  {
+    "name": "GDGTaichung",
+    "count": 3
+  },
+  {
+    "name": "Google-Cloud-Developer-Community-Ankara",
+    "count": 3
+  },
+  {
+    "name": "Google-Cloud-Developer-Community-Lima",
+    "count": 3
+  },
+  {
+    "name": "Google-Cloud-Developer-Community-Port-Harcourt",
+    "count": 3
+  },
+  {
+    "name": "Google-Cloud-GDG-Meeting",
+    "count": 3
+  },
+  {
+    "name": "Google-Developer-Group-Bozeman",
+    "count": 3
+  },
+  {
+    "name": "Google-Developer-Group-San-Fernando-Valley",
+    "count": 3
+  },
+  {
+    "name": "GCDCKano",
+    "count": 2
+  },
+  {
+    "name": "GDG-Aix-Marseille",
+    "count": 2
+  },
+  {
+    "name": "GDG-Bentonville",
+    "count": 2
+  },
+  {
+    "name": "GDG-Chimoio",
+    "count": 2
+  },
+  {
+    "name": "GDG-Cloud-Fremont",
+    "count": 2
+  },
+  {
+    "name": "GDG-Cloud-Wroclaw",
+    "count": 2
+  },
+  {
+    "name": "GDG-Covilha",
+    "count": 2
+  },
+  {
+    "name": "GDG-El-Paso",
+    "count": 2
+  },
+  {
+    "name": "GDG-Guro",
+    "count": 2
+  },
+  {
+    "name": "GDG-Hatay",
+    "count": 2
+  },
+  {
+    "name": "GDG-Lawrence",
+    "count": 2
+  },
+  {
+    "name": "GDG-Lusaka",
+    "count": 2
+  },
+  {
+    "name": "GDG-Luxembourg",
+    "count": 2
+  },
+  {
+    "name": "GDG-Mersin",
+    "count": 2
+  },
+  {
+    "name": "GDG-New-London",
+    "count": 2
+  },
+  {
+    "name": "GDG-Ogbomoso",
+    "count": 2
+  },
+  {
+    "name": "GDG-Tomsk",
+    "count": 2
+  },
+  {
+    "name": "GDG-Zaporizhzhia",
+    "count": 2
+  },
+  {
+    "name": "GDGBursa",
+    "count": 2
+  },
+  {
+    "name": "Google-Cloud-Developer-Community-Bogota",
+    "count": 2
+  },
+  {
+    "name": "Google-Cloud-Developer-Community-Roma",
+    "count": 2
+  },
+  {
+    "name": "Google-Cloud-Developer-Community-Torino",
+    "count": 2
+  },
+  {
+    "name": "Google-Cloud-Developer-Community-Zagreb",
+    "count": 2
+  },
+  {
+    "name": "Google-Cloud-Developers-Community-Ahmedabad",
+    "count": 2
+  },
+  {
+    "name": "Google-Developer-Group-Cloud-Wageningen",
+    "count": 2
+  },
+  {
+    "name": "gcdc-santiago",
+    "count": 2
+  },
+  {
+    "name": "gdg-bydgoscz",
+    "count": 2
+  },
+  {
+    "name": "gdg_ikorodu",
+    "count": 2
+  },
+  {
+    "name": "gdg_santander",
+    "count": 2
+  },
+  {
+    "name": "hildesheimGDG",
+    "count": 2
+  },
+  {
+    "name": "Chita-New-Technology-Meetup",
+    "count": 1
+  },
+  {
+    "name": "GDG-Adama",
+    "count": 1
+  },
+  {
+    "name": "GDG-Alpharetta",
+    "count": 1
+  },
+  {
+    "name": "GDG-Clermont",
+    "count": 1
+  },
+  {
+    "name": "GDG-Cloud-Atlanta",
+    "count": 1
+  },
+  {
+    "name": "GDG-Cloud-Lagos",
+    "count": 1
+  },
+  {
+    "name": "GDG-Cloud-Nantes",
+    "count": 1
+  },
+  {
+    "name": "GDG-Cloud-Pasadena",
+    "count": 1
+  },
+  {
+    "name": "GDG-Columbia-MO",
+    "count": 1
+  },
+  {
+    "name": "GDG-Cork",
+    "count": 1
+  },
+  {
+    "name": "GDG-Coruna",
+    "count": 1
+  },
+  {
+    "name": "GDG-Dakar",
+    "count": 1
+  },
+  {
+    "name": "GDG-Douglas",
+    "count": 1
+  },
+  {
+    "name": "GDG-Dushanbe",
+    "count": 1
+  },
+  {
+    "name": "GDG-Faro",
+    "count": 1
+  },
+  {
+    "name": "GDG-Fredericton-NB",
+    "count": 1
+  },
+  {
+    "name": "GDG-Halifax",
+    "count": 1
+  },
+  {
+    "name": "GDG-Hualien",
+    "count": 1
+  },
+  {
+    "name": "GDG-Ilorin",
+    "count": 1
+  },
+  {
+    "name": "GDG-Kayunga",
+    "count": 1
+  },
+  {
+    "name": "GDG-Leiria",
+    "count": 1
+  },
+  {
+    "name": "GDG-Ljubljana",
+    "count": 1
+  },
+  {
+    "name": "GDG-Mississauga",
+    "count": 1
+  },
+  {
+    "name": "GDG-Monroe",
+    "count": 1
+  },
+  {
+    "name": "GDG-Nashik",
+    "count": 1
+  },
+  {
+    "name": "GDG-Ojo-Festac",
+    "count": 1
+  },
+  {
+    "name": "GDG-Onitsha",
+    "count": 1
+  },
+  {
+    "name": "GDG-Podgorica",
+    "count": 1
+  },
+  {
+    "name": "GDG-Pontevedra",
+    "count": 1
+  },
+  {
+    "name": "GDG-QUITO",
+    "count": 1
+  },
+  {
+    "name": "GDG-Rochester",
+    "count": 1
+  },
+  {
+    "name": "GDG-Russellville",
+    "count": 1
+  },
+  {
+    "name": "GDG-Saida",
+    "count": 1
+  },
+  {
+    "name": "GDG-San-Juan",
+    "count": 1
+  },
+  {
+    "name": "GDG-SanSalvador",
+    "count": 1
+  },
+  {
+    "name": "GDG-Siliguri",
+    "count": 1
+  },
+  {
+    "name": "GDG-Srinagar",
+    "count": 1
+  },
+  {
+    "name": "GDG-Yenagoa",
+    "count": 1
+  },
+  {
+    "name": "GDGIzhevsk",
+    "count": 1
+  },
+  {
+    "name": "GDGTaoyuan",
+    "count": 1
+  },
+  {
+    "name": "Google-Cloud-Developer-Community-Sao-Paulo",
+    "count": 1
+  },
+  {
+    "name": "Google-Developers-group-Mysuru",
+    "count": 1
+  },
+  {
+    "name": "gdg-portsmouth-nh",
+    "count": 1
+  },
+  {
+    "name": "gdgmadeira",
+    "count": 1
+  },
+  {
+    "name": "gdgpurdue",
+    "count": 1
+  },
+  {
+    "name": "meetup-group-ECTkcbiM",
+    "count": 1
+  },
+  {
+    "name": "GDG-Basra",
+    "count": 0
+  },
+  {
+    "name": "GDG-Bloomington",
+    "count": 0
+  },
+  {
+    "name": "GDG-Chisinau",
+    "count": 0
+  },
+  {
+    "name": "GDG-Cloud-Auburn",
+    "count": 0
+  },
+  {
+    "name": "GDG-Cloud-Busan-Meetup",
+    "count": 0
+  },
+  {
+    "name": "GDG-Cloud-Cincinnati",
+    "count": 0
+  },
+  {
+    "name": "GDG-Cloud-Izmir",
+    "count": 0
+  },
+  {
+    "name": "GDG-Cloud-Lubbock",
+    "count": 0
+  },
+  {
+    "name": "GDG-Cloud-Santa-Clara",
+    "count": 0
+  },
+  {
+    "name": "GDG-Cloud-Wilmington",
+    "count": 0
+  },
+  {
+    "name": "GDG-Cologne-Bonn",
+    "count": 0
+  },
+  {
+    "name": "GDG-Gombe",
+    "count": 0
+  },
+  {
+    "name": "GDG-La-Libertad",
+    "count": 0
+  },
+  {
+    "name": "GDG-LeonESP",
+    "count": 0
+  },
+  {
+    "name": "GDG-Madinah",
+    "count": 0
+  },
+  {
+    "name": "GDG-Mansoura",
+    "count": 0
+  },
+  {
+    "name": "GDG-Moldova",
+    "count": 0
+  },
+  {
+    "name": "GDG-Praia",
+    "count": 0
+  },
+  {
+    "name": "GDG-Redwood-City",
+    "count": 0
+  },
+  {
+    "name": "GDG-Urbana-Champaign",
+    "count": 0
+  },
+  {
+    "name": "GDG-Valladolid",
+    "count": 0
+  },
+  {
+    "name": "GDG-Vladikavkaz",
+    "count": 0
+  },
+  {
+    "name": "GDGYar",
+    "count": 0
+  },
+  {
+    "name": "San-Jose-Android-Meetup",
+    "count": 0
+  },
+  {
+    "name": "Soroti-GDG-Meetup",
+    "count": 0
+  },
+  {
+    "name": "gdgperth",
+    "count": 0
+  },
+  {
+    "name": "meetup-group-LEOupxGf",
+    "count": 0
+  }
+]
