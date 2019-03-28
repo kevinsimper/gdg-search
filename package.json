@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "polymer serve",
-    "build": "polymer build --bundle",
+    "build": "polymer build --bundle && npm run favicon",
+    "favicon": "cp -r favicon build/default && cp site.webmanifest build/default",
     "deploy": "npm run build && firebase deploy"
   },
   "keywords": [],
