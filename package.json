@@ -13,6 +13,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "esm": "^3.2.20",
+    "isomorphic-unfetch": "^3.0.0",
     "lit-element": "^2.0.1",
     "navigo": "^7.1.2",
     "polymer-cli": "^1.9.6",
