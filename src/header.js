@@ -19,7 +19,8 @@ class Header extends LitElement {
       }
       .item {
         color: white;
-        padding: 20px;
+        line-height: 60px;
+        padding: 0 15px;
         text-decoration: none;
       }
     `;
@@ -28,9 +29,12 @@ class Header extends LitElement {
     return html`
       <header class="menu">
         <div class="container">
-          <a href="/#!" class="header item">GDG Search</a>
+          <a href="/#!" class="header item">🌍 GDG Search</a>
           <a href="/#!" class="item">Home</a>
           <a href="/#!most-active" class="item">Most Active</a>
+          <a href="https://goo.gl/forms/mIqfksuzY9wigutt1" class="item"
+            >Feedback? 😍</a
+          >
         </div>
       </header>
     `;
