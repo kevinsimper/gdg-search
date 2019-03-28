@@ -41,6 +41,22 @@ class MostActive extends LitElement {
           are running. So it is not a competetion about how can create the most
           events 😄
         </p>
+        <p>
+          ${
+            until(
+              this.fetching.then(f => {
+                const total = this.active.reduce((cur, i) => cur + i.count, 0);
+                return html`
+                  Total events: ${total}
+                `;
+              }),
+              html`
+                Loading...
+              `
+            )
+          }
+        </p>
+
         <ol>
           ${
             until(
