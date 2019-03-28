@@ -28,9 +28,9 @@ class Header extends LitElement {
     return html`
       <header class="menu">
         <div class="container">
-          <a href="/" class="header item">GDG Search</a>
-          <a href="/" class="item">Home</a>
-          <a href="/most-active" class="item">Most Active</a>
+          <a href="/#!" class="header item">GDG Search</a>
+          <a href="/#!" class="item">Home</a>
+          <a href="/#!most-active" class="item">Most Active</a>
         </div>
       </header>
     `;
