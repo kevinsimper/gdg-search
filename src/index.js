@@ -18,7 +18,17 @@ class GDGMain extends LitElement {
       .on({
         "most-active": () => {
           this.route = html`
-            <x-most-active></x-most-active>
+            <x-most-active sortBy="yearly"></x-most-active>
+          `;
+        },
+        "most-active/all": () => {
+          this.route = html`
+            <x-most-active sortBy="all"></x-most-active>
+          `;
+        },
+        "most-active/quarter": () => {
+          this.route = html`
+            <x-most-active sortBy="quarter"></x-most-active>
           `;
         },
         "*": () => {

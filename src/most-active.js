@@ -5,11 +5,13 @@ class MostActive extends LitElement {
   static get properties() {
     return {
       active: { type: Array },
-      communities: { type: Array }
+      communities: { type: Array },
+      sortBy: { type: String }
     };
   }
   constructor() {
     super();
+    this.sortBy = "all";
     this.fetching = Promise.all([this.fetchList(), this.fetchCommunities()]);
   }
   static get styles() {
@@ -30,6 +32,27 @@ class MostActive extends LitElement {
     const json = await listRequest.json();
     this.communities = json;
   }
+  renderList(events, property) {
+    return events
+      .sort((a, b) => {
+        return b[property] - a[property];
+      })
+      .map(c => {
+        const community = this.communities.find(i => i.urlname === c.name);
+        if (!community) {
+          return html`
+            <li>${c.name} - ${c[property]}</li>
+          `;
+        }
+        return html`
+          <li>
+            <a target="_blank" href="https://meetup.com/${community.urlname}"
+              >${community.name} - ${c[property]}</a
+            >
+          </li>
+        `;
+      });
+  }
   render() {
     return html`
       <div class="container">
@@ -45,7 +68,12 @@ class MostActive extends LitElement {
           ${
             until(
               this.fetching.then(f => {
-                const total = this.active.reduce((cur, i) => cur + i.count, 0);
+                const total =
+                  this.sortBy === "all"
+                    ? this.active.reduce((cur, i) => cur + i.all, 0)
+                    : this.sortBy === "yearly"
+                    ? this.active.reduce((cur, i) => cur + i.yearly, 0)
+                    : this.active.reduce((cur, i) => cur + i.quarter, 0);
                 return html`
                   Total events: ${total}
                 `;
@@ -56,33 +84,23 @@ class MostActive extends LitElement {
             )
           }
         </p>
-
+        <p>
+          Most Active:
+          <a href="/#!most-active/quarter" class="item">Quarterly</a> -
+          <a href="/#!most-active" class="item">Yearly</a> -
+          <a href="/#!most-active/all" class="item">All</a>
+        </p>
         <ol>
           ${
             until(
               this.fetching.then(f => {
                 return html`
                   ${
-                    this.active.map(c => {
-                      const community = this.communities.find(
-                        i => i.urlname === c.name
-                      );
-                      if (!community) {
-                        console.log(c);
-                        return html`
-                          <li>${c.name} - ${c.count}</li>
-                        `;
-                      }
-                      return html`
-                        <li>
-                          <a
-                            target="_blank"
-                            href="https://meetup.com/${community.urlname}"
-                            >${community.name} - ${c.count}</a
-                          >
-                        </li>
-                      `;
-                    })
+                    this.sortBy === "all"
+                      ? this.renderList(this.active, "all")
+                      : this.sortBy === "yearly"
+                      ? this.renderList(this.active, "yearly")
+                      : this.renderList(this.active, "quarter")
                   }
                 `;
               }),
