@@ -20,6 +20,19 @@ class MostActive extends LitElement {
         max-width: 1000px;
         margin: 0 auto;
       }
+      .button {
+        background-color: #6200ee;
+        color: #fff;
+        padding: 8px 16px;
+        height: 36px;
+        border-radius: 4px;
+        line-height: 36px;
+        margin: 0 8px;
+        text-decoration: none;
+      }
+      .button:hover {
+        background-color: #6200eee6;
+      }
     `;
   }
   async fetchList() {
@@ -86,9 +99,9 @@ class MostActive extends LitElement {
         </p>
         <p>
           Most Active:
-          <a href="/#!most-active/quarter" class="item">Quarterly</a> -
-          <a href="/#!most-active" class="item">Yearly</a> -
-          <a href="/#!most-active/all" class="item">All</a>
+          <a class="button" href="/#!most-active/quarter">Quarterly</a>
+          <a class="button" href="/#!most-active">Yearly</a>
+          <a class="button" href="/#!most-active/all">All</a>
         </p>
         <ol>
           ${
