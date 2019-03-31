@@ -883,9 +883,9 @@
   },
   {
     "name": "GDG-Cloud-Korea",
-    "all": 200,
-    "yearly": 80,
-    "quarter": 2
+    "all": 212,
+    "yearly": 92,
+    "quarter": 14
   },
   {
     "name": "GDG-Cloud-La-Paz",
@@ -3470,7 +3470,7 @@
   {
     "name": "GDGCochabamba",
     "all": 30,
-    "yearly": 20,
+    "yearly": 19,
     "quarter": 10
   },
   {
@@ -4609,9 +4609,9 @@
   },
   {
     "name": "berlindroid",
-    "all": 200,
-    "yearly": 5,
-    "quarter": 0
+    "all": 257,
+    "yearly": 62,
+    "quarter": 15
   },
   {
     "name": "boston-android",
@@ -4621,9 +4621,9 @@
   },
   {
     "name": "cincy-android",
-    "all": 200,
-    "yearly": 0,
-    "quarter": 0
+    "all": 338,
+    "yearly": 11,
+    "quarter": 3
   },
   {
     "name": "cloudmx",
