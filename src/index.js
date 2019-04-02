@@ -3,6 +3,7 @@ import Navigo from "navigo";
 import "./Search.js";
 import "./header.js";
 import "./most-active.js";
+import "./search-events.js"
 
 class GDGMain extends LitElement {
   static get properties() {
@@ -29,6 +30,11 @@ class GDGMain extends LitElement {
         "most-active/quarter": () => {
           this.route = html`
             <x-most-active sortBy="quarter"></x-most-active>
+          `;
+        },
+        "search-events": () => {
+          this.route = html`
+            <x-search-events></x-search-events>
           `;
         },
         "*": () => {
