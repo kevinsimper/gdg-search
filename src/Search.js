@@ -1,5 +1,6 @@
 import { LitElement, css, html } from "lit-element";
 import { until } from "lit-html/directives/until.js";
+import "./container.js";
 
 class SearchMeetups extends LitElement {
   static get properties() {
@@ -19,10 +20,6 @@ class SearchMeetups extends LitElement {
         width: 100%;
         max-width: 250px;
         padding: 5px;
-      }
-      .app {
-        max-width: 1000px;
-        margin: 0 auto;
       }
       header {
         border-bottom: 3px solid black;
@@ -73,7 +70,7 @@ class SearchMeetups extends LitElement {
       });
     });
     return html`
-      <div class="app">
+      <x-container>
         <header>
           <h4 style="float:right; text-align: right;">
             <a href="https://github.com/kevinsimper/gdg-search"
@@ -171,7 +168,7 @@ class SearchMeetups extends LitElement {
             )
           }
         </div>
-      </div>
+      </x-container>
     `;
   }
 }

@@ -1,5 +1,6 @@
 import { LitElement, css, html } from "lit-element";
 import { until } from "lit-html/directives/until.js";
+import "./container.js";
 
 class MostActive extends LitElement {
   static get properties() {
@@ -16,11 +17,6 @@ class MostActive extends LitElement {
   }
   static get styles() {
     return css`
-      .container {
-        max-width: 1000px;
-        margin: 0 auto;
-        padding: 10px;
-      }
       .button {
         background-color: #6200ee;
         color: #fff;
@@ -69,8 +65,15 @@ class MostActive extends LitElement {
   }
   render() {
     return html`
-      <div class="container">
-        <h1>Most Active <img src="/src/logo-GDG.svg" style="width: 55px;vertical-align: middle;"/> GDG</h1>
+      <x-container>
+        <h1>
+          Most Active
+          <img
+            src="/src/logo-GDG.svg"
+            style="width: 55px;vertical-align: middle;"
+          />
+          GDG
+        </h1>
         <p>
           This is the list of GDG that has organized the most events. I think it
           is interesting and I created this list so that anyone can look at
@@ -124,7 +127,7 @@ class MostActive extends LitElement {
             )
           }
         </ol>
-      </div>
+      </x-container>
     `;
   }
 }
