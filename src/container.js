@@ -12,7 +12,7 @@ class AppContainer extends LitElement {
   }
   render() {
     return html`
-      <div class="container">${this.firstChild}</div>
+      <div class="container"><slot></slot></div>
     `;
   }
 }
