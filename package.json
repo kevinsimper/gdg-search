@@ -14,11 +14,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "esm": "^3.2.20",
+    "esm": "^3.2.22",
     "isomorphic-unfetch": "^3.0.0",
-    "lit-element": "^2.0.1",
+    "lit-element": "^2.1.0",
     "navigo": "^7.1.2",
-    "polymer-cli": "^1.9.6",
+    "polymer-cli": "^1.9.8",
     "world-countries": "^2.1.0"
   }
 }
