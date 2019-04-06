@@ -153,6 +153,7 @@ class SearchMeetups extends LitElement {
                     <div class="group">
                       <div>
                         <a href="https://meetup.com/${c.urlname}">${c.name}</a>
+                        <a href="#!community/${c.urlname}">Details</a>
                       </div>
                       <div>
                         ${c.city}, ${c.country} ${country && country.flag}
