@@ -57,8 +57,10 @@ class MostActive extends LitElement {
         return html`
           <li>
             <a target="_blank" href="https://meetup.com/${community.urlname}"
-              >${community.name} - ${c[property]}</a
+              >${community.name}</a
             >
+            - ${c[property]} -
+            <a href="#!community/${community.urlname}">Details</a>
           </li>
         `;
       });
