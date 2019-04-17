@@ -1,6 +1,7 @@
 import { LitElement, css, html } from "lit-element";
 import { until } from "lit-html/directives/until.js";
 import "./container.js";
+import "./table.js";
 
 class MostActive extends LitElement {
   static get properties() {
@@ -47,21 +48,27 @@ class MostActive extends LitElement {
       .sort((a, b) => {
         return b[property] - a[property];
       })
-      .map(c => {
+      .map((c, i) => {
         const community = this.communities.find(i => i.urlname === c.name);
         if (!community) {
           return html`
-            <li>${c.name} - ${c[property]}</li>
+            <tr>
+              <td>${i + 1}</td>
+              <td>${c.name} - ${c[property]}</td>
+            </tr>
           `;
         }
         return html`
-          <li>
-            <a target="_blank" href="https://meetup.com/${community.urlname}"
-              >${community.name}</a
-            >
-            - ${c[property]} -
-            <a href="#!community/${community.urlname}">Details</a>
-          </li>
+          <tr>
+            <td>${i + 1}</td>
+            <td>
+              <a target="_blank" href="https://meetup.com/${community.urlname}"
+                >${community.name}</a
+              >
+            </td>
+            <td>${c[property]}</td>
+            <td><a href="#!community/${community.urlname}">Details</a></td>
+          </tr>
         `;
       });
   }
@@ -109,26 +116,39 @@ class MostActive extends LitElement {
           <a class="button" href="/#!most-active">Yearly</a>
           <a class="button" href="/#!most-active/all">All</a>
         </p>
-        <ol>
-          ${
-            until(
-              this.fetching.then(f => {
-                return html`
-                  ${
-                    this.sortBy === "all"
-                      ? this.renderList(this.active, "all")
-                      : this.sortBy === "yearly"
-                      ? this.renderList(this.active, "yearly")
-                      : this.renderList(this.active, "quarter")
-                  }
-                `;
-              }),
-              html`
-                Loading...
-              `
-            )
-          }
-        </ol>
+        <x-table
+          .content="${
+            html`
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>Name</th>
+                  <th>Events</th>
+                  <th></th>
+                </tr>
+              </thead>
+              ${
+                until(
+                  this.fetching.then(f => {
+                    return html`
+                      ${
+                        this.sortBy === "all"
+                          ? this.renderList(this.active, "all")
+                          : this.sortBy === "yearly"
+                          ? this.renderList(this.active, "yearly")
+                          : this.renderList(this.active, "quarter")
+                      }
+                    `;
+                  }),
+                  html`
+                    Loading...
+                  `
+                )
+              }
+            `
+          }"
+        >
+        </x-table>
       </x-container>
     `;
   }
