@@ -1,5 +1,32 @@
-import { LitElement, html } from "lit-element";
+import { LitElement, html, css } from "lit-element";
 import "./container.js";
+
+class Table extends LitElement {
+  static get properties() {
+    return {
+      content: { type: Object }
+    };
+  }
+  static get styles() {
+    return css`
+      .table {
+        max-width: 1000px;
+        margin: 0 auto;
+        padding: 10px;
+        display: table;
+      }
+    `;
+  }
+  render() {
+    return html`
+      <table class="table">
+        ${this.content}
+      </table>
+    `;
+  }
+}
+
+customElements.define("x-table", Table);
 
 class Group extends LitElement {
   static get properties() {
@@ -28,28 +55,33 @@ class Group extends LitElement {
     return html`
       <x-container>
         <h1>Community: ${this.name}</h1>
-        <table>
-          <thead>
-            <tr>
-              <th>Date</th>
-              <th>Event</th>
-              <th>RSVP</th>
-            </tr>
-          </thead>
-          <tbody>
-            ${
-              this.events.map(i => {
-                return html`
-                  <tr>
-                    <td>${i.local_date}</td>
-                    <td><a href="${i.link}">${i.name}</a></td>
-                    <td>${i.yes_rsvp_count}</td>
-                  </tr>
-                `;
-              })
-            }
-          </tbody>
-        </table>
+        <x-table
+          .content="${
+            html`
+              <thead>
+                <tr>
+                  <th>Date</th>
+                  <th>Event</th>
+                  <th>RSVP</th>
+                </tr>
+              </thead>
+              <tbody>
+                ${
+                  this.events.map(i => {
+                    return html`
+                      <tr>
+                        <td>${i.local_date}</td>
+                        <td><a href="${i.link}">${i.name}</a></td>
+                        <td>${i.yes_rsvp_count}</td>
+                      </tr>
+                    `;
+                  })
+                }
+              </tbody>
+            `
+          }"
+        >
+        </x-table>
       </x-container>
     `;
   }
