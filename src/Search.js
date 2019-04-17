@@ -1,6 +1,7 @@
 import { LitElement, css, html } from "lit-element";
 import { until } from "lit-html/directives/until.js";
 import "./container.js";
+import "./table.js";
 
 class SearchMeetups extends LitElement {
   static get properties() {
@@ -138,36 +139,51 @@ class SearchMeetups extends LitElement {
           </p>
         </header>
         <div>
-          ${
-            until(
-              communitiesResult.then(communities => {
-                return communities.map(c => {
-                  let country = this.countries.find(i => {
-                    return (
-                      i.name.common === c.country ||
-                      i.name.official === c.country
-                    );
-                  });
-                  c.region = (country && country.region) || "";
-                  return html`
-                    <div class="group">
-                      <div>
-                        <a href="https://meetup.com/${c.urlname}">${c.name}</a>
-                        <a href="#!community/${c.urlname}">Details</a>
-                      </div>
-                      <div>
-                        ${c.city}, ${c.country} ${country && country.flag}
-                      </div>
-                      <div>${country && country.region}</div>
-                    </div>
-                  `;
-                });
-              }),
+          <x-table
+            .content="${
               html`
-                waiting
+                <tbody>
+                  ${
+                    until(
+                      communitiesResult.then(communities => {
+                        return communities.map((c, i) => {
+                          let country = this.countries.find(i => {
+                            return (
+                              i.name.common === c.country ||
+                              i.name.official === c.country
+                            );
+                          });
+                          c.region = (country && country.region) || "";
+                          return html`
+                            <tr>
+                              <td>${i + 1}</td>
+                              <td>
+                                <a href="https://meetup.com/${c.urlname}"
+                                  >${c.name}</a
+                                >
+                              </td>
+                              <td>
+                                ${c.city}, ${c.country}
+                                ${country && country.flag}
+                              </td>
+                              <td>${country && country.region}</td>
+                              <td>
+                                <a href="#!community/${c.urlname}">Details</a>
+                              </td>
+                            </tr>
+                          `;
+                        });
+                      }),
+                      html`
+                        waiting
+                      `
+                    )
+                  }
+                </tbody>
               `
-            )
-          }
+            }"
+          >
+          </x-table>
         </div>
       </x-container>
     `;
