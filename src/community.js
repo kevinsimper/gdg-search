@@ -28,19 +28,29 @@ class Group extends LitElement {
     return html`
       <x-container>
         <h1>Community: ${this.name}</h1>
-        <ul>
-          ${
-            this.events.map(i => {
-              return html`
-                <li>
-                  ${i.local_date} <a href="${i.link}">${i.name}</a> -
-                  ${i.yes_rsvp_count}
-                </li>
-              `;
-            })
-          }
-        </ul></x-container
-      >
+        <table>
+          <thead>
+            <tr>
+              <th>Date</th>
+              <th>Event</th>
+              <th>RSVP</th>
+            </tr>
+          </thead>
+          <tbody>
+            ${
+              this.events.map(i => {
+                return html`
+                  <tr>
+                    <td>${i.local_date}</td>
+                    <td><a href="${i.link}">${i.name}</a></td>
+                    <td>${i.yes_rsvp_count}</td>
+                  </tr>
+                `;
+              })
+            }
+          </tbody>
+        </table>
+      </x-container>
     `;
   }
 }
