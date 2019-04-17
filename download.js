@@ -5,7 +5,7 @@ const meetup = process.argv[2];
 let events = [];
 async function main() {
   const res = await fetch(
-    `https://api.meetup.com/${meetup}/events?status=past`
+    encodeURI(`https://api.meetup.com/${meetup}/events?status=past`)
   );
   const json = await res.json();
   events.push(json);
