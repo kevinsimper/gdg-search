@@ -1,1 +1,1 @@
-cat src/list.json | jq '.[] | .urlname' | tr -d '"' | xargs -n 1 -I{} echo "http https://api.meetup.com/{}/events status==past > gdg-events/{}.json" > fetch.sh
+cat src/list.json | jq '.[] | .urlname' | tr -d '"' | xargs -n 1 -I{} echo "node -r esm download.js {} > gdg-events/{}.json" > fetch.sh
