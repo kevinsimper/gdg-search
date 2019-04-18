@@ -1,10 +1,12 @@
 import { LitElement, css, html } from "lit-element";
 import Navigo from "navigo";
 import "./Search.js";
-import "./components/header.js";
+import { navigation } from "./components/header.js";
 import "./most-active.js";
 import "./search-events.js";
 import "./community.js";
+import "./events.js";
+import "./events-country.js";
 
 class GDGMain extends LitElement {
   static get properties() {
@@ -41,6 +43,21 @@ class GDGMain extends LitElement {
         "community/:name": params => {
           this.route = html`
             <x-gdg-group name="${params.name}"></x-gdg-group>
+          `;
+        },
+        events: params => {
+          this.route = html`
+            <x-events></x-events>
+          `;
+        },
+        "events/:country": params => {
+          this.route = html`
+            <x-events-country country="${params.country}"></x-events-country>
+          `;
+        },
+        menu: params => {
+          this.route = html`
+            <div>${navigation()}</div>
           `;
         },
         "*": () => {

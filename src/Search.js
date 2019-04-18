@@ -2,6 +2,7 @@ import { LitElement, css, html } from "lit-element";
 import { until } from "lit-html/directives/until.js";
 import "./components/container.js";
 import "./components/table.js";
+import { fetchCommunities, fetchCountries } from "./models/index.js";
 
 class SearchMeetups extends LitElement {
   static get properties() {
@@ -32,44 +33,28 @@ class SearchMeetups extends LitElement {
     super();
     this.name = "";
     this.fetching = Promise.all([
-      this.fetchCommunities(),
-      this.fetchCountries()
+      fetchCommunities.bind(this)(),
+      fetchCountries.bind(this)()
     ]);
   }
-  async fetchCommunities() {
-    const listRequest = await fetch("./src/list.json");
-    const json = await listRequest.json();
-    this.communities = json;
-    this.countries = this.communities.map(i => {
-      if (i.country === "USA") {
-        i.country = "United States";
+  filterResults() {
+    return this.communities.filter(c => {
+      if (this.name === "") return true;
+      if (
+        c.region &&
+        c.region.toLowerCase().includes(this.name.toLowerCase())
+      ) {
+        return true;
       }
-      return i;
+      return (
+        c.name.toLowerCase().includes(this.name.toLowerCase()) ||
+        c.city.toLowerCase().includes(this.name.toLowerCase()) ||
+        c.country.toLowerCase().includes(this.name.toLowerCase())
+      );
     });
   }
-  async fetchCountries() {
-    const listRequest = await fetch("./src/countries-unescaped.json");
-    const json = await listRequest.json();
-    this.countries = json;
-  }
-
   render() {
-    const communitiesResult = this.fetching.then(() => {
-      return this.communities.filter(c => {
-        if (this.name === "") return true;
-        if (
-          c.region &&
-          c.region.toLowerCase().includes(this.name.toLowerCase())
-        ) {
-          return true;
-        }
-        return (
-          c.name.toLowerCase().includes(this.name.toLowerCase()) ||
-          c.city.toLowerCase().includes(this.name.toLowerCase()) ||
-          c.country.toLowerCase().includes(this.name.toLowerCase())
-        );
-      });
-    });
+    const communitiesResult = this.fetching.then(() => this.filterResults());
     return html`
       <x-container>
         <header>
@@ -99,7 +84,12 @@ class SearchMeetups extends LitElement {
             ${
               until(
                 this.fetching.then(() => {
-                  return [...new Set(this.countries.map(c => c.region))].map(
+                  // Only show regions with communities in it
+                  // Set does not contain duplicates
+                  const removeDups = [
+                    ...new Set(this.countries.map(c => c.region))
+                  ];
+                  return removeDups.map(
                     c =>
                       html`
                         <a

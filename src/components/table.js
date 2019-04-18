@@ -14,6 +14,23 @@ class Table extends LitElement {
         padding: 10px;
         display: table;
         white-space: nowrap;
+        border-collapse: collapse;
+      }
+      .table tbody tr:nth-of-type(odd) {
+        background-color: rgba(0, 0, 0, 0.05);
+      }
+      .table tr:nth-of-type(odd) {
+        background-color: rgba(0, 0, 0, 0.05);
+      }
+      .table thead tr th {
+        color: #fff;
+        background-color: #343a40;
+      }
+      .table th {
+        padding: 0.5rem;
+      }
+      .table td {
+        padding: 0.5rem;
       }
       .wrapper {
         overflow-x: auto;
