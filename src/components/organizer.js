@@ -17,7 +17,6 @@ class Organizer extends LitElement {
         height: 50px;
         overflow: hidden;
         border-radius: 100%;
-        display: flex;
         vertical-align: -15px;
         margin: 0 6px 0 0;
       }
