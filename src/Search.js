@@ -99,7 +99,12 @@ class SearchMeetups extends LitElement {
             ${
               until(
                 this.fetching.then(() => {
-                  return [...new Set(this.countries.map(c => c.region))].map(
+                  // Only show regions with communities in it
+                  // Set does not contain duplicates
+                  const removeDups = [
+                    ...new Set(this.countries.map(c => c.region))
+                  ];
+                  return removeDups.map(
                     c =>
                       html`
                         <a
