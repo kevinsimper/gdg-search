@@ -17,8 +17,13 @@ export async function fetchCountries() {
 }
 
 export async function fetchEvents(name) {
-  const req = await fetch(
-    `https://raw.githubusercontent.com/kevinsimper/gdg-events/master/${name}.json`
-  );
-  return await req.json();
+  try {
+    const req = await fetch(
+      `https://raw.githubusercontent.com/kevinsimper/gdg-events/master/${name}.json`
+    );
+    return await req.json();
+  } catch (e) {
+    console.log(e);
+    return [];
+  }
 }
