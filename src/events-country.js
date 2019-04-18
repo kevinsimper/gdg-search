@@ -47,7 +47,10 @@ class EventsCountry extends LitElement {
       <x-container>
         <h1>Events in ${this.country}</h1>
         <p>This page will show events per country.</p>
-        <h3>Communities in ${this.country}</h3>
+        <h3>
+          Communities in ${this.country} -
+          ${this.countryCommunities.length || ""}
+        </h3>
         <x-table
           .content="${
             html`
@@ -76,8 +79,8 @@ class EventsCountry extends LitElement {
                           <tr>
                             <th>Date</th>
                             <th>Group</th>
-                            <th>Event</th>
                             <th>RSVP</th>
+                            <th>Event</th>
                           </tr>
                         </thead>
                         <tbody>
@@ -89,8 +92,8 @@ class EventsCountry extends LitElement {
                                   <td>
                                     <a href="${i.link}">${i.group.name}</a>
                                   </td>
-                                  <td><a href="${i.link}">${i.name}</a></td>
                                   <td>${i.yes_rsvp_count}</td>
+                                  <td><a href="${i.link}">${i.name}</a></td>
                                 </tr>
                               `;
                             })
