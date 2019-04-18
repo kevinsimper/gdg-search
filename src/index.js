@@ -1,7 +1,7 @@
 import { LitElement, css, html } from "lit-element";
 import Navigo from "navigo";
 import "./Search.js";
-import "./components/header.js";
+import { navigation } from "./components/header.js";
 import "./most-active.js";
 import "./search-events.js";
 import "./community.js";
@@ -53,6 +53,11 @@ class GDGMain extends LitElement {
         "events/:country": params => {
           this.route = html`
             <x-events-country country="${params.country}"></x-events-country>
+          `;
+        },
+        menu: params => {
+          this.route = html`
+            <div>${navigation()}</div>
           `;
         },
         "*": () => {
