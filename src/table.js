@@ -13,14 +13,20 @@ class Table extends LitElement {
         margin: 0;
         padding: 10px;
         display: table;
+        white-space: nowrap;
+      }
+      .wrapper {
+        overflow-x: auto;
       }
     `;
   }
   render() {
     return html`
-      <table class="table">
-        ${this.content}
-      </table>
+      <div class="wrapper">
+        <table class="table">
+          ${this.content}
+        </table>
+      </div>
     `;
   }
 }
