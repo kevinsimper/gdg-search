@@ -4,7 +4,7 @@ class AppContainer extends LitElement {
   static get styles() {
     return css`
       .container {
-        max-width: 1000px;
+        max-width: 1500px;
         margin: 0 auto;
         padding: 10px;
       }
