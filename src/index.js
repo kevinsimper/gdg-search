@@ -5,6 +5,7 @@ import "./components/header.js";
 import "./most-active.js";
 import "./search-events.js";
 import "./community.js";
+import "./events.js";
 
 class GDGMain extends LitElement {
   static get properties() {
@@ -41,6 +42,11 @@ class GDGMain extends LitElement {
         "community/:name": params => {
           this.route = html`
             <x-gdg-group name="${params.name}"></x-gdg-group>
+          `;
+        },
+        events: params => {
+          this.route = html`
+            <x-events></x-events>
           `;
         },
         "*": () => {
