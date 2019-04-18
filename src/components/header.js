@@ -32,6 +32,7 @@ class Header extends LitElement {
           <a href="/#!" class="header item">🌍 GDG Search</a>
           <a href="/#!" class="item">Home</a>
           <a href="/#!most-active" class="item">Most Active</a>
+          <a href="/#!events" class="item">Events</a>
           <a href="https://goo.gl/forms/mIqfksuzY9wigutt1" class="item"
             >Feedback? 😍</a
           >
