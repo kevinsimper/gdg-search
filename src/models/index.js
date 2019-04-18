@@ -21,7 +21,21 @@ export async function fetchEvents(name) {
     const req = await fetch(
       `https://raw.githubusercontent.com/kevinsimper/gdg-events/master/${name}.json`
     );
-    return await req.json();
+    const json = await req.json();
+    return json.events;
+  } catch (e) {
+    console.log(e);
+    return [];
+  }
+}
+
+export async function fetchOrganizers(name) {
+  try {
+    const req = await fetch(
+      `https://raw.githubusercontent.com/kevinsimper/gdg-events/master/${name}.json`
+    );
+    const json = await req.json();
+    return json.organizers;
   } catch (e) {
     console.log(e);
     return [];
