@@ -1,6 +1,7 @@
 import { LitElement, html, css } from "lit-element";
 import "./components/container.js";
 import "./components/table.js";
+import { fetchEvents } from "./models/index.js";
 
 class Group extends LitElement {
   static get properties() {
@@ -13,17 +14,10 @@ class Group extends LitElement {
     super();
     this.events = [];
   }
-  connectedCallback() {
+  async connectedCallback() {
     super.connectedCallback();
-    fetch(
-      `https://raw.githubusercontent.com/kevinsimper/gdg-events/master/${
-        this.name
-      }.json`
-    )
-      .then(r => r.json())
-      .then(data => {
-        this.events = data.reverse();
-      });
+    const data = await fetchEvents(this.name);
+    this.events = data.reverse();
   }
   render() {
     return html`
