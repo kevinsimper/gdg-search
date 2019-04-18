@@ -11,7 +11,8 @@ async function fetchEvents(meetup) {
     events.push(json);
     // we have fetched all events
     if (
-      parseInt(linkres.headers.get("X-Total-Count")) === events.flat().length
+      parseInt(linkres.headers.get("X-Total-Count")) <=
+      events.flat().length + 1
     ) {
       return true;
     }
