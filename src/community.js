@@ -1,6 +1,7 @@
 import { LitElement, html, css } from "lit-element";
 import "./components/container.js";
 import "./components/table.js";
+import "./components/organizer.js";
 import {
   fetchEvents,
   fetchOrganizers,
@@ -22,21 +23,6 @@ class Group extends LitElement {
       .organizers {
         display: flex;
         margin: 0 0 20px;
-      }
-      .organizer {
-        padding: 0 10px;
-      }
-      .organizer-image {
-        width: 50px;
-        height: 50px;
-        overflow: hidden;
-        border-radius: 100%;
-        display: flex;
-        vertical-align: -15px;
-        margin: 0 6px 0 0;
-      }
-      .organizer img {
-        width: 100%;
       }
     `;
   }
@@ -66,17 +52,12 @@ class Group extends LitElement {
           ${
             this.organizers.map(o => {
               return html`
-                <div class="organizer">
-                  ${
-                    o.photo &&
-                      html`
-                        <div class="organizer-image">
-                          <img src="${o.photo.photo_link}" />
-                        </div>
-                      `
-                  }
-                  ${o.name}
-                </div>
+                <x-organizer
+                  image="${
+                    typeof o.photo !== "undefined" ? o.photo.photo_link : ""
+                  }"
+                  name="${o.name}"
+                ></x-organizer>
               `;
             })
           }
