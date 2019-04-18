@@ -52,24 +52,24 @@ class SearchMeetups extends LitElement {
     const json = await listRequest.json();
     this.countries = json;
   }
-
-  render() {
-    const communitiesResult = this.fetching.then(() => {
-      return this.communities.filter(c => {
-        if (this.name === "") return true;
-        if (
-          c.region &&
-          c.region.toLowerCase().includes(this.name.toLowerCase())
-        ) {
-          return true;
-        }
-        return (
-          c.name.toLowerCase().includes(this.name.toLowerCase()) ||
-          c.city.toLowerCase().includes(this.name.toLowerCase()) ||
-          c.country.toLowerCase().includes(this.name.toLowerCase())
-        );
-      });
+  filterResults() {
+    return this.communities.filter(c => {
+      if (this.name === "") return true;
+      if (
+        c.region &&
+        c.region.toLowerCase().includes(this.name.toLowerCase())
+      ) {
+        return true;
+      }
+      return (
+        c.name.toLowerCase().includes(this.name.toLowerCase()) ||
+        c.city.toLowerCase().includes(this.name.toLowerCase()) ||
+        c.country.toLowerCase().includes(this.name.toLowerCase())
+      );
     });
+  }
+  render() {
+    const communitiesResult = this.fetching.then(() => this.filterResults());
     return html`
       <x-container>
         <header>
