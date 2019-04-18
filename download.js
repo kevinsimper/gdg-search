@@ -1,9 +1,6 @@
 import fetch from "isomorphic-unfetch";
 
-// console.log(process.argv[2]);
-const meetup = process.argv[2];
-let events = [];
-async function main() {
+async function fetchEvents(events, meetup) {
   const headerPagination = [
     encodeURI(`https://api.meetup.com/${meetup}/events?status=past`)
   ];
@@ -30,7 +27,14 @@ async function main() {
     }
   }
   await fetchPage(headerPagination.pop());
+}
+
+async function main(meetup) {
+  let events = [];
+  await fetchEvents(events, meetup);
   console.log(JSON.stringify(events.flat()));
 }
 
-main();
+// console.log(process.argv[2]);
+const meetup = process.argv[2];
+main(meetup);
