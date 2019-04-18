@@ -28,17 +28,18 @@ class Events extends LitElement {
               return html`
                 <table>
                   ${
-                    this.countries.map(c => {
-                      return html`
-                        <tr>
-                          <td>
-                            <a href="#!events/${c.name.common.toLowerCase()}"
-                              >${c.name.common}</a
-                            >
-                          </td>
-                        </tr>
-                      `;
-                    })
+                    this.countries
+                      .map(c => c.name.common)
+                      .sort()
+                      .map(c => {
+                        return html`
+                          <tr>
+                            <td>
+                              <a href="#!events/${c.toLowerCase()}">${c}</a>
+                            </td>
+                          </tr>
+                        `;
+                      })
                   }
                 </table>
               `;
