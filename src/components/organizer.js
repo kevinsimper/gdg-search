@@ -29,12 +29,7 @@ class Organizer extends LitElement {
   render() {
     return html`
       <div class="organizer">
-        ${
-          this.image &&
-            html`
-              <div class="organizer-image"><img src="${this.image}" /></div>
-            `
-        }
+        <div class="organizer-image"><img src="${this.image}" /></div>
         ${this.name}
       </div>
     `;

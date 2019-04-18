@@ -1,8 +1,13 @@
 import { LitElement, css, html } from "lit-element";
 import { until } from "lit-html/directives/until.js";
 import "./components/container.js";
-import { fetchCommunities, fetchEvents } from "./models/index.js";
+import {
+  fetchCommunities,
+  fetchEvents,
+  fetchOrganizers
+} from "./models/index.js";
 import "./components/table.js";
+import "./components/organizer.js";
 
 class EventsCountry extends LitElement {
   static get properties() {
@@ -11,7 +16,8 @@ class EventsCountry extends LitElement {
       countries: { type: Array },
       communities: { type: Array },
       countryCommunities: { type: Array },
-      events: { type: Array }
+      events: { type: Array },
+      allOrganizers: { type: Array }
     };
   }
   constructor() {
@@ -20,7 +26,8 @@ class EventsCountry extends LitElement {
     this.events = [];
     this.fetching = Promise.all([fetchCommunities.bind(this)()])
       .then(() => this.filterCountry())
-      .then(() => this.fetchEvents());
+      .then(() => this.fetchEvents())
+      .then(() => this.fetchOrganizers());
   }
   filterCountry() {
     return (this.countryCommunities = this.communities.filter(
@@ -42,6 +49,17 @@ class EventsCountry extends LitElement {
         return d;
       });
   }
+  fetchOrganizers() {
+    return Promise.all(
+      this.countryCommunities.map(c => {
+        return fetchOrganizers(c.urlname).then(organizers => {
+          return [c.urlname, organizers];
+        });
+      })
+    ).then(allOrganizers => {
+      this.allOrganizers = allOrganizers;
+    });
+  }
   render() {
     return html`
       <x-container>
@@ -59,6 +77,30 @@ class EventsCountry extends LitElement {
                   return html`
                     <tr>
                       <td><a href="/#!community/${i.urlname}">${i.name}</a></td>
+                      <td>
+                        <div style="display: flex">
+                          ${
+                            this.allOrganizers
+                              .find(a => {
+                                if (a[0] === i.urlname) {
+                                  return a;
+                                }
+                              })[1]
+                              .map(o => {
+                                return html`
+                                  <x-organizer
+                                    image="${
+                                      typeof o.photo !== "undefined"
+                                        ? o.photo.photo_link
+                                        : ""
+                                    }"
+                                    name="${o.name}"
+                                  ></x-organizer>
+                                `;
+                              })
+                          }
+                        </div>
+                      </td>
                     </tr>
                   `;
                 })
