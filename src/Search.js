@@ -1,7 +1,7 @@
 import { LitElement, css, html } from "lit-element";
 import { until } from "lit-html/directives/until.js";
-import "./container.js";
-import "./table.js";
+import "./components/container.js";
+import "./components/table.js";
 
 class SearchMeetups extends LitElement {
   static get properties() {

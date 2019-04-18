@@ -1,7 +1,7 @@
 import { LitElement, css, html } from "lit-element";
 import Navigo from "navigo";
 import "./Search.js";
-import "./header.js";
+import "./components/header.js";
 import "./most-active.js";
 import "./search-events.js";
 import "./community.js";

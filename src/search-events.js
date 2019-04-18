@@ -1,5 +1,5 @@
 import { LitElement, html } from "lit-element";
-import "./container.js";
+import "./components/container.js";
 
 class SearchEvents extends LitElement {
   render() {

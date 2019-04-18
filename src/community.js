@@ -1,6 +1,6 @@
 import { LitElement, html, css } from "lit-element";
-import "./container.js";
-import "./table.js";
+import "./components/container.js";
+import "./components/table.js";
 
 class Group extends LitElement {
   static get properties() {
