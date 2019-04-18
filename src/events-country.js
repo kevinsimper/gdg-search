@@ -58,7 +58,7 @@ class EventsCountry extends LitElement {
                 this.countryCommunities.map(i => {
                   return html`
                     <tr>
-                      <td>${i.name}</td>
+                      <td><a href="/#!community/${i.urlname}">${i.name}</a></td>
                     </tr>
                   `;
                 })
