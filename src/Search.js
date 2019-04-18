@@ -2,6 +2,7 @@ import { LitElement, css, html } from "lit-element";
 import { until } from "lit-html/directives/until.js";
 import "./components/container.js";
 import "./components/table.js";
+import { fetchCommunities, fetchCountries } from "./models/index.js";
 
 class SearchMeetups extends LitElement {
   static get properties() {
@@ -32,25 +33,9 @@ class SearchMeetups extends LitElement {
     super();
     this.name = "";
     this.fetching = Promise.all([
-      this.fetchCommunities(),
-      this.fetchCountries()
+      fetchCommunities.bind(this)(),
+      fetchCountries.bind(this)()
     ]);
-  }
-  async fetchCommunities() {
-    const listRequest = await fetch("./src/list.json");
-    const json = await listRequest.json();
-    this.communities = json;
-    this.countries = this.communities.map(i => {
-      if (i.country === "USA") {
-        i.country = "United States";
-      }
-      return i;
-    });
-  }
-  async fetchCountries() {
-    const listRequest = await fetch("./src/countries-unescaped.json");
-    const json = await listRequest.json();
-    this.countries = json;
   }
   filterResults() {
     return this.communities.filter(c => {
