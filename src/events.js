@@ -32,7 +32,7 @@ class Events extends LitElement {
                       return html`
                         <tr>
                           <td>
-                            <a href="#!events/${c.name.common}"
+                            <a href="#!events/${c.name.common.toLowerCase()}"
                               >${c.name.common}</a
                             >
                           </td>
