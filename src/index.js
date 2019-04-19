@@ -52,8 +52,13 @@ class GDGMain extends LitElement {
         },
         "events/:country": params => {
           this.route = html`
-            <x-events-country country="${params.country}"></x-events-country>
+            loading
           `;
+          setTimeout(() => {
+            this.route = html`
+              <x-events-country country="${params.country}"></x-events-country>
+            `;
+          }, 10);
         },
         menu: params => {
           this.route = html`
