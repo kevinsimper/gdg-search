@@ -2,6 +2,7 @@ import { LitElement, html, css } from "lit-element";
 import "./components/container.js";
 import "./components/table.js";
 import "./components/organizer.js";
+import "./components/logo.js";
 import {
   fetchEvents,
   fetchOrganizers,
@@ -23,6 +24,9 @@ class Group extends LitElement {
       .organizers {
         display: flex;
         margin: 0 0 20px;
+      }
+      .spacer {
+        height: 20px;
       }
     `;
   }
@@ -46,7 +50,8 @@ class Group extends LitElement {
   render() {
     return html`
       <x-container>
-        <h1>${this.community.name || this.name} - community</h1>
+        <div class="spacer"></div>
+        <x-logo name="${this.community.name || this.name}"></x-logo>
         <h3>Organizers</h3>
         <div class="organizers">
           ${
