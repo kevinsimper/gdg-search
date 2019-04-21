@@ -35,7 +35,19 @@ class SearchMeetups extends LitElement {
     this.fetching = Promise.all([
       fetchCommunities.bind(this)(),
       fetchCountries.bind(this)()
-    ]);
+    ]).then(() => {
+      this.communities.map(c => {
+        let country = this.countries.find(country => {
+          return (
+            country.name.common === c.country ||
+            country.name.official === c.country
+          );
+        });
+        c.flag = (country && country.flag) || "";
+        c.region = (country && country.region) || "";
+        c.subregion = (country && country.subregion) || "";
+      });
+    });
   }
   filterResults() {
     return this.communities.filter(c => {
@@ -46,12 +58,22 @@ class SearchMeetups extends LitElement {
       ) {
         return true;
       }
+      if (
+        c.subregion &&
+        c.subregion.toLowerCase().includes(this.name.toLowerCase())
+      ) {
+        return true;
+      }
       return (
         c.name.toLowerCase().includes(this.name.toLowerCase()) ||
         c.city.toLowerCase().includes(this.name.toLowerCase()) ||
         c.country.toLowerCase().includes(this.name.toLowerCase())
       );
     });
+  }
+  updateSearch(name) {
+    this.name = name;
+    window.location.hash = "#!search?region=" + name;
   }
   render() {
     const communitiesResult = this.fetching.then(() => this.filterResults());
@@ -112,7 +134,7 @@ class SearchMeetups extends LitElement {
             class="search"
             type="text"
             .value="${this.name}"
-            @input="${e => (this.name = e.target.value)}"
+            @input="${e => this.updateSearch(e.target.value)}"
             placeholder="Type and search.."
           />
           <p>
@@ -137,13 +159,6 @@ class SearchMeetups extends LitElement {
                     until(
                       communitiesResult.then(communities => {
                         return communities.map((c, i) => {
-                          let country = this.countries.find(i => {
-                            return (
-                              i.name.common === c.country ||
-                              i.name.official === c.country
-                            );
-                          });
-                          c.region = (country && country.region) || "";
                           return html`
                             <tr>
                               <td>${i + 1}</td>
@@ -153,10 +168,56 @@ class SearchMeetups extends LitElement {
                                 >
                               </td>
                               <td>
-                                ${c.city}, ${c.country}
-                                ${country && country.flag}
+                                <a
+                                  title="Click and search this city"
+                                  href="#"
+                                  @click="${
+                                    e => {
+                                      e.preventDefault();
+                                      this.updateSearch(c.city);
+                                    }
+                                  }"
+                                  >${c.city}</a
+                                >,
+                                <a
+                                  title="Click and search this country"
+                                  href="#"
+                                  @click="${
+                                    e => {
+                                      e.preventDefault();
+                                      this.updateSearch(c.country);
+                                    }
+                                  }"
+                                  >${c.country}</a
+                                >
+                                ${c.flag}
                               </td>
-                              <td>${country && country.region}</td>
+                              <td>
+                                <a
+                                  title="Click and search this region"
+                                  href="#"
+                                  @click="${
+                                    e => {
+                                      e.preventDefault();
+                                      this.updateSearch(c.region);
+                                    }
+                                  }"
+                                  >${c.region}</a
+                                >
+                              </td>
+                              <td>
+                                <a
+                                  title="Click and search this region"
+                                  href="#"
+                                  @click="${
+                                    e => {
+                                      e.preventDefault();
+                                      this.updateSearch(c.subregion);
+                                    }
+                                  }"
+                                  >${c.subregion}</a
+                                >
+                              </td>
                               <td>
                                 <a href="#!community/${c.urlname}">Details</a>
                               </td>
