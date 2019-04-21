@@ -9,16 +9,23 @@ function rollingperiode(events, months) {
 
 let meetups = [];
 for (let f in files) {
-  const file = "./gdg-events/" + files[f];
-  const json = JSON.parse(readFileSync(file));
-  const rollingtwelve = rollingperiode(json, 12);
-  const quarter = rollingperiode(json, 3);
-  meetups.push({
-    name: files[f].replace(".json", ""),
-    all: json.length,
-    yearly: rollingtwelve,
-    quarter
-  });
+  try {
+    const file = "./gdg-events/" + files[f];
+    const json = JSON.parse(readFileSync(file));
+    if (json.events === undefined) {
+      throw new Error("Deactivated meetup " + file);
+    }
+    const rollingtwelve = rollingperiode(json.events, 12);
+    const quarter = rollingperiode(json.events, 3);
+    meetups.push({
+      name: files[f].replace(".json", ""),
+      all: json.events.length,
+      yearly: rollingtwelve,
+      quarter
+    });
+  } catch (e) {
+    console.log(e);
+  }
 }
 
 writeFileSync("./src/most-active.json", JSON.stringify(meetups, null, 2));
