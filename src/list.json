@@ -360,6 +360,16 @@
     "lat": 50.08000183105469
   },
   {
+    "city": "Hradec Králové",
+    "country": "Czech Republic",
+    "id": 21077347,
+    "urlname": "GDG-Hradec-Kralove",
+    "name": "GDG Hradec Králové",
+    "status": "Active",
+    "lon": 15.819999694824219,
+    "lat": 50.220001220703125
+  },
+  {
     "city": "Cologne",
     "country": "Germany",
     "id": 30659474,
@@ -1692,6 +1702,16 @@
     "status": "Active",
     "lon": 26.100000381469727,
     "lat": 44.439998626708984
+  },
+  {
+    "city": "Prishtinë",
+    "country": "Kosovo",
+    "id": 31677306,
+    "urlname": "GDG-Prishtina",
+    "name": "GDG Prishtina",
+    "status": "Active",
+    "lon": 21.170000076293945,
+    "lat": 42.650001525878906
   },
   {
     "city": "Campobasso",
@@ -3154,6 +3174,16 @@
     "lat": 30.600000381469727
   },
   {
+    "city": "Baki",
+    "country": "Azerbaijan",
+    "id": 31684189,
+    "urlname": "GDG-Baku",
+    "name": "GDG Baku",
+    "status": "Active",
+    "lon": 49.86000061035156,
+    "lat": 40.38999938964844
+  },
+  {
     "city": "´Amman",
     "country": "Jordan",
     "id": 25034607,
@@ -3368,7 +3398,7 @@
     "country": "Kuwait",
     "id": 25505369,
     "urlname": "wtm-gdg-kuwait",
-    "name": "Women Techmakers & GDG Kuwait",
+    "name": "WTM & GDG Kuwait",
     "status": "Active",
     "lon": 47.970001220703125,
     "lat": 29.329999923706055
@@ -5023,7 +5053,7 @@
     "country": "Canada",
     "id": 30577560,
     "urlname": "GDG-Cloud-Toronto",
-    "name": "GDG Cloud Toronto",
+    "name": "Google GDG Cloud Toronto",
     "status": "Active",
     "lon": -79.36000061035156,
     "lat": 43.7400016784668
@@ -6848,6 +6878,16 @@
     "status": "Active",
     "lon": 117.27999877929688,
     "lat": 31.850000381469727
+  },
+  {
+    "city": "Port-au-Prince",
+    "country": "Haiti",
+    "id": 31666304,
+    "urlname": "GDG-Port-au-Prince",
+    "name": "GDG Port-au-Prince",
+    "status": "Active",
+    "lon": -72.33999633789062,
+    "lat": 18.540000915527344
   },
   {
     "city": "Portland",
