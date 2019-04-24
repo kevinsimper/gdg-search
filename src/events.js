@@ -20,7 +20,7 @@ class Events extends LitElement {
   render() {
     return html`
       <x-container>
-        <h1>Events</h1>
+        <h1>Countries</h1>
         <p>This page will show events per country.</p>
         ${
           until(
