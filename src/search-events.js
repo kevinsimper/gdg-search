@@ -56,7 +56,10 @@ class SearchEvents extends LitElement {
     return html`
       <x-container>
         <h1>Search events</h1>
-        <p>Showing the latest event</p>
+        <p>
+          Sorts the results by date DESC. Please note that this searches the
+          events client-side. Don't search on 4g as it uses data.
+        </p>
         <div style="margin: 20px 0;">
           <input
             placeholder="eg. Kubernetes"
