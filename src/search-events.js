@@ -17,12 +17,14 @@ class SearchEvents extends LitElement {
     this.name = "";
     this.loading = false;
     this.events = [];
+    this.totalCount = 0;
     this.resultsCount = 0;
     this.results = [];
     this.fetching = Promise.all([fetchCommunities.bind(this)()]);
   }
   search(name) {
     this.loading = true;
+    this.totalCount = 0;
     this.resultsCount = 0;
     this.results = [];
     Promise.all(
@@ -38,6 +40,7 @@ class SearchEvents extends LitElement {
               return e.description.includes(this.name);
             }
           });
+          this.totalCount += events.length;
           this.resultsCount += finds.length;
           Array.prototype.push.apply(this.results, finds);
           this.results = this.results
@@ -68,20 +71,31 @@ class SearchEvents extends LitElement {
             Search
           </button>
         </div>
-        ${
-          this.loading
-            ? html`
-                Loading..
-              `
-            : ""
-        }
-        ${
-          this.resultsCount !== 0
-            ? html`
-                Found ${this.resultsCount} results
-              `
-            : ""
-        }
+        <p>
+          ${
+            this.loading
+              ? html`
+                  Loading..
+                `
+              : ""
+          }
+          ${
+            this.resultsCount !== 0
+              ? html`
+                  Found ${this.resultsCount} results
+                `
+              : ""
+          }
+        </p>
+        <p>
+          ${
+            this.totalCount !== 0
+              ? html`
+                  Searched through ${this.totalCount} events
+                `
+              : ""
+          }
+        </p>
         <x-table
           customStyle="white-space: initial;word-break: break-word;"
           .content="${
