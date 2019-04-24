@@ -8,6 +8,7 @@ export const navigation = () => html`
       >Feedback? 😍</a
     >
     <a href="/#!events" class="item">Countries</a>
+    <a href="/#!search-events" class="item">Search Events</a>
   </nav>
 `;
 
