@@ -133,7 +133,7 @@ class SearchMeetups extends LitElement {
           <input
             class="search"
             type="text"
-            .value="${this.name}"
+            value="${this.name}"
             @input="${e => this.updateSearch(e.target.value)}"
             placeholder="Type and search.."
           />
