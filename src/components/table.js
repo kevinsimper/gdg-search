@@ -3,7 +3,8 @@ import { LitElement, css, html } from "lit-element";
 class Table extends LitElement {
   static get properties() {
     return {
-      content: { type: Object }
+      content: { type: Object },
+      customStyle: { type: String }
     };
   }
   static get styles() {
@@ -40,7 +41,7 @@ class Table extends LitElement {
   render() {
     return html`
       <div class="wrapper">
-        <table class="table">
+        <table class="table" style="${this.customStyle}">
           ${this.content}
         </table>
       </div>
