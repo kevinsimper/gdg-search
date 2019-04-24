@@ -45,7 +45,7 @@ class SearchEvents extends LitElement {
           Array.prototype.push.apply(this.results, finds);
           this.results = this.results
             .sort((a, b) => b.time - a.time)
-            .slice(0, 100);
+            .slice(0, 250);
         });
       })
     ).then(() => {
