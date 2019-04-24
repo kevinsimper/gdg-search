@@ -106,6 +106,7 @@ class SearchEvents extends LitElement {
                   <th></th>
                   <th></th>
                   <th></th>
+                  <th></th>
                 </tr>
               </thead>
               <tbody>
@@ -120,10 +121,11 @@ class SearchEvents extends LitElement {
                             >${r.group.name}</a
                           >
                         </td>
+                        <td>${r.yes_rsvp_count} RSVP</td>
                         <td>${r.local_date} ${r.local_time}</td>
                       </tr>
                       <tr>
-                        <td colspan="4">
+                        <td colspan="5">
                           <div>${r.description.slice(0, 300)} ...</div>
                         </td>
                       </tr>
