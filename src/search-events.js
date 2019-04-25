@@ -107,12 +107,32 @@ class SearchEvents extends LitElement {
     });
   }
   render() {
+    const trySearch = query => html`
+      <a
+        href="#"
+        @click="${
+          e => {
+            e.preventDefault();
+            this.name = query;
+            this.search(query);
+          }
+        }"
+        >${query}</a
+      >
+    `;
     return html`
       <x-container>
         <h1>Search events</h1>
         <p>
           Sorts the results by date DESC. Please note that this searches the
           events client-side. Don't search on 4g as it uses data.
+        </p>
+        <p>
+          Try searching: ${trySearch("kubernetes")} ${trySearch("android")}
+          ${trySearch("tensorflow")} ${trySearch("cloud")}
+          ${trySearch("functions")} ${trySearch("bigquery")}
+          ${trySearch("study")} ${trySearch("docker")}
+          ${trySearch("javascript")} ${trySearch("python")}
         </p>
         <div style="margin: 20px 0;">
           <input
