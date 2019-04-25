@@ -37,21 +37,26 @@ class SearchEvents extends LitElement {
           return sum.set(cur.join(), 1);
         }
       }, new Map());
+
+    const xlabels = [...graphData]
+      .map(i => i[0])
+      .reverse()
+      .map(i => {
+        let date = i.split(",");
+        return `${date[1]}-${date[0].padStart(2, "0")}-01 00:00:00`;
+      });
+    const ydata = [...graphData].map(i => i[1]).reverse();
+    const tickmode = ydata.find(i => i > 20) === undefined ? "linear" : "auto";
     var data = [
       {
-        x: [...graphData]
-          .map(i => i[0])
-          .reverse()
-          .map(i => {
-            let date = i.split(",");
-            return `${date[1]}-${date[0].padStart(2, "0")}-01 00:00:00`;
-          }),
-        y: [...graphData].map(i => i[1]).reverse(),
+        x: xlabels,
+        y: ydata,
         type: "bar"
       }
     ];
     const layout = {
       yaxis: {
+        tickmode,
         rangemode: "tozero"
       }
     };
@@ -85,7 +90,6 @@ class SearchEvents extends LitElement {
         });
       })
     ).then(() => {
-      console.log(this.results);
       this.loading = false;
     });
   }
