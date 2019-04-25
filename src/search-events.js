@@ -86,12 +86,14 @@ class SearchEvents extends LitElement {
         return fetchEvents(community.urlname).then(events => {
           let finds = events.filter(e => {
             if ("name" in e) {
-              if (e.name.includes(this.name)) {
+              if (e.name.toLowerCase().includes(this.name.toLowerCase())) {
                 return true;
               }
             }
             if ("description" in e) {
-              return e.description.includes(this.name);
+              return e.description
+                .toLowerCase()
+                .includes(this.name.toLowerCase());
             }
           });
           this.totalCount += events.length;
