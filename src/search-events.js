@@ -177,10 +177,10 @@ class SearchEvents extends LitElement {
                   })
                 }
               </tbody>
-              ${this.results.length > 250 ? "Showing max 250 results" : ""}
             `
           }"
         ></x-table>
+        <p>${this.results.length > 250 ? "Showing max 250 results" : ""}</p>
       </x-container>
     `;
   }
