@@ -55,7 +55,9 @@ class SearchEvents extends LitElement {
         rangemode: "tozero"
       }
     };
-    Plotly.newPlot(this.renderRoot.querySelector("#myDiv"), data, layout);
+    Plotly.newPlot(this.renderRoot.querySelector("#myDiv"), data, layout, {
+      displayModeBar: false
+    });
   }
   search(name) {
     this.renderRoot.querySelector("#myDiv").innerHTML = "";
