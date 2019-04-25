@@ -40,6 +40,7 @@ class SearchEvents extends LitElement {
     return {
       name: { type: String },
       loading: { type: Boolean },
+      shouldDrawChart: { type: Boolean },
       events: { type: Array },
       results: { type: Array },
       communities: { type: Array }
@@ -49,6 +50,7 @@ class SearchEvents extends LitElement {
     super();
     this.name = "";
     this.loading = false;
+    this.shouldDrawChart = false;
     this.events = [];
     this.totalCount = 0;
     this.resultsCount = 0;
@@ -107,9 +109,12 @@ class SearchEvents extends LitElement {
   updateLocation(name) {
     window.location.hash = "#!search-events?query=" + name;
   }
+  removeGraph() {
+    this.renderRoot.querySelector("#myDiv").innerHTML = "";
+  }
   search(name) {
     this.updateLocation(name);
-    this.renderRoot.querySelector("#myDiv").innerHTML = "";
+    this.removeGraph();
     this.loading = true;
     this.totalCount = 0;
     this.resultsCount = 0;
@@ -137,6 +142,11 @@ class SearchEvents extends LitElement {
       })
     ).then(() => {
       this.loading = false;
+      if (this.shouldDrawChart) {
+        this.drawGraph();
+      } else {
+        this.removeGraph();
+      }
     });
   }
   render() {
@@ -194,7 +204,23 @@ class SearchEvents extends LitElement {
             this.resultsCount !== 0
               ? html`
                   Found ${this.resultsCount} results
-                  <button @click="${e => this.drawGraph()}">Draw Graph</button>
+                  <label>
+                    <input
+                      type="checkbox"
+                      @click="${
+                        e => {
+                          this.shouldDrawChart = !this.shouldDrawChart;
+                          if (this.shouldDrawChart) {
+                            this.drawGraph();
+                          } else {
+                            this.removeGraph();
+                          }
+                        }
+                      }"
+                      ?checked="${this.shouldDrawChart}"
+                    />
+                    Draw Chart
+                  </label>
                 `
               : ""
           }
