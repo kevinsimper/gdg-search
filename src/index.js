@@ -35,9 +35,13 @@ class GDGMain extends LitElement {
             <x-most-active sortBy="quarter"></x-most-active>
           `;
         },
-        "search-events": () => {
+        "search-events": (params, query) => {
+          let queryEvents = "";
+          if (query !== "") {
+            queryEvents = decodeURIComponent(query.split("=")[1]);
+          }
           this.route = html`
-            <x-search-events></x-search-events>
+            <x-search-events name="${queryEvents}"></x-search-events>
           `;
         },
         "community/:name": params => {
