@@ -22,6 +22,41 @@ class SearchEvents extends LitElement {
     this.results = [];
     this.fetching = Promise.all([fetchCommunities.bind(this)()]);
   }
+  drawGraph() {
+    const graphData = this.results
+      .map(i => {
+        return [
+          new Date(i.time).getMonth() + 1,
+          new Date(i.time).getFullYear()
+        ];
+      })
+      .reduce((sum, cur) => {
+        if (sum.has(cur.join())) {
+          return sum.set(cur.join(), sum.get(cur.join()) + 1);
+        } else {
+          return sum.set(cur.join(), 1);
+        }
+      }, new Map());
+    var data = [
+      {
+        x: [...graphData]
+          .map(i => i[0])
+          .reverse()
+          .map(i => {
+            let date = i.split(",");
+            return `${date[1]}-${date[0].padStart(2, "0")}-01 00:00:00`;
+          }),
+        y: [...graphData].map(i => i[1]).reverse(),
+        type: "bar"
+      }
+    ];
+    const layout = {
+      yaxis: {
+        rangemode: "tozero"
+      }
+    };
+    Plotly.newPlot(this.renderRoot.querySelector("#myDiv"), data, layout);
+  }
   search(name) {
     this.loading = true;
     this.totalCount = 0;
@@ -43,12 +78,11 @@ class SearchEvents extends LitElement {
           this.totalCount += events.length;
           this.resultsCount += finds.length;
           Array.prototype.push.apply(this.results, finds);
-          this.results = this.results
-            .sort((a, b) => b.time - a.time)
-            .slice(0, 250);
+          this.results = this.results.sort((a, b) => b.time - a.time);
         });
       })
     ).then(() => {
+      console.log(this.results);
       this.loading = false;
     });
   }
@@ -86,6 +120,7 @@ class SearchEvents extends LitElement {
             this.resultsCount !== 0
               ? html`
                   Found ${this.resultsCount} results
+                  <button @click="${e => this.drawGraph()}">Draw Graph</button>
                 `
               : ""
           }
@@ -99,6 +134,8 @@ class SearchEvents extends LitElement {
               : ""
           }
         </p>
+        <div id="myDiv" style="margin: 0 0 20px"></div>
+
         <x-table
           customStyle="white-space: initial;word-break: break-word;"
           .content="${
@@ -114,7 +151,7 @@ class SearchEvents extends LitElement {
               </thead>
               <tbody>
                 ${
-                  this.results.map((r, idx) => {
+                  this.results.slice(0, 250).map((r, idx) => {
                     return html`
                       <tr>
                         <td>${idx + 1}</td>
@@ -129,13 +166,17 @@ class SearchEvents extends LitElement {
                       </tr>
                       <tr>
                         <td colspan="5">
-                          <div>${r.description.slice(0, 300)} ...</div>
+                          <div>
+                            ${r.description ? r.description.slice(0, 300) : ""}
+                            ...
+                          </div>
                         </td>
                       </tr>
                     `;
                   })
                 }
               </tbody>
+              ${this.results.length > 250 ? "Showing max 250 results" : ""}
             `
           }"
         ></x-table>
