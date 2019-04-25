@@ -58,6 +58,7 @@ class SearchEvents extends LitElement {
     Plotly.newPlot(this.renderRoot.querySelector("#myDiv"), data, layout);
   }
   search(name) {
+    this.renderRoot.querySelector("#myDiv").innerHTML = "";
     this.loading = true;
     this.totalCount = 0;
     this.resultsCount = 0;
