@@ -52,10 +52,14 @@ class SearchEvents extends LitElement {
     this.name = "";
     this.loading = false;
     this.shouldDrawChart = false;
+    this.shouldDrawMap = false;
     this.events = [];
     this.totalCount = 0;
     this.resultsCount = 0;
+    this.communityCount = 0;
     this.results = [];
+    this.markers = [];
+    this.eventsPerCommunity = [];
     this.fetching = Promise.all([fetchCommunities.bind(this)()]);
 
     this.loadMapSDK();
@@ -121,6 +125,7 @@ class SearchEvents extends LitElement {
     this.loading = true;
     this.totalCount = 0;
     this.resultsCount = 0;
+    this.communityCount = 0;
     this.results = [];
     Promise.all(
       this.communities.map(async community => {
@@ -139,6 +144,8 @@ class SearchEvents extends LitElement {
         });
         this.totalCount += events.length;
         this.resultsCount += finds.length;
+        this.communityCount =
+          finds.length !== 0 ? this.communityCount + 1 : this.communityCount;
         Array.prototype.push.apply(this.results, finds);
         this.results = this.results.sort((a, b) => b.time - a.time);
         return {
@@ -147,22 +154,49 @@ class SearchEvents extends LitElement {
         };
       })
     ).then(eventsPerCommunity => {
+      this.eventsPerCommunity = eventsPerCommunity;
       this.loading = false;
       if (this.shouldDrawChart) {
         this.drawGraph();
       } else {
         this.removeGraph();
       }
+      if (this.shouldDrawMap) {
+        this.drawMap();
+      } else {
+        this.removeMap();
+      }
     });
   }
   drawMap() {
-    this.map = new google.maps.Map(
-      this.shadowRoot.querySelector("#searchmap"),
-      {
-        center: { lat: 0, lng: 0 },
-        zoom: 3
-      }
+    if (!this.map) {
+      this.map = new google.maps.Map(
+        this.shadowRoot.querySelector("#searchmap"),
+        {
+          center: { lat: 0, lng: 0 },
+          zoom: 3
+        }
+      );
+    }
+    this.drawMarkers(this.eventsPerCommunity);
+  }
+  drawMarkers(eventsPerCommunity) {
+    this.markers.forEach(marker => marker.setMap(null));
+    let communitiesToDraw = eventsPerCommunity.filter(
+      ({ finds }) => finds.length !== 0
     );
+    this.markers = communitiesToDraw.map(c => this.addMarker(c));
+  }
+  addMarker({ community, finds }) {
+    const marker = new google.maps.Marker({
+      position: { lat: community.lat, lng: community.lon },
+      map: this.map,
+      title: `${community.name} - ${finds.length} events`
+    });
+    marker.addListener("click", () => {
+      window.open("https://meetup.com/" + community.urlname, "_blank");
+    });
+    return marker;
   }
   loadMapSDK() {
     const key = "AIzaSyDJMht1fBsxsa4REg-MR8_BAvmmsQRkNdM";
@@ -226,7 +260,8 @@ class SearchEvents extends LitElement {
           ${
             this.resultsCount !== 0
               ? html`
-                  Found ${this.resultsCount} results
+                  Found ${this.resultsCount} results, in ${this.communityCount}
+                  GDG communities
                   <label>
                     <input
                       type="checkbox"
@@ -257,7 +292,7 @@ class SearchEvents extends LitElement {
                           }
                         }
                       }"
-                      ?checked="${this.shouldDrawChart}"
+                      ?checked="${this.shouldDrawMap}"
                     />
                     Draw Map
                   </label>
