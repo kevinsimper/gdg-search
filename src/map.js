@@ -5,32 +5,35 @@ class GDGMap extends LitElement {
   constructor() {
     super();
     this.map = null;
+    this.loadMapSDK();
+    window.initMap = this.initMap.bind(this);
+  }
+  loadMapSDK() {
     const key = "AIzaSyDJMht1fBsxsa4REg-MR8_BAvmmsQRkNdM";
     var s = document.createElement("script");
     s.type = "text/javascript";
     s.src = `https://maps.googleapis.com/maps/api/js?key=${key}&callback=initMap`;
     document.body.append(s);
-    window.initMap = async function() {
-      let center = { lat: 0, lng: 0 };
-      let zoom = 3;
-      try {
-        const ip = await fetch("https://ipinfo.io/json?token=268f99373d784d");
-        const data = await ip.json();
-        center = {
-          lat: parseInt(data.loc.split(",")[0]),
-          lng: parseInt(data.loc.split(",")[1])
-        };
-        zoom = 6;
-      } catch (e) {
-        console.log("Adblocked ipinfo");
-      }
-      console.log({ center, zoom });
-      this.map = new google.maps.Map(this.shadowRoot.querySelector("#map"), {
-        center,
-        zoom
-      });
-      this.addMarkers();
-    }.bind(this);
+  }
+  async initMap() {
+    let center = { lat: 0, lng: 0 };
+    let zoom = 3;
+    try {
+      const ip = await fetch("https://ipinfo.io/json?token=268f99373d784d");
+      const data = await ip.json();
+      center = {
+        lat: parseInt(data.loc.split(",")[0]),
+        lng: parseInt(data.loc.split(",")[1])
+      };
+      zoom = 6;
+    } catch (e) {
+      console.log("Adblocked ipinfo");
+    }
+    this.map = new google.maps.Map(this.shadowRoot.querySelector("#map"), {
+      center,
+      zoom
+    });
+    this.addMarkers();
   }
   async addMarkers() {
     const communities = await fetchCommunitiesArray();
