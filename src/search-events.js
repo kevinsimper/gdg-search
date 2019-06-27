@@ -120,27 +120,30 @@ class SearchEvents extends LitElement {
     this.resultsCount = 0;
     this.results = [];
     Promise.all(
-      this.communities.map(community => {
-        return fetchEvents(community.urlname).then(events => {
-          let finds = events.filter(e => {
-            if ("name" in e) {
-              if (e.name.toLowerCase().includes(this.name.toLowerCase())) {
-                return true;
-              }
+      this.communities.map(async community => {
+        const events = await fetchEvents(community.urlname);
+        let finds = events.filter(e => {
+          if ("name" in e) {
+            if (e.name.toLowerCase().includes(this.name.toLowerCase())) {
+              return true;
             }
-            if ("description" in e) {
-              return e.description
-                .toLowerCase()
-                .includes(this.name.toLowerCase());
-            }
-          });
-          this.totalCount += events.length;
-          this.resultsCount += finds.length;
-          Array.prototype.push.apply(this.results, finds);
-          this.results = this.results.sort((a, b) => b.time - a.time);
+          }
+          if ("description" in e) {
+            return e.description
+              .toLowerCase()
+              .includes(this.name.toLowerCase());
+          }
         });
+        this.totalCount += events.length;
+        this.resultsCount += finds.length;
+        Array.prototype.push.apply(this.results, finds);
+        this.results = this.results.sort((a, b) => b.time - a.time);
+        return {
+          finds,
+          community
+        };
       })
-    ).then(() => {
+    ).then(eventsPerCommunity => {
       this.loading = false;
       if (this.shouldDrawChart) {
         this.drawGraph();
