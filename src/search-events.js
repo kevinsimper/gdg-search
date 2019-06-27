@@ -53,6 +53,7 @@ class SearchEvents extends LitElement {
     this.loading = false;
     this.shouldDrawChart = false;
     this.shouldDrawMap = false;
+    this.shouldDrawHeatmap = false;
     this.events = [];
     this.totalCount = 0;
     this.resultsCount = 0;
@@ -181,11 +182,30 @@ class SearchEvents extends LitElement {
     this.drawMarkers(this.eventsPerCommunity);
   }
   drawMarkers(eventsPerCommunity) {
-    this.markers.forEach(marker => marker.setMap(null));
     let communitiesToDraw = eventsPerCommunity.filter(
       ({ finds }) => finds.length !== 0
     );
-    this.markers = communitiesToDraw.map(c => this.addMarker(c));
+    if (this.heatmap) {
+      this.heatmap.setMap(null);
+    }
+    if (this.markers.length > 0) {
+      this.markers.forEach(marker => marker.setMap(null));
+    }
+
+    if (this.shouldDrawHeatmap) {
+      this.heatmap = new google.maps.visualization.HeatmapLayer({
+        data: communitiesToDraw.map(({ community, finds }) => {
+          return {
+            location: new google.maps.LatLng(community.lat, community.lon),
+            weight: finds.length
+          };
+        }),
+        radius: 40
+      });
+      this.heatmap.setMap(this.map);
+    } else {
+      this.markers = communitiesToDraw.map(c => this.addMarker(c));
+    }
   }
   addMarker({ community, finds }) {
     const marker = new google.maps.Marker({
@@ -194,7 +214,10 @@ class SearchEvents extends LitElement {
       title: `${community.name} - ${finds.length} events`
     });
     marker.addListener("click", () => {
-      window.open("https://meetup.com/" + community.urlname, "_blank");
+      window.open(
+        "https://gdg-search.firebaseapp.com/#!search?region=" + community.city,
+        "_blank"
+      );
     });
     return marker;
   }
@@ -202,7 +225,7 @@ class SearchEvents extends LitElement {
     const key = "AIzaSyDJMht1fBsxsa4REg-MR8_BAvmmsQRkNdM";
     var s = document.createElement("script");
     s.type = "text/javascript";
-    s.src = `https://maps.googleapis.com/maps/api/js?key=${key}`;
+    s.src = `https://maps.googleapis.com/maps/api/js?key=${key}&libraries=visualization`;
     document.body.append(s);
   }
   removeMap() {}
@@ -295,6 +318,23 @@ class SearchEvents extends LitElement {
                       ?checked="${this.shouldDrawMap}"
                     />
                     Draw Map
+                  </label>
+                  <label>
+                    <input
+                      type="checkbox"
+                      @click="${
+                        e => {
+                          this.shouldDrawHeatmap = !this.shouldDrawHeatmap;
+                          if (this.shouldDrawHeatmap) {
+                            this.drawMap();
+                          } else {
+                            this.drawMap();
+                          }
+                        }
+                      }"
+                      ?checked="${this.shouldDrawHeatmap}"
+                    />
+                    Draw Heatmap
                   </label>
                 `
               : ""
