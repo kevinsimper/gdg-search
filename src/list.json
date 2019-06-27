@@ -135,7 +135,7 @@
     "id": 25971776,
     "urlname": "gdg-hb",
     "name": "GDG Bremen",
-    "status": "Delisted",
+    "status": "Active",
     "lon": 8.8100004196167,
     "lat": 53.08000183105469
   },
@@ -214,7 +214,7 @@
     "country": "Norway",
     "id": 5840872,
     "urlname": "GDGOslo",
-    "name": "Google Developers Group Oslo (GDG)",
+    "name": "GDG Oslo",
     "status": "Active",
     "lon": 10.75,
     "lat": 59.90999984741211
@@ -255,7 +255,7 @@
     "id": 19174366,
     "urlname": "Stockholm-Google-Developer-Group",
     "name": "Stockholm Google Developer Group",
-    "status": "Delisted",
+    "status": "Active",
     "lon": 18.06999969482422,
     "lat": 59.33000183105469
   },
@@ -295,7 +295,7 @@
     "id": 28710770,
     "urlname": "Google-Developer-Group-Cloud-Wageningen",
     "name": "Google Developer Group Cloud Wageningen",
-    "status": "Active",
+    "status": "Delisted",
     "lon": 5.670000076293945,
     "lat": 51.97999954223633
   },
@@ -325,6 +325,16 @@
     "id": 22970728,
     "urlname": "GDG-Cloud-Dusseldorf",
     "name": "GDG Cloud Düsseldorf",
+    "status": "Active",
+    "lon": 6.789999961853027,
+    "lat": 51.2400016784668
+  },
+  {
+    "city": "Düsseldorf",
+    "country": "Germany",
+    "id": 18481463,
+    "urlname": "Women-Techmakers-Dusseldorf",
+    "name": "Women Techmakers Düsseldorf",
     "status": "Active",
     "lon": 6.789999961853027,
     "lat": 51.2400016784668
@@ -368,16 +378,6 @@
     "status": "Active",
     "lon": 15.819999694824219,
     "lat": 50.220001220703125
-  },
-  {
-    "city": "Cologne",
-    "country": "Germany",
-    "id": 30659474,
-    "urlname": "GDG-Cologne-Bonn",
-    "name": "GDG Cologne/Bonn",
-    "status": "Delisted",
-    "lon": 6.960000038146973,
-    "lat": 50.939998626708984
   },
   {
     "city": "Pardubice",
@@ -444,10 +444,20 @@
     "country": "Norway",
     "id": 17752262,
     "urlname": "GDGBergen",
-    "name": "Google Developer Group Bergen (GDG)",
+    "name": "GDG Bergen",
     "status": "Active",
     "lon": 5.340000152587891,
     "lat": 60.380001068115234
+  },
+  {
+    "city": "Würzburg",
+    "country": "Germany",
+    "id": 31918819,
+    "urlname": "Google-Developer-Group-Wurzburg",
+    "name": "GDG Würzburg",
+    "status": "Active",
+    "lon": 9.9399995803833,
+    "lat": 49.79999923706055
   },
   {
     "city": "Erlangen",
@@ -575,7 +585,7 @@
     "id": 28422713,
     "urlname": "GDG-Cloud-Brno",
     "name": "GDG Cloud Brno",
-    "status": "Active",
+    "status": "Delisted",
     "lon": 16.610000610351562,
     "lat": 49.20000076293945
   },
@@ -635,7 +645,7 @@
     "id": 29548351,
     "urlname": "GDG-Luxembourg",
     "name": "GDG Luxembourg",
-    "status": "Active",
+    "status": "Delisted",
     "lon": 6.119999885559082,
     "lat": 49.619998931884766
   },
@@ -645,7 +655,7 @@
     "id": 26825483,
     "urlname": "GDG-Vilnius",
     "name": "GDG Vilnius",
-    "status": "Delisted",
+    "status": "Active",
     "lon": 25.270000457763672,
     "lat": 54.70000076293945
   },
@@ -705,7 +715,7 @@
     "id": 18571827,
     "urlname": "gdg-munich",
     "name": "GDG Munich",
-    "status": "Active",
+    "status": "Delisted",
     "lon": 11.579999923706055,
     "lat": 48.13999938964844
   },
@@ -718,6 +728,16 @@
     "status": "Active",
     "lon": 11.579999923706055,
     "lat": 48.13999938964844
+  },
+  {
+    "city": "Lille",
+    "country": "France",
+    "id": 29598998,
+    "urlname": "Lille-Android-User-Group",
+    "name": "Lille Android User Group",
+    "status": "Active",
+    "lon": 3.069999933242798,
+    "lat": 50.63999938964844
   },
   {
     "city": "Lille",
@@ -755,7 +775,7 @@
     "id": 23838726,
     "urlname": "GDG-Daugavpils",
     "name": "GDG Daugavpils",
-    "status": "Active",
+    "status": "Delisted",
     "lon": 26.510000228881836,
     "lat": 55.880001068115234
   },
@@ -925,7 +945,7 @@
     "id": 20526043,
     "urlname": "GDG-Milton-Keynes",
     "name": "GDG Milton Keynes",
-    "status": "Active",
+    "status": "Delisted",
     "lon": -0.75,
     "lat": 52.02000045776367
   },
@@ -1045,7 +1065,7 @@
     "id": 26696643,
     "urlname": "GDG-Uzhhorod",
     "name": "GDG Uzhhorod",
-    "status": "Active",
+    "status": "Delisted",
     "lon": 22.309999465942383,
     "lat": 48.619998931884766
   },
@@ -1065,7 +1085,7 @@
     "id": 2466382,
     "urlname": "gdg-paris",
     "name": "GDG Paris",
-    "status": "Active",
+    "status": "Delisted",
     "lon": 2.3399999141693115,
     "lat": 48.86000061035156
   },
@@ -1090,22 +1110,12 @@
     "lat": 53.41999816894531
   },
   {
-    "city": "Bern",
-    "country": "Switzerland",
-    "id": 27154747,
-    "urlname": "GDG-Bern",
-    "name": "GDG Bern",
-    "status": "Delisted",
-    "lon": 7.440000057220459,
-    "lat": 46.95000076293945
-  },
-  {
     "city": "Glasgow",
     "country": "United Kingdom",
     "id": 24927091,
     "urlname": "Glasgow-New-Technology-Meetup",
     "name": "GDG Glasgow",
-    "status": "Active",
+    "status": "Delisted",
     "lon": -4.269999980926514,
     "lat": 55.869998931884766
   },
@@ -1129,16 +1139,6 @@
     "status": "Active",
     "lon": 11.119999885559082,
     "lat": 46.06999969482422
-  },
-  {
-    "city": "Ljubljana",
-    "country": "Slovenia",
-    "id": 29943904,
-    "urlname": "GDG-Ljubljana",
-    "name": "GDG Ljubljana",
-    "status": "Delisted",
-    "lon": 14.510000228881836,
-    "lat": 46.060001373291016
   },
   {
     "city": "Douglas",
@@ -1181,16 +1181,6 @@
     "lat": 45.79999923706055
   },
   {
-    "city": "Zagreb",
-    "country": "Croatia",
-    "id": 19939919,
-    "urlname": "GDG-Zagreb",
-    "name": "GDG Zagreb",
-    "status": "Active",
-    "lon": 15.970000267028809,
-    "lat": 45.79999923706055
-  },
-  {
     "city": "Cardiff",
     "country": "United Kingdom",
     "id": 22219782,
@@ -1199,6 +1189,17 @@
     "status": "Active",
     "lon": -3.180000066757202,
     "lat": 51.47999954223633
+  },
+  {
+    "city": "Brescia",
+    "state": "BS",
+    "country": "Italy",
+    "id": 24329223,
+    "urlname": "Meetup-GDG-Brescia",
+    "name": "Meetup GDG Brescia",
+    "status": "Active",
+    "lon": 10.25,
+    "lat": 45.54999923706055
   },
   {
     "city": "Venezia",
@@ -1237,8 +1238,8 @@
     "state": "MI",
     "country": "Italy",
     "id": 28489104,
-    "urlname": "Google-Cloud-Developer-Community-Milano",
-    "name": "Google Cloud Developer Community Milano",
+    "urlname": "GDG-Cloud-Milano",
+    "name": "GDG Cloud Milano",
     "status": "Active",
     "lon": 9.1899995803833,
     "lat": 45.459999084472656
@@ -1283,6 +1284,17 @@
     "status": "Active",
     "lon": 5.909999847412109,
     "lat": 45.58000183105469
+  },
+  {
+    "city": "Reggio nell'Emilia",
+    "state": "RE",
+    "country": "Italy",
+    "id": 25355347,
+    "urlname": "gdgreggioemilia",
+    "name": "GDG Reggio Emilia",
+    "status": "Active",
+    "lon": 10.630000114440918,
+    "lat": 44.72999954223633
   },
   {
     "city": "Lyon",
@@ -1361,8 +1373,8 @@
     "city": "Cluj-Napoca",
     "country": "Romania",
     "id": 20348354,
-    "urlname": "Google-Developer-Group-Cluj-Napoca",
-    "name": "Google Developer Group Cluj-Napoca",
+    "urlname": "gdgcluj",
+    "name": "GDG Cluj-Napoca",
     "status": "Active",
     "lon": 23.59000015258789,
     "lat": 46.779998779296875
@@ -1399,6 +1411,16 @@
     "lat": 44.41999816894531
   },
   {
+    "city": "Vinnytsya",
+    "country": "Ukraine",
+    "id": 32201791,
+    "urlname": "GDG-Vinnytsia",
+    "name": "GDG Vinnytsia",
+    "status": "Active",
+    "lon": 28.489999771118164,
+    "lat": 49.2400016784668
+  },
+  {
     "city": "Firenze",
     "state": "FI",
     "country": "Italy",
@@ -1418,6 +1440,17 @@
     "status": "Active",
     "lon": 30.520000457763672,
     "lat": 50.439998626708984
+  },
+  {
+    "city": "Urbino",
+    "state": "PU",
+    "country": "Italy",
+    "id": 32158445,
+    "urlname": "GDG-Urbino",
+    "name": "GDG Urbino",
+    "status": "Active",
+    "lon": 12.640000343322754,
+    "lat": 43.72999954223633
   },
   {
     "city": "Belgrade",
@@ -1495,7 +1528,7 @@
     "country": "France",
     "id": 19102285,
     "urlname": "GDGNice",
-    "name": "Google Developer Group Nice",
+    "name": "GDG Nice",
     "status": "Active",
     "lon": 7.269999980926514,
     "lat": 43.70000076293945
@@ -1506,7 +1539,7 @@
     "id": 19968640,
     "urlname": "Google-Developer-Group-Iasi",
     "name": "Google Developers Group Iasi",
-    "status": "Delisted",
+    "status": "Active",
     "lon": 27.56999969482422,
     "lat": 47.16999816894531
   },
@@ -1577,7 +1610,7 @@
     "id": 31202492,
     "urlname": "GDG-Moldova",
     "name": "GDG Moldova",
-    "status": "Active",
+    "status": "Delisted",
     "lon": 28.829999923706055,
     "lat": 47.029998779296875
   },
@@ -1587,7 +1620,7 @@
     "id": 20171730,
     "urlname": "gdgpitesti",
     "name": "Google Developer Group Pitești",
-    "status": "Active",
+    "status": "Delisted",
     "lon": 24.8700008392334,
     "lat": 44.86000061035156
   },
@@ -1626,8 +1659,8 @@
     "state": "RM",
     "country": "Italy",
     "id": 29138587,
-    "urlname": "Google-Cloud-Developer-Community-Roma",
-    "name": "Google Cloud Developer Community Roma",
+    "urlname": "gdgcloudroma",
+    "name": "Google Developer Group Cloud Roma",
     "status": "Active",
     "lon": 12.479999542236328,
     "lat": 41.900001525878906
@@ -1649,19 +1682,9 @@
     "id": 29772477,
     "urlname": "GDG-Podgorica",
     "name": "GDG Podgorica",
-    "status": "Delisted",
+    "status": "Active",
     "lon": 19.280000686645508,
     "lat": 42.470001220703125
-  },
-  {
-    "city": "Kirovohrad",
-    "country": "Ukraine",
-    "id": 23731083,
-    "urlname": "GDG-Kropyvnytskyi",
-    "name": "GDG Kropyvnytskyi",
-    "status": "Delisted",
-    "lon": 32.27000045776367,
-    "lat": 48.5099983215332
   },
   {
     "city": "Toulouse",
@@ -1829,6 +1852,16 @@
   {
     "city": "Kharkiv",
     "country": "Ukraine",
+    "id": 31911820,
+    "urlname": "GDG-Cloud-Kharkiv",
+    "name": "GDG Cloud Kharkiv",
+    "status": "Active",
+    "lon": 36.220001220703125,
+    "lat": 49.97999954223633
+  },
+  {
+    "city": "Kharkiv",
+    "country": "Ukraine",
     "id": 23805393,
     "urlname": "GDG-Kharkiv-Center-Google-I-O-Extended",
     "name": "GDG Kharkiv-Center",
@@ -1867,6 +1900,16 @@
     "lat": 41.400001525878906
   },
   {
+    "city": "Bilbao",
+    "country": "Spain",
+    "id": 23386927,
+    "urlname": "GDG-Bilbao",
+    "name": "GDG Bilbao",
+    "status": "Active",
+    "lon": -2.930000066757202,
+    "lat": 43.25
+  },
+  {
     "city": "Zaporizhzhya",
     "country": "Ukraine",
     "id": 29134464,
@@ -1895,16 +1938,6 @@
     "status": "Active",
     "lon": -3.809999942779541,
     "lat": 43.459999084472656
-  },
-  {
-    "city": "Voronezh",
-    "country": "Russia",
-    "id": 23456282,
-    "urlname": "GDG-Voronezh",
-    "name": "GDG Voronezh",
-    "status": "Active",
-    "lon": 39.2599983215332,
-    "lat": 51.720001220703125
   },
   {
     "city": "Tarragona",
@@ -2024,7 +2057,7 @@
     "id": 31038708,
     "urlname": "GDG-LeonESP",
     "name": "GDG LEON ESP (Google Developer Group León)",
-    "status": "Active",
+    "status": "Delisted",
     "lon": -5.570000171661377,
     "lat": 42.59000015258789
   },
@@ -2067,7 +2100,7 @@
     "id": 24711979,
     "urlname": "GDG-Reggio-Calabria",
     "name": "GDG Reggio Calabria",
-    "status": "Delisted",
+    "status": "Active",
     "lon": 15.640000343322754,
     "lat": 38.11000061035156
   },
@@ -2077,9 +2110,19 @@
     "id": 23339241,
     "urlname": "decharlas",
     "name": "decharlas - GDG Castellón",
-    "status": "Active",
+    "status": "Delisted",
     "lon": -0.05000000074505806,
     "lat": 39.970001220703125
+  },
+  {
+    "city": "Valladolid",
+    "country": "Spain",
+    "id": 30319056,
+    "urlname": "GDG-Valladolid",
+    "name": "GDG Valladolid",
+    "status": "Active",
+    "lon": -4.739999771118164,
+    "lat": 41.650001525878906
   },
   {
     "city": "Istanbul",
@@ -2198,7 +2241,7 @@
     "country": "Russia",
     "id": 19153512,
     "urlname": "gdgrnd",
-    "name": "Google Developer Group Rostov-on-Don",
+    "name": "GDG Rostov-on-Don",
     "status": "Active",
     "lon": 39.70000076293945,
     "lat": 47.22999954223633
@@ -2222,16 +2265,6 @@
     "status": "Active",
     "lon": -7.869999885559082,
     "lat": 42.33000183105469
-  },
-  {
-    "city": "Penza",
-    "country": "Russia",
-    "id": 23457688,
-    "urlname": "GDG-Penza",
-    "name": "GDG Penza",
-    "status": "Delisted",
-    "lon": 45,
-    "lat": 53.20000076293945
   },
   {
     "city": "Tunis",
@@ -2359,7 +2392,7 @@
     "id": 26614032,
     "urlname": "GDG-Alicante",
     "name": "GDG Alicante",
-    "status": "Delisted",
+    "status": "Active",
     "lon": -0.47999998927116394,
     "lat": 38.349998474121094
   },
@@ -2374,10 +2407,20 @@
     "lat": 40.75
   },
   {
+    "city": "Manisa",
+    "country": "Turkey",
+    "id": 32166050,
+    "urlname": "GDG-Manisa",
+    "name": "GDG Manisa",
+    "status": "Active",
+    "lon": 27.43000030517578,
+    "lat": 38.630001068115234
+  },
+  {
     "city": "Krasnodar",
     "country": "Russia",
     "id": 23423788,
-    "urlname": "meetup-group-IfBrKrSH",
+    "urlname": "gdgkrasnodar",
     "name": "GDG Krasnodar",
     "status": "Active",
     "lon": 38.959999084472656,
@@ -2494,6 +2537,16 @@
     "lat": 41.150001525878906
   },
   {
+    "city": "Satif",
+    "country": "Algeria",
+    "id": 31931224,
+    "urlname": "setif-gdg",
+    "name": "GDG-Setif",
+    "status": "Active",
+    "lon": 5.409999847412109,
+    "lat": 36.189998626708984
+  },
+  {
     "city": "Covilhã",
     "country": "Portugal",
     "id": 28869049,
@@ -2554,6 +2607,16 @@
     "lat": 55.790000915527344
   },
   {
+    "city": "Midyah",
+    "country": "Algeria",
+    "id": 31306598,
+    "urlname": "gdg-medea",
+    "name": "GDG-Medea",
+    "status": "Delisted",
+    "lon": 2.7699999809265137,
+    "lat": 36.27000045776367
+  },
+  {
     "city": "Ankara",
     "country": "Turkey",
     "id": 27899251,
@@ -2599,7 +2662,7 @@
     "id": 23674731,
     "urlname": "GDG-Chlef",
     "name": "GDG Chlef",
-    "status": "Active",
+    "status": "Delisted",
     "lon": 1.3200000524520874,
     "lat": 36.16999816894531
   },
@@ -2622,6 +2685,26 @@
     "status": "Active",
     "lon": -3.799999952316284,
     "lat": 37.77000045776367
+  },
+  {
+    "city": "Denizli",
+    "country": "Turkey",
+    "id": 32166919,
+    "urlname": "GDG-Denizli",
+    "name": "GDG Denizli",
+    "status": "Active",
+    "lon": 29.079999923706055,
+    "lat": 37.779998779296875
+  },
+  {
+    "city": "Samsun",
+    "country": "Turkey",
+    "id": 32170356,
+    "urlname": "GDG-Samsun",
+    "name": "GDG Samsun",
+    "status": "Active",
+    "lon": 36.33000183105469,
+    "lat": 41.290000915527344
   },
   {
     "city": "Córdoba",
@@ -2658,7 +2741,7 @@
     "country": "Algeria",
     "id": 31356213,
     "urlname": "GDG-mostaghanem",
-    "name": "GDG-Mostaganem",
+    "name": "GDG Mostaganem",
     "status": "Active",
     "lon": 0.09000000357627869,
     "lat": 35.939998626708984
@@ -2667,7 +2750,7 @@
     "city": "Burdur",
     "country": "Turkey",
     "id": 30615328,
-    "urlname": "GDG-BURDUR",
+    "urlname": "gdgburdur",
     "name": "GDG Burdur",
     "status": "Active",
     "lon": 30.280000686645508,
@@ -2749,7 +2832,7 @@
     "id": 30952361,
     "urlname": "GDGIzhevsk",
     "name": "GDG Izhevsk",
-    "status": "Active",
+    "status": "Delisted",
     "lon": 53.189998626708984,
     "lat": 56.84000015258789
   },
@@ -2804,6 +2887,16 @@
     "lat": 36.52000045776367
   },
   {
+    "city": "Huelva",
+    "country": "Spain",
+    "id": 24293334,
+    "urlname": "GDG-Huelva",
+    "name": "GDG Huelva",
+    "status": "Active",
+    "lon": -6.940000057220459,
+    "lat": 37.25
+  },
+  {
     "city": "al-Wad",
     "country": "Algeria",
     "id": 31299631,
@@ -2822,6 +2915,16 @@
     "status": "Active",
     "lon": 37.02000045776367,
     "lat": 39.75
+  },
+  {
+    "city": "Kayseri",
+    "country": "Turkey",
+    "id": 32264105,
+    "urlname": "GDG-Kayseri",
+    "name": "GDG Kayseri",
+    "status": "Active",
+    "lon": 35.47999954223633,
+    "lat": 38.7400016784668
   },
   {
     "city": "Tilimsan",
@@ -2859,9 +2962,19 @@
     "id": 30741997,
     "urlname": "GDG-Faro",
     "name": "Google Developers Group Faro",
-    "status": "Active",
+    "status": "Delisted",
     "lon": -7.940000057220459,
     "lat": 37.029998779296875
+  },
+  {
+    "city": "al-Bayadh",
+    "country": "Algeria",
+    "id": 31925452,
+    "urlname": "gdg-elbayadh",
+    "name": "gdg-elbayadh",
+    "status": "Active",
+    "lon": 1.0099999904632568,
+    "lat": 33.689998626708984
   },
   {
     "city": "Tanjah",
@@ -2919,7 +3032,7 @@
     "id": 30596319,
     "urlname": "GDG-Vladikavkaz",
     "name": "GDG Vladikavkaz",
-    "status": "Delisted",
+    "status": "Active",
     "lon": 44.66999816894531,
     "lat": 43.029998779296875
   },
@@ -2999,7 +3112,7 @@
     "id": 23441908,
     "urlname": "GDG-Rabat",
     "name": "GDG Rabat",
-    "status": "Active",
+    "status": "Delisted",
     "lon": -6.829999923706055,
     "lat": 34.02000045776367
   },
@@ -3034,16 +3147,6 @@
     "lat": 40.16999816894531
   },
   {
-    "city": "Yekaterinburg",
-    "country": "Russia",
-    "id": 23400872,
-    "urlname": "GDG-Ekaterinburg",
-    "name": "GDG Ekaterinburg",
-    "status": "Delisted",
-    "lon": 60.630001068115234,
-    "lat": 56.84000015258789
-  },
-  {
     "city": "Casablanca",
     "country": "Morocco",
     "id": 23739715,
@@ -3052,6 +3155,16 @@
     "status": "Active",
     "lon": -7.579999923706055,
     "lat": 33.529998779296875
+  },
+  {
+    "city": "Sattat",
+    "country": "Morocco",
+    "id": 24842408,
+    "urlname": "GDG-Settat",
+    "name": "GDG Settat",
+    "status": "Active",
+    "lon": -7.619999885559082,
+    "lat": 33.0099983215332
   },
   {
     "city": "Beirut",
@@ -3074,12 +3187,32 @@
     "lat": 31.219999313354492
   },
   {
+    "city": "Haifa",
+    "country": "Israel",
+    "id": 6014802,
+    "urlname": "GDG-Haifa",
+    "name": "GDG Haifa",
+    "status": "Active",
+    "lon": 34.9900016784668,
+    "lat": 32.81999969482422
+  },
+  {
+    "city": "Damanhur",
+    "country": "Egypt",
+    "id": 31921714,
+    "urlname": "GDG-Damanhour",
+    "name": "GDG-Damanhour",
+    "status": "Active",
+    "lon": 30.469999313354492,
+    "lat": 31.040000915527344
+  },
+  {
     "city": "al-Mansurah",
     "country": "Egypt",
     "id": 31305065,
     "urlname": "GDG-Mansoura",
     "name": "GDG Mansoura",
-    "status": "Active",
+    "status": "Delisted",
     "lon": 31.3799991607666,
     "lat": 31.040000915527344
   },
@@ -3104,16 +3237,6 @@
     "lat": 32.470001220703125
   },
   {
-    "city": "Tulkarm",
-    "country": "Palestine",
-    "id": 27194020,
-    "urlname": "GDG-Tulkram",
-    "name": "GDG-Tulkram",
-    "status": "Delisted",
-    "lon": 35.029998779296875,
-    "lat": 32.31999969482422
-  },
-  {
     "city": "Tel Aviv-Yafo",
     "country": "Israel",
     "id": 19425408,
@@ -3129,9 +3252,19 @@
     "id": 23701362,
     "urlname": "GDG-Nablus",
     "name": "GDG Nablus",
-    "status": "Active",
+    "status": "Delisted",
     "lon": 35.2599983215332,
     "lat": 32.22999954223633
+  },
+  {
+    "city": "az-Zaqaziq",
+    "country": "Egypt",
+    "id": 31921518,
+    "urlname": "GDG-Zagazig",
+    "name": "GDG-Zagazig",
+    "status": "Active",
+    "lon": 31.5,
+    "lat": 30.579999923706055
   },
   {
     "city": "Ramallah",
@@ -3159,7 +3292,7 @@
     "id": 24094167,
     "urlname": "GDG-Gaza",
     "name": "GDG Gaza",
-    "status": "Delisted",
+    "status": "Active",
     "lon": 34.439998626708984,
     "lat": 31.530000686645508
   },
@@ -3339,7 +3472,7 @@
     "id": 29061648,
     "urlname": "GDG-Najaf",
     "name": "GDG-Najaf",
-    "status": "Active",
+    "status": "Delisted",
     "lon": 44.33000183105469,
     "lat": 31.989999771118164
   },
@@ -3352,6 +3485,16 @@
     "status": "Active",
     "lon": 73.37000274658203,
     "lat": 54.97999954223633
+  },
+  {
+    "city": "Las Palmas",
+    "country": "Spain",
+    "id": 31636163,
+    "urlname": "GDG-Cloud-Canarias",
+    "name": "GDG Cloud Canarias",
+    "status": "Active",
+    "lon": -15.430000305175781,
+    "lat": 28.100000381469727
   },
   {
     "city": "Las Palmas",
@@ -3378,20 +3521,20 @@
     "country": "Kazakhstan",
     "id": 29761912,
     "urlname": "GDG-Astana",
-    "name": "GDG Astana",
+    "name": "GDG Nur-Sultan (Astana)",
     "status": "Active",
     "lon": 71.47000122070312,
     "lat": 51.16999816894531
   },
   {
-    "city": "al-Basrah",
-    "country": "Iraq",
-    "id": 30774740,
-    "urlname": "GDG-Basra",
-    "name": "GDG Basra",
-    "status": "Delisted",
-    "lon": 47.83000183105469,
-    "lat": 30.5
+    "city": "Aswan",
+    "country": "Egypt",
+    "id": 31305726,
+    "urlname": "GDG-Aswan",
+    "name": "GDG-Aswan",
+    "status": "Active",
+    "lon": 32.91999816894531,
+    "lat": 24.079999923706055
   },
   {
     "city": "al-Kuwayt",
@@ -3418,20 +3561,10 @@
     "country": "Russia",
     "id": 21194182,
     "urlname": "GDGNsk",
-    "name": "Google Developer Group Novosibirsk",
+    "name": "GDG Novosibirsk",
     "status": "Active",
     "lon": 82.93000030517578,
     "lat": 55.02000045776367
-  },
-  {
-    "city": "Tomsk",
-    "country": "Russia",
-    "id": 26744008,
-    "urlname": "GDG-Tomsk",
-    "name": "GDG Tomsk",
-    "status": "Delisted",
-    "lon": 84.9800033569336,
-    "lat": 56.47999954223633
   },
   {
     "city": "Tashkent",
@@ -3529,7 +3662,7 @@
     "id": 23583006,
     "urlname": "GDG-Krasnoyarsk",
     "name": "GDG Krasnoyarsk",
-    "status": "Active",
+    "status": "Delisted",
     "lon": 93.05999755859375,
     "lat": 56.02000045776367
   },
@@ -3569,7 +3702,7 @@
     "id": 23609641,
     "urlname": "gdgjsiit",
     "name": "GDG JSIIT",
-    "status": "Active",
+    "status": "Delisted",
     "lon": 8.40999984741211,
     "lat": 12.65999984741211
   },
@@ -3679,7 +3812,7 @@
     "id": 27477904,
     "urlname": "gdg-cloud-maiduguri",
     "name": "Google Cloud Developer Community Maiduguri",
-    "status": "Active",
+    "status": "Delisted",
     "lon": 13.15999984741211,
     "lat": 11.850000381469727
   },
@@ -3730,16 +3863,6 @@
     "urlname": "GCDCKaduna",
     "name": "Google Cloud Developer Community Kaduna",
     "status": "Active",
-    "lon": 7.440000057220459,
-    "lat": 10.520000457763672
-  },
-  {
-    "city": "Kaduna",
-    "country": "Nigeria",
-    "id": 24068126,
-    "urlname": "GDG-Kaduna",
-    "name": "GDG Kaduna",
-    "status": "Delisted",
     "lon": 7.440000057220459,
     "lat": 10.520000457763672
   },
@@ -4077,16 +4200,6 @@
     "lat": 7.320000171661377
   },
   {
-    "city": "Ife",
-    "country": "Nigeria",
-    "id": 23668393,
-    "urlname": "DSC-OAU",
-    "name": "DSC OAU",
-    "status": "Delisted",
-    "lon": 4.570000171661377,
-    "lat": 7.550000190734863
-  },
-  {
     "city": "Anambra",
     "country": "Nigeria",
     "id": 23746237,
@@ -4152,7 +4265,7 @@
     "id": 31027416,
     "urlname": "GDG-Praia",
     "name": "GDG Praia",
-    "status": "Active",
+    "status": "Delisted",
     "lon": -23.540000915527344,
     "lat": 14.930000305175781
   },
@@ -4185,6 +4298,16 @@
     "status": "Active",
     "lon": 5.619999885559082,
     "lat": 6.340000152587891
+  },
+  {
+    "city": "´Adan",
+    "country": "Yemen",
+    "id": 31921344,
+    "urlname": "GDGAden",
+    "name": "GDGAden",
+    "status": "Active",
+    "lon": 45.029998779296875,
+    "lat": 12.789999961853027
   },
   {
     "city": "Bambili",
@@ -4262,7 +4385,7 @@
     "id": 25572053,
     "urlname": "GDG-Cloud-Lagos",
     "name": "Google Cloud Developer Community Lagos",
-    "status": "Delisted",
+    "status": "Active",
     "lon": 3.4700000286102295,
     "lat": 6.449999809265137
   },
@@ -4272,7 +4395,7 @@
     "id": 23453690,
     "urlname": "DSC-Covenant-University",
     "name": "DSC Covenant University",
-    "status": "Active",
+    "status": "Delisted",
     "lon": 3.4700000286102295,
     "lat": 6.449999809265137
   },
@@ -4292,7 +4415,7 @@
     "id": 23399725,
     "urlname": "GDG-Unilag",
     "name": "DSC Unilag",
-    "status": "Active",
+    "status": "Delisted",
     "lon": 3.4700000286102295,
     "lat": 6.449999809265137
   },
@@ -4355,16 +4478,6 @@
     "status": "Active",
     "lon": 2.440000057220459,
     "lat": 6.360000133514404
-  },
-  {
-    "city": "Kumasi",
-    "country": "Ghana",
-    "id": 23696491,
-    "urlname": "GDG-KNUST",
-    "name": "GDG KUMASI",
-    "status": "Active",
-    "lon": -1.6299999952316284,
-    "lat": 6.690000057220459
   },
   {
     "city": "Umuahia",
@@ -4622,7 +4735,7 @@
     "country": "Russia",
     "id": 23468750,
     "urlname": "GDG_Ulan-Ude",
-    "name": "Ulan-Ude Google Developer Group Meetup",
+    "name": "GDG Ulan-Ude",
     "status": "Active",
     "lon": 107.5999984741211,
     "lat": 51.83000183105469
@@ -4658,6 +4771,16 @@
     "status": "Active",
     "lon": -73.5999984741211,
     "lat": 45.529998779296875
+  },
+  {
+    "city": "Jodhpur",
+    "country": "India",
+    "id": 17081912,
+    "urlname": "GDGJodhpur",
+    "name": "Google Developers Group Jodhpur",
+    "status": "Active",
+    "lon": 73.0199966430664,
+    "lat": 26.290000915527344
   },
   {
     "city": "Abidjan",
@@ -4858,17 +4981,6 @@
     "lat": 22.309999465942383
   },
   {
-    "city": "Stonington",
-    "state": "CT",
-    "country": "USA",
-    "id": 29033963,
-    "urlname": "GDG-New-London",
-    "name": "GDG New London",
-    "status": "Delisted",
-    "lon": -71.91000366210938,
-    "lat": 41.34000015258789
-  },
-  {
     "city": "Chita",
     "country": "Russia",
     "id": 30026146,
@@ -4961,6 +5073,16 @@
     "lat": 22.309999465942383
   },
   {
+    "city": "Libreville",
+    "country": "Gabon",
+    "id": 31717928,
+    "urlname": "gdg-Libreville",
+    "name": "GDG Libreville",
+    "status": "Active",
+    "lon": 9.449999809265137,
+    "lat": 0.38999998569488525
+  },
+  {
     "city": "Bronx",
     "state": "NY",
     "country": "USA",
@@ -5051,17 +5173,6 @@
     "city": "Toronto",
     "state": "ON",
     "country": "Canada",
-    "id": 30577560,
-    "urlname": "GDG-Cloud-Toronto",
-    "name": "Google GDG Cloud Toronto",
-    "status": "Active",
-    "lon": -79.36000061035156,
-    "lat": 43.7400016784668
-  },
-  {
-    "city": "Toronto",
-    "state": "ON",
-    "country": "Canada",
     "id": 19584652,
     "urlname": "ToAndroidDev",
     "name": "GDG Toronto Android",
@@ -5079,6 +5190,17 @@
     "status": "Active",
     "lon": -79.37000274658203,
     "lat": 43.650001525878906
+  },
+  {
+    "city": "Toronto",
+    "state": "ON",
+    "country": "Canada",
+    "id": 30577560,
+    "urlname": "GDG-Cloud-Toronto",
+    "name": "Google GDG Cloud Toronto",
+    "status": "Active",
+    "lon": -79.38999938964844,
+    "lat": 43.65999984741211
   },
   {
     "city": "Mississauga",
@@ -5116,8 +5238,8 @@
     "city": "Indore",
     "country": "India",
     "id": 17932692,
-    "urlname": "GoogleDeveloperGroupIndore",
-    "name": "Google Developer Group, Indore",
+    "urlname": "GDGIndore",
+    "name": "GDG Indore",
     "status": "Active",
     "lon": 75.86000061035156,
     "lat": 22.719999313354492
@@ -5153,6 +5275,16 @@
     "status": "Active",
     "lon": -75.13999938964844,
     "lat": 39.95000076293945
+  },
+  {
+    "city": "Bhopal",
+    "country": "India",
+    "id": 32244661,
+    "urlname": "gdg_bhopal",
+    "name": "GDG Bhopal (Google Developers Group Bhopal)",
+    "status": "Active",
+    "lon": 77.4000015258789,
+    "lat": 23.239999771118164
   },
   {
     "city": "Waterloo",
@@ -5224,7 +5356,7 @@
     "id": 28802411,
     "urlname": "Google-Cloud-GDG-Meeting",
     "name": "Google Cloud GDG - London,Ontario",
-    "status": "Active",
+    "status": "Delisted",
     "lon": -81.18000030517578,
     "lat": 43.0099983215332
   },
@@ -5341,17 +5473,6 @@
     "lat": 39.27000045776367
   },
   {
-    "city": "Pasadena",
-    "state": "MD",
-    "country": "USA",
-    "id": 30684352,
-    "urlname": "meetup-group-LEOupxGf",
-    "name": "GDG [Annapolis] Meetup",
-    "status": "Delisted",
-    "lon": -76.51000213623047,
-    "lat": 39.130001068115234
-  },
-  {
     "city": "Birganj",
     "country": "Nepal",
     "id": 23353863,
@@ -5407,8 +5528,8 @@
     "state": "DC",
     "country": "USA",
     "id": 24763417,
-    "urlname": "GDG-Cloud-DC",
-    "name": "GDG Cloud DC Meetup",
+    "urlname": "GoogleCloudDC",
+    "name": "Google Cloud DC Meetup",
     "status": "Active",
     "lon": -77.0199966430664,
     "lat": 38.90999984741211
@@ -5560,6 +5681,16 @@
     "lat": -1.940000057220459
   },
   {
+    "city": "Nagpur",
+    "country": "India",
+    "id": 32031905,
+    "urlname": "GDG-Nagpur",
+    "name": "GDG Nagpur",
+    "status": "Active",
+    "lon": 79.08000183105469,
+    "lat": 21.15999984741211
+  },
+  {
     "city": "Nyeri",
     "country": "Kenya",
     "id": 23439525,
@@ -5618,8 +5749,8 @@
     "country": "USA",
     "id": 18491722,
     "urlname": "Google-Developer-Group-Central-Virginia",
-    "name": "Google Developer Group Central Virginia",
-    "status": "Delisted",
+    "name": "GDG Central Virginia",
+    "status": "Active",
     "lon": -78.48999786376953,
     "lat": 38.060001373291016
   },
@@ -5649,7 +5780,7 @@
     "id": 27762564,
     "urlname": "DSC-Multimedia-University-of-Kenya",
     "name": "DSC Multimedia University of Kenya",
-    "status": "Active",
+    "status": "Delisted",
     "lon": 36.81999969482422,
     "lat": -1.2899999618530273
   },
@@ -5669,7 +5800,7 @@
     "id": 24500676,
     "urlname": "GDG-DSC-JKUAT",
     "name": "GDG/DSC JKUAT",
-    "status": "Active",
+    "status": "Delisted",
     "lon": 36.81999969482422,
     "lat": -1.2899999618530273
   },
@@ -5791,6 +5922,17 @@
     "city": "Chicago",
     "state": "IL",
     "country": "USA",
+    "id": 31715979,
+    "urlname": "GDG-Cloud-Chicago",
+    "name": "GDG Cloud Chicago",
+    "status": "Active",
+    "lon": -87.62000274658203,
+    "lat": 41.880001068115234
+  },
+  {
+    "city": "Chicago",
+    "state": "IL",
+    "country": "USA",
     "id": 18475894,
     "urlname": "Google-Developers-Group-GDG-Chicago",
     "name": "Google Developers Group: GDG Chicago",
@@ -5875,6 +6017,17 @@
     "lat": 15.359999656677246
   },
   {
+    "city": "Edmonton",
+    "state": "AB",
+    "country": "Canada",
+    "id": 32094603,
+    "urlname": "GDG-Cloud-Edmonton",
+    "name": "GDG Cloud Edmonton",
+    "status": "Active",
+    "lon": -113.44000244140625,
+    "lat": 53.599998474121094
+  },
+  {
     "city": "St. Albert",
     "state": "AB",
     "country": "Canada",
@@ -5906,17 +6059,6 @@
     "lat": 17.399999618530273
   },
   {
-    "city": "West Lafayette",
-    "state": "IN",
-    "country": "USA",
-    "id": 28876381,
-    "urlname": "gdgpurdue",
-    "name": "GDG Purdue University",
-    "status": "Delisted",
-    "lon": -86.97000122070312,
-    "lat": 40.5
-  },
-  {
     "city": "Indianapolis",
     "state": "IN",
     "country": "USA",
@@ -5934,20 +6076,9 @@
     "id": 30997815,
     "urlname": "GDG-Bloomington",
     "name": "GDG Bloomington",
-    "status": "Active",
+    "status": "Delisted",
     "lon": -86.45999908447266,
     "lat": 39.099998474121094
-  },
-  {
-    "city": "Champaign",
-    "state": "IL",
-    "country": "USA",
-    "id": 30734650,
-    "urlname": "GDG-Urbana-Champaign",
-    "name": "GDG Urbana-Champaign",
-    "status": "Delisted",
-    "lon": -88.25,
-    "lat": 40.11000061035156
   },
   {
     "city": "Berea",
@@ -5999,7 +6130,7 @@
     "id": 19066967,
     "urlname": "GDGLouisville",
     "name": "GDG Louisville/Louisville Android Developers",
-    "status": "Active",
+    "status": "Delisted",
     "lon": -85.66999816894531,
     "lat": 38.099998474121094
   },
@@ -6184,7 +6315,7 @@
     "id": 29612014,
     "urlname": "Google-Developers-group-Mysuru",
     "name": "GDG-Mysuru",
-    "status": "Active",
+    "status": "Delisted",
     "lon": 76.63999938964844,
     "lat": 12.300000190734863
   },
@@ -6341,7 +6472,7 @@
     "id": 19224635,
     "urlname": "Mercer-University-Google-Developers-Group-Meetup",
     "name": "Mercer University Google Developers Group Meetup",
-    "status": "Active",
+    "status": "Delisted",
     "lon": -83.68000030517578,
     "lat": 32.84000015258789
   },
@@ -6395,6 +6526,17 @@
     "status": "Active",
     "lon": 113.66999816894531,
     "lat": 34.75
+  },
+  {
+    "city": "Jacksonville",
+    "state": "FL",
+    "country": "USA",
+    "id": 31705013,
+    "urlname": "GDG-Cloud-Jacksonville",
+    "name": "GDG Cloud Jacksonville",
+    "status": "Active",
+    "lon": -81.7699966430664,
+    "lat": 30.329999923706055
   },
   {
     "city": "Auburn",
@@ -6477,7 +6619,7 @@
     "id": 29233861,
     "urlname": "GDG-Spokane",
     "name": "GDG Spokane",
-    "status": "Active",
+    "status": "Delisted",
     "lon": -117.43000030517578,
     "lat": 47.66999816894531
   },
@@ -6488,7 +6630,7 @@
     "id": 31156198,
     "urlname": "GDG-San-Juan",
     "name": "GDG San Juan",
-    "status": "Active",
+    "status": "Delisted",
     "lon": -66.11000061035156,
     "lat": 18.459999084472656
   },
@@ -6590,6 +6732,17 @@
     "lat": 35.279998779296875
   },
   {
+    "city": "Victoria",
+    "state": "BC",
+    "country": "Canada",
+    "id": 31990416,
+    "urlname": "GDG-Victoria",
+    "name": "GDG Victoria",
+    "status": "Active",
+    "lon": -123.29000091552734,
+    "lat": 48.459999084472656
+  },
+  {
     "city": "Suzhou",
     "country": "China",
     "id": 23597328,
@@ -6638,7 +6791,7 @@
     "country": "USA",
     "id": 1780067,
     "urlname": "GDGNoCo",
-    "name": "Google Developers Group Northern Colorado - Android/Chrome",
+    "name": "GDG Northern Colorado - Android/Chrome",
     "status": "Active",
     "lon": -105.04000091552734,
     "lat": 40.529998779296875
@@ -6880,6 +7033,17 @@
     "lat": 31.850000381469727
   },
   {
+    "city": "Boise",
+    "state": "ID",
+    "country": "USA",
+    "id": 32058663,
+    "urlname": "GDG-Boise",
+    "name": "GDG Boise",
+    "status": "Active",
+    "lon": -116.31999969482422,
+    "lat": 43.619998931884766
+  },
+  {
     "city": "Port-au-Prince",
     "country": "Haiti",
     "id": 31666304,
@@ -6928,7 +7092,7 @@
     "id": 23597020,
     "urlname": "Nanjing-GDG",
     "name": "Nanjing GDG",
-    "status": "Delisted",
+    "status": "Active",
     "lon": 118.77999877929688,
     "lat": 32.04999923706055
   },
@@ -6948,7 +7112,7 @@
     "id": 27621070,
     "urlname": "GDG-Lusaka",
     "name": "GDG Lusaka",
-    "status": "Active",
+    "status": "Delisted",
     "lon": 28.290000915527344,
     "lat": -15.40999984741211
   },
@@ -7045,6 +7209,16 @@
     "status": "Active",
     "lon": 126.91000366210938,
     "lat": 35.15999984741211
+  },
+  {
+    "city": "Georgetown",
+    "country": "Guyana",
+    "id": 32043335,
+    "urlname": "gdg-gt",
+    "name": "GDG-Georgetown",
+    "status": "Active",
+    "lon": -58.15999984741211,
+    "lat": 6.789999961853027
   },
   {
     "city": "Blantyre",
@@ -7173,7 +7347,7 @@
     "id": 25040096,
     "urlname": "GDG-TAMU",
     "name": "GDG TAMU",
-    "status": "Active",
+    "status": "Delisted",
     "lon": -96.30999755859375,
     "lat": 30.600000381469727
   },
@@ -7184,7 +7358,7 @@
     "id": 31135208,
     "urlname": "GDG-Cloud-Lubbock",
     "name": "GDG Cloud Lubbock",
-    "status": "Active",
+    "status": "Delisted",
     "lon": -101.8499984741211,
     "lat": 33.58000183105469
   },
@@ -7199,12 +7373,33 @@
     "lat": -8.079999923706055
   },
   {
+    "city": "Kingston",
+    "country": "Jamaica",
+    "id": 32075660,
+    "urlname": "GDG-Kingston",
+    "name": "GDG Kingston",
+    "status": "Active",
+    "lon": -76.80000305175781,
+    "lat": 17.979999542236328
+  },
+  {
+    "city": "Houston",
+    "state": "TX",
+    "country": "USA",
+    "id": 31724097,
+    "urlname": "Google-Developer-Group-GDG-Houston",
+    "name": "Google Developer Group - GDG Houston",
+    "status": "Active",
+    "lon": -95.22000122070312,
+    "lat": 29.719999313354492
+  },
+  {
     "city": "Houston",
     "state": "TX",
     "country": "USA",
     "id": 26909791,
     "urlname": "Houston-Google-Cloud-User-Group",
-    "name": "Houston Google Cloud (aka GDG Cloud Houston)  {by HCCUG.org}",
+    "name": "Houston Google Cloud (aka GDG Cloud Houston) {by HCCUG.org™}",
     "status": "Active",
     "lon": -95.55999755859375,
     "lat": 29.75
@@ -7303,6 +7498,46 @@
     "lat": 30.270000457763672
   },
   {
+    "city": "Matsue",
+    "country": "Japan",
+    "id": 31726504,
+    "urlname": "GCPUG-Shimane",
+    "name": "GCPUG Shimane",
+    "status": "Active",
+    "lon": 133.0399932861328,
+    "lat": 35.47999954223633
+  },
+  {
+    "city": "Tottori",
+    "country": "Japan",
+    "id": 31920033,
+    "urlname": "GCPUG-tottori",
+    "name": "GCPUG Tottori",
+    "status": "Active",
+    "lon": 134.22999572753906,
+    "lat": 35.5
+  },
+  {
+    "city": "Kitakyushu",
+    "country": "Japan",
+    "id": 31856503,
+    "urlname": "GCPUG-kitakyu",
+    "name": "GCPUG Kitakyu",
+    "status": "Active",
+    "lon": 130.86000061035156,
+    "lat": 33.880001068115234
+  },
+  {
+    "city": "Fukuoka",
+    "country": "Japan",
+    "id": 31725786,
+    "urlname": "GCPUG-Fukuoka",
+    "name": "GCPUG Fukuoka",
+    "status": "Active",
+    "lon": 130.41000366210938,
+    "lat": 33.59000015258789
+  },
+  {
     "city": "Fukuoka",
     "country": "Japan",
     "id": 23972513,
@@ -7323,6 +7558,26 @@
     "lat": 38.43000030517578
   },
   {
+    "city": "Sendai",
+    "country": "Japan",
+    "id": 31900627,
+    "urlname": "GCPUG-Sendai",
+    "name": "GCPUG Sendai",
+    "status": "Active",
+    "lon": 140.88999938964844,
+    "lat": 38.2599983215332
+  },
+  {
+    "city": "Hiroshima",
+    "country": "Japan",
+    "id": 31864205,
+    "urlname": "GCPUG-Hiroshima",
+    "name": "GCPUG Hiroshima",
+    "status": "Active",
+    "lon": 132.4600067138672,
+    "lat": 34.38999938964844
+  },
+  {
     "city": "Maceió",
     "country": "Brazil",
     "id": 19182699,
@@ -7331,6 +7586,26 @@
     "status": "Active",
     "lon": -35.75,
     "lat": -9.649999618530273
+  },
+  {
+    "city": "Okayama",
+    "country": "Japan",
+    "id": 31727835,
+    "urlname": "GCPUG-Okayama",
+    "name": "GCPUG Okayama",
+    "status": "Active",
+    "lon": 133.9199981689453,
+    "lat": 34.66999816894531
+  },
+  {
+    "city": "Okayama",
+    "country": "Japan",
+    "id": 23880286,
+    "urlname": "meetup-group-EtXRvVqn",
+    "name": "GDG Chugoku",
+    "status": "Active",
+    "lon": 133.9199981689453,
+    "lat": 34.66999816894531
   },
   {
     "city": "Guangzhou",
@@ -7353,14 +7628,74 @@
     "lat": 37.40999984741211
   },
   {
+    "city": "Koriyama",
+    "country": "Japan",
+    "id": 31000758,
+    "urlname": "GCPUG-Fukushima",
+    "name": "GCPUG Fukushima",
+    "status": "Active",
+    "lon": 140.3800048828125,
+    "lat": 37.40999984741211
+  },
+  {
     "city": "Chimoio",
     "country": "Mozambique",
     "id": 31141280,
     "urlname": "GDG-Chimoio",
     "name": "GDG Chimoio",
-    "status": "Active",
+    "status": "Delisted",
     "lon": 33.470001220703125,
     "lat": -19.1200008392334
+  },
+  {
+    "city": "Matsuyama",
+    "country": "Japan",
+    "id": 31732942,
+    "urlname": "GDG-GCPUG-Ehime",
+    "name": "GDG<GCPUG Ehime>",
+    "status": "Active",
+    "lon": 132.77000427246094,
+    "lat": 33.84000015258789
+  },
+  {
+    "city": "Kumamoto",
+    "country": "Japan",
+    "id": 31724594,
+    "urlname": "GCPUG-Kumamoto",
+    "name": "GCPUG Kumamoto",
+    "status": "Active",
+    "lon": 130.7100067138672,
+    "lat": 32.79999923706055
+  },
+  {
+    "city": "Oita",
+    "country": "Japan",
+    "id": 32055548,
+    "urlname": "GCPUG-Oita",
+    "name": "GCPUG Oita",
+    "status": "Active",
+    "lon": 131.60000610351562,
+    "lat": 33.2400016784668
+  },
+  {
+    "city": "Shiojiri",
+    "country": "Japan",
+    "id": 31736523,
+    "urlname": "GCPUG-Shinshu",
+    "name": "GCPUG Shinshu",
+    "status": "Active",
+    "lon": 137.9600067138672,
+    "lat": 36.119998931884766
+  },
+  {
+    "city": "Shiojiri",
+    "country": "Japan",
+    "id": 24242243,
+    "urlname": "gdgshinshu",
+    "name": "GDG Shinshu",
+    "status": "Active",
+    "lon": 137.9600067138672,
+    "lat": 36.119998931884766
   },
   {
     "city": "Arapiraca",
@@ -7385,6 +7720,16 @@
   {
     "city": "Kyoto",
     "country": "Japan",
+    "id": 31745025,
+    "urlname": "GCPUG-Kyoto",
+    "name": "GCPUG Kyoto",
+    "status": "Active",
+    "lon": 135.75,
+    "lat": 35.0099983215332
+  },
+  {
+    "city": "Kyoto",
+    "country": "Japan",
     "id": 23806781,
     "urlname": "GDG-Kyoto",
     "name": "GDG Kyoto",
@@ -7395,11 +7740,41 @@
   {
     "city": "Kobe",
     "country": "Japan",
+    "id": 31881099,
+    "urlname": "GCPUG-KOBE",
+    "name": "GCPUG KOBE",
+    "status": "Active",
+    "lon": 135.1699981689453,
+    "lat": 34.68000030517578
+  },
+  {
+    "city": "Kobe",
+    "country": "Japan",
     "id": 23802629,
     "urlname": "GDG-Kobe",
     "name": "GDG Kobe",
     "status": "Active",
     "lon": 135.1699981689453,
+    "lat": 34.68000030517578
+  },
+  {
+    "city": "Kusatsu",
+    "country": "Japan",
+    "id": 31705118,
+    "urlname": "GCPUG-Shiga",
+    "name": "GCPUG  Shiga",
+    "status": "Active",
+    "lon": 135.9499969482422,
+    "lat": 35.02000045776367
+  },
+  {
+    "city": "Osaka",
+    "country": "Japan",
+    "id": 31709326,
+    "urlname": "GCPUG-Osaka",
+    "name": "GCPUG Osaka",
+    "status": "Active",
+    "lon": 135.5,
     "lat": 34.68000030517578
   },
   {
@@ -7423,14 +7798,64 @@
     "lat": 13.729999542236328
   },
   {
+    "city": "Nara",
+    "country": "Japan",
+    "id": 31717621,
+    "urlname": "GCPUG-NARA",
+    "name": "GCPUG NARA",
+    "status": "Active",
+    "lon": 135.8300018310547,
+    "lat": 34.689998626708984
+  },
+  {
+    "city": "Nagoya",
+    "country": "Japan",
+    "id": 31810150,
+    "urlname": "GCPUG-Nagoya",
+    "name": "GCPUG Nagoya",
+    "status": "Active",
+    "lon": 136.91000366210938,
+    "lat": 35.150001525878906
+  },
+  {
+    "city": "Tokushima",
+    "country": "Japan",
+    "id": 31787282,
+    "urlname": "GCPUG-Tokushima",
+    "name": "GCPUG Tokushima",
+    "status": "Active",
+    "lon": 134.5500030517578,
+    "lat": 34.06999969482422
+  },
+  {
+    "city": "Kochi",
+    "country": "Japan",
+    "id": 31910764,
+    "urlname": "GCPUG-Kochi",
+    "name": "GCPUG Kochi",
+    "status": "Active",
+    "lon": 133.5399932861328,
+    "lat": 33.560001373291016
+  },
+  {
     "city": "Zhuhai",
     "country": "China",
     "id": 23680726,
     "urlname": "Zhuhai-GDG",
     "name": "Zhuhai GDG",
-    "status": "Active",
+    "status": "Delisted",
     "lon": 113.56999969482422,
     "lat": 22.280000686645508
+  },
+  {
+    "city": "Wakayama",
+    "country": "Japan",
+    "id": 31745095,
+    "urlname": "GCPUG-Wakayama",
+    "name": "GCPUG Wakayama",
+    "status": "Active",
+    "lon": 135.1699981689453,
+    "lat": 34.220001220703125
   },
   {
     "city": "Shenzhen",
@@ -7443,6 +7868,16 @@
     "lat": 22.530000686645508
   },
   {
+    "city": "Mito",
+    "country": "Japan",
+    "id": 31851908,
+    "urlname": "GCPUG-Ibaraki",
+    "name": "GCPUG Ibaraki",
+    "status": "Active",
+    "lon": 140.47000122070312,
+    "lat": 36.380001068115234
+  },
+  {
     "city": "Beira",
     "country": "Mozambique",
     "id": 23400312,
@@ -7451,6 +7886,16 @@
     "status": "Active",
     "lon": 34.84000015258789,
     "lat": -19.829999923706055
+  },
+  {
+    "city": "Matsusaka",
+    "country": "Japan",
+    "id": 32161584,
+    "urlname": "GCPUG-Mie",
+    "name": "GCPUG Mie",
+    "status": "Active",
+    "lon": 136.52999877929688,
+    "lat": 34.58000183105469
   },
   {
     "city": "Las Vegas",
@@ -7475,14 +7920,14 @@
     "lat": 38.58000183105469
   },
   {
-    "city": "Hong Kong",
-    "country": "Hong Kong",
-    "id": 28595149,
-    "urlname": "gcpughk",
-    "name": "Hong Kong Google Cloud Platform User Group (GCPUG.HK)",
-    "status": "Delisted",
-    "lon": 114.13999938964844,
-    "lat": 22.270000457763672
+    "city": "Saitama",
+    "country": "Japan",
+    "id": 31918896,
+    "urlname": "GCPUG-Saitama",
+    "name": "GCPUG Saitama",
+    "status": "Active",
+    "lon": 139.64999389648438,
+    "lat": 35.869998931884766
   },
   {
     "city": "Hong Kong",
@@ -7495,12 +7940,52 @@
     "lat": 22.270000457763672
   },
   {
+    "city": "Kagoshima",
+    "country": "Japan",
+    "id": 31734621,
+    "urlname": "GCPUG-鹿児島",
+    "name": "GCPUG 鹿児島",
+    "status": "Active",
+    "lon": 130.55999755859375,
+    "lat": 31.59000015258789
+  },
+  {
+    "city": "Tokyo",
+    "country": "Japan",
+    "id": 31998999,
+    "urlname": "GCPUG-Tokyo-V1",
+    "name": "GCPUG-Tokyo",
+    "status": "Active",
+    "lon": 139.77000427246094,
+    "lat": 35.66999816894531
+  },
+  {
+    "city": "Tokyo",
+    "country": "Japan",
+    "id": 31911600,
+    "urlname": "GCPUG-Beginners-Tokyo",
+    "name": "GCPUG Beginners Tokyo",
+    "status": "Active",
+    "lon": 139.77000427246094,
+    "lat": 35.66999816894531
+  },
+  {
+    "city": "Tokyo",
+    "country": "Japan",
+    "id": 31734275,
+    "urlname": "GCPUG女子会",
+    "name": "GCPUG女子会",
+    "status": "Active",
+    "lon": 139.77000427246094,
+    "lat": 35.66999816894531
+  },
+  {
     "city": "Tokyo",
     "country": "Japan",
     "id": 30523876,
-    "urlname": "GCPUG-Tokyo",
-    "name": "GCPUG Tokyo",
-    "status": "Delisted",
+    "urlname": "GCPUG-Tokyo-v0",
+    "name": "GCPUG Tokyo v0.1",
+    "status": "Active",
     "lon": 139.77000427246094,
     "lat": 35.66999816894531
   },
@@ -7545,6 +8030,16 @@
     "lat": 13.15999984741211
   },
   {
+    "city": "Yokohama",
+    "country": "Japan",
+    "id": 31725742,
+    "urlname": "GCPUG-Yokohama",
+    "name": "GCPUG Yokohama",
+    "status": "Active",
+    "lon": 139.6199951171875,
+    "lat": 35.470001220703125
+  },
+  {
     "city": "Aracaju",
     "country": "Brazil",
     "id": 24158127,
@@ -7571,9 +8066,39 @@
     "id": 29902565,
     "urlname": "GDG-El-Paso",
     "name": "GDG El Paso",
-    "status": "Active",
+    "status": "Delisted",
     "lon": -106.48999786376953,
     "lat": 31.760000228881836
+  },
+  {
+    "city": "Chigasaki",
+    "country": "Japan",
+    "id": 31727626,
+    "urlname": "GCPUG-Shonan",
+    "name": "GCPUG Shonan",
+    "status": "Active",
+    "lon": 139.41000366210938,
+    "lat": 35.33000183105469
+  },
+  {
+    "city": "Chiba",
+    "country": "Japan",
+    "id": 31920766,
+    "urlname": "GCPUG-Chiba",
+    "name": "GCPUG Chiba",
+    "status": "Active",
+    "lon": 140.11000061035156,
+    "lat": 35.61000061035156
+  },
+  {
+    "city": "Kamakura",
+    "country": "Japan",
+    "id": 31930528,
+    "urlname": "GCPUG-Kamakura",
+    "name": "GCPUG Kamakura",
+    "status": "Active",
+    "lon": 139.5500030517578,
+    "lat": 35.31999969482422
   },
   {
     "city": "Imperatriz",
@@ -7608,6 +8133,17 @@
     "lat": 38.25
   },
   {
+    "city": "Turlock",
+    "state": "CA",
+    "country": "USA",
+    "id": 32256923,
+    "urlname": "GDG-Cloud-Turlock",
+    "name": "GDG Cloud Turlock",
+    "status": "Active",
+    "lon": -120.86000061035156,
+    "lat": 37.5
+  },
+  {
     "city": "Berkeley",
     "state": "CA",
     "country": "USA",
@@ -7623,9 +8159,9 @@
     "state": "CA",
     "country": "USA",
     "id": 2603182,
-    "urlname": "google-developer-group-san-francisco",
-    "name": "Google Developer Group San Francisco @sf_gdg",
-    "status": "Delisted",
+    "urlname": "GDGSanFrancisco",
+    "name": "GDG San Francisco @sf_gdg",
+    "status": "Active",
     "lon": -122.41000366210938,
     "lat": 37.790000915527344
   },
@@ -7669,7 +8205,7 @@
     "id": 1629436,
     "urlname": "gdgeastbay",
     "name": "Google Developer Group East Bay",
-    "status": "Active",
+    "status": "Delisted",
     "lon": -122,
     "lat": 37.560001373291016
   },
@@ -7713,7 +8249,7 @@
     "id": 31052587,
     "urlname": "GDG-Redwood-City",
     "name": "GDG Redwood City",
-    "status": "Active",
+    "status": "Delisted",
     "lon": -122.25,
     "lat": 37.529998779296875
   },
@@ -7727,6 +8263,17 @@
     "status": "Active",
     "lon": -112.06999969482422,
     "lat": 33.45000076293945
+  },
+  {
+    "city": "San Jose",
+    "state": "CA",
+    "country": "USA",
+    "id": 32081830,
+    "urlname": "GDG-Cloud-San-Jose",
+    "name": "GDG Cloud San Jose",
+    "status": "Active",
+    "lon": -121.9000015258789,
+    "lat": 37.38999938964844
   },
   {
     "city": "Mountain View",
@@ -7779,7 +8326,7 @@
     "id": 31006073,
     "urlname": "San-Jose-Android-Meetup",
     "name": "GDG San Jose",
-    "status": "Active",
+    "status": "Delisted",
     "lon": -121.93000030517578,
     "lat": 37.310001373291016
   },
@@ -7937,6 +8484,16 @@
     "lat": 18.5
   },
   {
+    "city": "Campeche",
+    "country": "Mexico",
+    "id": 31924604,
+    "urlname": "GDGCampeche",
+    "name": "GDG San Francisco de Campeche",
+    "status": "Active",
+    "lon": -90.52999877929688,
+    "lat": 19.850000381469727
+  },
+  {
     "city": "Monterrey",
     "country": "Mexico",
     "id": 17744402,
@@ -8037,7 +8594,7 @@
     "country": "USA",
     "id": 30831861,
     "urlname": "GDG-Silicon-Beach",
-    "name": "GDG Silicon Beach",
+    "name": "GDG Silicon Beach (Google Developers Group)",
     "status": "Active",
     "lon": -118.47000122070312,
     "lat": 33.9900016784668
@@ -8053,13 +8610,23 @@
     "lat": -24.649999618530273
   },
   {
+    "city": "Ginowan",
+    "country": "Japan",
+    "id": 31724473,
+    "urlname": "GCPUG-Okinawa",
+    "name": "GCPUG Okinawa",
+    "status": "Active",
+    "lon": 127.79000091552734,
+    "lat": 26.299999237060547
+  },
+  {
     "city": "San Diego",
     "state": "CA",
     "country": "USA",
     "id": 1571509,
     "urlname": "Android-Developers-Group",
     "name": "GDG San Diego - Android Developers Group",
-    "status": "Active",
+    "status": "Delisted",
     "lon": -117.19999694824219,
     "lat": 32.88999938964844
   },
@@ -8116,6 +8683,16 @@
   {
     "city": "Ho Chi Minh City",
     "country": "Vietnam",
+    "id": 31707702,
+    "urlname": "GDG-Cloud-HCMC",
+    "name": "GDG Cloud HCMC",
+    "status": "Active",
+    "lon": 106.62999725341797,
+    "lat": 10.819999694824219
+  },
+  {
+    "city": "Ho Chi Minh City",
+    "country": "Vietnam",
     "id": 24744120,
     "urlname": "gdgvietnam",
     "name": "Google Developer Group Vietnam",
@@ -8159,7 +8736,7 @@
     "id": 23338477,
     "urlname": "GDG-Villahermosa",
     "name": "GDG Villahermosa",
-    "status": "Delisted",
+    "status": "Active",
     "lon": -92.91999816894531,
     "lat": 17.979999542236328
   },
@@ -8232,6 +8809,16 @@
     "status": "Active",
     "lon": -74.08999633789062,
     "lat": 4.630000114440918
+  },
+  {
+    "city": "Xalapa",
+    "country": "Mexico",
+    "id": 32099530,
+    "urlname": "GDG-Xalapa",
+    "name": "GDG Xalapa",
+    "status": "Active",
+    "lon": -96.91999816894531,
+    "lat": 19.530000686645508
   },
   {
     "city": "Flic en Flac",
@@ -8339,9 +8926,19 @@
     "id": 28366118,
     "urlname": "GDGLeon",
     "name": "GDG León",
-    "status": "Active",
+    "status": "Delisted",
     "lon": -101.69000244140625,
     "lat": 21.1200008392334
+  },
+  {
+    "city": "Celaya",
+    "country": "Mexico",
+    "id": 31862823,
+    "urlname": "GDG-Celaya",
+    "name": "GDG Celaya",
+    "status": "Active",
+    "lon": -100.81999969482422,
+    "lat": 20.520000457763672
   },
   {
     "city": "San Jose",
@@ -8378,7 +8975,7 @@
     "country": "Mexico",
     "id": 23055832,
     "urlname": "cloudmx",
-    "name": "GDGCloudMX",
+    "name": "GDG CloudMX",
     "status": "Active",
     "lon": -99.13999938964844,
     "lat": 19.43000030517578
@@ -8437,8 +9034,8 @@
     "city": "Neiva",
     "country": "Colombia",
     "id": 31594440,
-    "urlname": "GDG-Huila",
-    "name": "GDG Huila",
+    "urlname": "GDG-Neiva",
+    "name": "GDG Neiva",
     "status": "Active",
     "lon": -75.2699966430664,
     "lat": 2.940000057220459
@@ -8544,16 +9141,6 @@
     "lat": 14.619999885559082
   },
   {
-    "city": "Vitória",
-    "country": "Brazil",
-    "id": 16058972,
-    "urlname": "GDG-Grande-Vitoria",
-    "name": "GDG Grande Vitória",
-    "status": "Delisted",
-    "lon": -40.310001373291016,
-    "lat": -20.309999465942383
-  },
-  {
     "city": "João Monlevade",
     "country": "Brazil",
     "id": 26454262,
@@ -8626,6 +9213,16 @@
   {
     "city": "Cape Town",
     "country": "South Africa",
+    "id": 23422167,
+    "urlname": "GDG-Cloud-Capetown",
+    "name": "GDG Cloud Cape Town",
+    "status": "Active",
+    "lon": 18.459999084472656,
+    "lat": -33.93000030517578
+  },
+  {
+    "city": "Cape Town",
+    "country": "South Africa",
     "id": 12941892,
     "urlname": "Google-Developer-Group-Cape-Town-Meetup",
     "name": "GDG Cape Town",
@@ -8649,7 +9246,7 @@
     "id": 25841459,
     "urlname": "GDG-Uberlandia",
     "name": "GDG Uberlândia",
-    "status": "Active",
+    "status": "Delisted",
     "lon": -48.279998779296875,
     "lat": -18.899999618530273
   },
@@ -8699,7 +9296,7 @@
     "id": 19583775,
     "urlname": "GDG-Tres-Rios",
     "name": "GDG Três Rios",
-    "status": "Delisted",
+    "status": "Active",
     "lon": -43.209999084472656,
     "lat": -22.110000610351562
   },
@@ -8799,7 +9396,7 @@
     "id": 25504623,
     "urlname": "gdgitajuba",
     "name": "GDG Itajubá",
-    "status": "Active",
+    "status": "Delisted",
     "lon": -45.45000076293945,
     "lat": -22.420000076293945
   },
@@ -8829,7 +9426,7 @@
     "id": 30345744,
     "urlname": "GDG-Sao-Jose-Rio-Preto",
     "name": "GDG São José Rio Preto",
-    "status": "Active",
+    "status": "Delisted",
     "lon": -49.38999938964844,
     "lat": -20.799999237060547
   },
@@ -8859,7 +9456,7 @@
     "id": 28315230,
     "urlname": "GDGLeme",
     "name": "GDG Leme",
-    "status": "Active",
+    "status": "Delisted",
     "lon": -47.380001068115234,
     "lat": -22.18000030517578
   },
@@ -8919,7 +9516,7 @@
     "id": 25832815,
     "urlname": "GDG-Santana-de-Parnaiba",
     "name": "GDG Santana de Parnaíba",
-    "status": "Active",
+    "status": "Delisted",
     "lon": -46.91999816894531,
     "lat": -23.450000762939453
   },
@@ -8959,7 +9556,7 @@
     "id": 27186406,
     "urlname": "GDG-Ourinhos",
     "name": "GDG Ourinhos",
-    "status": "Active",
+    "status": "Delisted",
     "lon": -49.869998931884766,
     "lat": -22.969999313354492
   },
@@ -9012,6 +9609,16 @@
     "status": "Active",
     "lon": -51.93000030517578,
     "lat": -23.40999984741211
+  },
+  {
+    "city": "Piura",
+    "country": "Peru",
+    "id": 31909194,
+    "urlname": "GDG-Piura",
+    "name": "GDG Piura",
+    "status": "Active",
+    "lon": -80.62999725341797,
+    "lat": -5.190000057220459
   },
   {
     "city": "Curitiba",
@@ -9094,6 +9701,16 @@
     "lat": -24.959999084472656
   },
   {
+    "city": "Cusco",
+    "country": "Peru",
+    "id": 31980976,
+    "urlname": "gdgcuscoperu",
+    "name": "GDG Cusco",
+    "status": "Active",
+    "lon": -71.98999786376953,
+    "lat": -13.520000457763672
+  },
+  {
     "city": "Florianópolis",
     "country": "Brazil",
     "id": 20304556,
@@ -9166,6 +9783,16 @@
   {
     "city": "Bandung",
     "country": "Indonesia",
+    "id": 32071233,
+    "urlname": "GDG-Cloud-Bandung",
+    "name": "GDG Cloud Bandung",
+    "status": "Active",
+    "lon": 107.5999984741211,
+    "lat": -6.909999847412109
+  },
+  {
+    "city": "Bandung",
+    "country": "Indonesia",
     "id": 23663249,
     "urlname": "GDG-Bandung",
     "name": "GDG Bandung",
@@ -9219,7 +9846,7 @@
     "id": 23371393,
     "urlname": "Women-Techmakers-Lima",
     "name": "Women Techmakers Lima",
-    "status": "Active",
+    "status": "Delisted",
     "lon": -77.05000305175781,
     "lat": -12.069999694824219
   },
@@ -9254,12 +9881,22 @@
     "lat": -6.96999979019165
   },
   {
+    "city": "Arequipa",
+    "country": "Peru",
+    "id": 32155816,
+    "urlname": "GDG-Arequipa",
+    "name": "GDG Arequipa",
+    "status": "Active",
+    "lon": -71.52999877929688,
+    "lat": -16.389999389648438
+  },
+  {
     "city": "Veranópolis",
     "country": "Brazil",
     "id": 27891900,
     "urlname": "GDG-Veranopolis",
     "name": "GDG Veranópolis",
-    "status": "Delisted",
+    "status": "Active",
     "lon": -51.560001373291016,
     "lat": -28.940000534057617
   },
@@ -9299,7 +9936,7 @@
     "id": 23332948,
     "urlname": "GDG-Tarija",
     "name": "GDG Tarija",
-    "status": "Active",
+    "status": "Delisted",
     "lon": -64.73999786376953,
     "lat": -21.530000686645508
   },
@@ -9369,7 +10006,7 @@
     "id": 18414620,
     "urlname": "GDGMontevideo",
     "name": "GDG Montevideo",
-    "status": "Active",
+    "status": "Delisted",
     "lon": -56.16999816894531,
     "lat": -34.869998931884766
   },
@@ -9379,7 +10016,7 @@
     "id": 28285833,
     "urlname": "Google-Cloud-Developer-Community-Buenos-Aires",
     "name": "Google Cloud Developer Community Buenos Aires",
-    "status": "Active",
+    "status": "Delisted",
     "lon": -58.369998931884766,
     "lat": -34.61000061035156
   },
@@ -9389,7 +10026,7 @@
     "id": 23330787,
     "urlname": "gdgbsas",
     "name": "GDG Buenos Aires",
-    "status": "Active",
+    "status": "Delisted",
     "lon": -58.369998931884766,
     "lat": -34.61000061035156
   },
@@ -9408,7 +10045,7 @@
     "country": "Argentina",
     "id": 31363010,
     "urlname": "GDG-CORDOBA-AR",
-    "name": "GDG Córdoba - Argentina",
+    "name": "GDG Córdoba, Argentina",
     "status": "Active",
     "lon": -64.19000244140625,
     "lat": -31.399999618530273
@@ -9469,7 +10106,7 @@
     "id": 24266591,
     "urlname": "gdgbrisbane",
     "name": "GDG Brisbane",
-    "status": "Active",
+    "status": "Delisted",
     "lon": 153.02000427246094,
     "lat": -27.459999084472656
   },
@@ -9479,7 +10116,7 @@
     "id": 20706157,
     "urlname": "GDG-Cloud-Brisbane",
     "name": "Brisbane Google Cloud Developer Group [GDG Cloud]",
-    "status": "Active",
+    "status": "Delisted",
     "lon": 153.02000427246094,
     "lat": -27.459999084472656
   },
@@ -9487,7 +10124,7 @@
     "city": "Melbourne",
     "country": "Australia",
     "id": 24469920,
-    "urlname": "GDG-Cloud-Melbourne",
+    "urlname": "gdg-cloud-melbourne",
     "name": "GDG Cloud Melbourne",
     "status": "Active",
     "lon": 144.9600067138672,
