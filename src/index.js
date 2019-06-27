@@ -7,6 +7,7 @@ import "./search-events.js";
 import "./community.js";
 import "./events.js";
 import "./events-country.js";
+import "./map.js";
 
 class GDGMain extends LitElement {
   static get properties() {
@@ -67,6 +68,11 @@ class GDGMain extends LitElement {
         menu: params => {
           this.route = html`
             <div>${navigation()}</div>
+          `;
+        },
+        map: params => {
+          this.route = html`
+            <x-map></x-map>
           `;
         },
         search: (params, query) => {
