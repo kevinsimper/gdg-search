@@ -41,6 +41,7 @@ class SearchEvents extends LitElement {
       name: { type: String },
       loading: { type: Boolean },
       shouldDrawChart: { type: Boolean },
+      shouldDrawMap: { type: Boolean },
       events: { type: Array },
       results: { type: Array },
       communities: { type: Array }
@@ -56,6 +57,8 @@ class SearchEvents extends LitElement {
     this.resultsCount = 0;
     this.results = [];
     this.fetching = Promise.all([fetchCommunities.bind(this)()]);
+
+    this.loadMapSDK();
   }
   firstUpdated() {
     if (this.name !== "") {
@@ -102,7 +105,7 @@ class SearchEvents extends LitElement {
         rangemode: "tozero"
       }
     };
-    Plotly.newPlot(this.renderRoot.querySelector("#myDiv"), data, layout, {
+    Plotly.newPlot(this.renderRoot.querySelector("#graph"), data, layout, {
       displayModeBar: false
     });
   }
@@ -110,7 +113,7 @@ class SearchEvents extends LitElement {
     window.location.hash = "#!search-events?query=" + name;
   }
   removeGraph() {
-    this.renderRoot.querySelector("#myDiv").innerHTML = "";
+    this.renderRoot.querySelector("#graph").innerHTML = "";
   }
   search(name) {
     this.updateLocation(name);
@@ -152,6 +155,23 @@ class SearchEvents extends LitElement {
       }
     });
   }
+  drawMap() {
+    this.map = new google.maps.Map(
+      this.shadowRoot.querySelector("#searchmap"),
+      {
+        center: { lat: 0, lng: 0 },
+        zoom: 3
+      }
+    );
+  }
+  loadMapSDK() {
+    const key = "AIzaSyDJMht1fBsxsa4REg-MR8_BAvmmsQRkNdM";
+    var s = document.createElement("script");
+    s.type = "text/javascript";
+    s.src = `https://maps.googleapis.com/maps/api/js?key=${key}`;
+    document.body.append(s);
+  }
+  removeMap() {}
   render() {
     const trySearch = query => html`
       <a
@@ -224,6 +244,23 @@ class SearchEvents extends LitElement {
                     />
                     Draw Chart
                   </label>
+                  <label>
+                    <input
+                      type="checkbox"
+                      @click="${
+                        e => {
+                          this.shouldDrawMap = !this.shouldDrawMap;
+                          if (this.shouldDrawMap) {
+                            this.drawMap();
+                          } else {
+                            this.removeMap();
+                          }
+                        }
+                      }"
+                      ?checked="${this.shouldDrawChart}"
+                    />
+                    Draw Map
+                  </label>
                 `
               : ""
           }
@@ -237,7 +274,16 @@ class SearchEvents extends LitElement {
               : ""
           }
         </p>
-        <div id="myDiv" style="margin: 0 0 20px"></div>
+
+        <div id="graph" style="margin: 0 0 20px"></div>
+        <div
+          id="searchmap_container"
+          style="margin: 0 0 20px; display: ${
+            this.shouldDrawMap ? "block" : "none"
+          }"
+        >
+          <div id="searchmap" style="height: 300px"></div>
+        </div>
 
         <x-table
           customStyle="white-space: initial;word-break: break-word;"
