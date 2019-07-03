@@ -1,0 +1,10 @@
+{
+  "name": "gdg-search-graph",
+  "scripts": {
+    "watch": "jest --watch",
+    "test": "jest"
+  },
+  "dependencies": {
+    "jest": "^24.8.0"
+  }
+}
