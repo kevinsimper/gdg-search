@@ -1,5 +1,11 @@
 FROM node:12-alpine
 
+WORKDIR /app
+
 ADD . /app
 
-CMD node /app/index.js
+RUN npm install
+
+RUN npm test
+
+CMD node index.js
