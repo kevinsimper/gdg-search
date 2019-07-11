@@ -6,7 +6,9 @@
     "test": "jest"
   },
   "dependencies": {
+    "apollo-server-express": "^2.6.8",
     "express": "^4.17.1",
+    "graphql": "^14.4.2",
     "jest": "^24.8.0",
     "node-fetch": "^2.6.0"
   }
