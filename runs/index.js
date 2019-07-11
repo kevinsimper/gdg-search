@@ -1,6 +1,7 @@
 const { createServer, get } = require("http");
 const express = require("express");
 const fetch = require("node-fetch");
+const { ApolloServer, gql } = require("apollo-server-express");
 const app = express();
 
 async function fetchCommunities() {
@@ -67,7 +68,21 @@ async function getSearch(req, res) {
   res.end(JSON.stringify(allEvents.flat().length));
 }
 
-const PORT = process.env.PORT || 3000;
+const typeDefs = gql`
+  type Query {
+    hello: String
+  }
+`;
+
+const resolvers = {
+  Query: {
+    hello: () => "Hello world!"
+  }
+};
+
+const server = new ApolloServer({ typeDefs, resolvers });
+server.applyMiddleware({ app });
+
 app.get("/", (req, res) => {
   res.send("GDG Search");
 });
@@ -75,4 +90,5 @@ app.get("/communities", getCommunities);
 app.get("/communities/:community/events", getCommunityEvents);
 app.get("/search", getSearch);
 
+const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => console.log("Listening on http://localhost:" + PORT));
