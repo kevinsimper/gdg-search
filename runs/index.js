@@ -69,14 +69,39 @@ async function getSearch(req, res) {
 }
 
 const typeDefs = gql`
+  type Community {
+    city: String
+    country: String
+    id: Int
+    urlname: String
+    name: String
+    status: String
+    lon: Float
+    lat: Float
+  }
+  type Event {
+    name: String
+    description: String
+    time: Int
+  }
   type Query {
     hello: String
+    communities(first: Int): [Community]
+    communityEvents(first: Int, name: String!): [Event]
   }
 `;
 
 const resolvers = {
   Query: {
-    hello: () => "Hello world!"
+    hello: () => "Hello world!",
+    communities: async () => {
+      const data = await fetchCommunities();
+      return data;
+    },
+    communityEvents: async (root, args) => {
+      const events = await fetchEvents(args.name);
+      return events;
+    }
   }
 };
 
