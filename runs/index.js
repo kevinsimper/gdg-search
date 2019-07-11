@@ -26,42 +26,54 @@ async function fetchEvents(name) {
   }
 }
 
+async function getCommunities(req, res) {
+  const data = await fetchCommunities();
+  res.setHeader("Content-Type", "application/json;");
+  res.end(JSON.stringify(data));
+}
+
+async function getCommunityEvents(req, res) {
+  const name = req.url.match(/\/communities\/(\S*)\/events/);
+  const events = await fetchEvents(name[1]);
+  res.setHeader("Content-Type", "application/json;");
+  res.end(JSON.stringify(events));
+}
+
+async function getSearch(req, res) {
+  const query = require("url")
+    .parse(req.url, true)
+    .query.name.toLowerCase();
+  const communities = await fetchCommunities();
+  const allEvents = await Promise.all(
+    communities.map(async community => {
+      const events = await fetchEvents(community.urlname);
+      let finds = events.filter(e => {
+        if ("name" in e) {
+          if (e.name.toLowerCase().includes(query)) {
+            return true;
+          }
+        }
+        if ("description" in e) {
+          return e.description.toLowerCase().includes(query);
+        }
+      });
+      return finds;
+    })
+  );
+
+  res.setHeader("Content-Type", "application/json;");
+  res.end(JSON.stringify(allEvents.flat().length));
+}
+
 const PORT = process.env.PORT || 3000;
 createServer(async (req, res) => {
   console.log("New request");
   if (req.url === "/communities") {
-    const data = await fetchCommunities();
-    res.setHeader("Content-Type", "application/json;");
-    res.end(JSON.stringify(data));
+    getCommunities(req, res);
   } else if (req.url.match(/\/communities\/(\S*)\/events/)) {
-    const name = req.url.match(/\/communities\/(\S*)\/events/);
-    const events = await fetchEvents(name[1]);
-    res.setHeader("Content-Type", "application/json;");
-    res.end(JSON.stringify(events));
+    getCommunityEvents(req, res);
   } else if (req.url.startsWith("/search")) {
-    const query = require("url")
-      .parse(req.url, true)
-      .query.name.toLowerCase();
-    const communities = await fetchCommunities();
-    const allEvents = await Promise.all(
-      communities.map(async community => {
-        const events = await fetchEvents(community.urlname);
-        let finds = events.filter(e => {
-          if ("name" in e) {
-            if (e.name.toLowerCase().includes(query)) {
-              return true;
-            }
-          }
-          if ("description" in e) {
-            return e.description.toLowerCase().includes(query);
-          }
-        });
-        return finds;
-      })
-    );
-
-    res.setHeader("Content-Type", "application/json;");
-    res.end(JSON.stringify(allEvents.flat().length));
+    getSearch(req, res);
   } else {
     res.end("Hello GDG Search");
   }
