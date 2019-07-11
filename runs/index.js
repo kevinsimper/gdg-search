@@ -79,9 +79,15 @@ const typeDefs = gql`
     lon: Float
     lat: Float
   }
+  type Event {
+    name: String
+    description: String
+    time: Int
+  }
   type Query {
     hello: String
     communities(first: Int): [Community]
+    communityEvents(first: Int, name: String!): [Event]
   }
 `;
 
@@ -91,6 +97,10 @@ const resolvers = {
     communities: async () => {
       const data = await fetchCommunities();
       return data;
+    },
+    communityEvents: async (root, args) => {
+      const events = await fetchEvents(args.name);
+      return events;
     }
   }
 };
