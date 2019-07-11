@@ -1,5 +1,7 @@
 const { createServer, get } = require("http");
+const express = require("express");
 const fetch = require("node-fetch");
+const app = express();
 
 async function fetchCommunities() {
   // console.log("fetching communities");
@@ -66,15 +68,11 @@ async function getSearch(req, res) {
 }
 
 const PORT = process.env.PORT || 3000;
-createServer(async (req, res) => {
-  console.log("New request");
-  if (req.url === "/communities") {
-    getCommunities(req, res);
-  } else if (req.url.match(/\/communities\/(\S*)\/events/)) {
-    getCommunityEvents(req, res);
-  } else if (req.url.startsWith("/search")) {
-    getSearch(req, res);
-  } else {
-    res.end("Hello GDG Search");
-  }
-}).listen(PORT, () => console.log("Listening on http://localhost:" + PORT));
+app.get("/", (req, res) => {
+  res.send("GDG Search");
+});
+app.get("/communities", getCommunities);
+app.get("/communities/:community/events", getCommunityEvents);
+app.get("/search", getSearch);
+
+app.listen(PORT, () => console.log("Listening on http://localhost:" + PORT));

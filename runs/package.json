@@ -6,6 +6,7 @@
     "test": "jest"
   },
   "dependencies": {
+    "express": "^4.17.1",
     "jest": "^24.8.0",
     "node-fetch": "^2.6.0"
   }
