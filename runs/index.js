@@ -39,45 +39,6 @@ const fetchEventsOrganizers = pMemoize(_fetchEventsOrganizers, {
   maxAge: 1000 * 3600
 });
 
-async function getCommunities(req, res) {
-  const data = await fetchCommunities();
-  res.setHeader("Content-Type", "application/json;");
-  res.end(JSON.stringify(data));
-}
-
-async function getCommunityEvents(req, res) {
-  const name = req.url.match(/\/communities\/(\S*)\/events/);
-  const { events } = await fetchEventsOrganizers(name[1]);
-  res.setHeader("Content-Type", "application/json;");
-  res.end(JSON.stringify(events));
-}
-
-async function getSearch(req, res) {
-  const query = require("url")
-    .parse(req.url, true)
-    .query.name.toLowerCase();
-  const communities = await fetchCommunities();
-  const allEvents = await Promise.all(
-    communities.map(async community => {
-      const { events } = await fetchEventsOrganizers(community.urlname);
-      let finds = events.filter(e => {
-        if ("name" in e) {
-          if (e.name.toLowerCase().includes(query)) {
-            return true;
-          }
-        }
-        if ("description" in e) {
-          return e.description.toLowerCase().includes(query);
-        }
-      });
-      return finds;
-    })
-  );
-
-  res.setHeader("Content-Type", "application/json;");
-  res.end(JSON.stringify(allEvents.flat().length));
-}
-
 const typeDefs = gql`
   type Organizer {
     role: String
@@ -194,9 +155,6 @@ server.applyMiddleware({ app });
 app.get("/", (req, res) => {
   res.send("GDG Search");
 });
-app.get("/communities", getCommunities);
-app.get("/communities/:community/events", getCommunityEvents);
-app.get("/search", getSearch);
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => console.log("Listening on http://localhost:" + PORT));
