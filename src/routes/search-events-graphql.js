@@ -5,7 +5,10 @@ import "../components/communitiesmap.js";
 import "../components/loader.js";
 import "../components/table.js";
 
-const URL = "https://gdg-search-wcazoqzmdq-uc.a.run.app/graphql";
+const URL =
+  window.location.host === "127.0.0.1:8081"
+    ? "http://localhost:3000/graphql"
+    : "https://gdg-search-wcazoqzmdq-uc.a.run.app/graphql";
 
 class SearchEventsGraphql extends LitElement {
   static get properties() {
@@ -13,7 +16,8 @@ class SearchEventsGraphql extends LitElement {
       query: String,
       data: Object,
       loading: Boolean,
-      mapType: String
+      mapType: String,
+      limit: Number
     };
   }
   constructor() {
@@ -22,6 +26,7 @@ class SearchEventsGraphql extends LitElement {
     this.mapType = "marker";
     this.data = {};
     this.loading = false;
+    this.limit = 25;
   }
   componentDidMount() {}
   updateLocation(name) {
@@ -173,24 +178,35 @@ class SearchEventsGraphql extends LitElement {
                       </tr>
                     </thead>
                     <tbody>
-                      ${this.data.searchEvents.events.map(i => {
-                        return html`
-                          <tr>
-                            <td>${i.time}</td>
-                            <td>
-                              <a
-                                href="https://meetup.com/${i.community.urlname}"
-                                >${i.community.name}</a
-                              >
-                            </td>
-                            <td>${i.name}</td>
-                          </tr>
-                        `;
-                      })}
+                      ${this.data.searchEvents.events
+                        .slice(0, this.limit)
+                        .map(i => {
+                          return html`
+                            <tr>
+                              <td>${i.time}</td>
+                              <td>
+                                <a
+                                  href="https://meetup.com/${i.community
+                                    .urlname}"
+                                  >${i.community.name}</a
+                                >
+                              </td>
+                              <td>${i.name}</td>
+                            </tr>
+                          `;
+                        })}
                     </tbody>
                   `}"
                 >
                 </x-table>
+                Showing ${this.limit} events
+                <button
+                  @click="${e => {
+                    this.limit += 100;
+                  }}"
+                >
+                  Show 100 more
+                </button>
               </div>
             `
           : ""}
