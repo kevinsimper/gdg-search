@@ -83,6 +83,7 @@ const typeDefs = gql`
     name: String
     description: String
     time: String
+    community: Community
   }
   type SearchEventResults {
     events: [Event]
@@ -92,15 +93,25 @@ const typeDefs = gql`
   }
   type Query {
     hello: String
+    community(name: String!): Community
     communities(first: Int): [Community]
     communityEvents(first: Int, name: String!): [Event]
     searchEvents(query: String): SearchEventResults
   }
 `;
 
+async function findCommunity(name) {
+  const communities = await fetchCommunities();
+  return communities.find(c => c.name === name);
+}
+
 const resolvers = {
   Query: {
     hello: () => "Hello world!",
+    community: async (root, args) => {
+      const data = await findCommunity(args.name);
+      return data;
+    },
     communities: async () => {
       const data = await fetchCommunities();
       return data;
@@ -145,6 +156,10 @@ const resolvers = {
     time: (root, args) => {
       // fix that graphql only supports int32 but meetup returns javascript date
       return root.time.toString();
+    },
+    community: async root => {
+      const data = await findCommunity(root.group.name);
+      return data;
     }
   }
 };
