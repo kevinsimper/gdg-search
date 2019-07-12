@@ -93,6 +93,7 @@ const typeDefs = gql`
     lon: Float
     lat: Float
     organizers: [Organizer]
+    events(first: Int): [Event]
   }
   type Event {
     name: String
@@ -112,6 +113,7 @@ const typeDefs = gql`
     communities(first: Int): [Community]
     communityEvents(first: Int, name: String!): [Event]
     searchEvents(query: String): SearchEventResults
+    eventsByCountry(name: String!): [Community]
   }
 `;
 
@@ -165,6 +167,12 @@ const resolvers = {
         communities: communityResults,
         communityCount: communityResults.length
       };
+    },
+    eventsByCountry: async (root, args) => {
+      const name = args.name;
+      const data = await fetchCommunities();
+      const filtered = data.filter(c => c.country === name);
+      return filtered;
     }
   },
   Event: {
@@ -185,6 +193,11 @@ const resolvers = {
         name: o.name,
         role: o.group_profile.role
       }));
+    },
+    events: async (root, args) => {
+      const first = args.first || 10;
+      const { events } = await fetchEventsOrganizers(root.urlname);
+      return events.slice(0, first);
     }
   }
 };
