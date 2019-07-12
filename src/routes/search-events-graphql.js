@@ -24,7 +24,16 @@ class SearchEventsGraphql extends LitElement {
     this.loading = false;
   }
   componentDidMount() {}
+  updateLocation(name) {
+    window.location.hash = "#!search-events-graphql?query=" + name;
+  }
+  firstUpdated() {
+    if (this.query !== "") {
+      this.search();
+    }
+  }
   async search() {
+    this.updateLocation(this.query);
     this.loading = true;
     const data = await this.fetchResults(this.query);
     const fixedEvents = data.data.searchEvents.events.map(i => {
@@ -82,9 +91,26 @@ class SearchEventsGraphql extends LitElement {
     return data;
   }
   render() {
+    const link = query => html`
+      <a
+        href="#"
+        @click="${e => {
+          e.preventDefault();
+          this.query = query;
+          this.search();
+        }}"
+        >${query}</a
+      >
+    `;
     return html`
       <x-container>
         <h1>Search Events GraphQL</h1>
+        <p>
+          Try searching: ${link("kubernetes")} ${link("android")}
+          ${link("tensorflow")} ${link("cloud")} ${link("functions")}
+          ${link("bigquery")} ${link("study")} ${link("docker")}
+          ${link("javascript")} ${link("python")}
+        </p>
         <div>
           <input
             type="text"

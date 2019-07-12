@@ -8,7 +8,7 @@ import "./routes/map.js";
 import "./routes/most-active.js";
 import "./routes/search-events.js";
 import "./routes/Search.js";
-import "./routes/search-events-graphql.js"
+import "./routes/search-events-graphql.js";
 
 class GDGMain extends LitElement {
   static get properties() {
@@ -52,7 +52,8 @@ class GDGMain extends LitElement {
             queryEvents = decodeURIComponent(query.split("=")[1]);
           }
           this.route = html`
-            <x-search-events-graphql name="${queryEvents}"></x-search-events-graphql>
+            <x-search-events-graphql query="${queryEvents}">
+            </x-search-events-graphql>
           `;
         },
         "community/:name": params => {
