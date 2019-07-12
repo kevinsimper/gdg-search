@@ -1,241 +1,215 @@
 import { LitElement, html } from "lit-element";
-import { fetchCommunities, fetchEvents } from "../models/index.js";
 import "../components/container.js";
 import "../components/eventgraph.js";
 import "../components/communitiesmap.js";
+import "../components/loader.js";
+import "../components/table.js";
+
+const URL =
+  window.location.host === "127.0.0.1:8081"
+    ? "http://localhost:3000/graphql"
+    : "https://gdg-search-wcazoqzmdq-uc.a.run.app/graphql";
 
 class SearchEvents extends LitElement {
   static get properties() {
     return {
-      name: { type: String },
-      loading: { type: Boolean },
-      shouldDrawChart: { type: Boolean },
-      shouldDrawMap: { type: Boolean },
-      shouldDrawHeatmap: { type: Boolean },
-      results: { type: Array },
-      communities: { type: Array }
+      query: String,
+      data: Object,
+      loading: Boolean,
+      mapType: String,
+      limit: Number
     };
   }
   constructor() {
     super();
-    this.name = "";
+    this.query = "";
+    this.mapType = "marker";
+    this.data = {};
     this.loading = false;
-    this.shouldDrawChart = false;
-    this.shouldDrawMap = false;
-    this.shouldDrawHeatmap = false;
-    this.totalCount = 0;
-    this.resultsCount = 0;
-    this.communityCount = 0;
-    this.results = [];
-    this.communitiesToDraw = [];
-
-    this.fetching = Promise.all([fetchCommunities.bind(this)()]);
+    this.limit = 25;
   }
-  firstUpdated() {
-    if (this.name !== "") {
-      this.fetching.then(() => {
-        this.search(this.name);
-      });
-    }
-  }
+  componentDidMount() {}
   updateLocation(name) {
     window.location.hash = "#!search-events?query=" + name;
   }
-  search(name) {
-    this.updateLocation(name);
+  firstUpdated() {
+    if (this.query !== "") {
+      this.search();
+    }
+  }
+  async search() {
+    this.updateLocation(this.query);
     this.loading = true;
-    this.totalCount = 0;
-    this.resultsCount = 0;
-    this.communityCount = 0;
-    this.results = [];
-    Promise.all(
-      this.communities.map(async community => {
-        const events = await fetchEvents(community.urlname);
-        let finds = events.filter(e => {
-          if ("name" in e) {
-            if (e.name.toLowerCase().includes(this.name.toLowerCase())) {
-              return true;
-            }
-          }
-          if ("description" in e) {
-            return e.description
-              .toLowerCase()
-              .includes(this.name.toLowerCase());
-          }
-        });
-        this.totalCount += events.length;
-        this.resultsCount += finds.length;
-        this.communityCount =
-          finds.length !== 0 ? this.communityCount + 1 : this.communityCount;
-        this.results = this.results.concat(finds);
-        this.results = this.results.sort((a, b) => b.time - a.time);
-        return {
-          finds,
-          community
-        };
-      })
-    ).then(eventsPerCommunity => {
-      this.communitiesToDraw = eventsPerCommunity.filter(
-        ({ finds }) => finds.length !== 0
-      );
-      this.loading = false;
+    const data = await this.fetchResults(this.query);
+    const fixedEvents = data.data.searchEvents.events.map(i => {
+      return {
+        ...i,
+        time: parseInt(i.time)
+      };
     });
+    this.data = {
+      searchEvents: {
+        ...data.data.searchEvents,
+        events: fixedEvents
+      }
+    };
+    this.communitymap = this.data.searchEvents.communities.map(community => ({
+      community,
+      finds: this.data.searchEvents.events.filter(
+        e => e.community.name === community.name
+      )
+    }));
+    this.loading = false;
+  }
+  async fetchResults(query) {
+    const graphqlQuery = `{
+      searchEvents(query: "${query}") {
+        eventsCount,
+        events {
+          name
+          time
+          community {
+            name
+            urlname
+          }
+        }
+        communities {
+          name
+          lat
+          lon
+        }
+        communityCount
+      }
+    }`;
+    const req = await fetch(URL, {
+      headers: {
+        "content-type": "application/json"
+      },
+      body: JSON.stringify({
+        operationName: null,
+        variables: {},
+        query: graphqlQuery
+      }),
+      method: "POST"
+    });
+    const data = await req.json();
+    return data;
   }
   render() {
-    const trySearch = query => html`
+    const link = query => html`
       <a
         href="#"
         @click="${e => {
           e.preventDefault();
-          this.name = query;
-          this.search(query);
+          this.query = query;
+          this.search();
         }}"
         >${query}</a
       >
     `;
     return html`
       <x-container>
-        <h1>Search events</h1>
+        <h1>Search Events GraphQL</h1>
         <p>
-          Sorts the results by date DESC. Please note that this searches the
-          events client-side. Don't search on 4g as it uses data.
+          Try searching: ${link("kubernetes")} ${link("android")}
+          ${link("tensorflow")} ${link("cloud")} ${link("functions")}
+          ${link("bigquery")} ${link("study")} ${link("docker")}
+          ${link("javascript")} ${link("python")}
         </p>
-        <p>
-          Try searching: ${trySearch("kubernetes")} ${trySearch("android")}
-          ${trySearch("tensorflow")} ${trySearch("cloud")}
-          ${trySearch("functions")} ${trySearch("bigquery")}
-          ${trySearch("study")} ${trySearch("docker")}
-          ${trySearch("javascript")} ${trySearch("python")}
-        </p>
-        <div style="margin: 20px 0;">
+        <div>
           <input
-            placeholder="eg. Kubernetes"
-            value="${this.name}"
+            type="text"
+            value="${this.query}"
             style="font-size: 1.5rem;"
-            @input="${e => (this.name = e.target.value)}"
+            @input="${e => (this.query = e.target.value)}"
           />
           <button
             style="font-size: 1.5rem;"
-            @click="${e => this.search(this.name)}"
+            @click="${() => {
+              this.search();
+            }}"
           >
             Search
           </button>
         </div>
-        <p>
-          ${this.loading
-            ? html`
-                <x-loader></x-loader>
-                <div>Loading..</div>
-              `
-            : ""}
-          ${this.resultsCount !== 0
-            ? html`
-                Found ${this.resultsCount} results, in ${this.communityCount}
-                GDG communities
-                <label>
-                  <input
-                    type="checkbox"
-                    @click="${e => {
-                      this.shouldDrawChart = !this.shouldDrawChart;
-                    }}"
-                    ?checked="${this.shouldDrawChart}"
-                  />
-                  Draw Chart
-                </label>
-                <label>
-                  <input
-                    type="checkbox"
-                    @click="${e => {
-                      this.shouldDrawMap = !this.shouldDrawMap;
-                    }}"
-                    ?checked="${this.shouldDrawMap}"
-                  />
-                  Draw Map
-                </label>
-                <label>
-                  <input
-                    type="checkbox"
-                    @click="${e => {
-                      this.shouldDrawHeatmap = !this.shouldDrawHeatmap;
-                    }}"
-                    ?checked="${this.shouldDrawHeatmap}"
-                  />
-                  Draw Heatmap
-                </label>
-              `
-            : ""}
-        </p>
-        <p>
-          ${this.totalCount !== 0
-            ? html`
-                Searched through ${this.totalCount} events
-              `
-            : ""}
-        </p>
-
-        ${!this.loading
+        ${this.loading
           ? html`
-              ${this.shouldDrawChart
-                ? html`
-                    <x-event-graph .events="${this.results}"></x-event-graph>
-                  `
-                : html``}
+              <x-loader></x-loader>
+              <div>Loading..</div>
             `
-          : html``}
-        ${!this.loading
+          : ""}
+        ${this.data.searchEvents !== undefined
           ? html`
-              ${this.shouldDrawMap
-                ? html`
-                    <div id="searchmap_container" style="margin: 0 0 20px;">
-                      <x-communities-map
-                        .communities="${this.communitiesToDraw}"
-                        type="${this.shouldDrawHeatmap ? "heatmap" : "marker"}"
-                      ></x-communities-map>
-                    </div>
-                  `
-                : html``}
+              <h3>
+                Found ${this.data.searchEvents.eventsCount} events in
+                ${this.data.searchEvents.communityCount} GDG communities
+              </h3>
+              <x-event-graph
+                .events="${this.data.searchEvents.events}"
+              ></x-event-graph>
+              <div>
+                <button
+                  @click="${e => {
+                    this.mapType = "marker";
+                  }}"
+                >
+                  Markers
+                </button>
+                <button
+                  @click="${e => {
+                    this.mapType = "heatmap";
+                  }}"
+                >
+                  Heatmap
+                </button>
+              </div>
+              <x-communities-map
+                .communities="${this.communitymap}"
+                type="${this.mapType}"
+              ></x-communities-map>
+              <div style="margin-top: 20px">
+                <x-table
+                  .content="${html`
+                    <thead>
+                      <tr>
+                        <th>Date</th>
+                        <th>Group</th>
+                        <th>Event</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      ${this.data.searchEvents.events
+                        .slice(0, this.limit)
+                        .map(i => {
+                          return html`
+                            <tr>
+                              <td>${i.time}</td>
+                              <td>
+                                <a
+                                  href="https://meetup.com/${i.community
+                                    .urlname}"
+                                  >${i.community.name}</a
+                                >
+                              </td>
+                              <td>${i.name}</td>
+                            </tr>
+                          `;
+                        })}
+                    </tbody>
+                  `}"
+                >
+                </x-table>
+                Showing ${this.limit} events
+                <button
+                  @click="${e => {
+                    this.limit += 100;
+                  }}"
+                >
+                  Show 100 more
+                </button>
+              </div>
             `
-          : html``}
-
-        <x-table
-          customStyle="white-space: initial;word-break: break-word;"
-          .content="${html`
-            <thead>
-              <tr>
-                <th width="28">#</th>
-                <th></th>
-                <th></th>
-                <th></th>
-                <th></th>
-              </tr>
-            </thead>
-            <tbody>
-              ${this.results.slice(0, 250).map((r, idx) => {
-                return html`
-                  <tr>
-                    <td>${idx + 1}</td>
-                    <td><a href="${r.link}">${r.name}</a></td>
-                    <td>
-                      <a href="/#!community/${r.group.urlname}"
-                        >${r.group.name}</a
-                      >
-                    </td>
-                    <td>${r.yes_rsvp_count} RSVP</td>
-                    <td>${r.local_date} ${r.local_time}</td>
-                  </tr>
-                  <tr>
-                    <td colspan="5">
-                      <div>
-                        ${r.description ? r.description.slice(0, 300) : ""} ...
-                      </div>
-                    </td>
-                  </tr>
-                `;
-              })}
-            </tbody>
-          `}"
-        ></x-table>
-        <p>${this.results.length > 250 ? "Showing max 250 results" : ""}</p>
+          : ""}
       </x-container>
     `;
   }
