@@ -9,12 +9,14 @@ class SearchEventsGraphql extends LitElement {
     return {
       query: String,
       data: Object,
-      loading: Boolean
+      loading: Boolean,
+      mapType: String
     };
   }
   constructor() {
     super();
     this.query = "";
+    this.mapType = "marker";
     this.data = {};
     this.loading = false;
   }
@@ -36,7 +38,9 @@ class SearchEventsGraphql extends LitElement {
     };
     this.communitymap = this.data.searchEvents.communities.map(community => ({
       community,
-      finds: []
+      finds: this.data.searchEvents.events.filter(
+        e => e.community.name === community.name
+      )
     }));
     this.loading = false;
   }
@@ -47,6 +51,9 @@ class SearchEventsGraphql extends LitElement {
         events {
           name
           time
+          community {
+            name
+          }
         }
         communities {
           name
@@ -92,14 +99,30 @@ class SearchEventsGraphql extends LitElement {
         : ""}
       ${this.data.searchEvents !== undefined
         ? html`
-            <div>${this.data.searchEvents.eventsCount}</div>
-            <div>${this.data.searchEvents.communityCount}</div>
+            <h3>${this.data.searchEvents.eventsCount} events</h3>
+            <h3>${this.data.searchEvents.communityCount} GDG's</h3>
             <x-event-graph
               .events="${this.data.searchEvents.events}"
             ></x-event-graph>
+            <div>
+              <button
+                @click="${e => {
+                  this.mapType = "marker";
+                }}"
+              >
+                Markers
+              </button>
+              <button
+                @click="${e => {
+                  this.mapType = "heatmap";
+                }}"
+              >
+                Heatmap
+              </button>
+            </div>
             <x-communities-map
               .communities="${this.communitymap}"
-              type="marker"
+              type="${this.mapType}"
             ></x-communities-map>
           `
         : ""}
