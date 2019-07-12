@@ -1,10 +1,12 @@
 const { createServer, get } = require("http");
 const express = require("express");
 const fetch = require("node-fetch");
+const pMemoize = require("p-memoize");
 const { ApolloServer, gql } = require("apollo-server-express");
+
 const app = express();
 
-async function fetchCommunities() {
+async function _fetchCommunities() {
   // console.log("fetching communities");
   const req = await fetch(
     "https://raw.githubusercontent.com/kevinsimper/gdg-search/master/src/list.json"
@@ -12,8 +14,9 @@ async function fetchCommunities() {
   const data = await req.json();
   return data;
 }
+const fetchCommunities = pMemoize(_fetchCommunities, { maxAge: 1000 * 3600 });
 
-async function fetchEvents(name) {
+async function _fetchEvents(name) {
   // console.log("fetching events", name);
   try {
     const req = await fetch(
@@ -28,6 +31,8 @@ async function fetchEvents(name) {
     return [];
   }
 }
+
+const fetchEvents = pMemoize(_fetchEvents, { maxAge: 1000 * 3600 });
 
 async function getCommunities(req, res) {
   const data = await fetchCommunities();
