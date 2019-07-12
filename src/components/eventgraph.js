@@ -56,10 +56,18 @@ class EventGraph extends LitElement {
     Plotly.newPlot(this.renderRoot.querySelector(".graph"), data, layout, {
       displayModeBar: false
     });
+    // remove second svg which are empty and a bug
+    // overlaps buttons so they can't be clicked
+    this.renderRoot.querySelectorAll(".main-svg")[1].remove();
   }
   render() {
     return html`
       <div>
+        <style>
+          .main-svg + .main-svg {
+            display: none;
+          }
+        </style>
         <div class="graph"></div>
       </div>
     `;
