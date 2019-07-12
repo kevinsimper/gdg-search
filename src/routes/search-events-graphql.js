@@ -1,6 +1,9 @@
 import { LitElement, html } from "lit-element";
+import "../components/container.js";
 import "../components/eventgraph.js";
 import "../components/communitiesmap.js";
+import "../components/loader.js";
+import "../components/table.js";
 
 const URL = "https://gdg-search-wcazoqzmdq-uc.a.run.app/graphql";
 
@@ -53,6 +56,7 @@ class SearchEventsGraphql extends LitElement {
           time
           community {
             name
+            urlname
           }
         }
         communities {
@@ -79,53 +83,92 @@ class SearchEventsGraphql extends LitElement {
   }
   render() {
     return html`
-      <h1>Search Events GraphQL</h1>
-      <input
-        type="text"
-        value="${this.query}"
-        @input="${e => (this.query = e.target.value)}"
-      />
-      <button
-        @click="${() => {
-          this.search();
-        }}"
-      >
-        Search
-      </button>
-      ${this.loading
-        ? html`
-            <div>Loading..</div>
-          `
-        : ""}
-      ${this.data.searchEvents !== undefined
-        ? html`
-            <h3>${this.data.searchEvents.eventsCount} events</h3>
-            <h3>${this.data.searchEvents.communityCount} GDG's</h3>
-            <x-event-graph
-              .events="${this.data.searchEvents.events}"
-            ></x-event-graph>
-            <div>
-              <button
-                @click="${e => {
-                  this.mapType = "marker";
-                }}"
-              >
-                Markers
-              </button>
-              <button
-                @click="${e => {
-                  this.mapType = "heatmap";
-                }}"
-              >
-                Heatmap
-              </button>
-            </div>
-            <x-communities-map
-              .communities="${this.communitymap}"
-              type="${this.mapType}"
-            ></x-communities-map>
-          `
-        : ""}
+      <x-container>
+        <h1>Search Events GraphQL</h1>
+        <div>
+          <input
+            type="text"
+            value="${this.query}"
+            style="font-size: 1.5rem;"
+            @input="${e => (this.query = e.target.value)}"
+          />
+          <button
+            style="font-size: 1.5rem;"
+            @click="${() => {
+              this.search();
+            }}"
+          >
+            Search
+          </button>
+        </div>
+        ${this.loading
+          ? html`
+              <x-loader></x-loader>
+              <div>Loading..</div>
+            `
+          : ""}
+        ${this.data.searchEvents !== undefined
+          ? html`
+              <h3>
+                Found ${this.data.searchEvents.eventsCount} events in
+                ${this.data.searchEvents.communityCount} GDG communities
+              </h3>
+              <x-event-graph
+                .events="${this.data.searchEvents.events}"
+              ></x-event-graph>
+              <div>
+                <button
+                  @click="${e => {
+                    this.mapType = "marker";
+                  }}"
+                >
+                  Markers
+                </button>
+                <button
+                  @click="${e => {
+                    this.mapType = "heatmap";
+                  }}"
+                >
+                  Heatmap
+                </button>
+              </div>
+              <x-communities-map
+                .communities="${this.communitymap}"
+                type="${this.mapType}"
+              ></x-communities-map>
+              <div style="margin-top: 20px">
+                <x-table
+                  .content="${html`
+                    <thead>
+                      <tr>
+                        <th>Date</th>
+                        <th>Group</th>
+                        <th>Event</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      ${this.data.searchEvents.events.map(i => {
+                        return html`
+                          <tr>
+                            <td>${i.time}</td>
+                            <td>
+                              <a
+                                href="https://meetup.com/${i.community.urlname}"
+                                >${i.community.name}</a
+                              >
+                            </td>
+                            <td>${i.name}</td>
+                          </tr>
+                        `;
+                      })}
+                    </tbody>
+                  `}"
+                >
+                </x-table>
+              </div>
+            `
+          : ""}
+      </x-container>
     `;
   }
 }
