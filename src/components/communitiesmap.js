@@ -91,7 +91,6 @@ class CommunitiesMap extends LitElement {
   render() {
     return html`
       <div>
-        map
         <div class="map" style="height: 300px"></div>
       </div>
     `;

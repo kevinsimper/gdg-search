@@ -1,5 +1,6 @@
 import { LitElement, html } from "lit-element";
 import "../components/eventgraph.js";
+import "../components/communitiesmap.js";
 
 const URL = "https://gdg-search-wcazoqzmdq-uc.a.run.app/graphql";
 
@@ -29,10 +30,14 @@ class SearchEventsGraphql extends LitElement {
     });
     this.data = {
       searchEvents: {
-        ...data.searchEvents,
+        ...data.data.searchEvents,
         events: fixedEvents
       }
     };
+    this.communitymap = this.data.searchEvents.communities.map(community => ({
+      community,
+      finds: []
+    }));
     this.loading = false;
   }
   async fetchResults(query) {
@@ -45,6 +50,8 @@ class SearchEventsGraphql extends LitElement {
         }
         communities {
           name
+          lat
+          lon
         }
         communityCount
       }
@@ -90,6 +97,10 @@ class SearchEventsGraphql extends LitElement {
             <x-event-graph
               .events="${this.data.searchEvents.events}"
             ></x-event-graph>
+            <x-communities-map
+              .communities="${this.communitymap}"
+              type="marker"
+            ></x-communities-map>
           `
         : ""}
     `;
