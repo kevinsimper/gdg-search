@@ -16,7 +16,7 @@ async function _fetchCommunities() {
 }
 const fetchCommunities = pMemoize(_fetchCommunities, { maxAge: 1000 * 3600 });
 
-async function _fetchEvents(name) {
+async function _fetchEventsOrganizers(name) {
   // console.log("fetching events", name);
   try {
     const req = await fetch(
@@ -25,14 +25,19 @@ async function _fetchEvents(name) {
       )
     );
     const json = await req.json();
-    return json.events;
+    return json;
   } catch (e) {
     console.log("error fetch event", name, e.name);
-    return [];
+    return {
+      events: [],
+      organizers: []
+    };
   }
 }
 
-const fetchEvents = pMemoize(_fetchEvents, { maxAge: 1000 * 3600 });
+const fetchEventsOrganizers = pMemoize(_fetchEventsOrganizers, {
+  maxAge: 1000 * 3600
+});
 
 async function getCommunities(req, res) {
   const data = await fetchCommunities();
@@ -42,7 +47,7 @@ async function getCommunities(req, res) {
 
 async function getCommunityEvents(req, res) {
   const name = req.url.match(/\/communities\/(\S*)\/events/);
-  const events = await fetchEvents(name[1]);
+  const { events } = await fetchEventsOrganizers(name[1]);
   res.setHeader("Content-Type", "application/json;");
   res.end(JSON.stringify(events));
 }
@@ -54,7 +59,7 @@ async function getSearch(req, res) {
   const communities = await fetchCommunities();
   const allEvents = await Promise.all(
     communities.map(async community => {
-      const events = await fetchEvents(community.urlname);
+      const { events } = await fetchEventsOrganizers(community.urlname);
       let finds = events.filter(e => {
         if ("name" in e) {
           if (e.name.toLowerCase().includes(query)) {
@@ -74,6 +79,10 @@ async function getSearch(req, res) {
 }
 
 const typeDefs = gql`
+  type Organizer {
+    role: String
+    name: String
+  }
   type Community {
     city: String
     country: String
@@ -83,6 +92,7 @@ const typeDefs = gql`
     status: String
     lon: Float
     lat: Float
+    organizers: [Organizer]
   }
   type Event {
     name: String
@@ -122,7 +132,7 @@ const resolvers = {
       return data;
     },
     communityEvents: async (root, args) => {
-      const events = await fetchEvents(args.name);
+      const { events } = await fetchEventsOrganizers(args.name);
       return events;
     },
     searchEvents: async (root, args) => {
@@ -131,7 +141,7 @@ const resolvers = {
       const communityResults = [];
       const allEvents = await Promise.all(
         communities.map(async community => {
-          const events = await fetchEvents(community.urlname);
+          const { events } = await fetchEventsOrganizers(community.urlname);
           let finds = events.filter(e => {
             if ("name" in e) {
               if (e.name.toLowerCase().includes(query)) {
@@ -165,6 +175,16 @@ const resolvers = {
     community: async root => {
       const data = await findCommunity(root.group.name);
       return data;
+    }
+  },
+  Community: {
+    organizers: async root => {
+      const urlname = root.urlname;
+      const { organizers } = await fetchEventsOrganizers(urlname);
+      return organizers.map(o => ({
+        name: o.name,
+        role: o.group_profile.role
+      }));
     }
   }
 };
