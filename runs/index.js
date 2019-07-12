@@ -82,7 +82,7 @@ const typeDefs = gql`
   type Event {
     name: String
     description: String
-    time: Int
+    time: String
   }
   type SearchEventResults {
     events: [Event]
@@ -140,12 +140,17 @@ const resolvers = {
         communityCount: communityResults.length
       };
     }
+  },
+  Event: {
+    time: (root, args) => {
+      // fix that graphql only supports int32 but meetup returns javascript date
+      return root.time.toString();
+    }
   }
 };
 
 const server = new ApolloServer({ typeDefs, resolvers });
 server.applyMiddleware({ app });
-
 app.get("/", (req, res) => {
   res.send("GDG Search");
 });
