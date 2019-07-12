@@ -1,13 +1,13 @@
 import { LitElement, css, html } from "lit-element";
 import Navigo from "navigo";
-import "./Search.js";
 import { navigation } from "./components/header.js";
-import "./most-active.js";
-import "./search-events.js";
-import "./community.js";
-import "./events.js";
-import "./events-country.js";
-import "./map.js";
+import "./routes/community.js";
+import "./routes/events-country.js";
+import "./routes/events.js";
+import "./routes/map.js";
+import "./routes/most-active.js";
+import "./routes/search-events.js";
+import "./routes/Search.js";
 
 class GDGMain extends LitElement {
   static get properties() {
