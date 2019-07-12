@@ -1,6 +1,6 @@
 import { LitElement, html } from "lit-element";
-import { fetchCommunities, fetchEvents } from "./models/index.js";
-import "./components/container.js";
+import { fetchCommunities, fetchEvents } from "../models/index.js";
+import "../components/container.js";
 
 let loader = html`
   <div class="loader loader--style3" title="2">

@@ -1,13 +1,13 @@
 import { LitElement, css, html } from "lit-element";
 import { until } from "lit-html/directives/until.js";
-import "./components/container.js";
+import "../components/container.js";
 import {
   fetchCommunities,
   fetchEvents,
   fetchOrganizers
-} from "./models/index.js";
-import "./components/table.js";
-import "./components/organizer.js";
+} from "../models/index.js";
+import "../components/table.js";
+import "../components/organizer.js";
 
 class EventsCountry extends LitElement {
   static get properties() {

@@ -1,7 +1,7 @@
 import { LitElement, css, html } from "lit-element";
 import { until } from "lit-html/directives/until.js";
-import "./components/container.js";
-import "./components/table.js";
+import "../components/container.js";
+import "../components/table.js";
 
 class MostActive extends LitElement {
   static get properties() {

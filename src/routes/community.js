@@ -1,13 +1,13 @@
 import { LitElement, html, css } from "lit-element";
-import "./components/container.js";
-import "./components/table.js";
-import "./components/organizer.js";
-import "./components/logo.js";
+import "../components/container.js";
+import "../components/table.js";
+import "../components/organizer.js";
+import "../components/logo.js";
 import {
   fetchEvents,
   fetchOrganizers,
   fetchCommunities
-} from "./models/index.js";
+} from "../models/index.js";
 
 class Group extends LitElement {
   static get properties() {

@@ -1,6 +1,6 @@
 import { LitElement, css, html } from "lit-element";
 import { until } from "lit-html/directives/until.js";
-import "./components/container.js";
+import "../components/container.js";
 
 class Events extends LitElement {
   static get properties() {

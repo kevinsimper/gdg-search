@@ -1,5 +1,5 @@
 import { LitElement, html } from "lit-element";
-import { fetchCommunitiesArray } from "./models/index.js";
+import { fetchCommunitiesArray } from "../models/index.js";
 
 class GDGMap extends LitElement {
   constructor() {
