@@ -1,4 +1,5 @@
 import { LitElement, html } from "lit-element";
+import "../components/eventgraph.js";
 
 const URL = "https://gdg-search-wcazoqzmdq-uc.a.run.app/graphql";
 
@@ -20,7 +21,18 @@ class SearchEventsGraphql extends LitElement {
   async search() {
     this.loading = true;
     const data = await this.fetchResults(this.query);
-    this.data = data.data;
+    const fixedEvents = data.data.searchEvents.events.map(i => {
+      return {
+        ...i,
+        time: parseInt(i.time)
+      };
+    });
+    this.data = {
+      searchEvents: {
+        ...data.searchEvents,
+        events: fixedEvents
+      }
+    };
     this.loading = false;
   }
   async fetchResults(query) {
@@ -29,6 +41,7 @@ class SearchEventsGraphql extends LitElement {
         eventsCount,
         events {
           name
+          time
         }
         communities {
           name
@@ -74,6 +87,9 @@ class SearchEventsGraphql extends LitElement {
         ? html`
             <div>${this.data.searchEvents.eventsCount}</div>
             <div>${this.data.searchEvents.communityCount}</div>
+            <x-event-graph
+              .events="${this.data.searchEvents.events}"
+            ></x-event-graph>
           `
         : ""}
     `;

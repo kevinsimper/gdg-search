@@ -60,7 +60,6 @@ class EventGraph extends LitElement {
   render() {
     return html`
       <div>
-        test
         <div class="graph"></div>
       </div>
     `;
