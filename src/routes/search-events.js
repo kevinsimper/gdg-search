@@ -1,6 +1,7 @@
 import { LitElement, html } from "lit-element";
 import { fetchCommunities, fetchEvents } from "../models/index.js";
 import "../components/container.js";
+import "../components/eventgraph.js";
 
 let loader = html`
   <div class="loader loader--style3" title="2">
@@ -72,48 +73,6 @@ class SearchEvents extends LitElement {
       });
     }
   }
-  drawGraph() {
-    const graphData = this.results
-      .map(i => {
-        return [
-          new Date(i.time).getMonth() + 1,
-          new Date(i.time).getFullYear()
-        ];
-      })
-      .reduce((sum, cur) => {
-        if (sum.has(cur.join())) {
-          return sum.set(cur.join(), sum.get(cur.join()) + 1);
-        } else {
-          return sum.set(cur.join(), 1);
-        }
-      }, new Map());
-
-    const xlabels = [...graphData]
-      .map(i => i[0])
-      .reverse()
-      .map(i => {
-        let date = i.split(",");
-        return `${date[1]}-${date[0].padStart(2, "0")}-01 00:00:00`;
-      });
-    const ydata = [...graphData].map(i => i[1]).reverse();
-    const tickmode = ydata.find(i => i > 20) === undefined ? "linear" : "auto";
-    var data = [
-      {
-        x: xlabels,
-        y: ydata,
-        type: "bar"
-      }
-    ];
-    const layout = {
-      yaxis: {
-        tickmode,
-        rangemode: "tozero"
-      }
-    };
-    Plotly.newPlot(this.renderRoot.querySelector("#graph"), data, layout, {
-      displayModeBar: false
-    });
-  }
   updateLocation(name) {
     window.location.hash = "#!search-events?query=" + name;
   }
@@ -122,7 +81,6 @@ class SearchEvents extends LitElement {
   }
   search(name) {
     this.updateLocation(name);
-    this.removeGraph();
     this.loading = true;
     this.totalCount = 0;
     this.resultsCount = 0;
@@ -147,7 +105,7 @@ class SearchEvents extends LitElement {
         this.resultsCount += finds.length;
         this.communityCount =
           finds.length !== 0 ? this.communityCount + 1 : this.communityCount;
-        Array.prototype.push.apply(this.results, finds);
+        this.results = this.results.concat(finds);
         this.results = this.results.sort((a, b) => b.time - a.time);
         return {
           finds,
@@ -157,11 +115,6 @@ class SearchEvents extends LitElement {
     ).then(eventsPerCommunity => {
       this.eventsPerCommunity = eventsPerCommunity;
       this.loading = false;
-      if (this.shouldDrawChart) {
-        this.drawGraph();
-      } else {
-        this.removeGraph();
-      }
       if (this.shouldDrawMap) {
         this.drawMap();
       } else {
@@ -233,13 +186,11 @@ class SearchEvents extends LitElement {
     const trySearch = query => html`
       <a
         href="#"
-        @click="${
-          e => {
-            e.preventDefault();
-            this.name = query;
-            this.search(query);
-          }
-        }"
+        @click="${e => {
+          e.preventDefault();
+          this.name = query;
+          this.search(query);
+        }}"
         >${query}</a
       >
     `;
@@ -272,136 +223,122 @@ class SearchEvents extends LitElement {
           </button>
         </div>
         <p>
-          ${
-            this.loading
-              ? html`
-                  ${loader}
-                  <div>Loading..</div>
-                `
-              : ""
-          }
-          ${
-            this.resultsCount !== 0
-              ? html`
-                  Found ${this.resultsCount} results, in ${this.communityCount}
-                  GDG communities
-                  <label>
-                    <input
-                      type="checkbox"
-                      @click="${
-                        e => {
-                          this.shouldDrawChart = !this.shouldDrawChart;
-                          if (this.shouldDrawChart) {
-                            this.drawGraph();
-                          } else {
-                            this.removeGraph();
-                          }
-                        }
-                      }"
-                      ?checked="${this.shouldDrawChart}"
-                    />
-                    Draw Chart
-                  </label>
-                  <label>
-                    <input
-                      type="checkbox"
-                      @click="${
-                        e => {
-                          this.shouldDrawMap = !this.shouldDrawMap;
-                          if (this.shouldDrawMap) {
-                            this.drawMap();
-                          } else {
-                            this.removeMap();
-                          }
-                        }
-                      }"
-                      ?checked="${this.shouldDrawMap}"
-                    />
-                    Draw Map
-                  </label>
-                  <label>
-                    <input
-                      type="checkbox"
-                      @click="${
-                        e => {
-                          this.shouldDrawHeatmap = !this.shouldDrawHeatmap;
-                          if (this.shouldDrawHeatmap) {
-                            this.drawMap();
-                          } else {
-                            this.drawMap();
-                          }
-                        }
-                      }"
-                      ?checked="${this.shouldDrawHeatmap}"
-                    />
-                    Draw Heatmap
-                  </label>
-                `
-              : ""
-          }
+          ${this.loading
+            ? html`
+                ${loader}
+                <div>Loading..</div>
+              `
+            : ""}
+          ${this.resultsCount !== 0
+            ? html`
+                Found ${this.resultsCount} results, in ${this.communityCount}
+                GDG communities
+                <label>
+                  <input
+                    type="checkbox"
+                    @click="${e => {
+                      this.shouldDrawChart = !this.shouldDrawChart;
+                    }}"
+                    ?checked="${this.shouldDrawChart}"
+                  />
+                  Draw Chart
+                </label>
+                <label>
+                  <input
+                    type="checkbox"
+                    @click="${e => {
+                      this.shouldDrawMap = !this.shouldDrawMap;
+                      if (this.shouldDrawMap) {
+                        this.drawMap();
+                      } else {
+                        this.removeMap();
+                      }
+                    }}"
+                    ?checked="${this.shouldDrawMap}"
+                  />
+                  Draw Map
+                </label>
+                <label>
+                  <input
+                    type="checkbox"
+                    @click="${e => {
+                      this.shouldDrawHeatmap = !this.shouldDrawHeatmap;
+                      if (this.shouldDrawHeatmap) {
+                        this.drawMap();
+                      } else {
+                        this.drawMap();
+                      }
+                    }}"
+                    ?checked="${this.shouldDrawHeatmap}"
+                  />
+                  Draw Heatmap
+                </label>
+              `
+            : ""}
         </p>
         <p>
-          ${
-            this.totalCount !== 0
-              ? html`
-                  Searched through ${this.totalCount} events
-                `
-              : ""
-          }
+          ${this.totalCount !== 0
+            ? html`
+                Searched through ${this.totalCount} events
+              `
+            : ""}
         </p>
 
-        <div id="graph" style="margin: 0 0 20px"></div>
+        ${!this.loading
+          ? html`
+              ${this.shouldDrawChart
+                ? html`
+                    <x-event-graph .events="${this.results}"></x-event-graph>
+                  `
+                : html``}
+            `
+          : html``}
         <div
           id="searchmap_container"
-          style="margin: 0 0 20px; display: ${
-            this.shouldDrawMap ? "block" : "none"
-          }"
+          style="margin: 0 0 20px; display: ${this.shouldDrawMap
+            ? "block"
+            : "none"}"
         >
           <div id="searchmap" style="height: 300px"></div>
         </div>
 
         <x-table
           customStyle="white-space: initial;word-break: break-word;"
-          .content="${
-            html`
-              <thead>
-                <tr>
-                  <th width="28">#</th>
-                  <th></th>
-                  <th></th>
-                  <th></th>
-                  <th></th>
-                </tr>
-              </thead>
-              <tbody>
-                ${
-                  this.results.slice(0, 250).map((r, idx) => {
-                    return html`
-                      <tr>
-                        <td>${idx + 1}</td>
-                        <td><a href="${r.link}">${r.name}</a></td>
-                        <td>
-                          <a href="/#!community/${r.group.urlname}"
-                            >${r.group.name}</a
-                          >
-                        </td>
-                        <td>${r.yes_rsvp_count} RSVP</td>
-                        <td>${r.local_date} ${r.local_time}</td>
-                      </tr>
-                      <tr>
-                        <td colspan="5">
-                          <div>
-                            ${r.description ? r.description.slice(0, 300) : ""}
-                            ...
-                          </div>
-                        </td>
-                      </tr>
-                    `;
-                  })
-                }
-              </tbody>
-            `
-          }"
+          .content="${html`
+            <thead>
+              <tr>
+                <th width="28">#</th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody>
+              ${this.results.slice(0, 250).map((r, idx) => {
+                return html`
+                  <tr>
+                    <td>${idx + 1}</td>
+                    <td><a href="${r.link}">${r.name}</a></td>
+                    <td>
+                      <a href="/#!community/${r.group.urlname}"
+                        >${r.group.name}</a
+                      >
+                    </td>
+                    <td>${r.yes_rsvp_count} RSVP</td>
+                    <td>${r.local_date} ${r.local_time}</td>
+                  </tr>
+                  <tr>
+                    <td colspan="5">
+                      <div>
+                        ${r.description ? r.description.slice(0, 300) : ""} ...
+                      </div>
+                    </td>
+                  </tr>
+                `;
+              })}
+            </tbody>
+          `}"
         ></x-table>
         <p>${this.results.length > 250 ? "Showing max 250 results" : ""}</p>
       </x-container>
