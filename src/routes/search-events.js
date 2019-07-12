@@ -2,6 +2,7 @@ import { LitElement, html } from "lit-element";
 import { fetchCommunities, fetchEvents } from "../models/index.js";
 import "../components/container.js";
 import "../components/eventgraph.js";
+import "../components/communitiesmap.js";
 
 class SearchEvents extends LitElement {
   static get properties() {
@@ -10,7 +11,7 @@ class SearchEvents extends LitElement {
       loading: { type: Boolean },
       shouldDrawChart: { type: Boolean },
       shouldDrawMap: { type: Boolean },
-      events: { type: Array },
+      shouldDrawHeatmap: { type: Boolean },
       results: { type: Array },
       communities: { type: Array }
     };
@@ -22,16 +23,13 @@ class SearchEvents extends LitElement {
     this.shouldDrawChart = false;
     this.shouldDrawMap = false;
     this.shouldDrawHeatmap = false;
-    this.events = [];
     this.totalCount = 0;
     this.resultsCount = 0;
     this.communityCount = 0;
     this.results = [];
-    this.markers = [];
-    this.eventsPerCommunity = [];
-    this.fetching = Promise.all([fetchCommunities.bind(this)()]);
+    this.communitiesToDraw = [];
 
-    this.loadMapSDK();
+    this.fetching = Promise.all([fetchCommunities.bind(this)()]);
   }
   firstUpdated() {
     if (this.name !== "") {
@@ -42,9 +40,6 @@ class SearchEvents extends LitElement {
   }
   updateLocation(name) {
     window.location.hash = "#!search-events?query=" + name;
-  }
-  removeGraph() {
-    this.renderRoot.querySelector("#graph").innerHTML = "";
   }
   search(name) {
     this.updateLocation(name);
@@ -80,75 +75,12 @@ class SearchEvents extends LitElement {
         };
       })
     ).then(eventsPerCommunity => {
-      this.eventsPerCommunity = eventsPerCommunity;
+      this.communitiesToDraw = eventsPerCommunity.filter(
+        ({ finds }) => finds.length !== 0
+      );
       this.loading = false;
-      if (this.shouldDrawMap) {
-        this.drawMap();
-      } else {
-        this.removeMap();
-      }
     });
   }
-  drawMap() {
-    if (!this.map) {
-      this.map = new google.maps.Map(
-        this.shadowRoot.querySelector("#searchmap"),
-        {
-          center: { lat: 0, lng: 0 },
-          zoom: 3
-        }
-      );
-    }
-    this.drawMarkers(this.eventsPerCommunity);
-  }
-  drawMarkers(eventsPerCommunity) {
-    let communitiesToDraw = eventsPerCommunity.filter(
-      ({ finds }) => finds.length !== 0
-    );
-    if (this.heatmap) {
-      this.heatmap.setMap(null);
-    }
-    if (this.markers.length > 0) {
-      this.markers.forEach(marker => marker.setMap(null));
-    }
-
-    if (this.shouldDrawHeatmap) {
-      this.heatmap = new google.maps.visualization.HeatmapLayer({
-        data: communitiesToDraw.map(({ community, finds }) => {
-          return {
-            location: new google.maps.LatLng(community.lat, community.lon),
-            weight: finds.length
-          };
-        }),
-        radius: 40
-      });
-      this.heatmap.setMap(this.map);
-    } else {
-      this.markers = communitiesToDraw.map(c => this.addMarker(c));
-    }
-  }
-  addMarker({ community, finds }) {
-    const marker = new google.maps.Marker({
-      position: { lat: community.lat, lng: community.lon },
-      map: this.map,
-      title: `${community.name} - ${finds.length} events`
-    });
-    marker.addListener("click", () => {
-      window.open(
-        "https://gdg-search.firebaseapp.com/#!search?region=" + community.city,
-        "_blank"
-      );
-    });
-    return marker;
-  }
-  loadMapSDK() {
-    const key = "AIzaSyDJMht1fBsxsa4REg-MR8_BAvmmsQRkNdM";
-    var s = document.createElement("script");
-    s.type = "text/javascript";
-    s.src = `https://maps.googleapis.com/maps/api/js?key=${key}&libraries=visualization`;
-    document.body.append(s);
-  }
-  removeMap() {}
   render() {
     const trySearch = query => html`
       <a
@@ -215,11 +147,6 @@ class SearchEvents extends LitElement {
                     type="checkbox"
                     @click="${e => {
                       this.shouldDrawMap = !this.shouldDrawMap;
-                      if (this.shouldDrawMap) {
-                        this.drawMap();
-                      } else {
-                        this.removeMap();
-                      }
                     }}"
                     ?checked="${this.shouldDrawMap}"
                   />
@@ -230,11 +157,6 @@ class SearchEvents extends LitElement {
                     type="checkbox"
                     @click="${e => {
                       this.shouldDrawHeatmap = !this.shouldDrawHeatmap;
-                      if (this.shouldDrawHeatmap) {
-                        this.drawMap();
-                      } else {
-                        this.drawMap();
-                      }
                     }}"
                     ?checked="${this.shouldDrawHeatmap}"
                   />
@@ -260,14 +182,20 @@ class SearchEvents extends LitElement {
                 : html``}
             `
           : html``}
-        <div
-          id="searchmap_container"
-          style="margin: 0 0 20px; display: ${this.shouldDrawMap
-            ? "block"
-            : "none"}"
-        >
-          <div id="searchmap" style="height: 300px"></div>
-        </div>
+        ${!this.loading
+          ? html`
+              ${this.shouldDrawMap
+                ? html`
+                    <div id="searchmap_container" style="margin: 0 0 20px;">
+                      <x-communities-map
+                        .communities="${this.communitiesToDraw}"
+                        type="${this.shouldDrawHeatmap ? "heatmap" : "marker"}"
+                      ></x-communities-map>
+                    </div>
+                  `
+                : html``}
+            `
+          : html``}
 
         <x-table
           customStyle="white-space: initial;word-break: break-word;"
