@@ -12,21 +12,28 @@ class UpcomingEvents extends LitElement {
     return {
       events: {
         type: Array
+      },
+      limit: {
+        type: Number
       }
     };
   }
   constructor() {
     super();
     this.events = [];
+    this.limit = 50;
   }
   async connectedCallback() {
     super.connectedCallback();
+    this.upcoming();
+  }
+  async upcoming() {
     const events = await this.fetchResults();
     this.events = events.data.upcomingEvents;
   }
   async fetchResults(query) {
     const graphqlQuery = `{
-      upcomingEvents(first: 50) {
+      upcomingEvents(first: ${this.limit}) {
         id
         name
         time,
@@ -92,6 +99,15 @@ class UpcomingEvents extends LitElement {
             </tbody>
           `}"
         ></x-table>
+        Showing ${this.limit} results
+        <button
+          @click="${e => {
+            this.limit += 100;
+            this.upcoming();
+          }}"
+        >
+          Show 100 more
+        </button>
       </x-container>
     `;
   }
