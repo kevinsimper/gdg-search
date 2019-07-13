@@ -78,12 +78,12 @@ class GDGMain extends LitElement {
         search: (params, query) => {
           const region = decodeURIComponent(query.split("=")[1]);
           this.route = html`
-            <search-gdg name="${region}"></search-gdg>
+            <search-gdg query="${region}"></search-gdg>
           `;
         },
         "*": () => {
           this.route = html`
-            <search-gdg></search-gdg>
+            <search-gdg query=""></search-gdg>
           `;
         }
       })
