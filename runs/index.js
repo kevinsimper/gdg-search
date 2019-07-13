@@ -55,6 +55,7 @@ const typeDefs = gql`
     lat: Float
     organizers: [Organizer]
     events(first: Int): [Event]
+    upcoming: [Event]
   }
   type Event {
     name: String
@@ -75,6 +76,7 @@ const typeDefs = gql`
     communityEvents(first: Int, name: String!): [Event]
     searchEvents(query: String): SearchEventResults
     eventsByCountry(name: String!): [Community]
+    upcomingEvents(first: Int!): [Event]
   }
 `;
 
@@ -97,6 +99,19 @@ const resolvers = {
     communityEvents: async (root, args) => {
       const { events } = await fetchEventsOrganizers(args.name);
       return events;
+    },
+    upcomingEvents: async (root, args) => {
+      const first = args.first || 10;
+      const communties = await fetchCommunities();
+      const events = await Promise.all(
+        communties.map(async community => {
+          const { upcoming } = await fetchEventsOrganizers(community.urlname);
+          return upcoming;
+        })
+      );
+      const results = events.flat().sort((a, b) => b.time - a.time);
+      const sliced = results.slice(0, first);
+      return sliced;
     },
     searchEvents: async (root, args) => {
       const query = args.query.toLowerCase();
@@ -159,6 +174,11 @@ const resolvers = {
       const first = args.first || 10;
       const { events } = await fetchEventsOrganizers(root.urlname);
       return events.slice(0, first);
+    },
+    upcoming: async (root, args) => {
+      const first = args.first || 10;
+      const { upcoming } = await fetchEventsOrganizers(root.urlname);
+      return upcoming.slice(0, first);
     }
   }
 };
