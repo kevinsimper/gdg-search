@@ -8,6 +8,7 @@ import "./routes/map.js";
 import "./routes/most-active.js";
 import "./routes/search-events.js";
 import "./routes/Search.js";
+import "./routes/upcoming.js";
 
 class GDGMain extends LitElement {
   static get properties() {
@@ -79,6 +80,11 @@ class GDGMain extends LitElement {
           const region = decodeURIComponent(query.split("=")[1]);
           this.route = html`
             <search-gdg query="${region}"></search-gdg>
+          `;
+        },
+        upcoming: (params, query) => {
+          this.route = html`
+            <x-upcoming></x-upcoming>
           `;
         },
         "*": () => {
