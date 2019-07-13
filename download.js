@@ -1,9 +1,9 @@
 import fetch from "isomorphic-unfetch";
 
-async function fetchEvents(meetup) {
+async function fetchEvents(meetup, status) {
   let events = [];
   const headerPagination = [
-    encodeURI(`https://api.meetup.com/${meetup}/events?status=past`)
+    encodeURI(`https://api.meetup.com/${meetup}/events?status=${status}`)
   ];
   async function fetchPage(url) {
     const linkres = await fetch(url);
@@ -42,11 +42,13 @@ async function fetchOrganizers(meetup) {
 }
 
 async function main(meetup) {
-  const events = await fetchEvents(meetup);
+  const events = await fetchEvents(meetup, "past");
+  const upcoming = await fetchEvents(meetup, "upcoming");
   const organizers = await fetchOrganizers(meetup);
   console.log(
     JSON.stringify({
       events,
+      upcoming,
       organizers
     })
   );
