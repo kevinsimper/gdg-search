@@ -58,6 +58,7 @@ const typeDefs = gql`
     upcoming: [Event]
   }
   type Event {
+    id: String
     name: String
     description: String
     time: String
@@ -109,7 +110,15 @@ const resolvers = {
           return upcoming;
         })
       );
-      const results = events.flat().sort((a, b) => b.time - a.time);
+      const results = events
+        .flat()
+        .sort((a, b) => a.time - b.time)
+        .filter(a => {
+          if (a) {
+            return a.time > Date.now();
+          }
+          return false;
+        });
       const sliced = results.slice(0, first);
       return sliced;
     },
