@@ -6,6 +6,7 @@ export const navigation = () => html`
     <a href="/#!most-active" class="item">Most Active</a>
     <a href="/#!events" class="item">Countries</a>
     <a href="/#!search-events" class="item">Search Events</a>
+    <a href="/#!upcoming" class="item">Upcoming</a>
     <a href="/#!map" class="item">Map</a>
     <a href="https://github.com/kevinsimper/gdg-search" class="item"
       >Github
@@ -23,6 +24,14 @@ export const navigation = () => html`
         ></path></svg
     ></a>
   </nav>
+  <style>
+    @media (max-width: 760px) {
+      nav a {
+        display: block;
+        padding: 10px 20px;
+      }
+    }
+  </style>
 `;
 
 class Header extends LitElement {
