@@ -2,38 +2,38 @@
   {
     "name": "Android-Developers-Group",
     "all": 90,
-    "yearly": 4,
+    "yearly": 3,
     "quarter": 0
   },
   {
     "name": "Android-Paris",
     "all": 86,
-    "yearly": 6,
+    "yearly": 5,
     "quarter": 1
   },
   {
     "name": "AthloneDevelopersGroup",
     "all": 9,
     "yearly": 8,
-    "quarter": 4
+    "quarter": 2
   },
   {
     "name": "Beira-GDG",
     "all": 21,
     "yearly": 13,
-    "quarter": 3
+    "quarter": 2
   },
   {
     "name": "Changji-GDG",
     "all": 18,
-    "yearly": 10,
-    "quarter": 2
+    "yearly": 9,
+    "quarter": 1
   },
   {
     "name": "Chengdu-GDG",
     "all": 16,
-    "yearly": 6,
-    "quarter": 2
+    "yearly": 5,
+    "quarter": 1
   },
   {
     "name": "Chita-New-Technology-Meetup",
@@ -45,13 +45,13 @@
     "name": "Chongqing-GDG",
     "all": 11,
     "yearly": 5,
-    "quarter": 2
+    "quarter": 1
   },
   {
     "name": "Cloud-Espanol",
     "all": 18,
     "yearly": 16,
-    "quarter": 4
+    "quarter": 3
   },
   {
     "name": "Cloud-GDG-Berlin",
@@ -68,7 +68,7 @@
   {
     "name": "DSC-Multimedia-University-of-Kenya",
     "all": 13,
-    "yearly": 11,
+    "yearly": 5,
     "quarter": 0
   },
   {
@@ -86,7 +86,7 @@
   {
     "name": "DSCKabarak",
     "all": 61,
-    "yearly": 22,
+    "yearly": 19,
     "quarter": 3
   },
   {
@@ -99,49 +99,49 @@
     "name": "DSC_Gracepoly",
     "all": 31,
     "yearly": 25,
-    "quarter": 18
+    "quarter": 12
   },
   {
     "name": "Detroit-Google-Developers-Group",
     "all": 54,
-    "yearly": 8,
+    "yearly": 7,
     "quarter": 1
   },
   {
     "name": "FinistDevs",
     "all": 17,
     "yearly": 5,
-    "quarter": 2
+    "quarter": 1
   },
   {
     "name": "Fuzhou-GDG",
     "all": 18,
     "yearly": 7,
-    "quarter": 2
+    "quarter": 1
   },
   {
     "name": "GCDC-Coimbatore",
     "all": 4,
     "yearly": 4,
-    "quarter": 1
+    "quarter": 0
   },
   {
     "name": "GCDC-Kampala",
     "all": 32,
-    "yearly": 27,
-    "quarter": 6
+    "yearly": 25,
+    "quarter": 4
   },
   {
     "name": "GCDCEgypt",
     "all": 53,
-    "yearly": 41,
-    "quarter": 11
+    "yearly": 38,
+    "quarter": 10
   },
   {
     "name": "GCDCEmirates",
     "all": 43,
-    "yearly": 31,
-    "quarter": 19
+    "yearly": 30,
+    "quarter": 17
   },
   {
     "name": "GCDCKaduna",
@@ -153,7 +153,7 @@
     "name": "GCDCKano",
     "all": 5,
     "yearly": 5,
-    "quarter": 1
+    "quarter": 0
   },
   {
     "name": "GCDCLK",
@@ -321,13 +321,13 @@
     "name": "GCPUG-Shonan",
     "all": 4,
     "yearly": 4,
-    "quarter": 4
+    "quarter": 3
   },
   {
     "name": "GCPUG-Taipei",
     "all": 16,
     "yearly": 13,
-    "quarter": 6
+    "quarter": 5
   },
   {
     "name": "GCPUG-Tokushima",
@@ -345,7 +345,7 @@
     "name": "GCPUG-Tokyo-v0",
     "all": 8,
     "yearly": 8,
-    "quarter": 2
+    "quarter": 1
   },
   {
     "name": "GCPUG-Tokyo",
@@ -386,8 +386,8 @@
   {
     "name": "GCPUGSG",
     "all": 32,
-    "yearly": 9,
-    "quarter": 2
+    "yearly": 8,
+    "quarter": 1
   },
   {
     "name": "GCPUG女子会",
@@ -398,43 +398,43 @@
   {
     "name": "GDG-ABC",
     "all": 66,
-    "yearly": 8,
-    "quarter": 4
+    "yearly": 6,
+    "quarter": 3
   },
   {
     "name": "GDG-Aalborg",
     "all": 21,
-    "yearly": 8,
-    "quarter": 1
+    "yearly": 7,
+    "quarter": 0
   },
   {
     "name": "GDG-Aba",
     "all": 17,
-    "yearly": 8,
+    "yearly": 7,
     "quarter": 1
   },
   {
     "name": "GDG-Abomey-Calavi",
     "all": 34,
-    "yearly": 16,
+    "yearly": 14,
     "quarter": 3
   },
   {
     "name": "GDG-AbuDhabi",
     "all": 13,
-    "yearly": 6,
+    "yearly": 5,
     "quarter": 2
   },
   {
     "name": "GDG-Abuja",
     "all": 8,
-    "yearly": 5,
-    "quarter": 1
+    "yearly": 4,
+    "quarter": 0
   },
   {
     "name": "GDG-Accra",
     "all": 19,
-    "yearly": 6,
+    "yearly": 5,
     "quarter": 1
   },
   {
@@ -447,19 +447,19 @@
     "name": "GDG-Adana",
     "all": 17,
     "yearly": 11,
-    "quarter": 1
+    "quarter": 0
   },
   {
     "name": "GDG-Addis",
     "all": 31,
     "yearly": 9,
-    "quarter": 2
+    "quarter": 1
   },
   {
     "name": "GDG-Ahmedabad",
     "all": 53,
-    "yearly": 16,
-    "quarter": 4
+    "yearly": 14,
+    "quarter": 2
   },
   {
     "name": "GDG-Aix-Marseille",
@@ -471,19 +471,19 @@
     "name": "GDG-Akoko",
     "all": 18,
     "yearly": 9,
-    "quarter": 5
+    "quarter": 4
   },
   {
     "name": "GDG-Alexandria",
     "all": 34,
     "yearly": 16,
-    "quarter": 4
+    "quarter": 1
   },
   {
     "name": "GDG-Algiers",
     "all": 48,
-    "yearly": 31,
-    "quarter": 7
+    "yearly": 29,
+    "quarter": 5
   },
   {
     "name": "GDG-Alicante",
@@ -495,7 +495,7 @@
     "name": "GDG-Almaty",
     "all": 15,
     "yearly": 8,
-    "quarter": 3
+    "quarter": 1
   },
   {
     "name": "GDG-Alpharetta",
@@ -507,7 +507,7 @@
     "name": "GDG-Amman",
     "all": 9,
     "yearly": 6,
-    "quarter": 3
+    "quarter": 1
   },
   {
     "name": "GDG-Android-Athens",
@@ -518,20 +518,20 @@
   {
     "name": "GDG-Android-Columbus",
     "all": 26,
-    "yearly": 13,
-    "quarter": 3
+    "yearly": 12,
+    "quarter": 2
   },
   {
     "name": "GDG-Antananarivo",
     "all": 27,
-    "yearly": 21,
-    "quarter": 6
+    "yearly": 20,
+    "quarter": 3
   },
   {
     "name": "GDG-Antofagasta",
     "all": 19,
     "yearly": 9,
-    "quarter": 3
+    "quarter": 1
   },
   {
     "name": "GDG-Arapiraca",
@@ -555,37 +555,37 @@
     "name": "GDG-Astrakhan",
     "all": 16,
     "yearly": 8,
-    "quarter": 2
+    "quarter": 1
   },
   {
     "name": "GDG-Asturias",
     "all": 19,
     "yearly": 9,
-    "quarter": 2
+    "quarter": 1
   },
   {
     "name": "GDG-Aswan",
     "all": 7,
     "yearly": 7,
-    "quarter": 7
+    "quarter": 6
   },
   {
     "name": "GDG-BBA",
     "all": 10,
     "yearly": 10,
-    "quarter": 4
+    "quarter": 3
   },
   {
     "name": "GDG-BGL",
     "all": 11,
-    "yearly": 6,
-    "quarter": 2
+    "yearly": 5,
+    "quarter": 1
   },
   {
     "name": "GDG-BH",
     "all": 113,
-    "yearly": 16,
-    "quarter": 5
+    "yearly": 14,
+    "quarter": 3
   },
   {
     "name": "GDG-BURDUR",
@@ -597,7 +597,7 @@
     "name": "GDG-Bacolod",
     "all": 13,
     "yearly": 7,
-    "quarter": 3
+    "quarter": 2
   },
   {
     "name": "GDG-Baku",
@@ -608,8 +608,8 @@
   {
     "name": "GDG-Bali",
     "all": 18,
-    "yearly": 8,
-    "quarter": 2
+    "yearly": 7,
+    "quarter": 1
   },
   {
     "name": "GDG-Baltimore",
@@ -620,26 +620,26 @@
   {
     "name": "GDG-Bamako",
     "all": 18,
-    "yearly": 8,
-    "quarter": 3
+    "yearly": 7,
+    "quarter": 1
   },
   {
     "name": "GDG-Bamenda",
     "all": 8,
     "yearly": 3,
-    "quarter": 1
+    "quarter": 0
   },
   {
     "name": "GDG-Bandung",
     "all": 10,
     "yearly": 5,
-    "quarter": 2
+    "quarter": 1
   },
   {
     "name": "GDG-Bangangte",
     "all": 25,
-    "yearly": 15,
-    "quarter": 7
+    "yearly": 14,
+    "quarter": 6
   },
   {
     "name": "GDG-Banjul",
@@ -650,8 +650,8 @@
   {
     "name": "GDG-Barcelona",
     "all": 79,
-    "yearly": 36,
-    "quarter": 6
+    "yearly": 35,
+    "quarter": 4
   },
   {
     "name": "GDG-Bari",
@@ -681,19 +681,19 @@
     "name": "GDG-Beijing",
     "all": 26,
     "yearly": 14,
-    "quarter": 5
+    "quarter": 1
   },
   {
     "name": "GDG-Beja",
     "all": 35,
     "yearly": 25,
-    "quarter": 12
+    "quarter": 4
   },
   {
     "name": "GDG-Beni-Suef",
     "all": 12,
-    "yearly": 12,
-    "quarter": 2
+    "yearly": 11,
+    "quarter": 1
   },
   {
     "name": "GDG-Bentonville",
@@ -716,8 +716,8 @@
   {
     "name": "GDG-Bhubaneswar",
     "all": 51,
-    "yearly": 17,
-    "quarter": 2
+    "yearly": 15,
+    "quarter": 1
   },
   {
     "name": "GDG-Bilbao",
@@ -729,7 +729,7 @@
     "name": "GDG-Bishkek",
     "all": 16,
     "yearly": 9,
-    "quarter": 4
+    "quarter": 1
   },
   {
     "name": "GDG-Bizerte",
@@ -740,14 +740,14 @@
   {
     "name": "GDG-Black-Forest",
     "all": 20,
-    "yearly": 12,
-    "quarter": 3
+    "yearly": 11,
+    "quarter": 2
   },
   {
     "name": "GDG-Blantyre",
     "all": 33,
     "yearly": 31,
-    "quarter": 13
+    "quarter": 9
   },
   {
     "name": "GDG-Bloomington",
@@ -759,12 +759,12 @@
     "name": "GDG-Bodensee",
     "all": 39,
     "yearly": 5,
-    "quarter": 2
+    "quarter": 1
   },
   {
     "name": "GDG-Bogor",
     "all": 10,
-    "yearly": 7,
+    "yearly": 6,
     "quarter": 1
   },
   {
@@ -776,14 +776,14 @@
   {
     "name": "GDG-Bonny-island",
     "all": 11,
-    "yearly": 8,
+    "yearly": 7,
     "quarter": 1
   },
   {
     "name": "GDG-Bordeaux",
     "all": 9,
     "yearly": 7,
-    "quarter": 3
+    "quarter": 1
   },
   {
     "name": "GDG-Bouake",
@@ -794,50 +794,50 @@
   {
     "name": "GDG-Brasilia",
     "all": 33,
-    "yearly": 27,
-    "quarter": 7
+    "yearly": 25,
+    "quarter": 2
   },
   {
     "name": "GDG-Bratislava",
     "all": 5,
     "yearly": 4,
-    "quarter": 1
+    "quarter": 0
   },
   {
     "name": "GDG-Braunschweig",
     "all": 12,
     "yearly": 6,
-    "quarter": 1
+    "quarter": 0
   },
   {
     "name": "GDG-Brazza",
     "all": 28,
-    "yearly": 13,
-    "quarter": 3
+    "yearly": 12,
+    "quarter": 2
   },
   {
     "name": "GDG-Bristol",
     "all": 6,
     "yearly": 6,
-    "quarter": 3
+    "quarter": 2
   },
   {
     "name": "GDG-Bronx",
     "all": 60,
-    "yearly": 15,
-    "quarter": 3
+    "yearly": 14,
+    "quarter": 2
   },
   {
     "name": "GDG-Budapest",
     "all": 35,
     "yearly": 6,
-    "quarter": 1
+    "quarter": 0
   },
   {
     "name": "GDG-Buea",
     "all": 14,
     "yearly": 7,
-    "quarter": 3
+    "quarter": 2
   },
   {
     "name": "GDG-Bukavu",
@@ -849,19 +849,19 @@
     "name": "GDG-Burgos",
     "all": 26,
     "yearly": 11,
-    "quarter": 3
+    "quarter": 2
   },
   {
     "name": "GDG-Busan",
     "all": 76,
-    "yearly": 60,
-    "quarter": 9
+    "yearly": 56,
+    "quarter": 3
   },
   {
     "name": "GDG-Busitema",
     "all": 68,
-    "yearly": 7,
-    "quarter": 2
+    "yearly": 4,
+    "quarter": 1
   },
   {
     "name": "GDG-CONAKRY",
@@ -878,38 +878,38 @@
   {
     "name": "GDG-Calabar",
     "all": 20,
-    "yearly": 12,
-    "quarter": 2
+    "yearly": 11,
+    "quarter": 1
   },
   {
     "name": "GDG-Cambridge-MA",
     "all": 13,
-    "yearly": 13,
-    "quarter": 2
+    "yearly": 12,
+    "quarter": 0
   },
   {
     "name": "GDG-Campo-Grande",
     "all": 14,
-    "yearly": 12,
-    "quarter": 3
+    "yearly": 11,
+    "quarter": 1
   },
   {
     "name": "GDG-Campobasso",
     "all": 13,
-    "yearly": 4,
+    "yearly": 3,
     "quarter": 1
   },
   {
     "name": "GDG-Campus",
     "all": 14,
     "yearly": 6,
-    "quarter": 3
+    "quarter": 2
   },
   {
     "name": "GDG-Cascavel",
     "all": 50,
-    "yearly": 6,
-    "quarter": 2
+    "yearly": 5,
+    "quarter": 1
   },
   {
     "name": "GDG-Catania",
@@ -926,8 +926,8 @@
   {
     "name": "GDG-Central-Florida",
     "all": 67,
-    "yearly": 17,
-    "quarter": 4
+    "yearly": 16,
+    "quarter": 3
   },
   {
     "name": "GDG-Chandigarh",
@@ -945,7 +945,7 @@
     "name": "GDG-Cherkasy",
     "all": 18,
     "yearly": 8,
-    "quarter": 2
+    "quarter": 1
   },
   {
     "name": "GDG-Chimoio",
@@ -980,20 +980,20 @@
   {
     "name": "GDG-Cloud-Ado-Ekiti",
     "all": 14,
-    "yearly": 11,
-    "quarter": 3
+    "yearly": 10,
+    "quarter": 2
   },
   {
     "name": "GDG-Cloud-Atlanta",
     "all": 2,
     "yearly": 2,
-    "quarter": 1
+    "quarter": 0
   },
   {
     "name": "GDG-Cloud-Auburn",
     "all": 2,
     "yearly": 2,
-    "quarter": 1
+    "quarter": 0
   },
   {
     "name": "GDG-Cloud-Auckland",
@@ -1005,7 +1005,7 @@
     "name": "GDG-Cloud-Austin",
     "all": 31,
     "yearly": 8,
-    "quarter": 2
+    "quarter": 1
   },
   {
     "name": "GDG-Cloud-Baltimore",
@@ -1022,7 +1022,7 @@
   {
     "name": "GDG-Cloud-Bauchi",
     "all": 5,
-    "yearly": 4,
+    "yearly": 3,
     "quarter": 1
   },
   {
@@ -1035,7 +1035,7 @@
     "name": "GDG-Cloud-Berea",
     "all": 24,
     "yearly": 24,
-    "quarter": 13
+    "quarter": 9
   },
   {
     "name": "GDG-Cloud-Brisbane",
@@ -1046,20 +1046,20 @@
   {
     "name": "GDG-Cloud-Brno",
     "all": 4,
-    "yearly": 3,
+    "yearly": 2,
     "quarter": 0
   },
   {
     "name": "GDG-Cloud-Bucharest",
     "all": 5,
     "yearly": 4,
-    "quarter": 1
+    "quarter": 0
   },
   {
     "name": "GDG-Cloud-Busan-Meetup",
     "all": 1,
     "yearly": 1,
-    "quarter": 1
+    "quarter": 0
   },
   {
     "name": "GDG-Cloud-Canarias",
@@ -1071,7 +1071,7 @@
     "name": "GDG-Cloud-Capetown",
     "all": 7,
     "yearly": 3,
-    "quarter": 2
+    "quarter": 0
   },
   {
     "name": "GDG-Cloud-Chicago",
@@ -1083,19 +1083,19 @@
     "name": "GDG-Cloud-Cincinnati",
     "all": 1,
     "yearly": 1,
-    "quarter": 1
+    "quarter": 0
   },
   {
     "name": "GDG-Cloud-Coimbatore",
     "all": 4,
     "yearly": 4,
-    "quarter": 1
+    "quarter": 0
   },
   {
     "name": "GDG-Cloud-Columbia",
     "all": 8,
     "yearly": 6,
-    "quarter": 2
+    "quarter": 1
   },
   {
     "name": "GDG-Cloud-DC",
@@ -1107,13 +1107,13 @@
     "name": "GDG-Cloud-Dublin",
     "all": 8,
     "yearly": 5,
-    "quarter": 2
+    "quarter": 1
   },
   {
     "name": "GDG-Cloud-Dusseldorf",
     "all": 10,
-    "yearly": 7,
-    "quarter": 2
+    "yearly": 6,
+    "quarter": 1
   },
   {
     "name": "GDG-Cloud-Edmonton",
@@ -1131,12 +1131,12 @@
     "name": "GDG-Cloud-HCMC",
     "all": 2,
     "yearly": 2,
-    "quarter": 2
+    "quarter": 1
   },
   {
     "name": "GDG-Cloud-Hangzhou",
     "all": 6,
-    "yearly": 5,
+    "yearly": 4,
     "quarter": 1
   },
   {
@@ -1148,14 +1148,14 @@
   {
     "name": "GDG-Cloud-Istanbul",
     "all": 25,
-    "yearly": 24,
-    "quarter": 2
+    "yearly": 21,
+    "quarter": 0
   },
   {
     "name": "GDG-Cloud-Izmir",
     "all": 5,
     "yearly": 5,
-    "quarter": 5
+    "quarter": 3
   },
   {
     "name": "GDG-Cloud-Jacksonville",
@@ -1166,14 +1166,14 @@
   {
     "name": "GDG-Cloud-Johannesburg",
     "all": 27,
-    "yearly": 10,
-    "quarter": 3
+    "yearly": 9,
+    "quarter": 2
   },
   {
     "name": "GDG-Cloud-Kampala",
     "all": 32,
-    "yearly": 27,
-    "quarter": 6
+    "yearly": 25,
+    "quarter": 4
   },
   {
     "name": "GDG-Cloud-Kharkiv",
@@ -1184,14 +1184,14 @@
   {
     "name": "GDG-Cloud-Korea",
     "all": 214,
-    "yearly": 54,
-    "quarter": 2
+    "yearly": 48,
+    "quarter": 0
   },
   {
     "name": "GDG-Cloud-La-Paz",
     "all": 11,
     "yearly": 11,
-    "quarter": 7
+    "quarter": 5
   },
   {
     "name": "GDG-Cloud-Lagos",
@@ -1227,13 +1227,13 @@
     "name": "GDG-Cloud-Lyon",
     "all": 13,
     "yearly": 9,
-    "quarter": 2
+    "quarter": 1
   },
   {
     "name": "GDG-Cloud-Manila",
     "all": 25,
-    "yearly": 19,
-    "quarter": 6
+    "yearly": 18,
+    "quarter": 5
   },
   {
     "name": "GDG-Cloud-Melbourne",
@@ -1257,7 +1257,7 @@
     "name": "GDG-Cloud-Nantes",
     "all": 2,
     "yearly": 2,
-    "quarter": 1
+    "quarter": 0
   },
   {
     "name": "GDG-Cloud-Norway",
@@ -1293,7 +1293,7 @@
     "name": "GDG-Cloud-RTP",
     "all": 47,
     "yearly": 47,
-    "quarter": 12
+    "quarter": 8
   },
   {
     "name": "GDG-Cloud-San-Jose",
@@ -1311,7 +1311,7 @@
     "name": "GDG-Cloud-Stockholm",
     "all": 7,
     "yearly": 4,
-    "quarter": 2
+    "quarter": 1
   },
   {
     "name": "GDG-Cloud-Tampere",
@@ -1335,13 +1335,13 @@
     "name": "GDG-Cloud-Toronto",
     "all": 9,
     "yearly": 9,
-    "quarter": 4
+    "quarter": 2
   },
   {
     "name": "GDG-Cloud-Tucson",
     "all": 28,
     "yearly": 19,
-    "quarter": 4
+    "quarter": 3
   },
   {
     "name": "GDG-Cloud-Turlock",
@@ -1352,14 +1352,14 @@
   {
     "name": "GDG-Cloud-Warszawa",
     "all": 15,
-    "yearly": 8,
+    "yearly": 7,
     "quarter": 2
   },
   {
     "name": "GDG-Cloud-Wilmington",
     "all": 2,
     "yearly": 2,
-    "quarter": 2
+    "quarter": 1
   },
   {
     "name": "GDG-Cloud-Wroclaw",
@@ -1370,26 +1370,26 @@
   {
     "name": "GDG-Coast-Lebanon",
     "all": 77,
-    "yearly": 24,
-    "quarter": 3
+    "yearly": 23,
+    "quarter": 2
   },
   {
     "name": "GDG-Cocody",
     "all": 20,
     "yearly": 8,
-    "quarter": 2
+    "quarter": 1
   },
   {
     "name": "GDG-Code-dArmor",
     "all": 27,
     "yearly": 13,
-    "quarter": 4
+    "quarter": 3
   },
   {
     "name": "GDG-Coimbra",
     "all": 29,
     "yearly": 6,
-    "quarter": 1
+    "quarter": 0
   },
   {
     "name": "GDG-Cologne-Bonn",
@@ -1401,25 +1401,25 @@
     "name": "GDG-Columbia-MO",
     "all": 2,
     "yearly": 2,
-    "quarter": 1
+    "quarter": 0
   },
   {
     "name": "GDG-Columbus",
     "all": 105,
-    "yearly": 15,
-    "quarter": 2
+    "yearly": 14,
+    "quarter": 1
   },
   {
     "name": "GDG-Constantine",
     "all": 23,
     "yearly": 12,
-    "quarter": 3
+    "quarter": 2
   },
   {
     "name": "GDG-Copenhagen",
     "all": 18,
     "yearly": 5,
-    "quarter": 1
+    "quarter": 0
   },
   {
     "name": "GDG-Cork",
@@ -1437,13 +1437,13 @@
     "name": "GDG-Cotonou",
     "all": 11,
     "yearly": 5,
-    "quarter": 1
+    "quarter": 0
   },
   {
     "name": "GDG-Covilha",
-    "all": 3,
-    "yearly": 3,
-    "quarter": 0
+    "all": 4,
+    "yearly": 4,
+    "quarter": 1
   },
   {
     "name": "GDG-Cyprus",
@@ -1460,14 +1460,14 @@
   {
     "name": "GDG-Daejeon",
     "all": 15,
-    "yearly": 15,
-    "quarter": 8
+    "yearly": 13,
+    "quarter": 5
   },
   {
     "name": "GDG-Dakar",
     "all": 2,
     "yearly": 2,
-    "quarter": 1
+    "quarter": 0
   },
   {
     "name": "GDG-Damanhour",
@@ -1478,8 +1478,8 @@
   {
     "name": "GDG-Dar-es-Salaam",
     "all": 15,
-    "yearly": 8,
-    "quarter": 2
+    "yearly": 7,
+    "quarter": 0
   },
   {
     "name": "GDG-Daugavpils",
@@ -1490,8 +1490,8 @@
   {
     "name": "GDG-Delta-University",
     "all": 51,
-    "yearly": 38,
-    "quarter": 8
+    "yearly": 37,
+    "quarter": 5
   },
   {
     "name": "GDG-Denizli",
@@ -1502,8 +1502,8 @@
   {
     "name": "GDG-Denver",
     "all": 71,
-    "yearly": 17,
-    "quarter": 3
+    "yearly": 16,
+    "quarter": 2
   },
   {
     "name": "GDG-Divinopolis",
@@ -1514,20 +1514,20 @@
   {
     "name": "GDG-Dnipro",
     "all": 23,
-    "yearly": 10,
-    "quarter": 3
+    "yearly": 9,
+    "quarter": 2
   },
   {
     "name": "GDG-Doha",
     "all": 11,
-    "yearly": 6,
-    "quarter": 2
+    "yearly": 5,
+    "quarter": 1
   },
   {
     "name": "GDG-Douala",
     "all": 20,
     "yearly": 14,
-    "quarter": 6
+    "quarter": 4
   },
   {
     "name": "GDG-Douglas",
@@ -1538,20 +1538,20 @@
   {
     "name": "GDG-Dubai",
     "all": 34,
-    "yearly": 6,
+    "yearly": 4,
     "quarter": 1
   },
   {
     "name": "GDG-Dublin",
     "all": 42,
-    "yearly": 11,
-    "quarter": 4
+    "yearly": 10,
+    "quarter": 1
   },
   {
     "name": "GDG-Dushanbe",
     "all": 2,
     "yearly": 2,
-    "quarter": 1
+    "quarter": 0
   },
   {
     "name": "GDG-Duzce-Meetup",
@@ -1562,8 +1562,8 @@
   {
     "name": "GDG-ENUGU-MEETUP",
     "all": 27,
-    "yearly": 14,
-    "quarter": 3
+    "yearly": 12,
+    "quarter": 2
   },
   {
     "name": "GDG-Ebolowa",
@@ -1575,18 +1575,18 @@
     "name": "GDG-Edirne",
     "all": 11,
     "yearly": 5,
-    "quarter": 2
+    "quarter": 1
   },
   {
     "name": "GDG-Ekaterinburg",
     "all": 4,
-    "yearly": 2,
+    "yearly": 1,
     "quarter": 0
   },
   {
     "name": "GDG-El-Alto",
     "all": 42,
-    "yearly": 41,
+    "yearly": 40,
     "quarter": 2
   },
   {
@@ -1611,7 +1611,7 @@
     "name": "GDG-Erbil",
     "all": 7,
     "yearly": 4,
-    "quarter": 2
+    "quarter": 1
   },
   {
     "name": "GDG-Faro",
@@ -1622,8 +1622,8 @@
   {
     "name": "GDG-Firenze",
     "all": 9,
-    "yearly": 6,
-    "quarter": 1
+    "yearly": 5,
+    "quarter": 0
   },
   {
     "name": "GDG-Formosa",
@@ -1647,19 +1647,19 @@
     "name": "GDG-Freiburg",
     "all": 19,
     "yearly": 5,
-    "quarter": 2
+    "quarter": 1
   },
   {
     "name": "GDG-Fremont",
     "all": 13,
-    "yearly": 8,
-    "quarter": 2
+    "yearly": 6,
+    "quarter": 1
   },
   {
     "name": "GDG-Fukushima",
     "all": 3,
     "yearly": 3,
-    "quarter": 3
+    "quarter": 2
   },
   {
     "name": "GDG-GCPUG-Ehime",
@@ -1670,7 +1670,7 @@
   {
     "name": "GDG-GDL-Android",
     "all": 30,
-    "yearly": 12,
+    "yearly": 11,
     "quarter": 1
   },
   {
@@ -1683,12 +1683,12 @@
     "name": "GDG-Gandhinagar",
     "all": 11,
     "yearly": 8,
-    "quarter": 3
+    "quarter": 1
   },
   {
     "name": "GDG-Gaza",
     "all": 15,
-    "yearly": 5,
+    "yearly": 4,
     "quarter": 3
   },
   {
@@ -1700,14 +1700,14 @@
   {
     "name": "GDG-Ghardaia",
     "all": 17,
-    "yearly": 12,
+    "yearly": 11,
     "quarter": 3
   },
   {
     "name": "GDG-Girona",
     "all": 11,
-    "yearly": 9,
-    "quarter": 3
+    "yearly": 7,
+    "quarter": 0
   },
   {
     "name": "GDG-Goiania",
@@ -1725,13 +1725,13 @@
     "name": "GDG-Goma",
     "all": 8,
     "yearly": 6,
-    "quarter": 2
+    "quarter": 1
   },
   {
     "name": "GDG-Gombe",
     "all": 1,
     "yearly": 1,
-    "quarter": 1
+    "quarter": 0
   },
   {
     "name": "GDG-Gomel",
@@ -1743,7 +1743,7 @@
     "name": "GDG-Grand-Rapids",
     "all": 5,
     "yearly": 1,
-    "quarter": 1
+    "quarter": 0
   },
   {
     "name": "GDG-Grande-Vitoria",
@@ -1755,31 +1755,31 @@
     "name": "GDG-Guangzhou",
     "all": 13,
     "yearly": 7,
-    "quarter": 2
+    "quarter": 1
   },
   {
     "name": "GDG-Guatemala",
     "all": 19,
-    "yearly": 9,
+    "yearly": 8,
     "quarter": 1
   },
   {
     "name": "GDG-Guro",
     "all": 4,
-    "yearly": 4,
-    "quarter": 1
+    "yearly": 3,
+    "quarter": 0
   },
   {
     "name": "GDG-Gusau",
     "all": 9,
     "yearly": 7,
-    "quarter": 2
+    "quarter": 1
   },
   {
     "name": "GDG-Gwangju",
     "all": 12,
     "yearly": 12,
-    "quarter": 3
+    "quarter": 1
   },
   {
     "name": "GDG-Haifa",
@@ -1791,12 +1791,12 @@
     "name": "GDG-Halifax",
     "all": 3,
     "yearly": 3,
-    "quarter": 1
+    "quarter": 0
   },
   {
     "name": "GDG-Halsema",
     "all": 19,
-    "yearly": 8,
+    "yearly": 6,
     "quarter": 1
   },
   {
@@ -1808,38 +1808,38 @@
   {
     "name": "GDG-Hampton-Roads",
     "all": 53,
-    "yearly": 8,
-    "quarter": 2
+    "yearly": 7,
+    "quarter": 1
   },
   {
     "name": "GDG-Harare-Institute-of-Technology",
     "all": 14,
-    "yearly": 9,
+    "yearly": 8,
     "quarter": 1
   },
   {
     "name": "GDG-Harare",
     "all": 7,
     "yearly": 3,
-    "quarter": 1
+    "quarter": 0
   },
   {
     "name": "GDG-Hatay",
     "all": 5,
     "yearly": 5,
-    "quarter": 3
+    "quarter": 2
   },
   {
     "name": "GDG-Helsinki",
     "all": 30,
     "yearly": 7,
-    "quarter": 2
+    "quarter": 1
   },
   {
     "name": "GDG-Helwan",
     "all": 24,
-    "yearly": 17,
-    "quarter": 2
+    "yearly": 16,
+    "quarter": 1
   },
   {
     "name": "GDG-Heraklion",
@@ -1856,20 +1856,20 @@
   {
     "name": "GDG-Hong-Kong",
     "all": 42,
-    "yearly": 13,
-    "quarter": 3
+    "yearly": 12,
+    "quarter": 2
   },
   {
     "name": "GDG-Hradec-Kralove",
     "all": 6,
     "yearly": 1,
-    "quarter": 1
+    "quarter": 0
   },
   {
     "name": "GDG-Hualien",
     "all": 5,
     "yearly": 5,
-    "quarter": 4
+    "quarter": 3
   },
   {
     "name": "GDG-Huelva",
@@ -1892,26 +1892,26 @@
   {
     "name": "GDG-Ibadan",
     "all": 18,
-    "yearly": 9,
-    "quarter": 3
+    "yearly": 8,
+    "quarter": 2
   },
   {
     "name": "GDG-Ibrahim-Badamasi-Babangida-University",
     "all": 8,
     "yearly": 7,
-    "quarter": 2
+    "quarter": 1
   },
   {
     "name": "GDG-Ica",
     "all": 10,
     "yearly": 5,
-    "quarter": 1
+    "quarter": 0
   },
   {
     "name": "GDG-Ilorin",
     "all": 4,
     "yearly": 4,
-    "quarter": 2
+    "quarter": 1
   },
   {
     "name": "GDG-Imperatriz",
@@ -1923,43 +1923,43 @@
     "name": "GDG-InCode",
     "all": 16,
     "yearly": 5,
-    "quarter": 1
+    "quarter": 0
   },
   {
     "name": "GDG-Incheon",
     "all": 47,
     "yearly": 18,
-    "quarter": 6
+    "quarter": 4
   },
   {
     "name": "GDG-Innsbruck",
     "all": 14,
     "yearly": 7,
-    "quarter": 1
+    "quarter": 0
   },
   {
     "name": "GDG-Ishinomaki",
     "all": 32,
-    "yearly": 16,
-    "quarter": 5
+    "yearly": 15,
+    "quarter": 4
   },
   {
     "name": "GDG-Islamabad",
     "all": 19,
-    "yearly": 13,
-    "quarter": 6
+    "yearly": 12,
+    "quarter": 1
   },
   {
     "name": "GDG-Ismailia",
     "all": 32,
-    "yearly": 21,
-    "quarter": 4
+    "yearly": 16,
+    "quarter": 0
   },
   {
     "name": "GDG-Itumbiara",
     "all": 11,
     "yearly": 10,
-    "quarter": 2
+    "quarter": 1
   },
   {
     "name": "GDG-Izmir",
@@ -1977,13 +1977,13 @@
     "name": "GDG-JOS",
     "all": 4,
     "yearly": 3,
-    "quarter": 2
+    "quarter": 0
   },
   {
     "name": "GDG-Jaen",
     "all": 13,
     "yearly": 6,
-    "quarter": 2
+    "quarter": 1
   },
   {
     "name": "GDG-Jaipur",
@@ -1994,38 +1994,38 @@
   {
     "name": "GDG-Jakarta",
     "all": 38,
-    "yearly": 19,
-    "quarter": 6
+    "yearly": 17,
+    "quarter": 0
   },
   {
     "name": "GDG-Jalandhar",
     "all": 34,
-    "yearly": 13,
+    "yearly": 12,
     "quarter": 2
   },
   {
     "name": "GDG-Jeju",
     "all": 19,
     "yearly": 19,
-    "quarter": 7
+    "quarter": 3
   },
   {
     "name": "GDG-Jenin",
     "all": 16,
-    "yearly": 11,
-    "quarter": 2
+    "yearly": 7,
+    "quarter": 0
   },
   {
     "name": "GDG-Jinja",
     "all": 25,
-    "yearly": 11,
-    "quarter": 2
+    "yearly": 10,
+    "quarter": 1
   },
   {
     "name": "GDG-Jogjakarta",
     "all": 20,
     "yearly": 13,
-    "quarter": 5
+    "quarter": 2
   },
   {
     "name": "GDG-KNUST",
@@ -2042,7 +2042,7 @@
   {
     "name": "GDG-Kaduna-State-University",
     "all": 18,
-    "yearly": 6,
+    "yearly": 5,
     "quarter": 2
   },
   {
@@ -2054,50 +2054,50 @@
   {
     "name": "GDG-Kampala",
     "all": 42,
-    "yearly": 19,
-    "quarter": 2
+    "yearly": 17,
+    "quarter": 1
   },
   {
     "name": "GDG-Kamwokya",
     "all": 11,
-    "yearly": 4,
-    "quarter": 1
+    "yearly": 3,
+    "quarter": 0
   },
   {
     "name": "GDG-Kano",
     "all": 12,
-    "yearly": 6,
-    "quarter": 2
+    "yearly": 5,
+    "quarter": 1
   },
   {
     "name": "GDG-Kansas-City",
     "all": 90,
-    "yearly": 15,
-    "quarter": 2
+    "yearly": 12,
+    "quarter": 0
   },
   {
     "name": "GDG-Karlsruhe",
     "all": 12,
     "yearly": 4,
-    "quarter": 1
+    "quarter": 0
   },
   {
     "name": "GDG-Kathmandu",
     "all": 34,
-    "yearly": 24,
-    "quarter": 3
+    "yearly": 22,
+    "quarter": 2
   },
   {
     "name": "GDG-Katsina",
     "all": 16,
-    "yearly": 5,
-    "quarter": 2
+    "yearly": 4,
+    "quarter": 1
   },
   {
     "name": "GDG-Kaunas",
     "all": 6,
     "yearly": 3,
-    "quarter": 1
+    "quarter": 0
   },
   {
     "name": "GDG-Kayseri",
@@ -2115,25 +2115,25 @@
     "name": "GDG-Kazan",
     "all": 14,
     "yearly": 7,
-    "quarter": 2
+    "quarter": 1
   },
   {
     "name": "GDG-Khabarovsk",
     "all": 6,
     "yearly": 6,
-    "quarter": 2
+    "quarter": 1
   },
   {
     "name": "GDG-Kharkiv-Center-Google-I-O-Extended",
     "all": 12,
-    "yearly": 9,
+    "yearly": 7,
     "quarter": 1
   },
   {
     "name": "GDG-Kigali",
     "all": 12,
-    "yearly": 9,
-    "quarter": 2
+    "yearly": 8,
+    "quarter": 0
   },
   {
     "name": "GDG-Kingston",
@@ -2150,38 +2150,38 @@
   {
     "name": "GDG-Kobe",
     "all": 24,
-    "yearly": 10,
-    "quarter": 2
+    "yearly": 9,
+    "quarter": 1
   },
   {
     "name": "GDG-Kolachi",
     "all": 13,
-    "yearly": 7,
-    "quarter": 1
+    "yearly": 6,
+    "quarter": 0
   },
   {
     "name": "GDG-Kolkata",
     "all": 23,
-    "yearly": 22,
-    "quarter": 9
+    "yearly": 21,
+    "quarter": 7
   },
   {
     "name": "GDG-Korea-Android",
     "all": 26,
     "yearly": 15,
-    "quarter": 4
+    "quarter": 2
   },
   {
     "name": "GDG-Kozhikode",
     "all": 22,
-    "yearly": 10,
+    "yearly": 9,
     "quarter": 2
   },
   {
     "name": "GDG-Krakow",
     "all": 97,
-    "yearly": 20,
-    "quarter": 8
+    "yearly": 19,
+    "quarter": 6
   },
   {
     "name": "GDG-Krasnoyarsk",
@@ -2193,7 +2193,7 @@
     "name": "GDG-Kremenchuk",
     "all": 12,
     "yearly": 4,
-    "quarter": 1
+    "quarter": 0
   },
   {
     "name": "GDG-Kropyvnytskyi",
@@ -2205,25 +2205,25 @@
     "name": "GDG-Kutahya",
     "all": 25,
     "yearly": 9,
-    "quarter": 3
+    "quarter": 1
   },
   {
     "name": "GDG-Kyiv-Center",
     "all": 39,
-    "yearly": 21,
-    "quarter": 8
+    "yearly": 18,
+    "quarter": 5
   },
   {
     "name": "GDG-Kyoto",
     "all": 23,
-    "yearly": 8,
-    "quarter": 2
+    "yearly": 7,
+    "quarter": 1
   },
   {
     "name": "GDG-Kyushu",
     "all": 29,
-    "yearly": 23,
-    "quarter": 4
+    "yearly": 22,
+    "quarter": 3
   },
   {
     "name": "GDG-LA-Android",
@@ -2234,7 +2234,7 @@
   {
     "name": "GDG-LK",
     "all": 36,
-    "yearly": 18,
+    "yearly": 17,
     "quarter": 3
   },
   {
@@ -2246,14 +2246,14 @@
   {
     "name": "GDG-La-Paz",
     "all": 50,
-    "yearly": 30,
-    "quarter": 6
+    "yearly": 26,
+    "quarter": 2
   },
   {
     "name": "GDG-La-Rioja",
     "all": 108,
-    "yearly": 51,
-    "quarter": 5
+    "yearly": 50,
+    "quarter": 2
   },
   {
     "name": "GDG-Lagos-de-Moreno",
@@ -2264,13 +2264,13 @@
   {
     "name": "GDG-Lauro-de-Freitas",
     "all": 14,
-    "yearly": 7,
-    "quarter": 2
+    "yearly": 5,
+    "quarter": 1
   },
   {
     "name": "GDG-Lavras",
     "all": 18,
-    "yearly": 9,
+    "yearly": 8,
     "quarter": 2
   },
   {
@@ -2283,7 +2283,7 @@
     "name": "GDG-Leiria",
     "all": 3,
     "yearly": 3,
-    "quarter": 1
+    "quarter": 0
   },
   {
     "name": "GDG-LeonESP",
@@ -2294,7 +2294,7 @@
   {
     "name": "GDG-Les-Rosiers",
     "all": 17,
-    "yearly": 6,
+    "yearly": 5,
     "quarter": 2
   },
   {
@@ -2307,13 +2307,13 @@
     "name": "GDG-Limbe",
     "all": 13,
     "yearly": 7,
-    "quarter": 5
+    "quarter": 3
   },
   {
     "name": "GDG-Liverpool",
     "all": 26,
     "yearly": 5,
-    "quarter": 2
+    "quarter": 1
   },
   {
     "name": "GDG-Ljubljana",
@@ -2324,14 +2324,14 @@
   {
     "name": "GDG-Lome",
     "all": 8,
-    "yearly": 3,
-    "quarter": 1
+    "yearly": 2,
+    "quarter": 0
   },
   {
     "name": "GDG-Londrina",
     "all": 9,
-    "yearly": 8,
-    "quarter": 2
+    "yearly": 7,
+    "quarter": 1
   },
   {
     "name": "GDG-Luanda",
@@ -2343,7 +2343,7 @@
     "name": "GDG-Lubango",
     "all": 4,
     "yearly": 4,
-    "quarter": 1
+    "quarter": 0
   },
   {
     "name": "GDG-Lusaka",
@@ -2361,19 +2361,19 @@
     "name": "GDG-Lviv",
     "all": 32,
     "yearly": 6,
-    "quarter": 2
+    "quarter": 1
   },
   {
     "name": "GDG-MBARARA",
     "all": 44,
-    "yearly": 24,
+    "yearly": 20,
     "quarter": 3
   },
   {
     "name": "GDG-Maceio",
     "all": 58,
     "yearly": 5,
-    "quarter": 2
+    "quarter": 1
   },
   {
     "name": "GDG-Madinah",
@@ -2384,8 +2384,8 @@
   {
     "name": "GDG-Madurai",
     "all": 16,
-    "yearly": 5,
-    "quarter": 1
+    "yearly": 4,
+    "quarter": 0
   },
   {
     "name": "GDG-Magas",
@@ -2397,25 +2397,25 @@
     "name": "GDG-Makurdi",
     "all": 18,
     "yearly": 15,
-    "quarter": 3
+    "quarter": 2
   },
   {
     "name": "GDG-Manama",
     "all": 56,
-    "yearly": 52,
-    "quarter": 4
+    "yearly": 49,
+    "quarter": 3
   },
   {
     "name": "GDG-Manaus",
     "all": 25,
-    "yearly": 8,
-    "quarter": 2
+    "yearly": 7,
+    "quarter": 1
   },
   {
     "name": "GDG-Manchester-NH",
     "all": 32,
-    "yearly": 6,
-    "quarter": 2
+    "yearly": 5,
+    "quarter": 0
   },
   {
     "name": "GDG-Manisa",
@@ -2427,7 +2427,7 @@
     "name": "GDG-Manouba",
     "all": 12,
     "yearly": 12,
-    "quarter": 4
+    "quarter": 2
   },
   {
     "name": "GDG-Mansoura",
@@ -2438,8 +2438,8 @@
   {
     "name": "GDG-Maputo",
     "all": 22,
-    "yearly": 11,
-    "quarter": 5
+    "yearly": 9,
+    "quarter": 2
   },
   {
     "name": "GDG-Marbella",
@@ -2451,7 +2451,7 @@
     "name": "GDG-Maringa",
     "all": 21,
     "yearly": 9,
-    "quarter": 6
+    "quarter": 5
   },
   {
     "name": "GDG-Maroua",
@@ -2469,49 +2469,49 @@
     "name": "GDG-Mbale",
     "all": 22,
     "yearly": 13,
-    "quarter": 4
+    "quarter": 2
   },
   {
     "name": "GDG-Medellin",
     "all": 39,
     "yearly": 13,
-    "quarter": 3
+    "quarter": 2
   },
   {
     "name": "GDG-Mekong",
     "all": 19,
-    "yearly": 14,
+    "yearly": 13,
     "quarter": 1
   },
   {
     "name": "GDG-Mersin",
     "all": 4,
     "yearly": 4,
-    "quarter": 2
+    "quarter": 1
   },
   {
     "name": "GDG-Miami",
     "all": 18,
     "yearly": 13,
-    "quarter": 3
+    "quarter": 2
   },
   {
     "name": "GDG-Milano",
     "all": 28,
     "yearly": 14,
-    "quarter": 5
+    "quarter": 4
   },
   {
     "name": "GDG-Milton-Keynes",
     "all": 15,
-    "yearly": 8,
+    "yearly": 7,
     "quarter": 1
   },
   {
     "name": "GDG-Minsk",
     "all": 60,
-    "yearly": 34,
-    "quarter": 5
+    "yearly": 27,
+    "quarter": 1
   },
   {
     "name": "GDG-Mississauga",
@@ -2522,8 +2522,8 @@
   {
     "name": "GDG-Missoula",
     "all": 27,
-    "yearly": 20,
-    "quarter": 3
+    "yearly": 19,
+    "quarter": 2
   },
   {
     "name": "GDG-Mobile-Alabama",
@@ -2534,8 +2534,8 @@
   {
     "name": "GDG-Modesto-Google-Developer-Group",
     "all": 54,
-    "yearly": 10,
-    "quarter": 3
+    "yearly": 9,
+    "quarter": 2
   },
   {
     "name": "GDG-Moldova",
@@ -2547,19 +2547,19 @@
     "name": "GDG-Mombasa",
     "all": 19,
     "yearly": 9,
-    "quarter": 5
+    "quarter": 3
   },
   {
     "name": "GDG-Monastir",
     "all": 40,
     "yearly": 16,
-    "quarter": 6
+    "quarter": 2
   },
   {
     "name": "GDG-Monroe",
     "all": 2,
     "yearly": 2,
-    "quarter": 1
+    "quarter": 0
   },
   {
     "name": "GDG-Monterrey",
@@ -2570,19 +2570,19 @@
   {
     "name": "GDG-Montreal-Android",
     "all": 63,
-    "yearly": 14,
-    "quarter": 4
+    "yearly": 13,
+    "quarter": 2
   },
   {
     "name": "GDG-Moscow",
     "all": 35,
     "yearly": 5,
-    "quarter": 2
+    "quarter": 1
   },
   {
     "name": "GDG-Msila",
     "all": 18,
-    "yearly": 8,
+    "yearly": 7,
     "quarter": 1
   },
   {
@@ -2595,19 +2595,19 @@
     "name": "GDG-Munich-Android",
     "all": 31,
     "yearly": 10,
-    "quarter": 3
+    "quarter": 1
   },
   {
     "name": "GDG-Mwanza",
     "all": 44,
     "yearly": 18,
-    "quarter": 3
+    "quarter": 2
   },
   {
     "name": "GDG-NKONGSAMBA",
     "all": 15,
     "yearly": 7,
-    "quarter": 2
+    "quarter": 0
   },
   {
     "name": "GDG-Naama",
@@ -2618,7 +2618,7 @@
   {
     "name": "GDG-Nablus",
     "all": 23,
-    "yearly": 8,
+    "yearly": 6,
     "quarter": 0
   },
   {
@@ -2630,7 +2630,7 @@
   {
     "name": "GDG-Nairobi",
     "all": 16,
-    "yearly": 9,
+    "yearly": 8,
     "quarter": 2
   },
   {
@@ -2643,31 +2643,31 @@
     "name": "GDG-Nantes",
     "all": 50,
     "yearly": 10,
-    "quarter": 3
+    "quarter": 2
   },
   {
     "name": "GDG-Nashik",
     "all": 4,
     "yearly": 4,
-    "quarter": 3
+    "quarter": 1
   },
   {
     "name": "GDG-Natal",
     "all": 37,
-    "yearly": 7,
-    "quarter": 2
+    "yearly": 6,
+    "quarter": 0
   },
   {
     "name": "GDG-Navarra",
     "all": 9,
     "yearly": 8,
-    "quarter": 3
+    "quarter": 2
   },
   {
     "name": "GDG-Ndere",
     "all": 14,
     "yearly": 4,
-    "quarter": 2
+    "quarter": 1
   },
   {
     "name": "GDG-Neiva",
@@ -2684,32 +2684,32 @@
   {
     "name": "GDG-New-London",
     "all": 2,
-    "yearly": 2,
+    "yearly": 1,
     "quarter": 0
   },
   {
     "name": "GDG-Niamey",
     "all": 11,
-    "yearly": 9,
-    "quarter": 3
+    "yearly": 8,
+    "quarter": 2
   },
   {
     "name": "GDG-Njikoka",
     "all": 23,
     "yearly": 9,
-    "quarter": 5
+    "quarter": 3
   },
   {
     "name": "GDG-North-Jersey",
     "all": 60,
-    "yearly": 6,
+    "yearly": 5,
     "quarter": 1
   },
   {
     "name": "GDG-Nouakchott",
     "all": 24,
     "yearly": 13,
-    "quarter": 3
+    "quarter": 1
   },
   {
     "name": "GDG-Novi-Sad",
@@ -2720,14 +2720,14 @@
   {
     "name": "GDG-Nuremberg-Android",
     "all": 33,
-    "yearly": 12,
+    "yearly": 11,
     "quarter": 2
   },
   {
     "name": "GDG-Odesa",
     "all": 8,
-    "yearly": 7,
-    "quarter": 2
+    "yearly": 6,
+    "quarter": 1
   },
   {
     "name": "GDG-Ogbomoso",
@@ -2751,13 +2751,13 @@
     "name": "GDG-Olomouc",
     "all": 11,
     "yearly": 3,
-    "quarter": 1
+    "quarter": 0
   },
   {
     "name": "GDG-Omsk",
     "all": 16,
-    "yearly": 7,
-    "quarter": 4
+    "yearly": 6,
+    "quarter": 2
   },
   {
     "name": "GDG-Onitsha",
@@ -2775,25 +2775,25 @@
     "name": "GDG-Orizaba",
     "all": 7,
     "yearly": 7,
-    "quarter": 2
+    "quarter": 1
   },
   {
     "name": "GDG-Osijek",
     "all": 4,
     "yearly": 4,
-    "quarter": 1
+    "quarter": 0
   },
   {
     "name": "GDG-Ostrava",
     "all": 52,
-    "yearly": 30,
-    "quarter": 3
+    "yearly": 28,
+    "quarter": 1
   },
   {
     "name": "GDG-Ostwestfalen-Lippe",
     "all": 15,
     "yearly": 7,
-    "quarter": 2
+    "quarter": 1
   },
   {
     "name": "GDG-Ourinhos",
@@ -2811,25 +2811,25 @@
     "name": "GDG-Parakou",
     "all": 12,
     "yearly": 8,
-    "quarter": 4
+    "quarter": 3
   },
   {
     "name": "GDG-Pardubice",
     "all": 43,
     "yearly": 12,
-    "quarter": 3
+    "quarter": 0
   },
   {
     "name": "GDG-Passau",
     "all": 8,
     "yearly": 3,
-    "quarter": 2
+    "quarter": 0
   },
   {
     "name": "GDG-Pelotas",
     "all": 5,
-    "yearly": 4,
-    "quarter": 2
+    "yearly": 3,
+    "quarter": 1
   },
   {
     "name": "GDG-Penza",
@@ -2847,13 +2847,13 @@
     "name": "GDG-Peshawar",
     "all": 3,
     "yearly": 3,
-    "quarter": 3
+    "quarter": 2
   },
   {
     "name": "GDG-Pisa",
-    "all": 36,
-    "yearly": 13,
-    "quarter": 4
+    "all": 37,
+    "yearly": 14,
+    "quarter": 3
   },
   {
     "name": "GDG-Piura",
@@ -2865,7 +2865,7 @@
     "name": "GDG-Podgorica",
     "all": 2,
     "yearly": 2,
-    "quarter": 1
+    "quarter": 0
   },
   {
     "name": "GDG-Pontevedra",
@@ -2877,7 +2877,7 @@
     "name": "GDG-Port-Harcourt",
     "all": 18,
     "yearly": 10,
-    "quarter": 1
+    "quarter": 0
   },
   {
     "name": "GDG-Port-au-Prince",
@@ -2894,8 +2894,8 @@
   {
     "name": "GDG-Portland-Maine",
     "all": 8,
-    "yearly": 5,
-    "quarter": 1
+    "yearly": 4,
+    "quarter": 0
   },
   {
     "name": "GDG-Porto-Alegre",
@@ -2906,14 +2906,14 @@
   {
     "name": "GDG-Porto-Novo",
     "all": 11,
-    "yearly": 4,
-    "quarter": 2
+    "yearly": 3,
+    "quarter": 1
   },
   {
     "name": "GDG-Porto",
     "all": 17,
-    "yearly": 10,
-    "quarter": 1
+    "yearly": 9,
+    "quarter": 0
   },
   {
     "name": "GDG-Poznań",
@@ -2948,7 +2948,7 @@
   {
     "name": "GDG-Rabat",
     "all": 13,
-    "yearly": 4,
+    "yearly": 3,
     "quarter": 0
   },
   {
@@ -2967,13 +2967,13 @@
     "name": "GDG-Ranchi",
     "all": 9,
     "yearly": 9,
-    "quarter": 2
+    "quarter": 1
   },
   {
     "name": "GDG-Reading-Thames-Valley",
     "all": 80,
-    "yearly": 26,
-    "quarter": 8
+    "yearly": 25,
+    "quarter": 5
   },
   {
     "name": "GDG-Recife",
@@ -3003,7 +3003,7 @@
     "name": "GDG-Riga",
     "all": 41,
     "yearly": 8,
-    "quarter": 2
+    "quarter": 1
   },
   {
     "name": "GDG-Rochester",
@@ -3014,32 +3014,32 @@
   {
     "name": "GDG-Roma",
     "all": 39,
-    "yearly": 14,
-    "quarter": 4
+    "yearly": 13,
+    "quarter": 3
   },
   {
     "name": "GDG-RongoVarsity",
     "all": 198,
-    "yearly": 156,
-    "quarter": 39
+    "yearly": 146,
+    "quarter": 28
   },
   {
     "name": "GDG-Russellville",
     "all": 2,
     "yearly": 2,
-    "quarter": 1
+    "quarter": 0
   },
   {
     "name": "GDG-SP",
     "all": 206,
-    "yearly": 17,
+    "yearly": 16,
     "quarter": 4
   },
   {
     "name": "GDG-Saida",
     "all": 4,
     "yearly": 4,
-    "quarter": 3
+    "quarter": 1
   },
   {
     "name": "GDG-Saint-John",
@@ -3051,13 +3051,13 @@
     "name": "GDG-Salalah",
     "all": 7,
     "yearly": 7,
-    "quarter": 2
+    "quarter": 0
   },
   {
     "name": "GDG-Salt-Lake",
     "all": 96,
-    "yearly": 19,
-    "quarter": 5
+    "yearly": 18,
+    "quarter": 3
   },
   {
     "name": "GDG-Samsun",
@@ -3087,13 +3087,13 @@
     "name": "GDG-Sanliurfa",
     "all": 10,
     "yearly": 9,
-    "quarter": 3
+    "quarter": 2
   },
   {
     "name": "GDG-Santa-Cruz",
     "all": 14,
-    "yearly": 8,
-    "quarter": 2
+    "yearly": 7,
+    "quarter": 1
   },
   {
     "name": "GDG-Santana-de-Parnaiba",
@@ -3105,12 +3105,12 @@
     "name": "GDG-Santo-Domingo",
     "all": 19,
     "yearly": 11,
-    "quarter": 4
+    "quarter": 3
   },
   {
     "name": "GDG-Sao-Joao-da-Boa-Vista",
     "all": 31,
-    "yearly": 7,
+    "yearly": 6,
     "quarter": 2
   },
   {
@@ -3140,14 +3140,14 @@
   {
     "name": "GDG-Seoul",
     "all": 27,
-    "yearly": 16,
-    "quarter": 4
+    "yearly": 14,
+    "quarter": 2
   },
   {
     "name": "GDG-Sete-Lagoas",
     "all": 16,
     "yearly": 14,
-    "quarter": 8
+    "quarter": 7
   },
   {
     "name": "GDG-Settat",
@@ -3158,26 +3158,26 @@
   {
     "name": "GDG-Sfax",
     "all": 26,
-    "yearly": 18,
-    "quarter": 7
+    "yearly": 17,
+    "quarter": 2
   },
   {
     "name": "GDG-Sharjah",
     "all": 27,
     "yearly": 10,
-    "quarter": 2
+    "quarter": 0
   },
   {
     "name": "GDG-Shenzhen",
     "all": 20,
-    "yearly": 9,
-    "quarter": 3
+    "yearly": 8,
+    "quarter": 1
   },
   {
     "name": "GDG-Shikoku",
     "all": 26,
     "yearly": 14,
-    "quarter": 4
+    "quarter": 2
   },
   {
     "name": "GDG-Silicon-Beach",
@@ -3207,18 +3207,18 @@
     "name": "GDG-Sofia",
     "all": 20,
     "yearly": 9,
-    "quarter": 3
+    "quarter": 1
   },
   {
     "name": "GDG-Sohag",
     "all": 14,
-    "yearly": 11,
-    "quarter": 1
+    "yearly": 10,
+    "quarter": 0
   },
   {
     "name": "GDG-Sokoto",
     "all": 13,
-    "yearly": 10,
+    "yearly": 9,
     "quarter": 2
   },
   {
@@ -3230,26 +3230,26 @@
   {
     "name": "GDG-SongDo",
     "all": 106,
-    "yearly": 106,
-    "quarter": 24
+    "yearly": 105,
+    "quarter": 16
   },
   {
     "name": "GDG-Sonoma",
     "all": 5,
-    "yearly": 5,
+    "yearly": 4,
     "quarter": 1
   },
   {
     "name": "GDG-Sorocaba",
     "all": 55,
-    "yearly": 10,
+    "yearly": 9,
     "quarter": 2
   },
   {
     "name": "GDG-Sousse",
     "all": 37,
-    "yearly": 20,
-    "quarter": 3
+    "yearly": 19,
+    "quarter": 1
   },
   {
     "name": "GDG-Spokane",
@@ -3279,24 +3279,24 @@
     "name": "GDG-Strasbourg",
     "all": 7,
     "yearly": 7,
-    "quarter": 3
+    "quarter": 1
   },
   {
     "name": "GDG-Sucre",
     "all": 17,
-    "yearly": 16,
-    "quarter": 5
+    "yearly": 15,
+    "quarter": 2
   },
   {
     "name": "GDG-Sudbury",
     "all": 49,
     "yearly": 7,
-    "quarter": 3
+    "quarter": 2
   },
   {
     "name": "GDG-Surrey",
     "all": 7,
-    "yearly": 7,
+    "yearly": 6,
     "quarter": 1
   },
   {
@@ -3308,20 +3308,20 @@
   {
     "name": "GDG-TETE",
     "all": 17,
-    "yearly": 16,
-    "quarter": 5
+    "yearly": 14,
+    "quarter": 3
   },
   {
     "name": "GDG-Tainan",
     "all": 31,
     "yearly": 31,
-    "quarter": 17
+    "quarter": 12
   },
   {
     "name": "GDG-Tallinn",
     "all": 7,
     "yearly": 6,
-    "quarter": 2
+    "quarter": 0
   },
   {
     "name": "GDG-Tarija",
@@ -3333,72 +3333,72 @@
     "name": "GDG-Tarragona",
     "all": 18,
     "yearly": 8,
-    "quarter": 1
+    "quarter": 0
   },
   {
     "name": "GDG-Tartu",
     "all": 19,
     "yearly": 10,
-    "quarter": 3
+    "quarter": 1
   },
   {
     "name": "GDG-Tashkent",
     "all": 9,
     "yearly": 7,
-    "quarter": 2
+    "quarter": 0
   },
   {
     "name": "GDG-Tenerife",
     "all": 21,
-    "yearly": 5,
-    "quarter": 2
+    "yearly": 4,
+    "quarter": 0
   },
   {
     "name": "GDG-Ternopil",
     "all": 26,
-    "yearly": 9,
-    "quarter": 2
+    "yearly": 8,
+    "quarter": 1
   },
   {
     "name": "GDG-Thailand",
     "all": 23,
-    "yearly": 12,
-    "quarter": 4
+    "yearly": 11,
+    "quarter": 2
   },
   {
     "name": "GDG-Tianjin",
     "all": 14,
     "yearly": 6,
-    "quarter": 2
+    "quarter": 1
   },
   {
     "name": "GDG-Tiaret",
     "all": 25,
-    "yearly": 8,
+    "yearly": 7,
     "quarter": 2
   },
   {
     "name": "GDG-Tipaza",
     "all": 15,
-    "yearly": 8,
+    "yearly": 6,
     "quarter": 0
   },
   {
     "name": "GDG-Tizi-Ouzou",
     "all": 17,
-    "yearly": 10,
-    "quarter": 5
+    "yearly": 9,
+    "quarter": 0
   },
   {
     "name": "GDG-Tlemcen",
     "all": 25,
-    "yearly": 12,
-    "quarter": 4
+    "yearly": 11,
+    "quarter": 2
   },
   {
     "name": "GDG-Toledo-PR",
     "all": 18,
-    "yearly": 6,
+    "yearly": 5,
     "quarter": 2
   },
   {
@@ -3411,13 +3411,13 @@
     "name": "GDG-Torino",
     "all": 23,
     "yearly": 9,
-    "quarter": 3
+    "quarter": 1
   },
   {
     "name": "GDG-Toronto",
     "all": 73,
     "yearly": 16,
-    "quarter": 7
+    "quarter": 6
   },
   {
     "name": "GDG-Toulouse",
@@ -3429,13 +3429,13 @@
     "name": "GDG-Tours",
     "all": 24,
     "yearly": 9,
-    "quarter": 2
+    "quarter": 1
   },
   {
     "name": "GDG-Trento",
     "all": 16,
     "yearly": 6,
-    "quarter": 2
+    "quarter": 1
   },
   {
     "name": "GDG-Tres-Rios",
@@ -3447,7 +3447,7 @@
     "name": "GDG-Trondheim",
     "all": 18,
     "yearly": 4,
-    "quarter": 1
+    "quarter": 0
   },
   {
     "name": "GDG-Trujillo",
@@ -3464,14 +3464,14 @@
   {
     "name": "GDG-Tyumen",
     "all": 7,
-    "yearly": 7,
+    "yearly": 6,
     "quarter": 1
   },
   {
     "name": "GDG-UNAM",
     "all": 25,
-    "yearly": 11,
-    "quarter": 3
+    "yearly": 8,
+    "quarter": 2
   },
   {
     "name": "GDG-UWM",
@@ -3482,20 +3482,20 @@
   {
     "name": "GDG-Uberlandia",
     "all": 13,
-    "yearly": 8,
+    "yearly": 7,
     "quarter": 1
   },
   {
     "name": "GDG-Udaipur",
     "all": 14,
     "yearly": 5,
-    "quarter": 2
+    "quarter": 1
   },
   {
     "name": "GDG-Ufa",
     "all": 13,
     "yearly": 5,
-    "quarter": 1
+    "quarter": 0
   },
   {
     "name": "GDG-Ulaanbaatar",
@@ -3505,7 +3505,7 @@
   },
   {
     "name": "GDG-Umuahia",
-    "all": 10,
+    "all": 11,
     "yearly": 7,
     "quarter": 2
   },
@@ -3537,13 +3537,13 @@
     "name": "GDG-Urumuqi",
     "all": 15,
     "yearly": 8,
-    "quarter": 3
+    "quarter": 2
   },
   {
     "name": "GDG-Uyo",
     "all": 24,
     "yearly": 11,
-    "quarter": 6
+    "quarter": 4
   },
   {
     "name": "GDG-Uzhhorod",
@@ -3567,7 +3567,7 @@
     "name": "GDG-Valle-DAosta",
     "all": 19,
     "yearly": 10,
-    "quarter": 3
+    "quarter": 2
   },
   {
     "name": "GDG-Valparaiso",
@@ -3579,13 +3579,13 @@
     "name": "GDG-Varginha",
     "all": 11,
     "yearly": 6,
-    "quarter": 3
+    "quarter": 2
   },
   {
     "name": "GDG-Venezia",
     "all": 13,
     "yearly": 6,
-    "quarter": 2
+    "quarter": 1
   },
   {
     "name": "GDG-Veranopolis",
@@ -3602,20 +3602,20 @@
   {
     "name": "GDG-Vienna",
     "all": 44,
-    "yearly": 7,
-    "quarter": 1
+    "yearly": 6,
+    "quarter": 0
   },
   {
     "name": "GDG-Villahermosa",
     "all": 8,
-    "yearly": 3,
+    "yearly": 2,
     "quarter": 0
   },
   {
     "name": "GDG-Vilnius",
     "all": 11,
     "yearly": 7,
-    "quarter": 2
+    "quarter": 1
   },
   {
     "name": "GDG-Vinnytsia",
@@ -3626,44 +3626,44 @@
   {
     "name": "GDG-Visalia-Google-Developer-Group",
     "all": 56,
-    "yearly": 15,
-    "quarter": 2
+    "yearly": 13,
+    "quarter": 1
   },
   {
     "name": "GDG-Vizag",
     "all": 8,
-    "yearly": 8,
+    "yearly": 7,
     "quarter": 1
   },
   {
     "name": "GDG-Vladikavkaz",
     "all": 6,
     "yearly": 6,
-    "quarter": 6
+    "quarter": 5
   },
   {
     "name": "GDG-Vladivostok",
     "all": 26,
     "yearly": 12,
-    "quarter": 5
+    "quarter": 4
   },
   {
     "name": "GDG-Voronezh",
     "all": 25,
-    "yearly": 8,
+    "yearly": 5,
     "quarter": 0
   },
   {
     "name": "GDG-Warri",
     "all": 16,
-    "yearly": 14,
+    "yearly": 13,
     "quarter": 5
   },
   {
     "name": "GDG-Warszawa",
     "all": 66,
-    "yearly": 11,
-    "quarter": 2
+    "yearly": 10,
+    "quarter": 1
   },
   {
     "name": "GDG-Waterloo",
@@ -3674,7 +3674,7 @@
   {
     "name": "GDG-WebTech",
     "all": 11,
-    "yearly": 8,
+    "yearly": 7,
     "quarter": 1
   },
   {
@@ -3686,7 +3686,7 @@
   {
     "name": "GDG-Wiesbaden",
     "all": 12,
-    "yearly": 10,
+    "yearly": 9,
     "quarter": 1
   },
   {
@@ -3704,20 +3704,20 @@
   {
     "name": "GDG-Winnipeg",
     "all": 8,
-    "yearly": 8,
+    "yearly": 7,
     "quarter": 3
   },
   {
     "name": "GDG-Wroclaw",
     "all": 20,
     "yearly": 12,
-    "quarter": 3
+    "quarter": 0
   },
   {
     "name": "GDG-Wuhan",
     "all": 46,
-    "yearly": 18,
-    "quarter": 5
+    "yearly": 12,
+    "quarter": 3
   },
   {
     "name": "GDG-Xalapa",
@@ -3729,31 +3729,31 @@
     "name": "GDG-Xiamen",
     "all": 30,
     "yearly": 16,
-    "quarter": 3
+    "quarter": 2
   },
   {
     "name": "GDG-Xian",
     "all": 18,
-    "yearly": 9,
-    "quarter": 3
+    "yearly": 8,
+    "quarter": 2
   },
   {
     "name": "GDG-Yamoussoukro",
     "all": 22,
     "yearly": 12,
-    "quarter": 3
+    "quarter": 2
   },
   {
     "name": "GDG-Yaounde",
     "all": 36,
     "yearly": 8,
-    "quarter": 2
+    "quarter": 1
   },
   {
     "name": "GDG-Yenagoa",
     "all": 3,
     "yearly": 3,
-    "quarter": 2
+    "quarter": 1
   },
   {
     "name": "GDG-Zagazig",
@@ -3771,55 +3771,55 @@
     "name": "GDG-Zaporizhzhia",
     "all": 3,
     "yearly": 3,
-    "quarter": 1
+    "quarter": 0
   },
   {
     "name": "GDG-Zaria",
     "all": 17,
     "yearly": 11,
-    "quarter": 3
+    "quarter": 2
   },
   {
     "name": "GDG-Zurich",
-    "all": 68,
-    "yearly": 25,
-    "quarter": 7
+    "all": 69,
+    "yearly": 24,
+    "quarter": 5
   },
   {
     "name": "GDG-cloud-PHX",
     "all": 21,
     "yearly": 21,
-    "quarter": 2
+    "quarter": 1
   },
   {
     "name": "GDG-cloud-munich",
     "all": 14,
     "yearly": 7,
-    "quarter": 3
+    "quarter": 1
   },
   {
     "name": "GDG-latam",
     "all": 7,
     "yearly": 6,
-    "quarter": 2
+    "quarter": 1
   },
   {
     "name": "GDG-mostaghanem",
     "all": 3,
     "yearly": 3,
-    "quarter": 2
+    "quarter": 1
   },
   {
     "name": "GDG-munich-cloud",
     "all": 14,
     "yearly": 7,
-    "quarter": 3
+    "quarter": 1
   },
   {
     "name": "GDGAbidjan",
     "all": 42,
     "yearly": 8,
-    "quarter": 2
+    "quarter": 1
   },
   {
     "name": "GDGAden",
@@ -3830,62 +3830,62 @@
   {
     "name": "GDGAgadir",
     "all": 26,
-    "yearly": 17,
-    "quarter": 4
+    "yearly": 15,
+    "quarter": 1
   },
   {
     "name": "GDGAndroidBolivia",
     "all": 61,
-    "yearly": 22,
+    "yearly": 20,
     "quarter": 1
   },
   {
     "name": "GDGAndroidtitlan",
     "all": 38,
     "yearly": 6,
-    "quarter": 2
+    "quarter": 1
   },
   {
     "name": "GDGAnkara",
     "all": 16,
     "yearly": 6,
-    "quarter": 2
+    "quarter": 1
   },
   {
     "name": "GDGAntalya",
     "all": 24,
     "yearly": 14,
-    "quarter": 4
+    "quarter": 2
   },
   {
     "name": "GDGAuckland",
     "all": 56,
-    "yearly": 14,
-    "quarter": 4
+    "yearly": 13,
+    "quarter": 3
   },
   {
     "name": "GDGBaghdad",
     "all": 12,
-    "yearly": 4,
+    "yearly": 3,
     "quarter": 0
   },
   {
     "name": "GDGBangalore",
     "all": 23,
     "yearly": 14,
-    "quarter": 3
+    "quarter": 2
   },
   {
     "name": "GDGBergen",
     "all": 40,
     "yearly": 7,
-    "quarter": 2
+    "quarter": 1
   },
   {
     "name": "GDGBerkeley",
     "all": 61,
-    "yearly": 10,
-    "quarter": 3
+    "yearly": 9,
+    "quarter": 2
   },
   {
     "name": "GDGBolu",
@@ -3897,18 +3897,18 @@
     "name": "GDGBursa",
     "all": 8,
     "yearly": 8,
-    "quarter": 5
+    "quarter": 4
   },
   {
     "name": "GDGCairo",
     "all": 47,
-    "yearly": 36,
-    "quarter": 6
+    "yearly": 34,
+    "quarter": 3
   },
   {
     "name": "GDGCali",
     "all": 46,
-    "yearly": 9,
+    "yearly": 8,
     "quarter": 2
   },
   {
@@ -3926,8 +3926,8 @@
   {
     "name": "GDGCancun",
     "all": 20,
-    "yearly": 12,
-    "quarter": 3
+    "yearly": 11,
+    "quarter": 2
   },
   {
     "name": "GDGCaracasVzla",
@@ -3938,32 +3938,32 @@
   {
     "name": "GDGCardiff",
     "all": 13,
-    "yearly": 6,
+    "yearly": 5,
     "quarter": 1
   },
   {
     "name": "GDGCasablanca",
     "all": 22,
-    "yearly": 11,
-    "quarter": 4
+    "yearly": 10,
+    "quarter": 2
   },
   {
     "name": "GDGCebu",
     "all": 23,
-    "yearly": 9,
+    "yearly": 6,
     "quarter": 3
   },
   {
     "name": "GDGChennai",
     "all": 17,
     "yearly": 8,
-    "quarter": 3
+    "quarter": 2
   },
   {
     "name": "GDGChetumal",
     "all": 18,
     "yearly": 14,
-    "quarter": 2
+    "quarter": 1
   },
   {
     "name": "GDGChimbote",
@@ -3975,37 +3975,37 @@
     "name": "GDGCloudBoston",
     "all": 20,
     "yearly": 13,
-    "quarter": 3
+    "quarter": 2
   },
   {
     "name": "GDGCloudSF",
     "all": 14,
     "yearly": 14,
-    "quarter": 6
+    "quarter": 4
   },
   {
     "name": "GDGCloudVancouver",
     "all": 43,
-    "yearly": 30,
-    "quarter": 8
+    "yearly": 27,
+    "quarter": 6
   },
   {
     "name": "GDGCochabamba",
     "all": 37,
-    "yearly": 24,
-    "quarter": 5
+    "yearly": 23,
+    "quarter": 3
   },
   {
     "name": "GDGCochin",
     "all": 17,
-    "yearly": 10,
-    "quarter": 2
+    "yearly": 9,
+    "quarter": 1
   },
   {
     "name": "GDGCoimbatore",
     "all": 16,
-    "yearly": 9,
-    "quarter": 2
+    "yearly": 7,
+    "quarter": 1
   },
   {
     "name": "GDGCordoba",
@@ -4023,19 +4023,19 @@
     "name": "GDGFloripa",
     "all": 26,
     "yearly": 17,
-    "quarter": 7
+    "quarter": 6
   },
   {
     "name": "GDGFoumban",
     "all": 23,
-    "yearly": 10,
-    "quarter": 3
+    "yearly": 9,
+    "quarter": 2
   },
   {
     "name": "GDGFribourg",
     "all": 23,
     "yearly": 7,
-    "quarter": 1
+    "quarter": 0
   },
   {
     "name": "GDGGuanajuato",
@@ -4053,19 +4053,19 @@
     "name": "GDGHyderabad",
     "all": 22,
     "yearly": 13,
-    "quarter": 5
+    "quarter": 3
   },
   {
     "name": "GDGIndore",
     "all": 35,
-    "yearly": 13,
+    "yearly": 12,
     "quarter": 1
   },
   {
     "name": "GDGIstanbul",
     "all": 51,
-    "yearly": 16,
-    "quarter": 7
+    "yearly": 15,
+    "quarter": 4
   },
   {
     "name": "GDGIzhevsk",
@@ -4082,8 +4082,8 @@
   {
     "name": "GDGJodhpur",
     "all": 17,
-    "yearly": 14,
-    "quarter": 3
+    "yearly": 12,
+    "quarter": 0
   },
   {
     "name": "GDGJohannesburg",
@@ -4106,37 +4106,37 @@
   {
     "name": "GDGKisumu",
     "all": 15,
-    "yearly": 10,
-    "quarter": 3
+    "yearly": 9,
+    "quarter": 2
   },
   {
     "name": "GDGKocaeli",
     "all": 15,
     "yearly": 7,
-    "quarter": 2
+    "quarter": 1
   },
   {
     "name": "GDGKonya",
     "all": 14,
-    "yearly": 7,
+    "yearly": 6,
     "quarter": 1
   },
   {
     "name": "GDGKualaLumpur",
     "all": 21,
-    "yearly": 10,
-    "quarter": 3
+    "yearly": 9,
+    "quarter": 2
   },
   {
     "name": "GDGLahore",
     "all": 13,
     "yearly": 10,
-    "quarter": 3
+    "quarter": 2
   },
   {
     "name": "GDGLeme",
     "all": 7,
-    "yearly": 7,
+    "yearly": 6,
     "quarter": 0
   },
   {
@@ -4147,51 +4147,51 @@
   },
   {
     "name": "GDGLouisville",
-    "all": 36,
-    "yearly": 1,
-    "quarter": 0
+    "all": 37,
+    "yearly": 2,
+    "quarter": 1
   },
   {
     "name": "GDGMadrid",
     "all": 41,
     "yearly": 8,
-    "quarter": 5
+    "quarter": 3
   },
   {
     "name": "GDGMakhachkala",
     "all": 20,
     "yearly": 5,
-    "quarter": 2
+    "quarter": 1
   },
   {
     "name": "GDGMalta",
     "all": 20,
-    "yearly": 10,
-    "quarter": 2
+    "yearly": 9,
+    "quarter": 0
   },
   {
     "name": "GDGMiageGi",
     "all": 23,
     "yearly": 13,
-    "quarter": 7
+    "quarter": 5
   },
   {
     "name": "GDGMienTrungVietnam",
     "all": 11,
     "yearly": 8,
-    "quarter": 3
+    "quarter": 2
   },
   {
     "name": "GDGMinia",
     "all": 18,
-    "yearly": 14,
-    "quarter": 1
+    "yearly": 13,
+    "quarter": 0
   },
   {
     "name": "GDGMinna",
     "all": 15,
     "yearly": 8,
-    "quarter": 4
+    "quarter": 3
   },
   {
     "name": "GDGMontevideo",
@@ -4208,32 +4208,32 @@
   {
     "name": "GDGNewDelhi",
     "all": 23,
-    "yearly": 10,
-    "quarter": 2
+    "yearly": 8,
+    "quarter": 1
   },
   {
     "name": "GDGNice",
     "all": 21,
     "yearly": 3,
-    "quarter": 1
+    "quarter": 0
   },
   {
     "name": "GDGNoCo",
     "all": 60,
     "yearly": 17,
-    "quarter": 5
+    "quarter": 1
   },
   {
     "name": "GDGNsk",
     "all": 42,
     "yearly": 8,
-    "quarter": 2
+    "quarter": 1
   },
   {
     "name": "GDGOctober",
     "all": 33,
-    "yearly": 23,
-    "quarter": 5
+    "yearly": 21,
+    "quarter": 3
   },
   {
     "name": "GDGOmaha",
@@ -4245,7 +4245,7 @@
     "name": "GDGOslo",
     "all": 48,
     "yearly": 5,
-    "quarter": 2
+    "quarter": 1
   },
   {
     "name": "GDGOuargla",
@@ -4257,7 +4257,7 @@
     "name": "GDGPalermo",
     "all": 18,
     "yearly": 12,
-    "quarter": 3
+    "quarter": 1
   },
   {
     "name": "GDGPetropolis",
@@ -4268,20 +4268,20 @@
   {
     "name": "GDGPhilly",
     "all": 99,
-    "yearly": 9,
-    "quarter": 2
+    "yearly": 8,
+    "quarter": 1
   },
   {
     "name": "GDGPolymerMexico",
     "all": 39,
-    "yearly": 8,
+    "yearly": 7,
     "quarter": 3
   },
   {
     "name": "GDGPrague",
     "all": 77,
-    "yearly": 38,
-    "quarter": 11
+    "yearly": 34,
+    "quarter": 8
   },
   {
     "name": "GDGRioDeJaneiro",
@@ -4292,7 +4292,7 @@
   {
     "name": "GDGRzeszow",
     "all": 66,
-    "yearly": 20,
+    "yearly": 17,
     "quarter": 0
   },
   {
@@ -4304,14 +4304,14 @@
   {
     "name": "GDGSTL",
     "all": 32,
-    "yearly": 9,
-    "quarter": 1
+    "yearly": 8,
+    "quarter": 0
   },
   {
     "name": "GDGSalamanca",
     "all": 19,
     "yearly": 8,
-    "quarter": 3
+    "quarter": 2
   },
   {
     "name": "GDGSanFrancisco",
@@ -4323,7 +4323,7 @@
     "name": "GDGSanaa",
     "all": 18,
     "yearly": 9,
-    "quarter": 1
+    "quarter": 0
   },
   {
     "name": "GDGSerraGaucha",
@@ -4340,14 +4340,14 @@
   {
     "name": "GDGShorouk",
     "all": 25,
-    "yearly": 19,
-    "quarter": 2
+    "yearly": 18,
+    "quarter": 0
   },
   {
     "name": "GDGSpaceCoast",
     "all": 47,
     "yearly": 7,
-    "quarter": 3
+    "quarter": 1
   },
   {
     "name": "GDGSriracha",
@@ -4364,26 +4364,26 @@
   {
     "name": "GDGSurabaya",
     "all": 27,
-    "yearly": 16,
+    "yearly": 14,
     "quarter": 4
   },
   {
     "name": "GDGSzczecin",
     "all": 5,
     "yearly": 5,
-    "quarter": 2
+    "quarter": 1
   },
   {
     "name": "GDGTaichung",
     "all": 24,
     "yearly": 24,
-    "quarter": 18
+    "quarter": 12
   },
   {
     "name": "GDGTaipei",
     "all": 31,
     "yearly": 20,
-    "quarter": 11
+    "quarter": 7
   },
   {
     "name": "GDGTaoyuan",
@@ -4401,37 +4401,37 @@
     "name": "GDGTrabzon",
     "all": 12,
     "yearly": 5,
-    "quarter": 2
+    "quarter": 1
   },
   {
     "name": "GDGValencia",
     "all": 16,
     "yearly": 6,
-    "quarter": 4
+    "quarter": 2
   },
   {
     "name": "GDGValley",
     "all": 16,
     "yearly": 16,
-    "quarter": 3
+    "quarter": 2
   },
   {
     "name": "GDGVientiane",
     "all": 48,
-    "yearly": 20,
-    "quarter": 2
+    "yearly": 17,
+    "quarter": 1
   },
   {
     "name": "GDGVigo",
     "all": 32,
-    "yearly": 11,
-    "quarter": 1
+    "yearly": 10,
+    "quarter": 0
   },
   {
     "name": "GDGWilmington",
     "all": 56,
-    "yearly": 12,
-    "quarter": 3
+    "yearly": 11,
+    "quarter": 2
   },
   {
     "name": "GDGWonderCoders",
@@ -4449,13 +4449,13 @@
     "name": "GDGYar",
     "all": 7,
     "yearly": 7,
-    "quarter": 6
+    "quarter": 4
   },
   {
     "name": "GDGYerevan",
     "all": 9,
     "yearly": 4,
-    "quarter": 2
+    "quarter": 1
   },
   {
     "name": "GDG_Bandjoun",
@@ -4466,14 +4466,14 @@
   {
     "name": "GDG_ELTARF",
     "all": 31,
-    "yearly": 11,
-    "quarter": 1
+    "yearly": 8,
+    "quarter": 0
   },
   {
     "name": "GDG_Muscat",
     "all": 46,
-    "yearly": 36,
-    "quarter": 10
+    "yearly": 33,
+    "quarter": 1
   },
   {
     "name": "GDG_Nyeri",
@@ -4485,25 +4485,25 @@
     "name": "GDG_Surat",
     "all": 11,
     "yearly": 11,
-    "quarter": 4
+    "quarter": 2
   },
   {
     "name": "GDG_Ulan-Ude",
     "all": 17,
     "yearly": 5,
-    "quarter": 2
+    "quarter": 1
   },
   {
     "name": "GGD-Cloud-Bogota",
     "all": 4,
     "yearly": 4,
-    "quarter": 2
+    "quarter": 1
   },
   {
     "name": "GTUG-Girls",
     "all": 11,
     "yearly": 5,
-    "quarter": 2
+    "quarter": 1
   },
   {
     "name": "Ganzhou-GDG",
@@ -4514,8 +4514,8 @@
   {
     "name": "GcdcChennai",
     "all": 9,
-    "yearly": 9,
-    "quarter": 3
+    "yearly": 8,
+    "quarter": 2
   },
   {
     "name": "GdgIsparta",
@@ -4533,31 +4533,31 @@
     "name": "GolangKazan",
     "all": 8,
     "yearly": 8,
-    "quarter": 3
+    "quarter": 2
   },
   {
     "name": "Google-Cloud-Developer-Community-Ankara",
     "all": 6,
     "yearly": 5,
-    "quarter": 3
+    "quarter": 2
   },
   {
     "name": "Google-Cloud-Developer-Community-Belo-Horizonte",
     "all": 8,
-    "yearly": 7,
+    "yearly": 6,
     "quarter": 1
   },
   {
     "name": "Google-Cloud-Developer-Community-Bhubaneswar",
     "all": 9,
-    "yearly": 9,
-    "quarter": 2
+    "yearly": 8,
+    "quarter": 1
   },
   {
     "name": "Google-Cloud-Developer-Community-Bogota",
     "all": 4,
     "yearly": 4,
-    "quarter": 2
+    "quarter": 1
   },
   {
     "name": "Google-Cloud-Developer-Community-Buenos-Aires",
@@ -4593,7 +4593,7 @@
     "name": "Google-Cloud-Developer-Community-Islamabad",
     "all": 8,
     "yearly": 8,
-    "quarter": 8
+    "quarter": 6
   },
   {
     "name": "Google-Cloud-Developer-Community-Kolkata",
@@ -4628,7 +4628,7 @@
   {
     "name": "Google-Cloud-Developer-Community-Pune",
     "all": 7,
-    "yearly": 6,
+    "yearly": 5,
     "quarter": 1
   },
   {
@@ -4646,32 +4646,32 @@
   {
     "name": "Google-Cloud-Developer-Community-Tallinn",
     "all": 6,
-    "yearly": 6,
+    "yearly": 5,
     "quarter": 2
   },
   {
     "name": "Google-Cloud-Developer-Community-Torino",
     "all": 3,
     "yearly": 3,
-    "quarter": 1
+    "quarter": 0
   },
   {
     "name": "Google-Cloud-Developer-Community-Zagreb",
     "all": 3,
     "yearly": 3,
-    "quarter": 1
+    "quarter": 0
   },
   {
     "name": "Google-Cloud-Developer-Community-Zapopan",
     "all": 8,
-    "yearly": 7,
+    "yearly": 6,
     "quarter": 1
   },
   {
     "name": "Google-Cloud-Developers-Community-Ahmedabad",
     "all": 4,
     "yearly": 4,
-    "quarter": 2
+    "quarter": 1
   },
   {
     "name": "Google-Cloud-GDG-Meeting",
@@ -4682,8 +4682,8 @@
   {
     "name": "Google-Cloud-Platform-DFW",
     "all": 21,
-    "yearly": 11,
-    "quarter": 2
+    "yearly": 9,
+    "quarter": 1
   },
   {
     "name": "Google-Cloud-Platform-Meetup-Montreal",
@@ -4694,14 +4694,14 @@
   {
     "name": "Google-Cloud-Platform-Users-North-West",
     "all": 6,
-    "yearly": 4,
-    "quarter": 1
+    "yearly": 3,
+    "quarter": 0
   },
   {
     "name": "Google-Developer-Group-Aarhus",
     "all": 32,
     "yearly": 5,
-    "quarter": 1
+    "quarter": 0
   },
   {
     "name": "Google-Developer-Group-Albuquerque",
@@ -4713,7 +4713,7 @@
     "name": "Google-Developer-Group-Alps",
     "all": 7,
     "yearly": 5,
-    "quarter": 3
+    "quarter": 2
   },
   {
     "name": "Google-Developer-Group-Athens-Meetup",
@@ -4725,7 +4725,7 @@
     "name": "Google-Developer-Group-Belfast",
     "all": 16,
     "yearly": 11,
-    "quarter": 4
+    "quarter": 3
   },
   {
     "name": "Google-Developer-Group-Boulder",
@@ -4742,20 +4742,20 @@
   {
     "name": "Google-Developer-Group-Bucharest",
     "all": 28,
-    "yearly": 6,
+    "yearly": 5,
     "quarter": 2
   },
   {
     "name": "Google-Developer-Group-Cape-Town-Meetup",
     "all": 47,
-    "yearly": 9,
-    "quarter": 2
+    "yearly": 8,
+    "quarter": 1
   },
   {
     "name": "Google-Developer-Group-Central-Virginia",
     "all": 24,
     "yearly": 5,
-    "quarter": 1
+    "quarter": 0
   },
   {
     "name": "Google-Developer-Group-Cloud-Port-Harcourt",
@@ -4778,20 +4778,20 @@
   {
     "name": "Google-Developer-Group-Cosenza",
     "all": 21,
-    "yearly": 6,
+    "yearly": 5,
     "quarter": 1
   },
   {
     "name": "Google-Developer-Group-Dusseldorf",
     "all": 53,
     "yearly": 6,
-    "quarter": 1
+    "quarter": 0
   },
   {
     "name": "Google-Developer-Group-Erlangen-Nurnberg",
     "all": 26,
     "yearly": 7,
-    "quarter": 2
+    "quarter": 1
   },
   {
     "name": "Google-Developer-Group-GDG-Houston",
@@ -4803,61 +4803,61 @@
     "name": "Google-Developer-Group-Gela-GDG-Gela",
     "all": 26,
     "yearly": 7,
-    "quarter": 3
+    "quarter": 2
   },
   {
     "name": "Google-Developer-Group-Ha-Noi",
     "all": 24,
-    "yearly": 5,
-    "quarter": 1
+    "yearly": 4,
+    "quarter": 0
   },
   {
     "name": "Google-Developer-Group-Hamburg",
     "all": 45,
     "yearly": 6,
-    "quarter": 4
+    "quarter": 2
   },
   {
     "name": "Google-Developer-Group-Hants-Surrey",
     "all": 9,
     "yearly": 6,
-    "quarter": 2
+    "quarter": 1
   },
   {
     "name": "Google-Developer-Group-Iasi",
     "all": 17,
-    "yearly": 3,
+    "yearly": 2,
     "quarter": 1
   },
   {
     "name": "Google-Developer-Group-Lleida",
     "all": 65,
     "yearly": 34,
-    "quarter": 7
+    "quarter": 4
   },
   {
     "name": "Google-Developer-Group-Malaga",
     "all": 35,
-    "yearly": 9,
-    "quarter": 3
+    "yearly": 8,
+    "quarter": 2
   },
   {
     "name": "Google-Developer-Group-Nizhny-Novgorod",
     "all": 30,
-    "yearly": 18,
-    "quarter": 5
+    "yearly": 17,
+    "quarter": 2
   },
   {
     "name": "Google-Developer-Group-San-Fernando-Valley",
     "all": 6,
     "yearly": 6,
-    "quarter": 3
+    "quarter": 2
   },
   {
     "name": "Google-Developer-Group-Skopje",
     "all": 2,
     "yearly": 2,
-    "quarter": 2
+    "quarter": 1
   },
   {
     "name": "Google-Developer-Group-Sorlandet-GDG",
@@ -4869,19 +4869,19 @@
     "name": "Google-Developer-Group-Tbilisi-GDG-Tbilisi",
     "all": 13,
     "yearly": 8,
-    "quarter": 2
+    "quarter": 1
   },
   {
     "name": "Google-Developer-Group-Triangle",
     "all": 48,
-    "yearly": 7,
-    "quarter": 1
+    "yearly": 6,
+    "quarter": 0
   },
   {
     "name": "Google-Developer-Group-Tucson",
     "all": 93,
-    "yearly": 12,
-    "quarter": 2
+    "yearly": 11,
+    "quarter": 1
   },
   {
     "name": "Google-Developer-Group-Wurzburg",
@@ -4892,26 +4892,26 @@
   {
     "name": "Google-Developer-Group-of-the-Capital-Region",
     "all": 25,
-    "yearly": 11,
-    "quarter": 4
+    "yearly": 10,
+    "quarter": 3
   },
   {
     "name": "Google-Developers-Group-Asheville",
     "all": 35,
-    "yearly": 21,
-    "quarter": 5
+    "yearly": 20,
+    "quarter": 3
   },
   {
     "name": "Google-Developers-Group-Columbia-GDG",
     "all": 26,
     "yearly": 7,
-    "quarter": 2
+    "quarter": 1
   },
   {
     "name": "Google-Developers-Group-GDG-Chicago",
     "all": 52,
-    "yearly": 10,
-    "quarter": 3
+    "yearly": 9,
+    "quarter": 2
   },
   {
     "name": "Google-Developers-Group-in-Galway-Meetup",
@@ -4935,7 +4935,7 @@
     "name": "Google-Development-Group-GDG-PDX-Meetup",
     "all": 30,
     "yearly": 8,
-    "quarter": 2
+    "quarter": 1
   },
   {
     "name": "GoogleCloudDC",
@@ -4952,56 +4952,56 @@
   {
     "name": "GoogleDeveloperGroupIndore",
     "all": 34,
-    "yearly": 12,
+    "yearly": 11,
     "quarter": 0
   },
   {
     "name": "GoogleGoa",
     "all": 27,
-    "yearly": 20,
-    "quarter": 2
+    "yearly": 19,
+    "quarter": 1
   },
   {
     "name": "Gulu-Google-Developer-Group-Meetup",
     "all": 31,
-    "yearly": 16,
-    "quarter": 5
+    "yearly": 14,
+    "quarter": 4
   },
   {
     "name": "Hangzhou-GDG",
     "all": 23,
     "yearly": 14,
-    "quarter": 6
+    "quarter": 3
   },
   {
     "name": "Hannover-Mobile-Development-Meetup",
     "all": 15,
     "yearly": 15,
-    "quarter": 5
+    "quarter": 4
   },
   {
     "name": "Hefei-GDG",
     "all": 11,
     "yearly": 5,
-    "quarter": 2
+    "quarter": 1
   },
   {
     "name": "Houston-Google-Cloud-User-Group",
     "all": 18,
-    "yearly": 12,
-    "quarter": 2
+    "yearly": 11,
+    "quarter": 1
   },
   {
     "name": "JeddahGDG",
     "all": 21,
     "yearly": 12,
-    "quarter": 2
+    "quarter": 1
   },
   {
     "name": "Lanzhou-GDG",
     "all": 51,
-    "yearly": 15,
-    "quarter": 4
+    "yearly": 13,
+    "quarter": 3
   },
   {
     "name": "Lille-Android-User-Group",
@@ -5013,30 +5013,30 @@
     "name": "Meetup-GDG-Brescia",
     "all": 6,
     "yearly": 3,
-    "quarter": 1
+    "quarter": 0
   },
   {
     "name": "Meetup-GDG-Conakry",
     "all": 10,
     "yearly": 10,
-    "quarter": 2
+    "quarter": 1
   },
   {
     "name": "Meetup-GDG-Kinshasa",
     "all": 9,
-    "yearly": 7,
+    "yearly": 6,
     "quarter": 2
   },
   {
     "name": "Meetup-GDG-Ouaga",
     "all": 20,
     "yearly": 6,
-    "quarter": 2
+    "quarter": 1
   },
   {
     "name": "Meetup-de-Desenvolvimento-de-Software-Rio-de-Janeiro",
     "all": 15,
-    "yearly": 7,
+    "yearly": 6,
     "quarter": 1
   },
   {
@@ -5049,7 +5049,7 @@
     "name": "Mobile-Stammtisch-GDG-Regensburg",
     "all": 47,
     "yearly": 10,
-    "quarter": 3
+    "quarter": 2
   },
   {
     "name": "Munich-Gophers-Go-User-Group",
@@ -5061,49 +5061,49 @@
     "name": "Nanjing-GDG",
     "all": 8,
     "yearly": 2,
-    "quarter": 1
+    "quarter": 0
   },
   {
     "name": "Nanyang-GDG",
     "all": 48,
-    "yearly": 21,
-    "quarter": 6
+    "yearly": 20,
+    "quarter": 3
   },
   {
     "name": "NashvilleMDUG",
     "all": 81,
-    "yearly": 9,
-    "quarter": 2
+    "yearly": 8,
+    "quarter": 1
   },
   {
     "name": "NewcastleML",
     "all": 9,
     "yearly": 9,
-    "quarter": 3
+    "quarter": 2
   },
   {
     "name": "Old-Bridge-Web-Design-Meetup",
     "all": 7,
     "yearly": 7,
-    "quarter": 2
+    "quarter": 1
   },
   {
     "name": "PHX-Android",
     "all": 59,
-    "yearly": 13,
-    "quarter": 3
+    "yearly": 12,
+    "quarter": 2
   },
   {
     "name": "Pune-GDG",
     "all": 89,
-    "yearly": 9,
+    "yearly": 8,
     "quarter": 2
   },
   {
     "name": "Rhein-Neckar-Dev-Meetup",
     "all": 9,
     "yearly": 5,
-    "quarter": 1
+    "quarter": 0
   },
   {
     "name": "STHLM-Android",
@@ -5121,7 +5121,7 @@
     "name": "Shanghai-GDG",
     "all": 39,
     "yearly": 22,
-    "quarter": 11
+    "quarter": 8
   },
   {
     "name": "Soroti-GDG-Meetup",
@@ -5145,37 +5145,37 @@
     "name": "Suzhou-GDG",
     "all": 29,
     "yearly": 23,
-    "quarter": 13
+    "quarter": 8
   },
   {
     "name": "ToAndroidDev",
     "all": 32,
-    "yearly": 9,
-    "quarter": 3
+    "yearly": 8,
+    "quarter": 2
   },
   {
     "name": "Wilmington-Google-Developer-Group",
     "all": 56,
-    "yearly": 12,
-    "quarter": 3
+    "yearly": 11,
+    "quarter": 2
   },
   {
     "name": "Women-Techmakers-Berlin",
     "all": 125,
-    "yearly": 61,
+    "yearly": 57,
     "quarter": 5
   },
   {
     "name": "Women-Techmakers-Dusseldorf",
     "all": 23,
     "yearly": 7,
-    "quarter": 3
+    "quarter": 2
   },
   {
     "name": "Women-Techmakers-Frankfurt_Rhein-Main",
     "all": 38,
-    "yearly": 18,
-    "quarter": 5
+    "yearly": 16,
+    "quarter": 3
   },
   {
     "name": "Women-Techmakers-Lima",
@@ -5193,30 +5193,30 @@
     "name": "Zhangjiakou-GDG",
     "all": 42,
     "yearly": 22,
-    "quarter": 5
+    "quarter": 3
   },
   {
     "name": "Zhuhai-GDG",
     "all": 12,
-    "yearly": 3,
+    "yearly": 2,
     "quarter": 0
   },
   {
     "name": "berlindroid",
     "all": 276,
-    "yearly": 62,
-    "quarter": 16
+    "yearly": 58,
+    "quarter": 11
   },
   {
     "name": "boston-android",
     "all": 176,
-    "yearly": 30,
-    "quarter": 5
+    "yearly": 28,
+    "quarter": 4
   },
   {
     "name": "cloudmx",
     "all": 23,
-    "yearly": 12,
+    "yearly": 11,
     "quarter": 2
   },
   {
@@ -5234,14 +5234,14 @@
   {
     "name": "dscbuk",
     "all": 17,
-    "yearly": 11,
-    "quarter": 3
+    "yearly": 10,
+    "quarter": 2
   },
   {
     "name": "dutch-aug",
     "all": 94,
-    "yearly": 13,
-    "quarter": 5
+    "yearly": 12,
+    "quarter": 2
   },
   {
     "name": "gcdc-danang",
@@ -5253,7 +5253,7 @@
     "name": "gcdc-nd",
     "all": 14,
     "yearly": 13,
-    "quarter": 6
+    "quarter": 4
   },
   {
     "name": "gcdc-santiago",
@@ -5264,14 +5264,14 @@
   {
     "name": "gcdcblr",
     "all": 12,
-    "yearly": 12,
+    "yearly": 10,
     "quarter": 2
   },
   {
     "name": "gcdcmadrid",
     "all": 16,
     "yearly": 7,
-    "quarter": 4
+    "quarter": 2
   },
   {
     "name": "gcpughk",
@@ -5283,72 +5283,72 @@
     "name": "gdg-Ajah",
     "all": 16,
     "yearly": 12,
-    "quarter": 4
+    "quarter": 2
   },
   {
     "name": "gdg-Libreville",
-    "all": 2,
-    "yearly": 2,
+    "all": 3,
+    "yearly": 3,
     "quarter": 2
   },
   {
     "name": "gdg-Ramallah",
     "all": 27,
-    "yearly": 15,
+    "yearly": 12,
     "quarter": 4
   },
   {
     "name": "gdg-a2",
     "all": 119,
-    "yearly": 16,
-    "quarter": 4
+    "yearly": 15,
+    "quarter": 3
   },
   {
     "name": "gdg-atlanta",
     "all": 108,
-    "yearly": 20,
-    "quarter": 8
+    "yearly": 19,
+    "quarter": 6
   },
   {
     "name": "gdg-berlin",
     "all": 116,
     "yearly": 6,
-    "quarter": 2
+    "quarter": 1
   },
   {
     "name": "gdg-brussels",
     "all": 71,
     "yearly": 7,
-    "quarter": 3
+    "quarter": 1
   },
   {
     "name": "gdg-burnaby",
     "all": 9,
     "yearly": 9,
-    "quarter": 2
+    "quarter": 1
   },
   {
     "name": "gdg-bydgoscz",
     "all": 4,
     "yearly": 4,
-    "quarter": 2
+    "quarter": 1
   },
   {
     "name": "gdg-c-durban",
     "all": 9,
-    "yearly": 6,
-    "quarter": 2
+    "yearly": 5,
+    "quarter": 1
   },
   {
     "name": "gdg-charlotte",
     "all": 124,
-    "yearly": 7,
+    "yearly": 6,
     "quarter": 2
   },
   {
     "name": "gdg-cloud-denver",
     "all": 8,
-    "yearly": 8,
+    "yearly": 7,
     "quarter": 1
   },
   {
@@ -5367,7 +5367,7 @@
     "name": "gdg-costarica",
     "all": 33,
     "yearly": 26,
-    "quarter": 9
+    "quarter": 6
   },
   {
     "name": "gdg-craiova",
@@ -5379,7 +5379,7 @@
     "name": "gdg-dc",
     "all": 124,
     "yearly": 22,
-    "quarter": 6
+    "quarter": 4
   },
   {
     "name": "gdg-depok",
@@ -5402,14 +5402,14 @@
   {
     "name": "gdg-freetown",
     "all": 12,
-    "yearly": 9,
+    "yearly": 8,
     "quarter": 1
   },
   {
     "name": "gdg-grancanaria",
     "all": 27,
     "yearly": 11,
-    "quarter": 1
+    "quarter": 0
   },
   {
     "name": "gdg-gt",
@@ -5421,13 +5421,13 @@
     "name": "gdg-hb",
     "all": 8,
     "yearly": 3,
-    "quarter": 2
+    "quarter": 1
   },
   {
     "name": "gdg-juiz-de-fora",
     "all": 25,
-    "yearly": 9,
-    "quarter": 2
+    "yearly": 8,
+    "quarter": 1
   },
   {
     "name": "gdg-la",
@@ -5439,7 +5439,7 @@
     "name": "gdg-lafia",
     "all": 15,
     "yearly": 8,
-    "quarter": 3
+    "quarter": 2
   },
   {
     "name": "gdg-lagos",
@@ -5451,7 +5451,7 @@
     "name": "gdg-mad",
     "all": 7,
     "yearly": 7,
-    "quarter": 2
+    "quarter": 1
   },
   {
     "name": "gdg-makkah",
@@ -5468,8 +5468,8 @@
   {
     "name": "gdg-melbourne",
     "all": 108,
-    "yearly": 29,
-    "quarter": 6
+    "yearly": 27,
+    "quarter": 4
   },
   {
     "name": "gdg-munich",
@@ -5481,25 +5481,25 @@
     "name": "gdg-nanning",
     "all": 13,
     "yearly": 5,
-    "quarter": 2
+    "quarter": 1
   },
   {
     "name": "gdg-nb",
     "all": 16,
-    "yearly": 16,
-    "quarter": 3
+    "yearly": 15,
+    "quarter": 2
   },
   {
     "name": "gdg-new-orleans",
     "all": 119,
-    "yearly": 14,
-    "quarter": 4
+    "yearly": 13,
+    "quarter": 3
   },
   {
     "name": "gdg-nl",
     "all": 17,
-    "yearly": 10,
-    "quarter": 2
+    "yearly": 9,
+    "quarter": 1
   },
   {
     "name": "gdg-paris",
@@ -5511,67 +5511,67 @@
     "name": "gdg-poltava",
     "all": 11,
     "yearly": 6,
-    "quarter": 2
+    "quarter": 1
   },
   {
     "name": "gdg-portsmouth-nh",
     "all": 4,
     "yearly": 4,
-    "quarter": 2
+    "quarter": 0
   },
   {
     "name": "gdg-salvador",
     "all": 46,
-    "yearly": 19,
-    "quarter": 3
+    "yearly": 18,
+    "quarter": 2
   },
   {
     "name": "gdg-santiago-chile",
     "all": 40,
-    "yearly": 18,
-    "quarter": 4
+    "yearly": 16,
+    "quarter": 3
   },
   {
     "name": "gdg-seattle",
     "all": 170,
     "yearly": 21,
-    "quarter": 7
+    "quarter": 5
   },
   {
     "name": "gdg-semarang",
     "all": 15,
-    "yearly": 9,
-    "quarter": 2
+    "yearly": 7,
+    "quarter": 1
   },
   {
     "name": "gdg-silicon-valley",
     "all": 136,
-    "yearly": 14,
-    "quarter": 2
+    "yearly": 13,
+    "quarter": 1
   },
   {
     "name": "gdg-singapore",
     "all": 16,
-    "yearly": 11,
+    "yearly": 10,
     "quarter": 4
   },
   {
     "name": "gdg-suwon",
     "all": 11,
-    "yearly": 9,
-    "quarter": 2
+    "yearly": 8,
+    "quarter": 1
   },
   {
     "name": "gdg-tc",
     "all": 139,
-    "yearly": 14,
-    "quarter": 3
+    "yearly": 12,
+    "quarter": 2
   },
   {
     "name": "gdg-tokyo-jp",
     "all": 21,
     "yearly": 8,
-    "quarter": 2
+    "quarter": 1
   },
   {
     "name": "gdg-vassouras",
@@ -5582,14 +5582,14 @@
   {
     "name": "gdg-wtm",
     "all": 27,
-    "yearly": 8,
+    "yearly": 7,
     "quarter": 1
   },
   {
     "name": "gdg-zhengzhou",
     "all": 14,
     "yearly": 6,
-    "quarter": 2
+    "quarter": 1
   },
   {
     "name": "gdgZaragoza",
@@ -5618,7 +5618,7 @@
   {
     "name": "gdg_kgd",
     "all": 39,
-    "yearly": 17,
+    "yearly": 15,
     "quarter": 3
   },
   {
@@ -5631,24 +5631,24 @@
     "name": "gdg_santander",
     "all": 5,
     "yearly": 5,
-    "quarter": 3
+    "quarter": 2
   },
   {
     "name": "gdgadoekiti",
     "all": 14,
-    "yearly": 10,
-    "quarter": 3
+    "yearly": 9,
+    "quarter": 2
   },
   {
     "name": "gdgaracaju",
     "all": 25,
-    "yearly": 12,
+    "yearly": 11,
     "quarter": 3
   },
   {
     "name": "gdgararaquara",
     "all": 11,
-    "yearly": 5,
+    "yearly": 4,
     "quarter": 1
   },
   {
@@ -5660,43 +5660,43 @@
   {
     "name": "gdgbaguio",
     "all": 14,
-    "yearly": 4,
-    "quarter": 2
+    "yearly": 3,
+    "quarter": 1
   },
   {
     "name": "gdgbaroda",
     "all": 36,
-    "yearly": 19,
-    "quarter": 8
+    "yearly": 18,
+    "quarter": 6
   },
   {
     "name": "gdgbauchi",
     "all": 14,
     "yearly": 7,
-    "quarter": 2
+    "quarter": 1
   },
   {
     "name": "gdgbelemio",
     "all": 13,
     "yearly": 9,
-    "quarter": 3
+    "quarter": 0
   },
   {
     "name": "gdgbenin",
     "all": 17,
     "yearly": 7,
-    "quarter": 3
+    "quarter": 2
   },
   {
     "name": "gdgbirgunj",
     "all": 30,
-    "yearly": 11,
+    "yearly": 9,
     "quarter": 0
   },
   {
     "name": "gdgbogota",
     "all": 131,
-    "yearly": 14,
+    "yearly": 13,
     "quarter": 3
   },
   {
@@ -5715,31 +5715,31 @@
     "name": "gdgbrno",
     "all": 16,
     "yearly": 7,
-    "quarter": 3
+    "quarter": 2
   },
   {
     "name": "gdgbsas",
     "all": 12,
-    "yearly": 5,
+    "yearly": 4,
     "quarter": 0
   },
   {
     "name": "gdgbuffalo",
     "all": 19,
     "yearly": 11,
-    "quarter": 3
+    "quarter": 2
   },
   {
     "name": "gdgburdur",
     "all": 10,
     "yearly": 10,
-    "quarter": 4
+    "quarter": 2
   },
   {
     "name": "gdgcadiz",
     "all": 10,
     "yearly": 4,
-    "quarter": 2
+    "quarter": 1
   },
   {
     "name": "gdgcampinas",
@@ -5751,67 +5751,67 @@
     "name": "gdgcarthage",
     "all": 50,
     "yearly": 49,
-    "quarter": 21
+    "quarter": 13
   },
   {
     "name": "gdgcde",
     "all": 22,
-    "yearly": 8,
+    "yearly": 7,
     "quarter": 3
   },
   {
     "name": "gdgcdo",
     "all": 16,
-    "yearly": 10,
-    "quarter": 3
+    "yearly": 7,
+    "quarter": 2
   },
   {
     "name": "gdgcincinnati",
     "all": 341,
-    "yearly": 11,
-    "quarter": 3
+    "yearly": 10,
+    "quarter": 2
   },
   {
     "name": "gdgcloud-philly",
     "all": 10,
-    "yearly": 8,
-    "quarter": 2
+    "yearly": 7,
+    "quarter": 1
   },
   {
     "name": "gdgcloud",
     "all": 185,
-    "yearly": 95,
-    "quarter": 9
+    "yearly": 86,
+    "quarter": 6
   },
   {
     "name": "gdgcloudKano",
     "all": 5,
     "yearly": 5,
-    "quarter": 1
+    "quarter": 0
   },
   {
     "name": "gdgcloudcalgary",
     "all": 39,
-    "yearly": 12,
-    "quarter": 2
+    "yearly": 11,
+    "quarter": 1
   },
   {
     "name": "gdgcloudnd",
     "all": 14,
     "yearly": 13,
-    "quarter": 6
+    "quarter": 4
   },
   {
     "name": "gdgcloudnl",
     "all": 31,
-    "yearly": 8,
-    "quarter": 2
+    "yearly": 7,
+    "quarter": 0
   },
   {
     "name": "gdgcloudoc",
     "all": 20,
     "yearly": 7,
-    "quarter": 3
+    "quarter": 2
   },
   {
     "name": "gdgcloudroma",
@@ -5835,13 +5835,13 @@
     "name": "gdgcuiaba",
     "all": 34,
     "yearly": 13,
-    "quarter": 4
+    "quarter": 3
   },
   {
     "name": "gdgcuritiba",
     "all": 29,
     "yearly": 4,
-    "quarter": 2
+    "quarter": 1
   },
   {
     "name": "gdgcuscoperu",
@@ -5852,7 +5852,7 @@
   {
     "name": "gdgdallas",
     "all": 146,
-    "yearly": 17,
+    "yearly": 15,
     "quarter": 5
   },
   {
@@ -5864,25 +5864,25 @@
   {
     "name": "gdgeldoret",
     "all": 15,
-    "yearly": 7,
+    "yearly": 6,
     "quarter": 2
   },
   {
     "name": "gdgeskisehir",
     "all": 26,
     "yearly": 10,
-    "quarter": 3
+    "quarter": 1
   },
   {
     "name": "gdgfortaleza",
     "all": 12,
     "yearly": 6,
-    "quarter": 2
+    "quarter": 1
   },
   {
     "name": "gdgfsa",
     "all": 14,
-    "yearly": 5,
+    "yearly": 4,
     "quarter": 1
   },
   {
@@ -5894,20 +5894,20 @@
   {
     "name": "gdgitajuba",
     "all": 11,
-    "yearly": 5,
+    "yearly": 4,
     "quarter": 0
   },
   {
     "name": "gdgjihlava",
     "all": 36,
     "yearly": 15,
-    "quarter": 4
+    "quarter": 3
   },
   {
     "name": "gdgjoaopessoa",
     "all": 38,
     "yearly": 10,
-    "quarter": 6
+    "quarter": 4
   },
   {
     "name": "gdgjsiit",
@@ -5918,20 +5918,20 @@
   {
     "name": "gdgkaf",
     "all": 16,
-    "yearly": 10,
+    "yearly": 9,
     "quarter": 1
   },
   {
     "name": "gdgkrasnodar",
     "all": 24,
     "yearly": 6,
-    "quarter": 1
+    "quarter": 0
   },
   {
     "name": "gdglafia",
     "all": 15,
     "yearly": 8,
-    "quarter": 3
+    "quarter": 2
   },
   {
     "name": "gdglasvegas",
@@ -5948,14 +5948,14 @@
   {
     "name": "gdglisbon",
     "all": 68,
-    "yearly": 16,
-    "quarter": 1
+    "yearly": 15,
+    "quarter": 0
   },
   {
     "name": "gdglondon",
     "all": 39,
-    "yearly": 10,
-    "quarter": 2
+    "yearly": 8,
+    "quarter": 1
   },
   {
     "name": "gdgmadeira",
@@ -5967,7 +5967,7 @@
     "name": "gdgmadison",
     "all": 27,
     "yearly": 11,
-    "quarter": 4
+    "quarter": 3
   },
   {
     "name": "gdgmanagua",
@@ -5979,25 +5979,25 @@
     "name": "gdgmascara",
     "all": 14,
     "yearly": 6,
-    "quarter": 2
+    "quarter": 1
   },
   {
     "name": "gdgmogiguacu",
     "all": 18,
-    "yearly": 9,
+    "yearly": 7,
     "quarter": 4
   },
   {
     "name": "gdgnebrodi",
     "all": 33,
     "yearly": 8,
-    "quarter": 2
+    "quarter": 1
   },
   {
     "name": "gdgneuquen",
     "all": 69,
-    "yearly": 30,
-    "quarter": 6
+    "yearly": 27,
+    "quarter": 5
   },
   {
     "name": "gdgnewcairo",
@@ -6008,14 +6008,14 @@
   {
     "name": "gdgnyc",
     "all": 79,
-    "yearly": 18,
-    "quarter": 2
+    "yearly": 15,
+    "quarter": 1
   },
   {
     "name": "gdgourense",
     "all": 25,
-    "yearly": 10,
-    "quarter": 3
+    "yearly": 9,
+    "quarter": 2
   },
   {
     "name": "gdgperth",
@@ -6026,8 +6026,8 @@
   {
     "name": "gdgphilippines",
     "all": 36,
-    "yearly": 10,
-    "quarter": 1
+    "yearly": 8,
+    "quarter": 0
   },
   {
     "name": "gdgpitesti",
@@ -6050,20 +6050,20 @@
   {
     "name": "gdgrheinmain",
     "all": 30,
-    "yearly": 9,
-    "quarter": 2
+    "yearly": 8,
+    "quarter": 1
   },
   {
     "name": "gdgribeirao",
     "all": 49,
-    "yearly": 17,
-    "quarter": 6
+    "yearly": 15,
+    "quarter": 3
   },
   {
     "name": "gdgrioverde",
     "all": 89,
     "yearly": 69,
-    "quarter": 28
+    "quarter": 17
   },
   {
     "name": "gdgrnd",
@@ -6081,73 +6081,73 @@
     "name": "gdgsantiagoes",
     "all": 12,
     "yearly": 6,
-    "quarter": 1
+    "quarter": 0
   },
   {
     "name": "gdgshinshu",
     "all": 8,
     "yearly": 3,
-    "quarter": 2
+    "quarter": 1
   },
   {
     "name": "gdgsjc",
     "all": 23,
     "yearly": 8,
-    "quarter": 3
+    "quarter": 2
   },
   {
     "name": "gdgspb",
     "all": 38,
-    "yearly": 12,
+    "yearly": 10,
     "quarter": 5
   },
   {
     "name": "gdgsuncoast",
     "all": 40,
-    "yearly": 11,
-    "quarter": 2
+    "yearly": 10,
+    "quarter": 1
   },
   {
     "name": "gdgsydney",
     "all": 61,
-    "yearly": 11,
-    "quarter": 3
+    "yearly": 10,
+    "quarter": 2
   },
   {
     "name": "gdgtangier",
     "all": 23,
-    "yearly": 8,
+    "yearly": 7,
     "quarter": 2
   },
   {
     "name": "gdgtekirdag",
     "all": 37,
-    "yearly": 14,
-    "quarter": 3
+    "yearly": 13,
+    "quarter": 2
   },
   {
     "name": "gdgtoledo_es",
     "all": 40,
     "yearly": 9,
-    "quarter": 2
+    "quarter": 1
   },
   {
     "name": "gdgtvpm",
     "all": 20,
-    "yearly": 11,
-    "quarter": 2
+    "yearly": 10,
+    "quarter": 1
   },
   {
     "name": "gdgvietnam",
     "all": 5,
-    "yearly": 3,
+    "yearly": 2,
     "quarter": 0
   },
   {
     "name": "gdgwtmkuwait",
     "all": 38,
-    "yearly": 14,
-    "quarter": 5
+    "yearly": 13,
+    "quarter": 2
   },
   {
     "name": "gdgyola",
@@ -6158,26 +6158,26 @@
   {
     "name": "gdgyyc",
     "all": 41,
-    "yearly": 14,
-    "quarter": 4
+    "yearly": 13,
+    "quarter": 3
   },
   {
     "name": "gdgzamboanga",
     "all": 57,
-    "yearly": 24,
-    "quarter": 6
+    "yearly": 23,
+    "quarter": 4
   },
   {
     "name": "golang-users-berlin",
     "all": 86,
-    "yearly": 14,
-    "quarter": 2
+    "yearly": 13,
+    "quarter": 1
   },
   {
     "name": "google-cloud-developer-community-kuala-lumpur",
     "all": 11,
     "yearly": 8,
-    "quarter": 3
+    "quarter": 2
   },
   {
     "name": "google-developer-group-san-francisco",
@@ -6189,13 +6189,13 @@
     "name": "googledevelopers",
     "all": 111,
     "yearly": 18,
-    "quarter": 6
+    "quarter": 4
   },
   {
     "name": "granadagdg",
     "all": 50,
     "yearly": 14,
-    "quarter": 3
+    "quarter": 1
   },
   {
     "name": "hildesheimGDG",
@@ -6207,36 +6207,36 @@
     "name": "indy-gdg",
     "all": 48,
     "yearly": 4,
-    "quarter": 1
+    "quarter": 0
   },
   {
     "name": "meetup-group-ECTkcbiM",
     "all": 7,
     "yearly": 7,
-    "quarter": 5
+    "quarter": 4
   },
   {
     "name": "meetup-group-EtXRvVqn",
     "all": 17,
     "yearly": 7,
-    "quarter": 3
+    "quarter": 2
   },
   {
     "name": "meetup-group-HktVJEAE",
     "all": 19,
     "yearly": 5,
-    "quarter": 3
+    "quarter": 2
   },
   {
     "name": "meetup-group-IfBrKrSH",
     "all": 24,
     "yearly": 6,
-    "quarter": 1
+    "quarter": 0
   },
   {
     "name": "meetup-group-KQsayXeh",
     "all": 23,
-    "yearly": 15,
+    "yearly": 12,
     "quarter": 3
   },
   {
@@ -6272,8 +6272,8 @@
   {
     "name": "pangyo-gdg",
     "all": 36,
-    "yearly": 26,
-    "quarter": 5
+    "yearly": 24,
+    "quarter": 4
   },
   {
     "name": "setif-gdg",
@@ -6284,7 +6284,7 @@
   {
     "name": "sfandroid",
     "all": 90,
-    "yearly": 10,
+    "yearly": 9,
     "quarter": 3
   },
   {
@@ -6302,19 +6302,19 @@
   {
     "name": "wtm-gdg-kuwait",
     "all": 37,
-    "yearly": 13,
-    "quarter": 4
+    "yearly": 12,
+    "quarter": 1
   },
   {
     "name": "wtm-switzerland",
-    "all": 49,
-    "yearly": 30,
-    "quarter": 7
+    "all": 50,
+    "yearly": 29,
+    "quarter": 5
   },
   {
     "name": "ǴDG-Monrovia",
     "all": 47,
-    "yearly": 12,
-    "quarter": 3
+    "yearly": 9,
+    "quarter": 2
   }
 ]
