@@ -1,0 +1,19 @@
+steps:
+  - name: "gcr.io/cloud-builders/docker"
+    args:
+      [
+        "build",
+        "-t",
+        "gcr.io/gdg-search/gdg-search:$SHORT_SHA",
+        "-f",
+        "runs/Dockerfile",
+        "runs",
+      ]
+  - name: "gcr.io/cloud-builders/docker"
+    args: ["push", "gcr.io/gdg-search/gdg-search:$SHORT_SHA"]
+  - name: gcr.io/cloud-builders/gcloud
+    entrypoint: "bash"
+    args:
+      - "-c"
+      - |
+        [[ "$BRANCH_NAME" == "master" ]] && gcloud beta run deploy gdg-search --platform=managed --region=us-central1 --image=gcr.io/gdg-search/gdg-search:$SHORT_SHA || echo "Skipping ..."
