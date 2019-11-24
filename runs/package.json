@@ -1,7 +1,7 @@
 {
   "name": "gdg-search-graph",
   "scripts": {
-    "start": "node -r esm index.js",
+    "start": "node -r esm src/index.js",
     "watch": "jest --watch",
     "test": "jest"
   },
