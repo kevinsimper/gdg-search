@@ -47,7 +47,7 @@ const typeDefs = gql`
     communityEvents(first: Int, name: String!): [Event]
     searchEvents(query: String): SearchEventResults
     eventsByCountry(name: String!): [Community]
-    upcomingEvents(first: Int!): [Event]
+    upcomingEvents(first: Int!, region: String): [Event]
   }
 `;
 
