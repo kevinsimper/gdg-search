@@ -10,11 +10,11 @@ class Table extends LitElement {
   static get styles() {
     return css`
       .table {
-        max-width: 1000px;
+        max-width: 1200px;
+        width: 100%;
         margin: 0;
         padding: 10px;
         display: table;
-        white-space: nowrap;
         border-collapse: collapse;
       }
       .table tbody tr:nth-of-type(odd) {

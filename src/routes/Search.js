@@ -128,7 +128,7 @@ class SearchMeetups extends LitElement {
                         href="#"
                         @click="${e => {
                           e.preventDefault();
-                          this.query = c;
+                          this.updateSearch(c);
                         }}"
                         >${c}</a
                       >

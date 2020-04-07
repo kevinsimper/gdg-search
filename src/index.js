@@ -83,8 +83,12 @@ class GDGMain extends LitElement {
           `;
         },
         upcoming: (params, query) => {
+          let region = "";
+          if (query) {
+            region = decodeURIComponent(query.split("=")[1]);
+          }
           this.route = html`
-            <x-upcoming></x-upcoming>
+            <x-upcoming region="${region}"></x-upcoming>
           `;
         },
         "*": () => {
