@@ -4,15 +4,19 @@ class AppContainer extends LitElement {
   static get styles() {
     return css`
       .container {
+        display: flex;
+        justify-content: center;
+      }
+      .content {
         max-width: 1500px;
-        margin: 0 auto;
-        padding: 10px;
       }
     `;
   }
   render() {
     return html`
-      <div class="container"><slot></slot></div>
+      <div class="container">
+        <div class="content"><slot></slot></div>
+      </div>
     `;
   }
 }
