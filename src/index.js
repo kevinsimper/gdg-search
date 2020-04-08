@@ -1,6 +1,7 @@
 import { LitElement, css, html } from "lit-element";
 import Navigo from "navigo";
 import { navigation } from "./components/header.js";
+import "./components/footer.js";
 import "./routes/community.js";
 import "./routes/events-country.js";
 import "./routes/events.js";
@@ -107,7 +108,11 @@ class GDGMain extends LitElement {
   }
   render() {
     return html`
-      <x-header></x-header>${this.route}
+      <div style="display: flex;flex-direction: column;min-height: 100vh;">
+        <x-header></x-header>
+        <div style="flex: 1">${this.route}</div>
+        <x-footer></x-footer>
+      </div>
     `;
   }
 }

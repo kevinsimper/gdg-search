@@ -24,7 +24,7 @@ class Header extends LitElement {
   static get styles() {
     return css`
       .menu {
-        background: #1b1c1d;
+        background: #343a40;
         color: white;
         height: 60px;
       }
@@ -46,7 +46,7 @@ class Header extends LitElement {
       }
       @media (hover: hover) {
         .item:hover {
-          background: #424242;
+          background: #414850;
         }
       }
       nav {
