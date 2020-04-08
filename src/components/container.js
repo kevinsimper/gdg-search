@@ -9,6 +9,7 @@ class AppContainer extends LitElement {
       }
       .content {
         max-width: 1500px;
+        padding: 10px;
       }
     `;
   }
