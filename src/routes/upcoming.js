@@ -203,7 +203,7 @@ class UpcomingEvents extends LitElement {
                         >${e.name}</a
                       >
                     </td>
-                    <td>
+                    <td style="white-space: nowrap">
                       ${new Date(parseInt(e.time))
                         .toISOString()
                         .split(":")
