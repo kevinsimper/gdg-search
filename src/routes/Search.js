@@ -26,10 +26,6 @@ class SearchMeetups extends LitElement {
         max-width: 250px;
         padding: 5px;
       }
-      header {
-        border-bottom: 3px solid black;
-        margin-bottom: 30px;
-      }
     `;
   }
   constructor() {
@@ -164,6 +160,16 @@ class SearchMeetups extends LitElement {
         <div>
           <x-table
             .content="${html`
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>Community</th>
+                  <th>City, Country</th>
+                  <th>Region</th>
+                  <th>Subregion</th>
+                  <th>Details</th>
+                </tr>
+              </thead>
               <tbody>
                 ${until(
                   communitiesResult.then(communities => {
