@@ -4,6 +4,7 @@ class Footer extends LitElement {
   static get styles() {
     return css`
       .footer {
+        margin-top: 100px;
         text-align: center;
         background: #ececec;
         line-height: 200px;
