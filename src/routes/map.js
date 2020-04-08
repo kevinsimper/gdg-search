@@ -52,12 +52,14 @@ class GDGMap extends LitElement {
   }
   render() {
     return html`
-      <h1 style="display: inline-block;">Map</h1>
-      <div style="display: inline-block;">
-        Note: It will look up your IP and show meetups near you, if it doesn't
-        work, disable adblocker.
+      <div style="height: 100vh;">
+        <h1 style="display: inline-block;">Map</h1>
+        <div style="display: inline-block;">
+          Note: It will look up your IP and show meetups near you, if it doesn't
+          work, disable adblocker.
+        </div>
+        <div id="map" style="height: 100%;"></div>
       </div>
-      <div id="map" style="height: 100%;"></div>
     `;
   }
 }
