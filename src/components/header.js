@@ -33,6 +33,7 @@ class Header extends LitElement {
         max-width: 940px;
         margin: 0 auto;
         display: flex;
+        justify-content: space-between;
       }
       .header {
         font-weight: bold;
