@@ -226,15 +226,18 @@ class UpcomingEvents extends LitElement {
               <h2>${this.status}</h2>
             `
           : ""}
-        <div>Showing ${this.limit} results</div>
-        <button
-          @click="${e => {
-            this.limit += 100;
-            this.upcoming();
-          }}"
-        >
-          Show 100 more
-        </button>
+        <div style="margin: 20px 0">
+          <button
+            style="font-size: 1rem;"
+            @click="${e => {
+              this.limit += 100;
+              this.upcoming();
+            }}"
+          >
+            Show 100 more
+          </button>
+          Showing ${this.limit} results
+        </div>
       </x-container>
     `;
   }
