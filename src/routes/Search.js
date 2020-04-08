@@ -89,13 +89,9 @@ class SearchMeetups extends LitElement {
     return html`
       <x-container>
         <header>
-          <h4 style="float:right; text-align: right;">
-            <a href="https://github.com/kevinsimper/gdg-search"
-              >Made with Lit-Element and Firebase ❤️</a
-            ><br />
-            <a href="https://goo.gl/forms/mIqfksuzY9wigutt1">Feedback?</a>
-          </h4>
-          <h1>🌍 Search all GDG's in the world</h1>
+          <div style="padding: 6rem 0">
+            <center><h1>🌍 &nbsp;Search all GDG's in the world</h1></center>
+          </div>
           <h3>
             There is
             ${until(
