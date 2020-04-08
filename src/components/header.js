@@ -56,6 +56,12 @@ class Header extends LitElement {
         line-height: 60px;
         padding: 0 15px;
         text-decoration: none;
+        display: inline-block;
+      }
+      @media (hover: hover) {
+        .item:hover {
+          background: #424242;
+        }
       }
       nav {
         display: none;
