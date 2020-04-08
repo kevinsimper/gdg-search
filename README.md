@@ -11,9 +11,7 @@ You can see the JSON in [./src/list.json](https://github.com/kevinsimper/gdg-sea
 ## Update
 
 - Fetch the newest meetups from https://www.meetup.com/pro/gdg/ in the Developer Console.
-- `$ rm -rf gdg-events/*.json`
-- `$ bash getevents.sh`
-- `$ bash fetch.sh`
+- `$ node -r esm cmd/download.js`
 - `$ node sumevents.js`
 - Commit repo
 - Commit gdg-events repo
