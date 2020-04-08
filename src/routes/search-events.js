@@ -33,6 +33,10 @@ class SearchEvents extends LitElement {
     window.location.hash = "#!search-events?query=" + name;
   }
   firstUpdated() {
+    let script = document.createElement("script");
+    script.src = "https://cdn.plot.ly/plotly-1.2.0.min.js";
+    document.head.appendChild(script);
+
     if (this.query !== "") {
       this.search();
     }
