@@ -88,7 +88,7 @@ class UpcomingEvents extends LitElement {
     this.status = "";
   }
   updated(changedProperties) {
-    if (changedProperties.get("region")) {
+    if (changedProperties.get("region") !== undefined) {
       this.updateURL();
       this.status = `Loading...`;
       this.events = [];
@@ -131,7 +131,6 @@ class UpcomingEvents extends LitElement {
     history.pushState({}, "Search GDG", "/#!upcoming?region=" + this.region);
   }
   render() {
-    console.log(this.status, "status");
     return html`
       <x-container>
         <h1>Upcoming events</h1>
