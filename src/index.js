@@ -9,6 +9,7 @@ import "./routes/most-active.js";
 import "./routes/search-events.js";
 import "./routes/Search.js";
 import "./routes/upcoming.js";
+import "./routes/about.js";
 
 class GDGMain extends LitElement {
   static get properties() {
@@ -74,6 +75,11 @@ class GDGMain extends LitElement {
         map: params => {
           this.route = html`
             <x-map></x-map>
+          `;
+        },
+        about: params => {
+          this.route = html`
+            <x-about></x-about>
           `;
         },
         search: (params, query) => {
