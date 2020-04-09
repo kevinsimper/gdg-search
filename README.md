@@ -8,6 +8,10 @@ You can see the JSON in [./src/list.json](https://github.com/kevinsimper/gdg-sea
 
 ![image](https://user-images.githubusercontent.com/1126497/78910569-762b2700-7a85-11ea-8f12-b427d75365c3.png)
 
+## Discord
+
+Join Discord to talk if you want to contribute or want help 😄 https://discord.gg/7qbgjmq
+
 ## Project structure
 
 This repo consist of:
