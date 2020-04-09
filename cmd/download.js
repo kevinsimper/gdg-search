@@ -120,8 +120,15 @@ async function fetchOrganizers(meetup) {
 
 function writeFile(folder, name, data) {
   const filePath = `${folder}/${name}.json`;
-  console.log("Writing file to path", filePath);
-  writeFileSync(filePath, data);
+  const existingData = readFileSync(filePath, "utf8");
+  if (existingData.length !== data.length) {
+    console.log("Writing file to path", filePath);
+    writeFileSync(filePath, data);
+    return true;
+  } else {
+    console.log("Nothing changed");
+    return false;
+  }
 }
 
 async function getAndSaveMeetup(saveFolder, meetup) {
@@ -138,7 +145,7 @@ async function getAndSaveMeetup(saveFolder, meetup) {
     upcoming: upcoming.length,
     organizers: organizers.length
   });
-  writeFile(saveFolder, meetup, data);
+  return writeFile(saveFolder, meetup, data);
 }
 
 if (require.main === module) {
@@ -154,10 +161,21 @@ if (require.main === module) {
       );
       console.log("Communities:", list.length);
       let processed = 0;
+      let written = 0;
+      const started = Date.now();
       for (const meetup of list) {
-        await getAndSaveMeetup(folder, meetup.urlname);
+        const didWrite = await getAndSaveMeetup(folder, meetup.urlname);
+        if (didWrite) {
+          written++;
+        }
         processed++;
-        console.log("rocessed", processed, (processed / list.length) * 100);
+        console.log(
+          "Processed:",
+          processed,
+          written,
+          ((processed / list.length) * 100).toFixed(2),
+          Math.round((Date.now() - started) / 1000)
+        );
       }
     }
   }
