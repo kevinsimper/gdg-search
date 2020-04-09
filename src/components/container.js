@@ -4,12 +4,19 @@ class AppContainer extends LitElement {
   static get styles() {
     return css`
       .container {
-        display: flex;
         justify-content: center;
       }
+      @media (min-width: 1100px) {
+        .container {
+          display: flex;
+        }
+      }
       .content {
-        max-width: 1500px;
+        max-width: 1000px;
         padding: 10px;
+      }
+      * {
+        box-sizing: border-box;
       }
     `;
   }
