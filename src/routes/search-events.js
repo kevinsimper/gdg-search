@@ -4,11 +4,7 @@ import "../components/eventgraph.js";
 import "../components/communitiesmap.js";
 import "../components/loader.js";
 import "../components/table.js";
-
-const URL =
-  window.location.host === "127.0.0.1:8081"
-    ? "http://localhost:3000/graphql"
-    : "https://gdg-search-wcazoqzmdq-uc.a.run.app/graphql";
+import { graphqlURL } from "../service/graphql.js";
 
 class SearchEvents extends LitElement {
   static get properties() {
@@ -85,7 +81,7 @@ class SearchEvents extends LitElement {
         communityCount
       }
     }`;
-    const req = await fetch(URL, {
+    const req = await fetch(graphqlURL, {
       headers: {
         "content-type": "application/json"
       },
