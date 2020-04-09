@@ -71,11 +71,11 @@ function isThereMorePages(headerPagination, res, results) {
 }
 
 async function meetupFetch(url) {
-  console.log("");
+  // console.log("");
   const results = [];
   const headerPagination = [url];
   async function fetchPage(url) {
-    console.log("Fetching", url);
+    // console.log("Fetching", url);
     const linkres = await fetch(url);
 
     if (!linkres.ok) {
@@ -89,7 +89,7 @@ async function meetupFetch(url) {
       results.push(json);
 
       isThereMorePages(headerPagination, linkres, results);
-      debugRatelimit(linkres);
+      // debugRatelimit(linkres);
       await respectRatelimit(linkres);
     }
 
@@ -140,11 +140,11 @@ async function getAndSaveMeetup(saveFolder, meetup) {
     upcoming,
     organizers
   });
-  console.log("Found:", {
-    events: events.length,
-    upcoming: upcoming.length,
-    organizers: organizers.length
-  });
+  // console.log("Found:", {
+  //   events: events.length,
+  //   upcoming: upcoming.length,
+  //   organizers: organizers.length
+  // });
   return writeFile(saveFolder, meetup, data);
 }
 
@@ -169,13 +169,11 @@ if (require.main === module) {
           written++;
         }
         processed++;
-        console.log(
-          "Processed:",
-          processed,
-          written,
-          ((processed / list.length) * 100).toFixed(2),
-          Math.round((Date.now() - started) / 1000)
-        );
+        const debugLine = `Processed: ${processed} | Written: ${written} | ${(
+          (processed / list.length) *
+          100
+        ).toFixed(2)} % | ${Math.round((Date.now() - started) / 1000)} secs`;
+        console.log(debugLine);
       }
     }
   }
