@@ -16,8 +16,8 @@ Join Discord to talk if you want to contribute or want help 😄 https://discord
 
 This repo consist of:
 
-- front-end
-- back-end
+- front-end in `/web`
+- back-end in `/runs`
 
 ### Static site
 
@@ -28,6 +28,12 @@ It is hosted on Firebase. Built with Lit-Element and Polymer-cli to bundle it.
 It is deployed to Cloud Run. It is a Node.js server with Express.js. There is a GraphQL api that exposes all the data.
 
 ## How to run
+
+Initialize submodules
+```
+$ git submodule init
+$ git submodule update
+```
 
 Front-end:
 
