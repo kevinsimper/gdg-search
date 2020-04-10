@@ -157,7 +157,7 @@ if (require.main === module) {
       await getAndSaveMeetup(folder, meetupArg);
     } else {
       const list = JSON.parse(
-        readFileSync(join(__dirname, "../src/list.json"))
+        readFileSync(join(__dirname, "../web/src/list.json"))
       );
       console.log("Communities:", list.length);
       let processed = 0;
