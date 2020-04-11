@@ -4,7 +4,7 @@ const pMemoize = require("p-memoize");
 async function _fetchCommunities() {
   // console.log("fetching communities");
   const req = await fetch(
-    "https://raw.githubusercontent.com/kevinsimper/gdg-search/master/src/list.json"
+    "https://raw.githubusercontent.com/kevinsimper/gdg-search/master/web/src/list.json"
   );
   const data = await req.json();
   return data;
